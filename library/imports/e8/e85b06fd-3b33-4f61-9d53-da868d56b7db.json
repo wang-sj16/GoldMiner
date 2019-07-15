@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "treasure-bag",
+    "texture": "3615ea73-0619-4a9a-a0bd-0e52bc011105",
+    "atlas": "",
+    "rect": [
+      1,
+      1,
+      49,
+      62
+    ],
+    "offset": [
+      0.5,
+      -0.5
+    ],
+    "originalSize": [
+      50,
+      63
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

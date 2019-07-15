@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "strength-drink",
+    "texture": "919a6eab-f331-45ad-ba43-26b3dcd1e48b",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      121,
+      135
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      121,
+      135
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

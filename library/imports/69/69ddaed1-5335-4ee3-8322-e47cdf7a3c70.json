@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "owl-eye-3",
+    "texture": "7c14b580-1085-4cb5-b849-42f79d48ddec",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      16,
+      6
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      16,
+      6
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

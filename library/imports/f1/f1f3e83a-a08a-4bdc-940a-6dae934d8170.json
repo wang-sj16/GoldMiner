@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "miner-leg-2",
+    "texture": "f82d8d13-9392-4c2b-b2ac-b55f8b90c317",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      103,
+      151
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      103,
+      152
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "miner-face-smile",
+    "texture": "64e7bf59-c5c3-4f2a-a161-7fd56d819442",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      85,
+      106
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      85,
+      106
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

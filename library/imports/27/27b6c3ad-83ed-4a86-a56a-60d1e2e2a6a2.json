@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "claw-1",
+    "texture": "3dbcc953-6557-4e40-a291-bf3a465b1bf3",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      12,
+      12
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      12,
+      12
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

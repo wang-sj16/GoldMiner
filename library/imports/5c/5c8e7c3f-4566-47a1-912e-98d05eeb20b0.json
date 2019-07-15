@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "shopBack",
+    "texture": "7256845d-998c-4532-bfbd-f9bdb5215b90",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      812,
+      668
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      812,
+      668
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

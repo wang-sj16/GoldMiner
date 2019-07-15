@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "dolphin-11",
+    "texture": "5c6ba43e-bcfd-49a5-8120-8be07ce0321c",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      52,
+      72
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      52,
+      72
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

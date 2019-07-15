@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "night-btn-1",
+    "texture": "df6837ec-6987-4ee8-9686-a2164bcf968b",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      240,
+      78
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      240,
+      78
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "gutou",
+    "texture": "4d9c7be0-02ec-4ff2-84e4-12f7249979f2",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      28,
+      19
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      28,
+      19
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

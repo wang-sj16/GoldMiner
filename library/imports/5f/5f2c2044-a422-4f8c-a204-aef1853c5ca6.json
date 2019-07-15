@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "rock-collectors-book",
+    "texture": "a158da3a-ee55-4e44-842c-7e65a6466a10",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      147,
+      135
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      147,
+      135
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

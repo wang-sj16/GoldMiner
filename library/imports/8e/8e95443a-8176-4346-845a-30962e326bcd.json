@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "menu-background-sky",
+    "texture": "15741ecb-638c-476f-91e3-8fa40d87ab82",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      960,
+      361
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      960,
+      361
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

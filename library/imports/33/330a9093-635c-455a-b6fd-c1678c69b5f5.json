@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "turkish-btn-0",
+    "texture": "b32e46a9-c9d4-4424-bda2-081bfe07a60e",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      105,
+      70
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      105,
+      70
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "pulled-diamond-6",
+    "texture": "12660e0d-57c9-4214-a0d3-2cd2ae0e7691",
+    "atlas": "",
+    "rect": [
+      1,
+      0,
+      59,
+      56
+    ],
+    "offset": [
+      0.5,
+      0
+    ],
+    "originalSize": [
+      60,
+      56
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

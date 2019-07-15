@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "level-time-banner-night",
+    "texture": "cb924c33-fdfc-40f1-8b25-a35cc0a2116e",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      133,
+      127
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      133,
+      127
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

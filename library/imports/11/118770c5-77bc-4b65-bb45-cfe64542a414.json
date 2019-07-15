@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "russian-btn-1",
+    "texture": "a2f01e88-1eb0-45cf-9e94-22686332d51d",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      105,
+      70
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      105,
+      70
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

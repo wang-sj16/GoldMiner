@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "shoper0001",
+    "texture": "991e5416-3ae3-4739-9169-1f1b3a55b054",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      150,
+      162
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      150,
+      162
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

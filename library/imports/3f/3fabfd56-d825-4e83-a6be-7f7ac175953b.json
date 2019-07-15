@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "thai-btn-0",
+    "texture": "1738d7af-5360-4c30-8cb2-ee3fd11591d5",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      105,
+      70
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      105,
+      70
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "pulled-gold-0-6",
+    "texture": "b8d286a0-3527-4e20-8e3e-c1db7fc17ba5",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      150,
+      149
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      150,
+      149
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

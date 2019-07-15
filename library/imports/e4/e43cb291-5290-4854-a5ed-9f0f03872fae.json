@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "pulled-gem-mouse-5",
+    "texture": "8887fb53-aa8b-40f6-8133-f9966154824e",
+    "atlas": "",
+    "rect": [
+      0,
+      1,
+      57,
+      45
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      57,
+      46
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

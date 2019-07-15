@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "coconuts-night",
+    "texture": "23130846-1127-4397-b174-c5ea16fe7406",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      281,
+      130
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      281,
+      130
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

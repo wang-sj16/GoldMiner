@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "clouds-night",
+    "texture": "22c56177-fa7f-4b36-b64b-166a7de8d3c3",
+    "atlas": "",
+    "rect": [
+      0,
+      1,
+      286,
+      55
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      286,
+      56
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "ver": "2.2.0",
+  "uuid": "a158da3a-ee55-4e44-842c-7e65a6466a10",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "subMetas": {
+    "rock-collectors-book": {
+      "ver": "1.0.4",
+      "uuid": "5f2c2044-a422-4f8c-a204-aef1853c5ca6",
+      "rawTextureUuid": "a158da3a-ee55-4e44-842c-7e65a6466a10",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 147,
+      "height": 135,
+      "rawWidth": 147,
+      "rawHeight": 135,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "ver": "2.2.0",
+  "uuid": "fbe8c79c-d2fe-4506-861d-b2d3ce4fe8bb",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "subMetas": {
+    "vietnamese-btn-0": {
+      "ver": "1.0.4",
+      "uuid": "a4c4fe89-5c67-4ee8-8ea5-a0868a78ee1d",
+      "rawTextureUuid": "fbe8c79c-d2fe-4506-861d-b2d3ce4fe8bb",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 105,
+      "height": 70,
+      "rawWidth": 105,
+      "rawHeight": 70,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

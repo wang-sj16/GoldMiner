@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "mineBG1",
+    "texture": "c1f80da4-4020-4bb9-a16e-df086fbb2c53",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      1594,
+      774
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      1594,
+      774
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

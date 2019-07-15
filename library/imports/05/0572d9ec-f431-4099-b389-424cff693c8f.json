@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "lucky-clover",
+    "texture": "970f41a6-e49b-4d10-bbb7-7f1d5a152600",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      119,
+      135
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      119,
+      135
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

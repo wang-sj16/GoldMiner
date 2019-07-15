@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "blink-text-back",
+    "texture": "5ea9d264-0e1a-4729-982d-5e2b9728f6b8",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      23,
+      23
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      23,
+      23
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

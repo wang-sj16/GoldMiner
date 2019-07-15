@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "miner0016",
+    "texture": "a46f3c36-7189-4940-a3ac-3f100fbcb39f",
+    "atlas": "",
+    "rect": [
+      1,
+      0,
+      123,
+      122
+    ],
+    "offset": [
+      0.5,
+      0
+    ],
+    "originalSize": [
+      124,
+      122
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

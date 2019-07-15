@@ -1,0 +1,263 @@
+2019-07-15T11:37:03.579Z - normal: Load ~/.CocosCreator/settings.json
+2019-07-15T11:37:03.631Z - normal: Initializing Asset Database
+2019-07-15T11:37:03.633Z - normal: checking language setting...
+2019-07-15T11:37:03.633Z - normal: Language: zh
+2019-07-15T11:37:04.347Z - success: preview server running at http://localhost:7456
+2019-07-15T11:37:04.376Z - success: protocol editor-framework registered
+2019-07-15T11:37:04.377Z - success: protocol app registered
+2019-07-15T11:37:04.377Z - success: protocol theme registered
+2019-07-15T11:37:04.377Z - success: protocol packages registered
+2019-07-15T11:37:04.380Z - success: protocol uuid registerred
+2019-07-15T11:37:04.381Z - success: protocol db registerred
+2019-07-15T11:37:04.381Z - success: protocol thumbnail registerred
+2019-07-15T11:37:04.381Z - success: protocol unpack registerred
+2019-07-15T11:37:04.381Z - success: protocol disable-commonjs registerred
+2019-07-15T11:37:04.501Z - normal: connected!
+2019-07-15T11:37:04.503Z - normal: Check project /Users/vincent/code/frontend/GoldMiner
+2019-07-15T11:37:04.505Z - normal: Initializing project /Users/vincent/code/frontend/GoldMiner
+2019-07-15T11:37:04.812Z - normal: Initializing Cocos2d
+2019-07-15T11:37:05.514Z - normal: Initializing engine extends
+2019-07-15T11:37:05.538Z - success: asset-db-debugger loaded
+2019-07-15T11:37:05.540Z - success: baidu-adapter loaded
+2019-07-15T11:37:05.541Z - success: color-picker loaded
+2019-07-15T11:37:05.629Z - success: fb-audience-network loaded
+2019-07-15T11:37:05.673Z - success: fb-live-stream loaded
+2019-07-15T11:37:05.676Z - success: google-play-instant loaded
+2019-07-15T11:37:05.681Z - success: huawei-runtime loaded
+2019-07-15T11:37:05.931Z - success: cpk-publish loaded
+2019-07-15T11:37:05.933Z - success: jsb-adapter loaded
+2019-07-15T11:37:05.939Z - success: oppo-runtime loaded
+2019-07-15T11:37:05.947Z - success: package-manager loaded
+2019-07-15T11:37:06.072Z - success: qqplay-adapter loaded
+2019-07-15T11:37:06.074Z - success: runtime-dev-tools loaded
+2019-07-15T11:37:06.080Z - success: sdkbox loaded
+2019-07-15T11:37:06.084Z - success: tester loaded
+2019-07-15T11:37:06.096Z - success: ui-grid loaded
+2019-07-15T11:37:06.099Z - success: ui-kit-preview-extra loaded
+2019-07-15T11:37:06.102Z - success: ui-kit-preview loaded
+2019-07-15T11:37:06.106Z - success: ui-kit loaded
+2019-07-15T11:37:06.108Z - success: ui-tree loaded
+2019-07-15T11:37:06.112Z - success: vivo-runtime loaded
+2019-07-15T11:37:06.113Z - success: weapp-adapter loaded
+2019-07-15T11:37:06.114Z - success: xiaomi-adapter loaded
+2019-07-15T11:37:06.164Z - success: assets loaded
+2019-07-15T11:37:06.167Z - success: builder loaded
+2019-07-15T11:37:06.421Z - success: cocos-services loaded
+2019-07-15T11:37:06.427Z - success: console loaded
+2019-07-15T11:37:06.455Z - success: fb-instant-games loaded
+2019-07-15T11:37:06.456Z - success: google-instant-games loaded
+2019-07-15T11:37:06.462Z - success: hierarchy loaded
+2019-07-15T11:37:06.466Z - success: inspector loaded
+2019-07-15T11:37:06.468Z - success: keystore loaded
+2019-07-15T11:37:06.484Z - success: node-library loaded
+2019-07-15T11:37:06.486Z - success: package-asset loaded
+2019-07-15T11:37:06.488Z - success: preferences loaded
+2019-07-15T11:37:06.496Z - success: project-exporter loaded
+2019-07-15T11:37:06.504Z - success: project-importer loaded
+2019-07-15T11:37:06.515Z - success: project-settings loaded
+2019-07-15T11:37:06.523Z - success: scene loaded
+2019-07-15T11:37:06.524Z - success: simulator-debugger loaded
+2019-07-15T11:37:06.525Z - success: sprite-editor loaded
+2019-07-15T11:37:06.530Z - success: store loaded
+2019-07-15T11:37:06.537Z - success: timeline loaded
+2019-07-15T11:37:06.543Z - success: xiaomi-runtime loaded
+2019-07-15T11:37:07.348Z - normal: Loading packages
+2019-07-15T11:37:07.357Z - normal: Watching packages
+2019-07-15T11:37:07.442Z - normal: Run Application
+2019-07-15T11:37:07.707Z - info: Cocos Services load base data!
+2019-07-15T11:38:05.358Z - failed: [db-task][sync-changes] Failed to import asset /Users/vincent/code/frontend/GoldMiner/assets/mineBG2.png, message: Error: Input file has corrupt header
+2019-07-15T11:38:05.364Z - failed: [db-task][sync-changes] Failed to import asset /Users/vincent/code/frontend/GoldMiner/assets/mineBG3.png, message: Error: Input file has corrupt header
+2019-07-15T11:38:05.367Z - failed: [db-task][sync-changes] Failed to import asset /Users/vincent/code/frontend/GoldMiner/assets/mineBG4.png, message: Error: Input file has corrupt header
+2019-07-15T11:38:05.368Z - failed: [db-task][sync-changes] Failed to import asset /Users/vincent/code/frontend/GoldMiner/assets/mineBG5.png, message: Error: Input file has corrupt header
+2019-07-15T11:39:45.171Z - warn: [db-task][sync-changes] Backup unused meta file: db://assets/mineBG2.png.meta
+2019-07-15T11:39:45.206Z - error: TypeError: Cannot read property 'parent' of null
+    at Object.exports.remove (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/assets/panel/utils/cache.js:1:1888)
+    at Object.exports.remove (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/assets/panel/utils/operation.js:1:2749)
+    at t.forEach.e (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/assets/panel/index.js:1:4308)
+    at Array.forEach (native)
+    at HTMLElement.asset-db:assets-deleted (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/assets/panel/index.js:1:4294)
+    at EventEmitter.i.function.t.on.e (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/panel/frame.js:1:3303)
+    at emitTwo (events.js:111:20)
+    at EventEmitter.emit (events.js:194:7)
+2019-07-15T11:39:45.213Z - failed: [db-task][sync-changes] Failed to import asset /Users/vincent/code/frontend/GoldMiner/assets/BG2.png, message: Error: Input file has corrupt header
+2019-07-15T11:44:35.417Z - warn: [db-task][sync-changes] Backup unused meta file: db://assets/BG2.png.meta
+2019-07-15T11:44:35.446Z - error: TypeError: Cannot read property 'parent' of null
+    at Object.exports.remove (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/assets/panel/utils/cache.js:1:1888)
+    at Object.exports.remove (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/assets/panel/utils/operation.js:1:2749)
+    at t.forEach.e (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/assets/panel/index.js:1:4308)
+    at Array.forEach (native)
+    at HTMLElement.asset-db:assets-deleted (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/assets/panel/index.js:1:4294)
+    at EventEmitter.i.function.t.on.e (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/panel/frame.js:1:3303)
+    at emitTwo (events.js:111:20)
+    at EventEmitter.emit (events.js:194:7)
+2019-07-15T11:52:51.158Z - warn: [db-task][sync-changes] Backup unused meta file: db://assets/BG2.jpg.meta
+2019-07-15T11:52:51.213Z - warn: [db-task][sync-changes] Backup unused meta file: db://assets/mineBG1.png.meta
+2019-07-15T11:52:51.226Z - warn: [db-task][sync-changes] Backup unused meta file: db://assets/mineBG3.png.meta
+2019-07-15T11:52:51.233Z - warn: [db-task][sync-changes] Backup unused meta file: db://assets/mineBG4.png.meta
+2019-07-15T11:52:51.239Z - warn: [db-task][sync-changes] Backup unused meta file: db://assets/mineBG5.png.meta
+2019-07-15T11:52:51.254Z - error: TypeError: Cannot read property 'parent' of null
+    at Object.exports.remove (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/assets/panel/utils/cache.js:1:1888)
+    at Object.exports.remove (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/assets/panel/utils/operation.js:1:2749)
+    at t.forEach.e (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/assets/panel/index.js:1:4308)
+    at Array.forEach (native)
+    at HTMLElement.asset-db:assets-deleted (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/assets/panel/index.js:1:4294)
+    at EventEmitter.i.function.t.on.e (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/panel/frame.js:1:3303)
+    at emitTwo (events.js:111:20)
+    at EventEmitter.emit (events.js:194:7)
+2019-07-15T11:52:51.257Z - error: TypeError: Cannot read property 'parent' of null
+    at Object.exports.remove (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/assets/panel/utils/cache.js:1:1888)
+    at Object.exports.remove (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/assets/panel/utils/operation.js:1:2749)
+    at t.forEach.e (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/assets/panel/index.js:1:4308)
+    at Array.forEach (native)
+    at HTMLElement.asset-db:assets-deleted (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/assets/panel/index.js:1:4294)
+    at EventEmitter.i.function.t.on.e (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/panel/frame.js:1:3303)
+    at emitTwo (events.js:111:20)
+    at EventEmitter.emit (events.js:194:7)
+2019-07-15T11:52:51.258Z - error: TypeError: Cannot read property 'parent' of null
+    at Object.exports.remove (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/assets/panel/utils/cache.js:1:1888)
+    at Object.exports.remove (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/assets/panel/utils/operation.js:1:2749)
+    at t.forEach.e (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/assets/panel/index.js:1:4308)
+    at Array.forEach (native)
+    at HTMLElement.asset-db:assets-deleted (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/assets/panel/index.js:1:4294)
+    at EventEmitter.i.function.t.on.e (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/panel/frame.js:1:3303)
+    at emitTwo (events.js:111:20)
+    at EventEmitter.emit (events.js:194:7)
+2019-07-15T11:53:08.857Z - normal: Simulator: WORKAREA WIDTH 1920.00, HEIGHT 966.00
+2019-07-15T11:53:08.858Z - normal: Simulator: FRAME SCALE = 0.75
+2019-07-15T11:53:08.982Z - normal: Simulator: GLFWError #65544 Happen, Cocoa: Failed to retrieve display name
+2019-07-15T11:53:08.983Z - normal: Simulator: GLFWError #65544 Happen, Cocoa: Failed to retrieve display name
+2019-07-15T11:53:08.983Z - normal: Simulator: 
+2019-07-15T11:53:08.983Z - normal: Simulator: {
+2019-07-15T11:53:08.984Z - normal: Simulator: 	build_type: DEBUG
+2019-07-15T11:53:08.984Z - normal: Simulator: 	gl.vendor: Intel Inc.
+2019-07-15T11:53:08.984Z - normal: Simulator: 	gl.supports_PVRTC: false
+2019-07-15T11:53:08.984Z - normal: Simulator: 	gl.renderer: Intel(R) Iris(TM) Plus Graphics 655
+2019-07-15T11:53:08.984Z - normal: Simulator: 	gl.supports_ATITC: false
+2019-07-15T11:53:08.985Z - normal: Simulator: 	gl.supports_discard_framebuffer: false
+2019-07-15T11:53:08.985Z - normal: Simulator: 	gl.supports_NPOT: true
+2019-07-15T11:53:08.985Z - normal: Simulator: 	gl.max_texture_units: 16
+2019-07-15T11:53:08.985Z - normal: Simulator: 	gl.supports_ETC1: false
+2019-07-15T11:53:08.986Z - normal: Simulator: 	gl.max_texture_size: 16384
+2019-07-15T11:53:08.986Z - normal: Simulator: 	gl.supports_BGRA8888: false
+2019-07-15T11:53:08.986Z - normal: Simulator: 	gl.supports_vertex_array_object: true
+2019-07-15T11:53:08.986Z - normal: Simulator: 	gl.supports_OES_map_buffer: false
+2019-07-15T11:53:08.986Z - normal: Simulator: 	compiled_with_gl_state_cache: true
+2019-07-15T11:53:08.987Z - normal: Simulator: 	gl.supports_OES_packed_depth_stencil: false
+2019-07-15T11:53:08.987Z - normal: Simulator: 	gl.version: 2.1 INTEL-12.9.22
+2019-07-15T11:53:08.987Z - normal: Simulator: 	gl.supports_S3TC: true
+2019-07-15T11:53:08.987Z - normal: Simulator: 	compiled_with_profiler: false
+2019-07-15T11:53:08.987Z - normal: Simulator: 	gl.supports_OES_depth24: false
+2019-07-15T11:53:08.987Z - normal: Simulator: }
+2019-07-15T11:53:09.030Z - normal: Simulator: Project Config:
+2019-07-15T11:53:09.030Z - normal: Simulator:     project dir: /Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/
+2019-07-15T11:53:09.031Z - normal: Simulator:     writable path: $(PROJDIR)/
+2019-07-15T11:53:09.031Z - normal: Simulator:     script file: $(PROJDIR)/main.js
+2019-07-15T11:53:09.031Z - normal: Simulator:     frame size: 1920 x 1080
+2019-07-15T11:53:09.031Z - normal: Simulator:     frame scale: 0.75
+2019-07-15T11:53:09.032Z - normal: Simulator:     show console: NO
+2019-07-15T11:53:09.032Z - normal: Simulator:     write debug log: NO ()
+2019-07-15T11:53:09.032Z - normal: Simulator:     listen: 
+2019-07-15T11:53:09.032Z - normal: Simulator:     debugger: none
+2019-07-15T11:53:09.032Z - normal: Simulator:     add searching path:
+2019-07-15T11:53:09.033Z - normal: Simulator: resetDesignResolution request
+2019-07-15T11:53:09.033Z - normal: Simulator: ------------------------------------------------
+2019-07-15T11:53:09.033Z - normal: Simulator: LOAD Js FILE: jsb-adapter/jsb-builtin.js
+2019-07-15T11:53:09.033Z - normal: Simulator: ------------------------------------------------
+2019-07-15T11:53:09.033Z - normal: Simulator: Initializing V8, version: 6.5.254.43
+2019-07-15T11:53:09.086Z - normal: Simulator: libuv version: 1.23.1-dev
+2019-07-15T11:53:09.086Z - normal: Simulator: Debugger listening..., visit [ chrome-devtools://devtools/bundled/inspector.html?v8only=true&ws=0.0.0.0:5086/00010002-0003-4004-8005-000600070008 ] in chrome browser to debug!
+2019-07-15T11:53:09.086Z - normal: Simulator: For help see https://nodejs.org/en/docs/inspector
+2019-07-15T11:53:09.120Z - normal: Simulator: JS: Enable batch GL commands optimization!
+2019-07-15T11:53:09.121Z - normal: Simulator: resetDesignResolution request
+2019-07-15T11:53:09.121Z - normal: Simulator: ------------------------------------------------
+2019-07-15T11:53:09.123Z - normal: Simulator: LOAD Js FILE: main.js
+2019-07-15T11:53:09.123Z - normal: Simulator: ------------------------------------------------
+2019-07-15T11:53:09.372Z - normal: Simulator: glGetIntegerv: pname: 0x8b4c
+2019-07-15T11:53:09.379Z - normal: Simulator: JS: Cocos Creator v2.0.10
+2019-07-15T11:53:09.455Z - normal: Simulator: iShow!
+2019-07-15T11:53:10.860Z - normal: Simulator: ScriptEngine::cleanup begin ...
+2019-07-15T11:53:10.860Z - normal: Simulator: GC begin ..., (js->native map) size: 15, all objects: 92
+2019-07-15T11:53:10.885Z - normal: Simulator: GC end ..., (js->native map) size: 15, all objects: 92
+2019-07-15T11:53:10.885Z - normal: Simulator: GC begin ..., (js->native map) size: 15, all objects: 92
+2019-07-15T11:53:10.904Z - normal: Simulator: GC end ..., (js->native map) size: 15, all objects: 92
+2019-07-15T11:53:10.904Z - normal: Simulator: Destroy WebGLBuffer (4) by GC
+2019-07-15T11:53:10.905Z - normal: Simulator: Destroy WebGLBuffer (3) by GC
+2019-07-15T11:53:10.905Z - normal: Simulator: Destroy WebGLTexture (1) by GC
+2019-07-15T11:53:10.905Z - normal: Simulator: Destroy WebGLProgram (3) by GC
+2019-07-15T11:53:10.905Z - normal: Simulator: Destroy WebGLBuffer (2) by GC
+2019-07-15T11:53:10.905Z - normal: Simulator: Destroy WebGLBuffer (1) by GC
+2019-07-15T11:53:10.905Z - normal: Simulator: Destroy WebGLTexture (2) by GC
+2019-07-15T11:53:10.906Z - normal: Simulator: GC begin ..., (js->native map) size: 0, all objects: 0
+2019-07-15T11:53:10.924Z - normal: Simulator: GC end ..., (js->native map) size: 0, all objects: 0
+2019-07-15T11:53:10.928Z - normal: Simulator: ScriptEngine::cleanup end ...
+2019-07-15T11:54:15.124Z - normal: Simulator: WORKAREA WIDTH 1920.00, HEIGHT 966.00
+2019-07-15T11:54:15.124Z - normal: Simulator: FRAME SCALE = 0.75
+2019-07-15T11:54:15.207Z - normal: Simulator: GLFWError #65544 Happen, Cocoa: Failed to retrieve display name
+2019-07-15T11:54:15.247Z - normal: Simulator: GLFWError #65544 Happen, Cocoa: Failed to retrieve display name
+2019-07-15T11:54:15.247Z - normal: Simulator: 
+2019-07-15T11:54:15.248Z - normal: Simulator: {
+2019-07-15T11:54:15.248Z - normal: Simulator: 	build_type: DEBUG
+2019-07-15T11:54:15.248Z - normal: Simulator: 	gl.vendor: Intel Inc.
+2019-07-15T11:54:15.248Z - normal: Simulator: 	gl.supports_PVRTC: false
+2019-07-15T11:54:15.248Z - normal: Simulator: 	gl.renderer: Intel(R) Iris(TM) Plus Graphics 655
+2019-07-15T11:54:15.248Z - normal: Simulator: 	gl.supports_ATITC: false
+2019-07-15T11:54:15.248Z - normal: Simulator: 	gl.supports_discard_framebuffer: false
+2019-07-15T11:54:15.248Z - normal: Simulator: 	gl.supports_NPOT: true
+2019-07-15T11:54:15.248Z - normal: Simulator: 	gl.max_texture_units: 16
+2019-07-15T11:54:15.249Z - normal: Simulator: 	gl.supports_ETC1: false
+2019-07-15T11:54:15.249Z - normal: Simulator: 	gl.max_texture_size: 16384
+2019-07-15T11:54:15.249Z - normal: Simulator: 	gl.supports_BGRA8888: false
+2019-07-15T11:54:15.249Z - normal: Simulator: 	gl.supports_vertex_array_object: true
+2019-07-15T11:54:15.249Z - normal: Simulator: 	gl.supports_OES_map_buffer: false
+2019-07-15T11:54:15.249Z - normal: Simulator: 	compiled_with_gl_state_cache: true
+2019-07-15T11:54:15.249Z - normal: Simulator: 	gl.supports_OES_packed_depth_stencil: false
+2019-07-15T11:54:15.249Z - normal: Simulator: 	gl.version: 2.1 INTEL-12.9.22
+2019-07-15T11:54:15.249Z - normal: Simulator: 	gl.supports_S3TC: true
+2019-07-15T11:54:15.249Z - normal: Simulator: 	compiled_with_profiler: false
+2019-07-15T11:54:15.250Z - normal: Simulator: 	gl.supports_OES_depth24: false
+2019-07-15T11:54:15.250Z - normal: Simulator: }
+2019-07-15T11:54:15.255Z - normal: Simulator: Project Config:
+2019-07-15T11:54:15.256Z - normal: Simulator:     project dir: /Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/
+2019-07-15T11:54:15.256Z - normal: Simulator:     writable path: $(PROJDIR)/
+2019-07-15T11:54:15.256Z - normal: Simulator:     script file: $(PROJDIR)/main.js
+2019-07-15T11:54:15.256Z - normal: Simulator:     frame size: 1920 x 1080
+2019-07-15T11:54:15.256Z - normal: Simulator:     frame scale: 0.75
+2019-07-15T11:54:15.257Z - normal: Simulator:     show console: NO
+2019-07-15T11:54:15.257Z - normal: Simulator:     write debug log: NO ()
+2019-07-15T11:54:15.257Z - normal: Simulator:     listen: 
+2019-07-15T11:54:15.257Z - normal: Simulator:     debugger: none
+2019-07-15T11:54:15.257Z - normal: Simulator:     add searching path:
+2019-07-15T11:54:15.257Z - normal: Simulator: 
+2019-07-15T11:54:15.257Z - normal: Simulator: 
+2019-07-15T11:54:15.257Z - normal: Simulator: 
+2019-07-15T11:54:15.258Z - normal: Simulator: resetDesignResolution request
+2019-07-15T11:54:15.258Z - normal: Simulator: ------------------------------------------------
+2019-07-15T11:54:15.258Z - normal: Simulator: LOAD Js FILE: jsb-adapter/jsb-builtin.js
+2019-07-15T11:54:15.258Z - normal: Simulator: ------------------------------------------------
+2019-07-15T11:54:15.258Z - normal: Simulator: Initializing V8, version: 6.5.254.43
+2019-07-15T11:54:15.258Z - normal: Simulator: libuv version: 1.23.1-dev
+2019-07-15T11:54:15.258Z - normal: Simulator: Debugger listening..., visit [ chrome-devtools://devtools/bundled/inspector.html?v8only=true&ws=0.0.0.0:5086/00010002-0003-4004-8005-000600070008 ] in chrome browser to debug!
+2019-07-15T11:54:15.259Z - normal: Simulator: For help see https://nodejs.org/en/docs/inspector
+2019-07-15T11:54:15.282Z - normal: Simulator: JS: Enable batch GL commands optimization!
+2019-07-15T11:54:15.282Z - normal: Simulator: resetDesignResolution request
+2019-07-15T11:54:15.282Z - normal: Simulator: ------------------------------------------------
+2019-07-15T11:54:15.282Z - normal: Simulator: LOAD Js FILE: main.js
+2019-07-15T11:54:15.282Z - normal: Simulator: ------------------------------------------------
+2019-07-15T11:54:15.515Z - normal: Simulator: glGetIntegerv: pname: 0x8b4c
+2019-07-15T11:54:15.522Z - normal: Simulator: JS: Cocos Creator v2.0.10
+2019-07-15T11:54:15.567Z - normal: Simulator: iShow!
+2019-07-15T11:54:16.986Z - normal: Simulator: ScriptEngine::cleanup begin ...
+2019-07-15T11:54:16.986Z - normal: Simulator: GC begin ..., (js->native map) size: 15, all objects: 92
+2019-07-15T11:54:17.010Z - normal: Simulator: GC end ..., (js->native map) size: 15, all objects: 92
+2019-07-15T11:54:17.010Z - normal: Simulator: GC begin ..., (js->native map) size: 15, all objects: 92
+2019-07-15T11:54:17.034Z - normal: Simulator: GC end ..., (js->native map) size: 15, all objects: 92
+2019-07-15T11:54:17.034Z - normal: Simulator: Destroy WebGLBuffer (3) by GC
+2019-07-15T11:54:17.034Z - normal: Simulator: Destroy WebGLBuffer (2) by GC
+2019-07-15T11:54:17.036Z - normal: Simulator: Destroy WebGLBuffer (1) by GC
+2019-07-15T11:54:17.036Z - normal: Simulator: Destroy WebGLProgram (3) by GC
+2019-07-15T11:54:17.036Z - normal: Simulator: Destroy WebGLTexture (2) by GC
+2019-07-15T11:54:17.036Z - normal: Simulator: Destroy WebGLTexture (1) by GC
+2019-07-15T11:54:17.037Z - normal: Simulator: Destroy WebGLBuffer (4) by GC
+2019-07-15T11:54:17.037Z - normal: Simulator: GC begin ..., (js->native map) size: 0, all objects: 0
+2019-07-15T11:54:17.055Z - normal: Simulator: GC end ..., (js->native map) size: 0, all objects: 0
+2019-07-15T11:54:17.055Z - normal: Simulator: ScriptEngine::cleanup end ...

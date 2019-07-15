@@ -1,0 +1,31 @@
+{
+  "ver": "2.2.0",
+  "uuid": "af39d3d6-8582-4596-be9a-a88dab207c0f",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "subMetas": {
+    "achievement-android-btn-1": {
+      "ver": "1.0.4",
+      "uuid": "aceea27e-3604-47a3-a69c-90ffdbf3a464",
+      "rawTextureUuid": "af39d3d6-8582-4596-be9a-a88dab207c0f",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 60,
+      "height": 60,
+      "rawWidth": 60,
+      "rawHeight": 60,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

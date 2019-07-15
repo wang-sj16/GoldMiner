@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "gem-mouse-1",
+    "texture": "75f17cc4-1bca-46ba-b951-ecb9f8bbf39a",
+    "atlas": "",
+    "rect": [
+      1,
+      1,
+      52,
+      41
+    ],
+    "offset": [
+      0.5,
+      -0.5
+    ],
+    "originalSize": [
+      53,
+      42
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
