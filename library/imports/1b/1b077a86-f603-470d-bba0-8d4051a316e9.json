@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "treature",
+    "texture": "02c44017-0505-43ce-8818-e20b3d9ca3fe",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      1167,
+      711
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      1167,
+      711
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
