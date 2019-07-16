@@ -435,8 +435,8 @@
     "relativePath": "res/book.png"
   },
   "1f086e9a-44a0-4969-9f4d-5a97061892c2": {
-    "asset": 1563303783748,
-    "meta": 1563303783805,
+    "asset": 1563306818721,
+    "meta": 1563306818725,
     "relativePath": "scene/game.fire"
   },
   "20b9ada5-29eb-42bf-b170-b1d09ff81d12": {
@@ -514,11 +514,6 @@
     "meta": 1563266263370,
     "relativePath": "anim"
   },
-  "345de951-942f-422d-9e98-466d51f4662b": {
-    "asset": 1563266727237,
-    "meta": 1563266729346,
-    "relativePath": "script/diamondPig.js"
-  },
   "4676d88c-623b-4b0d-a623-1a83f7890dd7": {
     "asset": 1563214877617,
     "meta": 1563289563252,
@@ -535,18 +530,18 @@
     "relativePath": "Prefab"
   },
   "c2c26b41-d9e0-4938-a1df-15e3cc5c9074": {
-    "asset": 1563301584844,
-    "meta": 1563301584860,
+    "asset": 1563304402404,
+    "meta": 1563304402410,
     "relativePath": "Prefab/diamondPig.prefab"
   },
   "710d0a60-d3b3-4268-bd81-2bc4126df136": {
-    "asset": 1563303061311,
-    "meta": 1563303061314,
+    "asset": 1563304746514,
+    "meta": 1563304746521,
     "relativePath": "Prefab/bigRock.prefab"
   },
   "6d36b8d3-ddc7-47bc-86d1-bc58f8acf4f9": {
-    "asset": 1563303057093,
-    "meta": 1563303057097,
+    "asset": 1563304286865,
+    "meta": 1563304286870,
     "relativePath": "Prefab/midRock.prefab"
   },
   "bb27adea-169f-4dd6-bc69-b2b60bab9283": {
@@ -560,18 +555,18 @@
     "relativePath": "Prefab/pocket.prefab"
   },
   "f38bcdc6-01f1-4f90-b082-fbd880549b48": {
-    "asset": 1563303017817,
-    "meta": 1563303017820,
+    "asset": 1563304311278,
+    "meta": 1563304311282,
     "relativePath": "Prefab/midGold.prefab"
   },
   "ed30357a-c3c7-40e8-a437-6002b2d85c67": {
-    "asset": 1563303077106,
-    "meta": 1563303077110,
+    "asset": 1563304273559,
+    "meta": 1563304273563,
     "relativePath": "Prefab/bigGold.prefab"
   },
   "6024c9a9-3d03-4b8e-a8f8-653327016d04": {
-    "asset": 1563303024558,
-    "meta": 1563303024562,
+    "asset": 1563304335319,
+    "meta": 1563304335323,
     "relativePath": "Prefab/smallGold.prefab"
   },
   "db6d451b-1720-417c-be90-7227142892ba": {
@@ -614,19 +609,24 @@
     "meta": 1563302412227,
     "relativePath": "anim/hookRotation3.anim"
   },
-  "459d0799-f128-423d-9cc8-a140a6065f83": {
-    "asset": 1563302584963,
-    "meta": 1563302586967,
-    "relativePath": "script/hook.js"
-  },
-  "09721b32-324f-49ab-b17a-26e10ad95cf2": {
-    "asset": 1563303247460,
-    "meta": 1563303248714,
-    "relativePath": "script/items.js"
-  },
   "c885e183-dcd3-451c-96c1-abbb3a473122": {
     "asset": 1563303380034,
     "meta": 1563303380429,
     "relativePath": "script/game.js"
+  },
+  "345de951-942f-422d-9e98-466d51f4662b": {
+    "asset": 1563304376522,
+    "meta": 1563304380220,
+    "relativePath": "script/diamondPig.js"
+  },
+  "459d0799-f128-423d-9cc8-a140a6065f83": {
+    "asset": 1563306406886,
+    "meta": 1563306414350,
+    "relativePath": "script/hook.js"
+  },
+  "09721b32-324f-49ab-b17a-26e10ad95cf2": {
+    "asset": 1563306816473,
+    "meta": 1563306817721,
+    "relativePath": "script/items.js"
   }
 }

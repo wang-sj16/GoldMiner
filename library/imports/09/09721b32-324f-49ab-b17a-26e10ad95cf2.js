@@ -44,15 +44,19 @@ cc.Class({
     onCollisionEnter: function onCollisionEnter(other, self) {
         //碰撞则播放爆炸动画
         if (other.node.group == 'hook') {
-            console.log("hook collide");
+            console.log(self.name);
+            other.node.getComponent("hook").moveSpeed = this.speed;
+            other.node.getComponent("hook").down = false;
+            var theta = other.node.getRotation() * (Math.PI / 180);
+            this.node.x = other.node.x - 40 * Math.sin(theta);
+            this.node.y = other.node.y - 40 * Math.cos(theta);
+            console.log(this.node.x + " " + this.node.y);
             return;
         }
     },
 
-    start: function start() {}
-}
-
-// update (dt) {},
-);
+    start: function start() {},
+    update: function update(dt) {}
+});
 
 cc._RF.pop();

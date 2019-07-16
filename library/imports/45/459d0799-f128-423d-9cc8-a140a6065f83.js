@@ -81,11 +81,12 @@ cc.Class({
             var theta = this.node.getRotation() * (Math.PI / 180);
             this.node.x -= this.moveSpeed * Math.sin(theta);
             this.node.y -= this.moveSpeed * Math.cos(theta);
+
             if (this.node.x < -450 || this.node.x > 450 || this.node.y < -240) {
                 this.down = false;
             }
         } else {
-            if (Math.abs(this.node.x - this.initX) > 0.1) {
+            if (this.node.y < this.initY) {
                 this.flag = 2;
                 this.playing = false;
                 var _theta = this.node.getRotation() * (Math.PI / 180);
@@ -96,6 +97,7 @@ cc.Class({
                 this.flag = 3;
                 this.node.x = this.initX;
                 this.node.y = this.initY;
+                this.moveSpeed = 6;
                 if (!this.playing) {
 
                     if (this.node.getRotation() > 30) {

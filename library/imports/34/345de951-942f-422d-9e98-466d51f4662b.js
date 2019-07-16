@@ -18,6 +18,8 @@ cc.Class({
     extends: cc.Component,
 
     properties: {
+        speed: 0,
+        value: 0
         // foo: {
         //     // ATTRIBUTES:
         //     default: null,        // The default value will be used only when the component attaching

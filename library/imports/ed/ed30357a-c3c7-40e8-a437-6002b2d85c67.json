@@ -220,8 +220,8 @@
       "__id__": 1
     },
     "_enabled": true,
-    "speed": 0,
-    "value": 0,
+    "speed": 1.5,
+    "value": 500,
     "_id": ""
   },
   {
