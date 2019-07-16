@@ -395,8 +395,8 @@
     "relativePath": "res/diamond2.png"
   },
   "50d36494-0917-48d3-af67-af520f4a6c59": {
-    "asset": 1563213944957,
-    "meta": 1563213944976,
+    "asset": 1563302280271,
+    "meta": 1563302280287,
     "relativePath": "anim/hookRotation.anim"
   },
   "b15addfe-606f-4cb2-ab24-d1f79cbc7227": {
@@ -435,8 +435,8 @@
     "relativePath": "res/book.png"
   },
   "1f086e9a-44a0-4969-9f4d-5a97061892c2": {
-    "asset": 1563297838593,
-    "meta": 1563297838596,
+    "asset": 1563303783748,
+    "meta": 1563303783805,
     "relativePath": "scene/game.fire"
   },
   "20b9ada5-29eb-42bf-b170-b1d09ff81d12": {
@@ -510,7 +510,7 @@
     "relativePath": "scene"
   },
   "66b9b7f1-42ee-433d-8f5a-9cf18891d14b": {
-    "asset": 1563266437502,
+    "asset": 1563300154823,
     "meta": 1563266263370,
     "relativePath": "anim"
   },
@@ -535,69 +535,59 @@
     "relativePath": "Prefab"
   },
   "c2c26b41-d9e0-4938-a1df-15e3cc5c9074": {
-    "asset": 1563292501889,
-    "meta": 1563292501895,
+    "asset": 1563301584844,
+    "meta": 1563301584860,
     "relativePath": "Prefab/diamondPig.prefab"
   },
   "710d0a60-d3b3-4268-bd81-2bc4126df136": {
-    "asset": 1563292495292,
-    "meta": 1563292495297,
+    "asset": 1563303061311,
+    "meta": 1563303061314,
     "relativePath": "Prefab/bigRock.prefab"
   },
   "6d36b8d3-ddc7-47bc-86d1-bc58f8acf4f9": {
-    "asset": 1563292497095,
-    "meta": 1563292497099,
+    "asset": 1563303057093,
+    "meta": 1563303057097,
     "relativePath": "Prefab/midRock.prefab"
   },
   "bb27adea-169f-4dd6-bc69-b2b60bab9283": {
-    "asset": 1563292727867,
-    "meta": 1563292727871,
+    "asset": 1563303158448,
+    "meta": 1563303158453,
     "relativePath": "Prefab/smallRock.prefab"
   },
   "c09d0846-6f9b-40c1-9367-5cf9414d43d7": {
-    "asset": 1563292706129,
-    "meta": 1563292706133,
+    "asset": 1563303145012,
+    "meta": 1563303145016,
     "relativePath": "Prefab/pocket.prefab"
   },
   "f38bcdc6-01f1-4f90-b082-fbd880549b48": {
-    "asset": 1563292672139,
-    "meta": 1563292672143,
+    "asset": 1563303017817,
+    "meta": 1563303017820,
     "relativePath": "Prefab/midGold.prefab"
   },
   "ed30357a-c3c7-40e8-a437-6002b2d85c67": {
-    "asset": 1563292499994,
-    "meta": 1563292499998,
+    "asset": 1563303077106,
+    "meta": 1563303077110,
     "relativePath": "Prefab/bigGold.prefab"
   },
   "6024c9a9-3d03-4b8e-a8f8-653327016d04": {
-    "asset": 1563292552879,
-    "meta": 1563292552883,
+    "asset": 1563303024558,
+    "meta": 1563303024562,
     "relativePath": "Prefab/smallGold.prefab"
   },
   "db6d451b-1720-417c-be90-7227142892ba": {
-    "asset": 1563292644568,
-    "meta": 1563292644573,
+    "asset": 1563303119106,
+    "meta": 1563303119112,
     "relativePath": "Prefab/diamond2.prefab"
   },
   "9dd61015-388e-4432-bc8f-1298e1baabef": {
-    "asset": 1563292749708,
-    "meta": 1563292749712,
+    "asset": 1563303164304,
+    "meta": 1563303164307,
     "relativePath": "Prefab/tnt.prefab"
   },
   "8823c0d6-992f-4b3d-993e-381fb195c09d": {
-    "asset": 1563292693056,
-    "meta": 1563292693061,
+    "asset": 1563301654619,
+    "meta": 1563301654623,
     "relativePath": "Prefab/pig.prefab"
-  },
-  "c885e183-dcd3-451c-96c1-abbb3a473122": {
-    "asset": 1563295558011,
-    "meta": 1563295568025,
-    "relativePath": "script/game.js"
-  },
-  "09721b32-324f-49ab-b17a-26e10ad95cf2": {
-    "asset": 1563295938025,
-    "meta": 1563295949068,
-    "relativePath": "script/items.js"
   },
   "4e15859f-5cd0-4fc2-9cfd-f9fb8489672b": {
     "asset": 1563295938704,
@@ -614,9 +604,29 @@
     "meta": 1563297758009,
     "relativePath": "script/background.js"
   },
+  "b1fee966-f016-4453-878a-537ff415b763": {
+    "asset": 1563302355819,
+    "meta": 1563302355823,
+    "relativePath": "anim/hookRotation2.anim"
+  },
+  "ab0b24be-319b-4fe0-82d5-0328b7e0e28e": {
+    "asset": 1563302412220,
+    "meta": 1563302412227,
+    "relativePath": "anim/hookRotation3.anim"
+  },
   "459d0799-f128-423d-9cc8-a140a6065f83": {
-    "asset": 1563297732088,
-    "meta": 1563297758009,
+    "asset": 1563302584963,
+    "meta": 1563302586967,
     "relativePath": "script/hook.js"
+  },
+  "09721b32-324f-49ab-b17a-26e10ad95cf2": {
+    "asset": 1563303247460,
+    "meta": 1563303248714,
+    "relativePath": "script/items.js"
+  },
+  "c885e183-dcd3-451c-96c1-abbb3a473122": {
+    "asset": 1563303380034,
+    "meta": 1563303380429,
+    "relativePath": "script/game.js"
   }
 }

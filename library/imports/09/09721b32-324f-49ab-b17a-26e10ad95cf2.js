@@ -41,6 +41,13 @@ cc.Class({
     // LIFE-CYCLE CALLBACKS:
 
     // onLoad () {},
+    onCollisionEnter: function onCollisionEnter(other, self) {
+        //碰撞则播放爆炸动画
+        if (other.node.group == 'hook') {
+            console.log("hook collide");
+            return;
+        }
+    },
 
     start: function start() {}
 }

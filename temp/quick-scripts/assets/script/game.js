@@ -41,7 +41,11 @@ cc.Class({
 
     // LIFE-CYCLE CALLBACKS:
 
-    onLoad: function onLoad() {},
+    onLoad: function onLoad() {
+        cc.director.getCollisionManager().enabledDebugDraw = false;
+        cc.director.getCollisionManager().enabled = true;
+        //   cc.director.getCollisionManager().enabledDrawBoundingBox = true;
+    },
     start: function start() {},
     update: function update(dt) {
         this.draw.clear();

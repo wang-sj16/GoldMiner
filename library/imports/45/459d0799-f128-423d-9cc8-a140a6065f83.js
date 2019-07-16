@@ -19,7 +19,8 @@ cc.Class({
 
     properties: {
         moveSpeed: 6,
-        down: false
+        down: false,
+        flag: 0
     },
 
     goDown: function goDown() {
@@ -71,26 +72,41 @@ cc.Class({
         var animationComponent = this.getComponent(cc.Animation);
         //console.log(this.node.getRotation());
 
-        if (this.down) {
+        if (this.down && this.flag != 2) {
+            this.flag = 1;
             this.playing = false;
             animationComponent.stop("hookRotation");
+            animationComponent.stop("hookRotation2");
+            animationComponent.stop("hookRotation3");
             var theta = this.node.getRotation() * (Math.PI / 180);
             this.node.x -= this.moveSpeed * Math.sin(theta);
             this.node.y -= this.moveSpeed * Math.cos(theta);
             if (this.node.x < -450 || this.node.x > 450 || this.node.y < -240) {
                 this.down = false;
             }
-        } else if (!this.down && Math.abs(this.node.x - this.initX) > 0.1) {
-            this.playing = false;
-            var _theta = this.node.getRotation() * (Math.PI / 180);
-            this.node.x += this.moveSpeed * Math.sin(_theta);
-            this.node.y += this.moveSpeed * Math.cos(_theta);
         } else {
-            this.node.x = this.initX;
-            this.node.y = this.initY;
-            if (!this.playing) {
-                animationComponent.play("hookRotation");
-                this.playing = true;
+            if (Math.abs(this.node.x - this.initX) > 0.1) {
+                this.flag = 2;
+                this.playing = false;
+                var _theta = this.node.getRotation() * (Math.PI / 180);
+                this.node.x += this.moveSpeed * Math.sin(_theta);
+                this.node.y += this.moveSpeed * Math.cos(_theta);
+                this.down = false;
+            } else {
+                this.flag = 3;
+                this.node.x = this.initX;
+                this.node.y = this.initY;
+                if (!this.playing) {
+
+                    if (this.node.getRotation() > 30) {
+                        animationComponent.play("hookRotation2");
+                    } else if (this.node.getRotation() < -30) {
+                        animationComponent.play("hookRotation3");
+                    } else {
+                        animationComponent.play("hookRotation");
+                    }
+                    this.playing = true;
+                }
             }
         }
     }
