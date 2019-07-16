@@ -1,353 +1,67 @@
-2019-07-16T08:22:18.666Z - normal: Load ~/.CocosCreator/settings.json
-2019-07-16T08:22:18.713Z - normal: Initializing Asset Database
-2019-07-16T08:22:18.716Z - normal: checking language setting...
-2019-07-16T08:22:18.716Z - normal: Language: zh
-2019-07-16T08:22:19.326Z - success: preview server running at http://localhost:7456
-2019-07-16T08:22:19.368Z - success: protocol editor-framework registered
-2019-07-16T08:22:19.368Z - success: protocol app registered
-2019-07-16T08:22:19.370Z - success: protocol theme registered
-2019-07-16T08:22:19.370Z - success: protocol packages registered
-2019-07-16T08:22:19.370Z - success: protocol uuid registerred
-2019-07-16T08:22:19.370Z - success: protocol db registerred
-2019-07-16T08:22:19.370Z - success: protocol thumbnail registerred
-2019-07-16T08:22:19.373Z - success: protocol unpack registerred
-2019-07-16T08:22:19.373Z - success: protocol disable-commonjs registerred
-2019-07-16T08:22:19.492Z - normal: connected!
-2019-07-16T08:22:19.493Z - normal: Check project /Users/vincent/code/GoldMiner
-2019-07-16T08:22:19.494Z - normal: Initializing project /Users/vincent/code/GoldMiner
-2019-07-16T08:22:19.786Z - normal: Initializing Cocos2d
-2019-07-16T08:22:20.382Z - normal: Initializing engine extends
-2019-07-16T08:22:20.458Z - success: asset-db-debugger loaded
-2019-07-16T08:22:20.459Z - success: baidu-adapter loaded
-2019-07-16T08:22:20.460Z - success: color-picker loaded
-2019-07-16T08:22:20.538Z - success: fb-audience-network loaded
-2019-07-16T08:22:20.580Z - success: fb-live-stream loaded
-2019-07-16T08:22:20.583Z - success: google-play-instant loaded
-2019-07-16T08:22:20.586Z - success: huawei-runtime loaded
-2019-07-16T08:22:20.783Z - success: cpk-publish loaded
-2019-07-16T08:22:20.785Z - success: jsb-adapter loaded
-2019-07-16T08:22:20.789Z - success: oppo-runtime loaded
-2019-07-16T08:22:20.799Z - success: package-manager loaded
-2019-07-16T08:22:20.895Z - success: qqplay-adapter loaded
-2019-07-16T08:22:20.897Z - success: runtime-dev-tools loaded
-2019-07-16T08:22:20.907Z - success: sdkbox loaded
-2019-07-16T08:22:20.917Z - success: tester loaded
-2019-07-16T08:22:20.926Z - success: ui-grid loaded
-2019-07-16T08:22:20.935Z - success: ui-kit-preview-extra loaded
-2019-07-16T08:22:20.945Z - success: ui-kit-preview loaded
-2019-07-16T08:22:20.954Z - success: ui-kit loaded
-2019-07-16T08:22:20.962Z - success: ui-tree loaded
-2019-07-16T08:22:20.966Z - success: vivo-runtime loaded
-2019-07-16T08:22:20.967Z - success: weapp-adapter loaded
-2019-07-16T08:22:20.968Z - success: xiaomi-adapter loaded
-2019-07-16T08:22:21.009Z - success: assets loaded
-2019-07-16T08:22:21.018Z - success: builder loaded
-2019-07-16T08:22:21.243Z - success: cocos-services loaded
-2019-07-16T08:22:21.258Z - success: console loaded
-2019-07-16T08:22:21.286Z - success: fb-instant-games loaded
-2019-07-16T08:22:21.288Z - success: google-instant-games loaded
-2019-07-16T08:22:21.297Z - success: hierarchy loaded
-2019-07-16T08:22:21.306Z - success: inspector loaded
-2019-07-16T08:22:21.308Z - success: keystore loaded
-2019-07-16T08:22:21.324Z - success: node-library loaded
-2019-07-16T08:22:21.325Z - success: package-asset loaded
-2019-07-16T08:22:21.326Z - success: preferences loaded
-2019-07-16T08:22:21.336Z - success: project-exporter loaded
-2019-07-16T08:22:21.345Z - success: project-importer loaded
-2019-07-16T08:22:21.360Z - success: project-settings loaded
-2019-07-16T08:22:21.372Z - success: scene loaded
-2019-07-16T08:22:21.373Z - success: simulator-debugger loaded
-2019-07-16T08:22:21.374Z - success: sprite-editor loaded
-2019-07-16T08:22:21.384Z - success: store loaded
-2019-07-16T08:22:21.394Z - success: timeline loaded
-2019-07-16T08:22:21.399Z - success: xiaomi-runtime loaded
-2019-07-16T08:22:22.383Z - normal: Loading packages
-2019-07-16T08:22:22.387Z - normal: Watching packages
-2019-07-16T08:22:22.462Z - info: Cocos Services load base data!
-2019-07-16T08:22:22.490Z - normal: Run Application
-2019-07-16T08:24:39.799Z - normal: Simulator: WORKAREA WIDTH 1920.00, HEIGHT 966.00
-2019-07-16T08:24:39.801Z - normal: Simulator: FRAME SCALE = 1.00
-2019-07-16T08:24:39.885Z - normal: Simulator: GLFWError #65544 Happen, Cocoa: Failed to retrieve display name
-2019-07-16T08:24:39.885Z - normal: Simulator: 
-2019-07-16T08:24:39.885Z - normal: Simulator: {
-2019-07-16T08:24:39.885Z - normal: Simulator: 	build_type: DEBUG
-2019-07-16T08:24:39.885Z - normal: Simulator: 	gl.vendor: Intel Inc.
-2019-07-16T08:24:39.886Z - normal: Simulator: 	gl.supports_PVRTC: false
-2019-07-16T08:24:39.886Z - normal: Simulator: 	gl.renderer: Intel(R) Iris(TM) Plus Graphics 655
-2019-07-16T08:24:39.886Z - normal: Simulator: 	gl.supports_ATITC: false
-2019-07-16T08:24:39.887Z - normal: Simulator: 	gl.supports_discard_framebuffer: false
-2019-07-16T08:24:39.887Z - normal: Simulator: 	gl.supports_NPOT: true
-2019-07-16T08:24:39.887Z - normal: Simulator: 	gl.max_texture_units: 16
-2019-07-16T08:24:39.887Z - normal: Simulator: 	gl.supports_ETC1: false
-2019-07-16T08:24:39.887Z - normal: Simulator: 	gl.max_texture_size: 16384
-2019-07-16T08:24:39.888Z - normal: Simulator: 	gl.supports_BGRA8888: false
-2019-07-16T08:24:39.888Z - normal: Simulator: 	gl.supports_vertex_array_object: true
-2019-07-16T08:24:39.888Z - normal: Simulator: 	gl.supports_OES_map_buffer: false
-2019-07-16T08:24:39.888Z - normal: Simulator: 	compiled_with_gl_state_cache: true
-2019-07-16T08:24:39.888Z - normal: Simulator: 	gl.supports_OES_packed_depth_stencil: false
-2019-07-16T08:24:39.888Z - normal: Simulator: 	gl.version: 2.1 INTEL-12.9.22
-2019-07-16T08:24:39.888Z - normal: Simulator: 	gl.supports_S3TC: true
-2019-07-16T08:24:39.888Z - normal: Simulator: 	compiled_with_profiler: false
-2019-07-16T08:24:39.888Z - normal: Simulator: 	gl.supports_OES_depth24: false
-2019-07-16T08:24:39.889Z - normal: Simulator: }
-2019-07-16T08:24:39.893Z - normal: Simulator: Project Config:
-2019-07-16T08:24:39.893Z - normal: Simulator:     project dir: /Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/
-2019-07-16T08:24:39.894Z - normal: Simulator:     writable path: $(PROJDIR)/
-2019-07-16T08:24:39.894Z - normal: Simulator:     script file: $(PROJDIR)/main.js
-2019-07-16T08:24:39.894Z - normal: Simulator:     frame size: 960 x 540
-2019-07-16T08:24:39.894Z - normal: Simulator:     frame scale: 1.00
-2019-07-16T08:24:39.894Z - normal: Simulator:     show console: NO
-2019-07-16T08:24:39.894Z - normal: Simulator:     write debug log: NO ()
-2019-07-16T08:24:39.894Z - normal: Simulator:     listen: 
-2019-07-16T08:24:39.895Z - normal: Simulator:     debugger: none
-2019-07-16T08:24:39.895Z - normal: Simulator:     add searching path:
-2019-07-16T08:24:39.897Z - normal: Simulator: resetDesignResolution request
-2019-07-16T08:24:39.897Z - normal: Simulator: ------------------------------------------------
-2019-07-16T08:24:39.897Z - normal: Simulator: LOAD Js FILE: jsb-adapter/jsb-builtin.js
-2019-07-16T08:24:39.897Z - normal: Simulator: ------------------------------------------------
-2019-07-16T08:24:39.897Z - normal: Simulator: Initializing V8, version: 6.5.254.43
-2019-07-16T08:24:39.930Z - normal: Simulator: libuv version: 1.23.1-dev
-2019-07-16T08:24:39.936Z - normal: Simulator: Debugger listening..., visit [ chrome-devtools://devtools/bundled/inspector.html?v8only=true&ws=0.0.0.0:5086/00010002-0003-4004-8005-000600070008 ] in chrome browser to debug!
-2019-07-16T08:24:39.936Z - normal: Simulator: For help see https://nodejs.org/en/docs/inspector
-2019-07-16T08:24:39.991Z - normal: Simulator: JS: Enable batch GL commands optimization!
-2019-07-16T08:24:39.993Z - normal: Simulator: resetDesignResolution request
-2019-07-16T08:24:39.993Z - normal: Simulator: ------------------------------------------------
-2019-07-16T08:24:39.993Z - normal: Simulator: LOAD Js FILE: main.js
-2019-07-16T08:24:39.993Z - normal: Simulator: ------------------------------------------------
-2019-07-16T08:24:40.326Z - normal: Simulator: iShow!
-2019-07-16T08:24:40.460Z - normal: Simulator: glGetIntegerv: pname: 0x8b4c
-2019-07-16T08:24:40.475Z - normal: Simulator: JS: Cocos Creator v2.0.10
-2019-07-16T08:24:42.061Z - normal: Simulator: JS: test
-2019-07-16T08:24:43.199Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:43.216Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:43.232Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:43.249Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:43.266Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:43.283Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:43.299Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:43.316Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:43.333Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:43.350Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:43.368Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:43.383Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:43.399Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:43.416Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:43.433Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:43.450Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:43.466Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:43.483Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:43.500Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:43.516Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:43.533Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:43.550Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:43.567Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:43.583Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:43.599Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:43.616Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:43.633Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:43.650Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:43.666Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:43.683Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:43.700Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:43.717Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:43.733Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:43.750Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:43.766Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:43.783Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:43.799Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:43.817Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:43.834Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:43.850Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:43.866Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:43.883Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:43.900Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:43.916Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:43.933Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:43.950Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:43.967Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:43.983Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:44.000Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:44.016Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:44.034Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:44.050Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:44.067Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:44.083Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:44.100Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:44.116Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:44.133Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:44.151Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:44.167Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:44.183Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:44.200Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:44.218Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:44.233Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:44.250Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:44.267Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:44.284Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:44.300Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:44.317Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:45.418Z - normal: Simulator: JS: test
-2019-07-16T08:24:46.754Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:46.774Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:46.789Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:46.807Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:46.823Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:46.840Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:46.856Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:46.878Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:46.889Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:46.908Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:46.926Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:46.941Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:46.957Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:46.973Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:46.990Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:47.007Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:47.024Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:47.041Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:47.057Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:47.074Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:47.090Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:47.107Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:47.123Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:47.144Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:47.156Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:47.174Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:47.191Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:47.207Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:47.224Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:47.240Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:47.256Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:47.274Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:47.290Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:47.308Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:47.324Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:47.343Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:47.360Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:47.374Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:47.395Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:47.408Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:47.425Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:47.441Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:47.458Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:47.475Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:47.491Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:47.508Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:47.525Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:47.542Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:47.558Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:47.575Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:47.591Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:47.608Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:47.625Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:47.641Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:47.658Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:47.675Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:47.691Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:47.708Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:47.725Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:47.741Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:47.758Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:47.775Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:47.792Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:47.808Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:47.827Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:47.841Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:47.858Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:47.879Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:47.892Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:47.908Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:47.925Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:47.943Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:47.959Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:47.975Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:47.993Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:48.010Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:48.027Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:48.042Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:48.058Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:48.075Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:48.677Z - normal: Simulator: JS: test
-2019-07-16T08:24:50.021Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:50.041Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:50.055Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:50.071Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:50.088Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:50.105Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:50.121Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:50.138Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:50.155Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:50.171Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:50.188Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:50.205Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:50.222Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:50.238Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:50.256Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:50.271Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:50.288Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:50.305Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:50.322Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:50.338Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:50.356Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:50.372Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:50.388Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:50.405Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:50.422Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:50.439Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:50.455Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:50.474Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:50.489Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:50.505Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:50.522Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:50.539Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:50.555Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:50.572Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:50.589Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:50.605Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:50.628Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:50.644Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:50.662Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:50.678Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:50.694Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:50.711Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:50.728Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:50.744Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:50.760Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:50.777Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:50.798Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:50.812Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:50.829Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:50.853Z - normal: Simulator: JS: aaaa
-2019-07-16T08:24:50.854Z - normal: Simulator: ScriptEngine::cleanup begin ...
-2019-07-16T08:24:50.854Z - normal: Simulator: GC begin ..., (js->native map) size: 37, all objects: 116
-2019-07-16T08:24:50.879Z - normal: Simulator: GC end ..., (js->native map) size: 37, all objects: 116
-2019-07-16T08:24:50.879Z - normal: Simulator: GC begin ..., (js->native map) size: 37, all objects: 116
-2019-07-16T08:24:50.898Z - normal: Simulator: GC end ..., (js->native map) size: 37, all objects: 116
-2019-07-16T08:24:50.899Z - normal: Simulator: Destroy WebGLProgram (6) by GC
-2019-07-16T08:24:50.899Z - normal: Simulator: Destroy WebGLBuffer (5) by GC
-2019-07-16T08:24:50.900Z - normal: Simulator: Destroy WebGLTexture (15) by GC
-2019-07-16T08:24:50.900Z - normal: Simulator: Destroy WebGLTexture (17) by GC
-2019-07-16T08:24:50.900Z - normal: Simulator: Destroy WebGLTexture (14) by GC
-2019-07-16T08:24:50.900Z - normal: Simulator: Destroy WebGLTexture (11) by GC
-2019-07-16T08:24:50.900Z - normal: Simulator: Destroy WebGLTexture (16) by GC
-2019-07-16T08:24:50.900Z - normal: Simulator: Destroy WebGLTexture (7) by GC
-2019-07-16T08:24:50.901Z - normal: Simulator: Destroy WebGLTexture (13) by GC
-2019-07-16T08:24:50.901Z - normal: Simulator: Destroy WebGLTexture (5) by GC
-2019-07-16T08:24:50.901Z - normal: Simulator: Destroy WebGLTexture (6) by GC
-2019-07-16T08:24:50.901Z - normal: Simulator: Destroy WebGLTexture (9) by GC
-2019-07-16T08:24:50.901Z - normal: Simulator: Destroy WebGLBuffer (6) by GC
-2019-07-16T08:24:50.901Z - normal: Simulator: Destroy WebGLTexture (12) by GC
-2019-07-16T08:24:50.901Z - normal: Simulator: Destroy WebGLTexture (10) by GC
-2019-07-16T08:24:50.901Z - normal: Simulator: Destroy WebGLTexture (2) by GC
-2019-07-16T08:24:50.902Z - normal: Simulator: Destroy WebGLProgram (3) by GC
-2019-07-16T08:24:50.902Z - normal: Simulator: Destroy WebGLTexture (1) by GC
-2019-07-16T08:24:50.902Z - normal: Simulator: Destroy WebGLTexture (8) by GC
-2019-07-16T08:24:50.902Z - normal: Simulator: Destroy WebGLBuffer (3) by GC
-2019-07-16T08:24:50.902Z - normal: Simulator: Destroy WebGLTexture (4) by GC
-2019-07-16T08:24:50.902Z - normal: Simulator: Destroy WebGLBuffer (2) by GC
-2019-07-16T08:24:50.902Z - normal: Simulator: Destroy WebGLBuffer (4) by GC
-2019-07-16T08:24:50.902Z - normal: Simulator: Destroy WebGLBuffer (1) by GC
-2019-07-16T08:24:50.902Z - normal: Simulator: Destroy WebGLTexture (3) by GC
-2019-07-16T08:24:50.902Z - normal: Simulator: GC begin ..., (js->native map) size: 0, all objects: 0
-2019-07-16T08:24:50.920Z - normal: Simulator: GC end ..., (js->native map) size: 0, all objects: 0
-2019-07-16T08:24:50.927Z - normal: Simulator: ScriptEngine::cleanup end ...
+2019-07-16T15:13:50.434Z - normal: Load ~/.CocosCreator/settings.json
+2019-07-16T15:13:50.479Z - normal: Initializing Asset Database
+2019-07-16T15:13:50.481Z - normal: checking language setting...
+2019-07-16T15:13:50.481Z - normal: Language: zh
+2019-07-16T15:13:50.956Z - success: preview server running at http://localhost:7456
+2019-07-16T15:13:51.001Z - success: protocol editor-framework registered
+2019-07-16T15:13:51.001Z - success: protocol app registered
+2019-07-16T15:13:51.001Z - success: protocol theme registered
+2019-07-16T15:13:51.001Z - success: protocol packages registered
+2019-07-16T15:13:51.001Z - success: protocol uuid registerred
+2019-07-16T15:13:51.001Z - success: protocol db registerred
+2019-07-16T15:13:51.004Z - success: protocol thumbnail registerred
+2019-07-16T15:13:51.005Z - success: protocol unpack registerred
+2019-07-16T15:13:51.005Z - success: protocol disable-commonjs registerred
+2019-07-16T15:13:51.208Z - normal: connected!
+2019-07-16T15:13:51.210Z - normal: Check project /Users/vincent/code/GoldMiner
+2019-07-16T15:13:51.212Z - normal: Initializing project /Users/vincent/code/GoldMiner
+2019-07-16T15:13:51.468Z - normal: Initializing Cocos2d
+2019-07-16T15:13:52.009Z - normal: Initializing engine extends
+2019-07-16T15:13:52.058Z - success: asset-db-debugger loaded
+2019-07-16T15:13:52.059Z - success: baidu-adapter loaded
+2019-07-16T15:13:52.059Z - success: color-picker loaded
+2019-07-16T15:13:52.125Z - success: fb-audience-network loaded
+2019-07-16T15:13:52.156Z - success: fb-live-stream loaded
+2019-07-16T15:13:52.158Z - success: google-play-instant loaded
+2019-07-16T15:13:52.161Z - success: huawei-runtime loaded
+2019-07-16T15:13:52.331Z - success: cpk-publish loaded
+2019-07-16T15:13:52.332Z - success: jsb-adapter loaded
+2019-07-16T15:13:52.334Z - success: oppo-runtime loaded
+2019-07-16T15:13:52.344Z - success: package-manager loaded
+2019-07-16T15:13:52.420Z - success: qqplay-adapter loaded
+2019-07-16T15:13:52.421Z - success: runtime-dev-tools loaded
+2019-07-16T15:13:52.431Z - success: sdkbox loaded
+2019-07-16T15:13:52.442Z - success: tester loaded
+2019-07-16T15:13:52.450Z - success: ui-grid loaded
+2019-07-16T15:13:52.459Z - success: ui-kit-preview-extra loaded
+2019-07-16T15:13:52.467Z - success: ui-kit-preview loaded
+2019-07-16T15:13:52.476Z - success: ui-kit loaded
+2019-07-16T15:13:52.483Z - success: ui-tree loaded
+2019-07-16T15:13:52.486Z - success: vivo-runtime loaded
+2019-07-16T15:13:52.486Z - success: weapp-adapter loaded
+2019-07-16T15:13:52.487Z - success: xiaomi-adapter loaded
+2019-07-16T15:13:52.527Z - success: assets loaded
+2019-07-16T15:13:52.535Z - success: builder loaded
+2019-07-16T15:13:52.714Z - success: cocos-services loaded
+2019-07-16T15:13:52.726Z - success: console loaded
+2019-07-16T15:13:52.755Z - success: fb-instant-games loaded
+2019-07-16T15:13:52.762Z - success: google-instant-games loaded
+2019-07-16T15:13:52.776Z - success: hierarchy loaded
+2019-07-16T15:13:52.784Z - success: inspector loaded
+2019-07-16T15:13:52.785Z - success: keystore loaded
+2019-07-16T15:13:52.797Z - success: node-library loaded
+2019-07-16T15:13:52.798Z - success: package-asset loaded
+2019-07-16T15:13:52.799Z - success: preferences loaded
+2019-07-16T15:13:52.811Z - success: project-exporter loaded
+2019-07-16T15:13:52.827Z - success: project-importer loaded
+2019-07-16T15:13:52.834Z - success: project-settings loaded
+2019-07-16T15:13:52.848Z - success: scene loaded
+2019-07-16T15:13:52.849Z - success: simulator-debugger loaded
+2019-07-16T15:13:52.851Z - success: sprite-editor loaded
+2019-07-16T15:13:52.864Z - success: store loaded
+2019-07-16T15:13:52.878Z - success: timeline loaded
+2019-07-16T15:13:52.882Z - success: xiaomi-runtime loaded
+2019-07-16T15:13:53.536Z - normal: Loading packages
+2019-07-16T15:13:53.540Z - normal: Watching packages
+2019-07-16T15:13:53.621Z - normal: Run Application
+2019-07-16T15:13:54.166Z - info: Cocos Services load base data!

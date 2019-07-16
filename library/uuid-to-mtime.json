@@ -255,7 +255,7 @@
     "relativePath": "Default/Button_Disable.png"
   },
   "421f9a67-969a-406e-99b9-31cc43be8671": {
-    "asset": 1563191848803,
+    "asset": 1563266154332,
     "meta": 1563191848800,
     "relativePath": "music"
   },
@@ -300,14 +300,14 @@
     "relativePath": "music/Select.mp3"
   },
   "6c737268-bec7-4614-b821-e367a1b57c8f": {
-    "asset": 1563264474984,
+    "asset": 1563289563123,
     "meta": 1563208224278,
     "relativePath": "res"
   },
   "086a990d-32f9-4544-85de-ce8ac08238d7": {
     "asset": 1563211307054,
     "meta": 1563211581090,
-    "relativePath": "pigRun.anim"
+    "relativePath": "anim/pigRun.anim"
   },
   "ca4ee58d-950d-4098-85e4-abafe627ba54": {
     "asset": 1529068014000,
@@ -319,20 +319,10 @@
     "meta": 1563210723778,
     "relativePath": "res/background.png"
   },
-  "c89062dd-d2d7-49a3-8bc1-9e492e1bd9ea": {
-    "asset": 1529068014000,
-    "meta": 1563210723804,
-    "relativePath": "res/bgm.wav"
-  },
   "bbdf8184-dff4-4f6d-b3ba-59ecf5f24b03": {
     "asset": 1529068014000,
     "meta": 1563210723831,
     "relativePath": "res/base.png"
-  },
-  "d35b5f11-460f-4833-9116-a57f91a7e2db": {
-    "asset": 1529068014000,
-    "meta": 1563210723834,
-    "relativePath": "res/freesound-xylophone-a3-by-juancamiloorjuela.wav"
   },
   "81e69a2f-d3d7-415c-bf57-34ebf9334423": {
     "asset": 1529068014000,
@@ -385,7 +375,7 @@
     "relativePath": "res/rock.png"
   },
   "4acf02a9-dacf-47ca-926c-789d3eae40d2": {
-    "asset": 1563217953655,
+    "asset": 1563266477139,
     "meta": 1563211334363,
     "relativePath": "script"
   },
@@ -407,7 +397,7 @@
   "50d36494-0917-48d3-af67-af520f4a6c59": {
     "asset": 1563213944957,
     "meta": 1563213944976,
-    "relativePath": "hookRotation.anim"
+    "relativePath": "anim/hookRotation.anim"
   },
   "b15addfe-606f-4cb2-ab24-d1f79cbc7227": {
     "asset": 1563214646869,
@@ -420,13 +410,13 @@
     "relativePath": "res/treature.png"
   },
   "723a92a1-afb8-49e5-93f9-892bfda73e21": {
-    "asset": 1563214877617,
-    "meta": 1563214971810,
+    "asset": 1563288994580,
+    "meta": 1563289563225,
     "relativePath": "res/bomb1.png"
   },
   "b264a462-b119-44b3-a87b-25f31716a46d": {
-    "asset": 1563214877785,
-    "meta": 1563214971813,
+    "asset": 1563288996099,
+    "meta": 1563289563228,
     "relativePath": "res/bomb2.png"
   },
   "394a9a99-4057-4cfe-a930-b1702bc6aeb4": {
@@ -445,9 +435,9 @@
     "relativePath": "res/book.png"
   },
   "1f086e9a-44a0-4969-9f4d-5a97061892c2": {
-    "asset": 1563264966347,
-    "meta": 1563264966350,
-    "relativePath": "game.fire"
+    "asset": 1563290370337,
+    "meta": 1563290370354,
+    "relativePath": "scene/game.fire"
   },
   "20b9ada5-29eb-42bf-b170-b1d09ff81d12": {
     "asset": 1563217665618,
@@ -508,5 +498,55 @@
     "asset": 1563264365391,
     "meta": 1563264475101,
     "relativePath": "res/pig3.png"
+  },
+  "254ca8e1-418e-4162-b106-da08d5085f0f": {
+    "asset": 1563265851121,
+    "meta": 1563265851141,
+    "relativePath": "anim/pigRunR.anim"
+  },
+  "1256d46f-bebe-42ca-ae3f-4b65b5f7263a": {
+    "asset": 1563265969333,
+    "meta": 1563266437503,
+    "relativePath": "anim/diamondPigRunR.anim"
+  },
+  "b102ba47-589c-4b3b-9edf-3dc55b6f79cb": {
+    "asset": 1563266082732,
+    "meta": 1563266082746,
+    "relativePath": "anim/diamondPigRun.anim"
+  },
+  "451457d0-82ac-4a29-bfac-e0a02d066703": {
+    "asset": 1529068014000,
+    "meta": 1563266154345,
+    "relativePath": "music/freesound-xylophone-a3-by-juancamiloorjuela.wav"
+  },
+  "9b44be72-0940-437a-bcb5-1947354aefb8": {
+    "asset": 1529068014000,
+    "meta": 1563266154357,
+    "relativePath": "music/bgm.wav"
+  },
+  "2a4eab31-a98d-4f27-84fe-a476183797ee": {
+    "asset": 1563266241202,
+    "meta": 1563266235011,
+    "relativePath": "scene"
+  },
+  "66b9b7f1-42ee-433d-8f5a-9cf18891d14b": {
+    "asset": 1563266437502,
+    "meta": 1563266263370,
+    "relativePath": "anim"
+  },
+  "345de951-942f-422d-9e98-466d51f4662b": {
+    "asset": 1563266727237,
+    "meta": 1563266729346,
+    "relativePath": "script/diamondPig.js"
+  },
+  "4676d88c-623b-4b0d-a623-1a83f7890dd7": {
+    "asset": 1563214877617,
+    "meta": 1563289563252,
+    "relativePath": "res/fire1.png"
+  },
+  "011244ff-7c14-4291-a272-0f76d5e3e59e": {
+    "asset": 1563214877785,
+    "meta": 1563289563261,
+    "relativePath": "res/fire2.png"
   }
 }
