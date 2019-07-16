@@ -1,0 +1,208 @@
+[
+  {
+    "__type__": "cc.Prefab",
+    "_name": "",
+    "_objFlags": 0,
+    "_native": "",
+    "data": {
+      "__id__": 1
+    },
+    "optimizationPolicy": 0,
+    "asyncLoadAssets": false
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "bigRock",
+    "_objFlags": 0,
+    "_parent": null,
+    "_children": [],
+    "_active": true,
+    "_level": 2,
+    "_components": [
+      {
+        "__id__": 2
+      },
+      {
+        "__id__": 3
+      }
+    ],
+    "_prefab": {
+      "__id__": 4
+    },
+    "_opacity": 255,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 136,
+      "height": 93
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.5,
+      "y": 0.5
+    },
+    "_position": {
+      "__type__": "cc.Vec3",
+      "x": -365,
+      "y": 41,
+      "z": 0
+    },
+    "_scale": {
+      "__type__": "cc.Vec3",
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "_rotationX": 0,
+    "_rotationY": 0,
+    "_quat": {
+      "__type__": "cc.Quat",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "w": 1
+    },
+    "_skewX": 0,
+    "_skewY": 0,
+    "groupIndex": 0,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.Sprite",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 1
+    },
+    "_enabled": true,
+    "_srcBlendFactor": 770,
+    "_dstBlendFactor": 771,
+    "_spriteFrame": {
+      "__uuid__": "43e1334d-711d-4f7c-9afc-18979d783ec3"
+    },
+    "_type": 0,
+    "_sizeMode": 0,
+    "_fillType": 0,
+    "_fillCenter": {
+      "__type__": "cc.Vec2",
+      "x": 0,
+      "y": 0
+    },
+    "_fillStart": 0,
+    "_fillRange": 0,
+    "_isTrimmedMode": true,
+    "_state": 0,
+    "_atlas": null,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.PolygonCollider",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 1
+    },
+    "_enabled": true,
+    "tag": 0,
+    "_offset": {
+      "__type__": "cc.Vec2",
+      "x": 0,
+      "y": 0
+    },
+    "points": [
+      {
+        "__type__": "cc.Vec2",
+        "x": 20.811387900355868,
+        "y": 44.900491400491404
+      },
+      {
+        "__type__": "cc.Vec2",
+        "x": -23.23131672597865,
+        "y": 41.47297297297297
+      },
+      {
+        "__type__": "cc.Vec2",
+        "x": -35.08896797153025,
+        "y": 27.991400491400498
+      },
+      {
+        "__type__": "cc.Vec2",
+        "x": -31.459074733096088,
+        "y": 17.02334152334152
+      },
+      {
+        "__type__": "cc.Vec2",
+        "x": -52.512455516014235,
+        "y": 14.509828009828013
+      },
+      {
+        "__type__": "cc.Vec2",
+        "x": -65.33807829181495,
+        "y": -12.68181818181818
+      },
+      {
+        "__type__": "cc.Vec2",
+        "x": -57.594306049822066,
+        "y": -21.593366093366093
+      },
+      {
+        "__type__": "cc.Vec2",
+        "x": -56.1423487544484,
+        "y": -36.902948402948404
+      },
+      {
+        "__type__": "cc.Vec2",
+        "x": -43.55871886120997,
+        "y": -43.3009828009828
+      },
+      {
+        "__type__": "cc.Vec2",
+        "x": -13.309608540925268,
+        "y": -44.443488943488944
+      },
+      {
+        "__type__": "cc.Vec2",
+        "x": 21.537366548042698,
+        "y": -33.703931203931205
+      },
+      {
+        "__type__": "cc.Vec2",
+        "x": 57.594306049822066,
+        "y": -35.3034398034398
+      },
+      {
+        "__type__": "cc.Vec2",
+        "x": 65.58007117437722,
+        "y": -9.025798525798528
+      },
+      {
+        "__type__": "cc.Vec2",
+        "x": 42.832740213523124,
+        "y": 35.3034398034398
+      },
+      {
+        "__type__": "cc.Vec2",
+        "x": 32.42704626334519,
+        "y": 43.757985257985254
+      }
+    ],
+    "_id": ""
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 1
+    },
+    "asset": {
+      "__uuid__": "710d0a60-d3b3-4268-bd81-2bc4126df136"
+    },
+    "fileId": "77/5rtd8FPvpPtlrxp63A8",
+    "sync": false
+  }
+]

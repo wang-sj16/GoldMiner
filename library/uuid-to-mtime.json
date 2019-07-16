@@ -375,7 +375,7 @@
     "relativePath": "res/rock.png"
   },
   "4acf02a9-dacf-47ca-926c-789d3eae40d2": {
-    "asset": 1563266477139,
+    "asset": 1563295735974,
     "meta": 1563211334363,
     "relativePath": "script"
   },
@@ -435,8 +435,8 @@
     "relativePath": "res/book.png"
   },
   "1f086e9a-44a0-4969-9f4d-5a97061892c2": {
-    "asset": 1563290370337,
-    "meta": 1563290370354,
+    "asset": 1563297838593,
+    "meta": 1563297838596,
     "relativePath": "scene/game.fire"
   },
   "20b9ada5-29eb-42bf-b170-b1d09ff81d12": {
@@ -449,16 +449,6 @@
     "meta": 1563217763899,
     "relativePath": "res/diamondPig.png"
   },
-  "4e15859f-5cd0-4fc2-9cfd-f9fb8489672b": {
-    "asset": 1563218250786,
-    "meta": 1563218255580,
-    "relativePath": "script/line.js"
-  },
-  "4815b1f5-0c1a-4ec1-8433-1d842e2d48a3": {
-    "asset": 1563218253279,
-    "meta": 1563218255581,
-    "relativePath": "script/pig.js"
-  },
   "47d4a203-70bf-44fd-95c7-6687f16d48e2": {
     "asset": 1563218830334,
     "meta": 1563218927217,
@@ -468,16 +458,6 @@
     "asset": 1563219490792,
     "meta": 1563219589655,
     "relativePath": "res/strength.png"
-  },
-  "459d0799-f128-423d-9cc8-a140a6065f83": {
-    "asset": 1563263444298,
-    "meta": 1563263444793,
-    "relativePath": "script/hook.js"
-  },
-  "c885e183-dcd3-451c-96c1-abbb3a473122": {
-    "asset": 1563263495199,
-    "meta": 1563263496138,
-    "relativePath": "script/game.js"
   },
   "43a6a6a9-f7ee-4c8e-9682-db68c9fbc4f5": {
     "asset": 1563264463703,
@@ -548,5 +528,95 @@
     "asset": 1563214877785,
     "meta": 1563289563261,
     "relativePath": "res/fire2.png"
+  },
+  "f1ab2f0b-8860-41c3-b824-355f752cbb00": {
+    "asset": 1563291670685,
+    "meta": 1563291581142,
+    "relativePath": "Prefab"
+  },
+  "c2c26b41-d9e0-4938-a1df-15e3cc5c9074": {
+    "asset": 1563292501889,
+    "meta": 1563292501895,
+    "relativePath": "Prefab/diamondPig.prefab"
+  },
+  "710d0a60-d3b3-4268-bd81-2bc4126df136": {
+    "asset": 1563292495292,
+    "meta": 1563292495297,
+    "relativePath": "Prefab/bigRock.prefab"
+  },
+  "6d36b8d3-ddc7-47bc-86d1-bc58f8acf4f9": {
+    "asset": 1563292497095,
+    "meta": 1563292497099,
+    "relativePath": "Prefab/midRock.prefab"
+  },
+  "bb27adea-169f-4dd6-bc69-b2b60bab9283": {
+    "asset": 1563292727867,
+    "meta": 1563292727871,
+    "relativePath": "Prefab/smallRock.prefab"
+  },
+  "c09d0846-6f9b-40c1-9367-5cf9414d43d7": {
+    "asset": 1563292706129,
+    "meta": 1563292706133,
+    "relativePath": "Prefab/pocket.prefab"
+  },
+  "f38bcdc6-01f1-4f90-b082-fbd880549b48": {
+    "asset": 1563292672139,
+    "meta": 1563292672143,
+    "relativePath": "Prefab/midGold.prefab"
+  },
+  "ed30357a-c3c7-40e8-a437-6002b2d85c67": {
+    "asset": 1563292499994,
+    "meta": 1563292499998,
+    "relativePath": "Prefab/bigGold.prefab"
+  },
+  "6024c9a9-3d03-4b8e-a8f8-653327016d04": {
+    "asset": 1563292552879,
+    "meta": 1563292552883,
+    "relativePath": "Prefab/smallGold.prefab"
+  },
+  "db6d451b-1720-417c-be90-7227142892ba": {
+    "asset": 1563292644568,
+    "meta": 1563292644573,
+    "relativePath": "Prefab/diamond2.prefab"
+  },
+  "9dd61015-388e-4432-bc8f-1298e1baabef": {
+    "asset": 1563292749708,
+    "meta": 1563292749712,
+    "relativePath": "Prefab/tnt.prefab"
+  },
+  "8823c0d6-992f-4b3d-993e-381fb195c09d": {
+    "asset": 1563292693056,
+    "meta": 1563292693061,
+    "relativePath": "Prefab/pig.prefab"
+  },
+  "c885e183-dcd3-451c-96c1-abbb3a473122": {
+    "asset": 1563295558011,
+    "meta": 1563295568025,
+    "relativePath": "script/game.js"
+  },
+  "09721b32-324f-49ab-b17a-26e10ad95cf2": {
+    "asset": 1563295938025,
+    "meta": 1563295949068,
+    "relativePath": "script/items.js"
+  },
+  "4e15859f-5cd0-4fc2-9cfd-f9fb8489672b": {
+    "asset": 1563295938704,
+    "meta": 1563295949076,
+    "relativePath": "script/line.js"
+  },
+  "4815b1f5-0c1a-4ec1-8433-1d842e2d48a3": {
+    "asset": 1563295939228,
+    "meta": 1563295949079,
+    "relativePath": "script/pig.js"
+  },
+  "4f185ed2-281a-44e8-a88f-e6f7d10aed3d": {
+    "asset": 1563297757072,
+    "meta": 1563297758009,
+    "relativePath": "script/background.js"
+  },
+  "459d0799-f128-423d-9cc8-a140a6065f83": {
+    "asset": 1563297732088,
+    "meta": 1563297758009,
+    "relativePath": "script/hook.js"
   }
 }

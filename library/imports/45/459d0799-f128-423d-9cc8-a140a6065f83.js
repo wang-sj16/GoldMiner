@@ -35,11 +35,11 @@ cc.Class({
         // set a flag when key pressed
         switch (event.keyCode) {
             case cc.macro.KEY.down:
-                console.log("test");
                 this.down = true;
                 break;
         }
     },
+
 
     /*
         onKeyUp (event) {
@@ -85,7 +85,6 @@ cc.Class({
             var _theta = this.node.getRotation() * (Math.PI / 180);
             this.node.x += this.moveSpeed * Math.sin(_theta);
             this.node.y += this.moveSpeed * Math.cos(_theta);
-            console.log("aaaa");
         } else {
             this.node.x = this.initX;
             this.node.y = this.initY;
