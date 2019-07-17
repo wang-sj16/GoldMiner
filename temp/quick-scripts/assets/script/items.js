@@ -19,8 +19,9 @@ cc.Class({
 
     properties: {
         speed: 0,
-        value: 0
-
+        value: 0,
+        move: false,
+        theta: 0
         // foo: {
         //     // ATTRIBUTES:
         //     default: null,        // The default value will be used only when the component attaching
@@ -47,16 +48,22 @@ cc.Class({
             console.log(self.name);
             other.node.getComponent("hook").moveSpeed = this.speed;
             other.node.getComponent("hook").down = false;
-            var theta = other.node.getRotation() * (Math.PI / 180);
-            this.node.x = other.node.x - 40 * Math.sin(theta);
-            this.node.y = other.node.y - 40 * Math.cos(theta);
-            console.log(this.node.x + " " + this.node.y);
+            this.theta = other.node.getRotation() * (Math.PI / 180);
+            this.node.x = other.node.x - (40 + this.node.height / 2) * Math.sin(this.theta);
+            this.node.y = other.node.y - (40 + this.node.height / 2) * Math.cos(this.theta);
+            //console.log(this.node.x + " " + this.node.y);
+            this.move = true;
             return;
         }
     },
 
     start: function start() {},
-    update: function update(dt) {}
+    update: function update(dt) {
+        if (this.move) {
+            this.node.x += this.speed * Math.sin(this.theta);
+            this.node.y += this.speed * Math.cos(this.theta);
+        }
+    }
 });
 
 cc._RF.pop();

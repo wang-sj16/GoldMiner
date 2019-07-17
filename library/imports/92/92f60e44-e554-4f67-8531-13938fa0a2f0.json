@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "diamond_polish",
+    "texture": "eb90a67c-1abb-4bb3-81ad-875b16a0299b",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      662,
+      590
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      662,
+      590
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

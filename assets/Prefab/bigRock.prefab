@@ -207,7 +207,8 @@
     "_enabled": true,
     "speed": 1,
     "value": 20,
-    "hook": null,
+    "move": false,
+    "theta": 0,
     "_id": ""
   },
   {

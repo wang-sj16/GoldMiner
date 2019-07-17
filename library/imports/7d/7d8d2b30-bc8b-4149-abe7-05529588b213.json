@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "power_liquid",
+    "texture": "98744242-cfd0-4099-9c0f-53089f4fe3fe",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      798,
+      960
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      798,
+      960
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

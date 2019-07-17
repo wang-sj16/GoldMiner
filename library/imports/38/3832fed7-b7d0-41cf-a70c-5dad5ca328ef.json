@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "four_lear_clover2",
+    "texture": "02dc3e62-a76f-4b56-a2af-c27a3cc70e7a",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      481,
+      885
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      481,
+      885
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

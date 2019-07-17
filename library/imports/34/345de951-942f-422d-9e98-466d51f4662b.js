@@ -19,31 +19,82 @@ cc.Class({
 
     properties: {
         speed: 0,
-        value: 0
-        // foo: {
-        //     // ATTRIBUTES:
-        //     default: null,        // The default value will be used only when the component attaching
-        //                           // to a node for the first time
-        //     type: cc.SpriteFrame, // optional, default is typeof default
-        //     serializable: true,   // optional, default is true
-        // },
-        // bar: {
-        //     get () {
-        //         return this._bar;
-        //     },
-        //     set (value) {
-        //         this._bar = value;
-        //     }
-        // },
+        value: 0,
+        hooked: false,
+        theta: 0,
+        moveSpeed: 3,
+        toRight: true //1 means go right; -1 means go left
     },
-
+    onCollisionEnter: function onCollisionEnter(other, self) {
+        //碰撞则播放爆炸动画
+        var animationComponent = this.getComponent(cc.Animation);
+        if (other.node.group == 'hook') {
+            console.log(self.name);
+            other.node.getComponent("hook").moveSpeed = this.speed;
+            other.node.getComponent("hook").down = false;
+            this.theta = other.node.getRotation() * (Math.PI / 180);
+            this.node.x = other.node.x - (40 + this.node.height / 2) * Math.sin(this.theta);
+            this.node.y = other.node.y - (40 + this.node.height / 2) * Math.cos(this.theta);
+            //console.log(this.node.x + " " + this.node.y);
+            this.hooked = true;
+            return;
+        } else if (other.node.group == 'items') {
+            if (!this.hooked) {
+                if (this.toRight) {
+                    this.toRight = false;
+                    animationComponent.stop("diamondPigRunR");
+                    animationComponent.play("diamondPigRun");
+                } else {
+                    this.toRight = true;
+                    animationComponent.stop("diamondPigRun");
+                    animationComponent.play("diamondPigRunR");
+                }
+            }
+            return;
+        }
+    },
     // LIFE-CYCLE CALLBACKS:
 
+    // onLoad () {},
     onLoad: function onLoad() {
-        var animationComponent = this.getComponent(cc.Animation);
-        animationComponent.play("diamondPigRunR");
+        //var animationComponent = this.getComponent(cc.Animation);
+        //animationComponent.play("diamondPigRunR");
     },
-    start: function start() {}
+    start: function start() {
+        var animationComponent = this.getComponent(cc.Animation);
+        var num = Math.random();
+        console.log(num);
+        if (num > 0.5) {
+            this.toRight = true;
+            animationComponent.play("diamondPigRunR");
+        } else {
+            this.toRight = false;
+            animationComponent.play("diamondPigRun");
+        }
+    },
+    update: function update(dt) {
+        var animationComponent = this.getComponent(cc.Animation);
+        if (!this.hooked) {
+            if (this.toRight) {
+                this.node.x += this.moveSpeed;
+                if (this.node.x > 440) {
+                    this.toRight = false;
+                    animationComponent.stop("diamondPigRunR");
+                    animationComponent.play("diamondPigRun");
+                }
+            } else {
+                this.node.x -= this.moveSpeed;
+                if (this.node.x < -440) {
+                    this.toRight = true;
+                    animationComponent.stop("diamondPigRun");
+                    animationComponent.play("diamondPigRunR");
+                }
+            }
+        } else {
+            this.node.x += this.speed * Math.sin(this.theta);
+            this.node.y += this.speed * Math.cos(this.theta);
+        }
+    }
 }
 // update (dt) {},
 );
