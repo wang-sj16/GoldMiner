@@ -54,8 +54,8 @@ cc.Class({
         this.animationComponent = this.getComponent(cc.Animation);
     },
     start () {
+        this.canvas = cc.find("Canvas").getComponent("game");
         var num = Math.random();
-        console.log(num);
         if(num>0.5){
             this.toRight = true;
             this.animationComponent.play("pigRunR");
@@ -86,6 +86,9 @@ cc.Class({
                 this.node.x += this.speed*Math.sin(this.theta);
                 this.node.y += this.speed*Math.cos(this.theta);
             }else{
+                this.canvas.add1.string = "+" + this.value;
+                this.canvas.add1.getComponent("label").play = true;
+                this.canvas.money1 += this.value;
                 this.node.destroy();
             }
         }

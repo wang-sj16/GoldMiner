@@ -22,29 +22,13 @@ cc.Class({
         value: 0,
         hooked: false,
         theta: 0
-        // foo: {
-        //     // ATTRIBUTES:
-        //     default: null,        // The default value will be used only when the component attaching
-        //                           // to a node for the first time
-        //     type: cc.SpriteFrame, // optional, default is typeof default
-        //     serializable: true,   // optional, default is true
-        // },
-        // bar: {
-        //     get () {
-        //         return this._bar;
-        //     },
-        //     set (value) {
-        //         this._bar = value;
-        //     }
-        // },
+
     },
 
     // LIFE-CYCLE CALLBACKS:
 
     // onLoad () {},
     onCollisionEnter: function onCollisionEnter(other, self) {
-        //碰撞则播放爆炸动画
-        //console.log(other.node.occupied);
         if (other.node.group == 'hook' && !other.node.getComponent("hook").occupied) {
             this.hook = other.node.getComponent("hook");
             this.hook.moveSpeed = this.speed;
@@ -52,20 +36,24 @@ cc.Class({
             this.theta = other.node.getRotation() * (Math.PI / 180);
             this.node.x = other.node.x - (40 + this.node.height / 2) * Math.sin(this.theta);
             this.node.y = other.node.y - (40 + this.node.height / 2) * Math.cos(this.theta);
-            //console.log(this.node.x + " " + this.node.y);
             this.hooked = true;
             this.hook.occupied = true;
             return;
         }
     },
 
-    start: function start() {},
+    start: function start() {
+        this.canvas = cc.find("Canvas").getComponent("game");
+    },
     update: function update(dt) {
         if (this.hooked) {
             if (this.hook.occupied) {
                 this.node.x += this.speed * Math.sin(this.theta);
                 this.node.y += this.speed * Math.cos(this.theta);
             } else {
+                this.canvas.add1.string = "+" + this.value;
+                this.canvas.add1.getComponent("label").play = true;
+                this.canvas.money1 += this.value;
                 this.node.destroy();
             }
         }

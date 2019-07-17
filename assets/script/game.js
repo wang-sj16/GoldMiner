@@ -16,21 +16,12 @@ cc.Class({
         player1: cc.Node,
         base: cc.Node,
         hook: cc.Node,
-        // foo: {
-        //     // ATTRIBUTES:
-        //     default: null,        // The default value will be used only when the component attaching
-        //                           // to a node for the first time
-        //     type: cc.SpriteFrame, // optional, default is typeof default
-        //     serializable: true,   // optional, default is true
-        // },
-        // bar: {
-        //     get () {
-        //         return this._bar;
-        //     },
-        //     set (value) {
-        //         this._bar = value;
-        //     }
-        // },
+        moneyLabel1: cc.Label,
+        add1: cc.Label,
+        money1: 0,
+        target: 0,
+        countDown: cc.Label,
+        broadcostTimes: 10,
     },
 
     // LIFE-CYCLE CALLBACKS:
@@ -38,11 +29,28 @@ cc.Class({
     onLoad () {
         cc.director.getCollisionManager().enabledDebugDraw = false;
         cc.director.getCollisionManager().enabled=true;
+        //this.schedule(this.doCountdownTime,1);
+
     },
 
     start () { 
-
+        this.schedule(this.doCountdownTime,1);
     },
+
+    //倒计时
+    doCountdownTime(){
+    if (this.broadcostTimes >= 0 ) {
+        this.countDown.string = "-"+this.broadcostTimes+"s";
+        this.broadcostTimes -= 1;
+        if(this.broadcostTimes == 0){
+            if(this.money1>=this.target){
+                console.log("You win! Next Level!");
+            }else{
+                console.log("You lose! Game Over!");
+            }
+        }
+    }
+},
 
     update (dt) {
         this.draw.clear();
@@ -53,5 +61,7 @@ cc.Class({
         this.draw.lineTo(worldPos.x, worldPos.y);
         // 把路径画实，能看见啦！
         this.draw.stroke();
+        
+        this.moneyLabel1.string = "$ " + this.money1;
     },
 });

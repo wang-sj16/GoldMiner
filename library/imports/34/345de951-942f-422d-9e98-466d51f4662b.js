@@ -23,7 +23,7 @@ cc.Class({
         hooked: false,
         theta: 0,
         moveSpeed: 3,
-        toRight: true //1 means go right; -1 means go left
+        toRight: true
     },
     onCollisionEnter: function onCollisionEnter(other, self) {
         //碰撞则播放爆炸动画
@@ -61,8 +61,8 @@ cc.Class({
         this.animationComponent = this.getComponent(cc.Animation);
     },
     start: function start() {
+        this.canvas = cc.find("Canvas").getComponent("game");
         var num = Math.random();
-        console.log(num);
         if (num > 0.5) {
             this.toRight = true;
             this.animationComponent.play("diamondPigRunR");
@@ -93,6 +93,9 @@ cc.Class({
                 this.node.x += this.speed * Math.sin(this.theta);
                 this.node.y += this.speed * Math.cos(this.theta);
             } else {
+                this.canvas.add1.string = "+" + this.value;
+                this.canvas.add1.getComponent("label").play = true;
+                this.canvas.money1 += this.value;
                 this.node.destroy();
             }
         }

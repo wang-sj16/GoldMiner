@@ -55,8 +55,8 @@
     },
     "_position": {
       "__type__": "cc.Vec3",
-      "x": -145,
-      "y": -118,
+      "x": -51,
+      "y": -114,
       "z": 0
     },
     "_scale": {
@@ -105,18 +105,6 @@
     "_isTrimmedMode": true,
     "_state": 0,
     "_atlas": null,
-    "_id": ""
-  },
-  {
-    "__type__": "345delRlC9CLZ6YRm1R9GYr",
-    "_name": "",
-    "_objFlags": 0,
-    "node": {
-      "__id__": 1
-    },
-    "_enabled": true,
-    "speed": 3.5,
-    "value": 802,
     "_id": ""
   },
   {
@@ -355,6 +343,22 @@
         "y": 13.276877761413846
       }
     ],
+    "_id": ""
+  },
+  {
+    "__type__": "345delRlC9CLZ6YRm1R9GYr",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 1
+    },
+    "_enabled": true,
+    "speed": 3.5,
+    "value": 802,
+    "hooked": false,
+    "theta": 0,
+    "moveSpeed": 3,
+    "toRight": true,
     "_id": ""
   },
   {

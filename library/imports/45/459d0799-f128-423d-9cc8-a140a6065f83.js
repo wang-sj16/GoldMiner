@@ -24,15 +24,6 @@ cc.Class({
         occupied: false
     },
 
-    goDown: function goDown() {
-        // 跳跃上升
-        //var jumpUp = cc.moveBy(this.jumpDuration, cc.v2(0, this.jumpHeight));
-        // 下落
-        //var jumpDown = cc.moveBy(this.jumpDuration, cc.v2(0, -this.jumpHeight));
-        // 不断重复
-        //return cc.repeatForever(cc.sequence(jumpUp, jumpDown));
-    },
-
     onKeyDown: function onKeyDown(event) {
         // set a flag when key pressed
         switch (event.keyCode) {
