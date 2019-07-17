@@ -1,6 +1,6 @@
 "use strict";
-cc._RF.push(module, '4f1857SKBpE6KiP5vfRCu09', 'background');
-// script/background.js
+cc._RF.push(module, 'c3d89e4p49CBbTozCCRCLeI', 'fire1');
+// script/fire1.js
 
 "use strict";
 
@@ -18,30 +18,48 @@ cc.Class({
     extends: cc.Component,
 
     properties: {
-        hook: cc.Node
+        hook: cc.Node,
+        num: 3,
+        audio: {
+            default: null,
+            type: cc.AudioClip
+        },
+        count: cc.Label
     },
 
     // LIFE-CYCLE CALLBACKS:
 
     // onLoad () {},
+
     onTouchStart: function onTouchStart(event) {
-        // set a flag when key pressed
-        this.hook.getComponent("hook").down = true;
+        if (this.hook.getComponent("hook").flag == 2 && this.num > 0) {
+            this.hook.getComponent("hook").moveSpeed = 6;
+            if (this.hook.getComponent("hook").item) {
+                this.hook.getComponent("hook").item.destroy();
+                cc.audioEngine.play(this.audio, false, 1);
+                this.num -= 1;
+            }
+        }
     },
 
     /*
         onMouseDown (event) {
-            let mouseType = event.getButton();
-            this.hook.getComponent("hook").down = true;
+            //this.hook.getComponent("hook").down = true;
+            if(this.hook.getComponent("hook").flag == 2 && this.num>0){
+                this.hook.getComponent("hook").moveSpeed=6,
+                this.hook.getComponent("hook").item.destroy();
+                cc.audioEngine.play(this.audio, false, 1);
+                this.num -= 1;
+            }
         },
     */
     start: function start() {
         this.node.on(cc.Node.EventType.TOUCH_START, this.onTouchStart, this);
         this.node.on(cc.Node.EventType.MOUSE_DOWN, this.onMouseDown, this);
+    },
+    update: function update(dt) {
+        this.count.string = "x" + this.num;
     }
-}
-
-// update (dt) {},
-);
+});
 
 cc._RF.pop();

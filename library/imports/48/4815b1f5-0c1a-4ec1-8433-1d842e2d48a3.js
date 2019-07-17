@@ -37,6 +37,7 @@ cc.Class({
             this.node.y = other.node.y - (40 + this.node.height / 2) * Math.cos(this.theta);
             this.hooked = true;
             this.hook.occupied = true;
+            this.hook.item = this.node;
             return;
         } else if (other.node.group == 'items') {
             if (!this.hooked) {

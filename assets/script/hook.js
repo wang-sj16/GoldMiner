@@ -16,6 +16,7 @@ cc.Class({
         down: false,
         flag: 0,
         occupied: false,
+        item: cc.Node,
     },
 
     onKeyDown (event) {
@@ -85,6 +86,7 @@ cc.Class({
                 this.node.x = this.initX;
                 this.node.y = this.initY;
                 this.moveSpeed = 6;
+                this.item = null;
                 if(!this.playing){
                     this.occupied = false;
                     if(this.node.getRotation()>30){

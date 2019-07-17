@@ -590,19 +590,9 @@
     "relativePath": "anim/hookRotation3.anim"
   },
   "1f086e9a-44a0-4969-9f4d-5a97061892c2": {
-    "asset": 1563391258005,
-    "meta": 1563391258026,
+    "asset": 1563394858794,
+    "meta": 1563394858803,
     "relativePath": "scene/level1.fire"
-  },
-  "4f185ed2-281a-44e8-a88f-e6f7d10aed3d": {
-    "asset": 1563373780250,
-    "meta": 1563374066506,
-    "relativePath": "script/background.js"
-  },
-  "459d0799-f128-423d-9cc8-a140a6065f83": {
-    "asset": 1563373810895,
-    "meta": 1563374066559,
-    "relativePath": "script/hook.js"
   },
   "e50392c5-d226-4e67-b6c6-3cd622192ae1": {
     "asset": 1563373759642,
@@ -618,21 +608,6 @@
     "asset": 1563377056726,
     "meta": 1563377057594,
     "relativePath": "script/label.js"
-  },
-  "09721b32-324f-49ab-b17a-26e10ad95cf2": {
-    "asset": 1563377657011,
-    "meta": 1563377671108,
-    "relativePath": "script/items.js"
-  },
-  "345de951-942f-422d-9e98-466d51f4662b": {
-    "asset": 1563377997924,
-    "meta": 1563378004888,
-    "relativePath": "script/diamondPig.js"
-  },
-  "4815b1f5-0c1a-4ec1-8433-1d842e2d48a3": {
-    "asset": 1563378003843,
-    "meta": 1563378004888,
-    "relativePath": "script/pig.js"
   },
   "c5e9f632-8383-4d0e-a2c2-22011ace7daa": {
     "asset": 1563379281166,
@@ -664,9 +639,39 @@
     "meta": 1563389383618,
     "relativePath": "anim/tntbomb.anim"
   },
+  "09721b32-324f-49ab-b17a-26e10ad95cf2": {
+    "asset": 1563392464694,
+    "meta": 1563392557950,
+    "relativePath": "script/items.js"
+  },
+  "345de951-942f-422d-9e98-466d51f4662b": {
+    "asset": 1563393424267,
+    "meta": 1563393425753,
+    "relativePath": "script/diamondPig.js"
+  },
+  "4815b1f5-0c1a-4ec1-8433-1d842e2d48a3": {
+    "asset": 1563393398418,
+    "meta": 1563393425790,
+    "relativePath": "script/pig.js"
+  },
   "ecae1b93-bc10-4a03-80b4-f0b58c442ffd": {
-    "asset": 1563390993265,
-    "meta": 1563390994624,
+    "asset": 1563393735334,
+    "meta": 1563393770931,
     "relativePath": "script/tnt.js"
+  },
+  "4f185ed2-281a-44e8-a88f-e6f7d10aed3d": {
+    "asset": 1563394612689,
+    "meta": 1563394613531,
+    "relativePath": "script/background.js"
+  },
+  "c3d897b8-a78f-4205-b4e8-cc209108b788": {
+    "asset": 1563394717075,
+    "meta": 1563394718195,
+    "relativePath": "script/fire1.js"
+  },
+  "459d0799-f128-423d-9cc8-a140a6065f83": {
+    "asset": 1563394820229,
+    "meta": 1563394821701,
+    "relativePath": "script/hook.js"
   }
 }

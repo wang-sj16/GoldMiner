@@ -13,19 +13,37 @@ cc.Class({
 
     properties: {
         hook: cc.Node,
+        num: 3,
+        audio: {
+            default: null,
+            type: cc.AudioClip
+        },
+        count: cc.Label,
     },
 
     // LIFE-CYCLE CALLBACKS:
 
     // onLoad () {},
+    
     onTouchStart (event) {
-        // set a flag when key pressed
-        this.hook.getComponent("hook").down = true;
+        if(this.hook.getComponent("hook").flag == 2 && this.num>0){
+            this.hook.getComponent("hook").moveSpeed=6;
+            if(this.hook.getComponent("hook").item){
+                this.hook.getComponent("hook").item.destroy();
+                cc.audioEngine.play(this.audio, false, 1);
+                this.num -= 1;
+            }
+        }
     },
 /*
     onMouseDown (event) {
-        let mouseType = event.getButton();
-        this.hook.getComponent("hook").down = true;
+        //this.hook.getComponent("hook").down = true;
+        if(this.hook.getComponent("hook").flag == 2 && this.num>0){
+            this.hook.getComponent("hook").moveSpeed=6,
+            this.hook.getComponent("hook").item.destroy();
+            cc.audioEngine.play(this.audio, false, 1);
+            this.num -= 1;
+        }
     },
 */
     start () {
@@ -33,5 +51,7 @@ cc.Class({
         this.node.on(cc.Node.EventType.MOUSE_DOWN, this.onMouseDown, this);
     },
 
-    // update (dt) {},
+    update (dt) {
+        this.count.string = "x"+this.num;
+    },
 });

@@ -31,6 +31,8 @@ cc.Class({
             //console.log(this.node.x + " " + this.node.y);
             this.hooked = true;
             this.hook.occupied = true;
+            this.hook.item = this.node;
+
             return ;
         }else if (other.node.group == 'items'){
             if(!this.hooked){

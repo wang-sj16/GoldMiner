@@ -30,7 +30,6 @@ cc.Class({
 
         if (other.node.group == 'hook' && !other.node.getComponent("hook").occupied){
             this.hook = other.node.getComponent("hook");
-            this.hook.moveSpeed = this.speed;
             this.hook.down = false;
             //this.theta = other.node.getRotation()*(Math.PI / 180);
             //this.node.x = other.node.x-(40+this.node.height/2)*Math.sin(this.theta);
