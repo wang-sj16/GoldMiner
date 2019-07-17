@@ -375,7 +375,7 @@
     "relativePath": "img/rock.png"
   },
   "4acf02a9-dacf-47ca-926c-789d3eae40d2": {
-    "asset": 1563375755975,
+    "asset": 1563386896830,
     "meta": 1563211334363,
     "relativePath": "script"
   },
@@ -590,8 +590,8 @@
     "relativePath": "anim/hookRotation3.anim"
   },
   "1f086e9a-44a0-4969-9f4d-5a97061892c2": {
-    "asset": 1563384718085,
-    "meta": 1563384718101,
+    "asset": 1563391258005,
+    "meta": 1563391258026,
     "relativePath": "scene/level1.fire"
   },
   "4f185ed2-281a-44e8-a88f-e6f7d10aed3d": {
@@ -665,8 +665,8 @@
     "relativePath": "anim/tntbomb.anim"
   },
   "ecae1b93-bc10-4a03-80b4-f0b58c442ffd": {
-    "asset": 1563390323206,
-    "meta": 1563390323902,
+    "asset": 1563390993265,
+    "meta": 1563390994624,
     "relativePath": "script/tnt.js"
   }
 }

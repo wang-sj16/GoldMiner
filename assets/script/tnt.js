@@ -16,6 +16,10 @@ cc.Class({
         value: 0,
         hooked: false,
         theta: 0,
+        audio: {
+            default: null,
+            type: cc.AudioClip
+        },
 
     },
 
@@ -34,6 +38,7 @@ cc.Class({
             this.hooked = true;
             this.hook.occupied = true;
             this.animationComponent.play("tntbomb");
+            cc.audioEngine.play(this.audio, false, 1);
             return ;
         }
     },
@@ -47,7 +52,7 @@ cc.Class({
             var children = cc.find("Canvas").children;
             for (let item of children){
                 if(item.group == "items" || item.group == "pig"){
-                    if( Math.pow(this.node.x-item.x ,2)+Math.pow(this.node.y-item.y ,2) < 15000){
+                    if( Math.pow(this.node.x-item.x ,2)+Math.pow(this.node.y-item.y ,2) < 20000){
                         item.destroy();
                     }
                 }

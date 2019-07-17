@@ -21,7 +21,11 @@ cc.Class({
         speed: 0,
         value: 0,
         hooked: false,
-        theta: 0
+        theta: 0,
+        audio: {
+            default: null,
+            type: cc.AudioClip
+        }
 
     },
 
@@ -40,6 +44,7 @@ cc.Class({
             this.hooked = true;
             this.hook.occupied = true;
             this.animationComponent.play("tntbomb");
+            cc.audioEngine.play(this.audio, false, 1);
             return;
         }
     },
@@ -60,7 +65,7 @@ cc.Class({
                     var item = _step.value;
 
                     if (item.group == "items" || item.group == "pig") {
-                        if (Math.pow(this.node.x - item.x, 2) + Math.pow(this.node.y - item.y, 2) < 15000) {
+                        if (Math.pow(this.node.x - item.x, 2) + Math.pow(this.node.y - item.y, 2) < 20000) {
                             item.destroy();
                         }
                     }
