@@ -42,8 +42,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 85,
-      "height": 85
+      "width": 95,
+      "height": 95
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -52,8 +52,8 @@
     },
     "_position": {
       "__type__": "cc.Vec3",
-      "x": 195,
-      "y": -177,
+      "x": 212,
+      "y": -158,
       "z": 0
     },
     "_scale": {
@@ -222,6 +222,8 @@
     "_enabled": true,
     "speed": 1.5,
     "value": 500,
+    "hooked": false,
+    "theta": 0,
     "_id": ""
   },
   {
