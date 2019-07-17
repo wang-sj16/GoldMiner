@@ -20,7 +20,8 @@ cc.Class({
     properties: {
         moveSpeed: 6,
         down: false,
-        flag: 0
+        flag: 0,
+        occupied: false
     },
 
     goDown: function goDown() {
@@ -59,31 +60,29 @@ cc.Class({
     // LIFE-CYCLE CALLBACKS:
 
     onLoad: function onLoad() {
-        var animationComponent = this.getComponent(cc.Animation);
+        this.animationComponent = this.getComponent(cc.Animation);
         this.initX = this.node.x;
         this.initY = this.node.y;
-        animationComponent.play("hookRotation");
+        this.animationComponent.play("hookRotation");
         this.playing = true;
         cc.systemEvent.on(cc.SystemEvent.EventType.KEY_DOWN, this.onKeyDown, this);
     },
 
     start: function start() {},
     update: function update(dt) {
-        var animationComponent = this.getComponent(cc.Animation);
-        //console.log(this.node.getRotation());
-
         if (this.down && this.flag != 2) {
             this.flag = 1;
             this.playing = false;
-            animationComponent.stop("hookRotation");
-            animationComponent.stop("hookRotation2");
-            animationComponent.stop("hookRotation3");
+            this.animationComponent.stop("hookRotation");
+            this.animationComponent.stop("hookRotation2");
+            this.animationComponent.stop("hookRotation3");
             var theta = this.node.getRotation() * (Math.PI / 180);
             this.node.x -= this.moveSpeed * Math.sin(theta);
             this.node.y -= this.moveSpeed * Math.cos(theta);
 
             if (this.node.x < -450 || this.node.x > 450 || this.node.y < -240) {
                 this.down = false;
+                this.occupied = true;
             }
         } else {
             if (this.node.y < this.initY) {
@@ -99,13 +98,13 @@ cc.Class({
                 this.node.y = this.initY;
                 this.moveSpeed = 6;
                 if (!this.playing) {
-
+                    this.occupied = false;
                     if (this.node.getRotation() > 30) {
-                        animationComponent.play("hookRotation2");
+                        this.animationComponent.play("hookRotation2");
                     } else if (this.node.getRotation() < -30) {
-                        animationComponent.play("hookRotation3");
+                        this.animationComponent.play("hookRotation3");
                     } else {
-                        animationComponent.play("hookRotation");
+                        this.animationComponent.play("hookRotation");
                     }
                     this.playing = true;
                 }

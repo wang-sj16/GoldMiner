@@ -20,7 +20,7 @@ cc.Class({
     properties: {
         speed: 0,
         value: 0,
-        move: false,
+        hooked: false,
         theta: 0
         // foo: {
         //     // ATTRIBUTES:
@@ -44,24 +44,30 @@ cc.Class({
     // onLoad () {},
     onCollisionEnter: function onCollisionEnter(other, self) {
         //碰撞则播放爆炸动画
-        if (other.node.group == 'hook') {
-            console.log(self.name);
-            other.node.getComponent("hook").moveSpeed = this.speed;
-            other.node.getComponent("hook").down = false;
+        //console.log(other.node.occupied);
+        if (other.node.group == 'hook' && !other.node.getComponent("hook").occupied) {
+            this.hook = other.node.getComponent("hook");
+            this.hook.moveSpeed = this.speed;
+            this.hook.down = false;
             this.theta = other.node.getRotation() * (Math.PI / 180);
             this.node.x = other.node.x - (40 + this.node.height / 2) * Math.sin(this.theta);
             this.node.y = other.node.y - (40 + this.node.height / 2) * Math.cos(this.theta);
             //console.log(this.node.x + " " + this.node.y);
-            this.move = true;
+            this.hooked = true;
+            this.hook.occupied = true;
             return;
         }
     },
 
     start: function start() {},
     update: function update(dt) {
-        if (this.move) {
-            this.node.x += this.speed * Math.sin(this.theta);
-            this.node.y += this.speed * Math.cos(this.theta);
+        if (this.hooked) {
+            if (this.hook.occupied) {
+                this.node.x += this.speed * Math.sin(this.theta);
+                this.node.y += this.speed * Math.cos(this.theta);
+            } else {
+                this.node.destroy();
+            }
         }
     }
 });

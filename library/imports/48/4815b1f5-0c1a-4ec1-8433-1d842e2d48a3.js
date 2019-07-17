@@ -27,27 +27,27 @@ cc.Class({
     },
     onCollisionEnter: function onCollisionEnter(other, self) {
         //碰撞则播放爆炸动画
-        var animationComponent = this.getComponent(cc.Animation);
-        if (other.node.group == 'hook') {
-            console.log(self.name);
-            other.node.getComponent("hook").moveSpeed = this.speed;
-            other.node.getComponent("hook").down = false;
+
+        if (other.node.group == 'hook' && !other.node.getComponent("hook").occupied) {
+            this.hook = other.node.getComponent("hook");
+            this.hook.moveSpeed = this.speed;
+            this.hook.down = false;
             this.theta = other.node.getRotation() * (Math.PI / 180);
             this.node.x = other.node.x - (40 + this.node.height / 2) * Math.sin(this.theta);
             this.node.y = other.node.y - (40 + this.node.height / 2) * Math.cos(this.theta);
-            //console.log(this.node.x + " " + this.node.y);
             this.hooked = true;
+            this.hook.occupied = true;
             return;
         } else if (other.node.group == 'items') {
             if (!this.hooked) {
                 if (this.toRight) {
                     this.toRight = false;
-                    animationComponent.stop("pigRunR");
-                    animationComponent.play("pigRun");
+                    this.animationComponent.stop("pigRunR");
+                    this.animationComponent.play("pigRun");
                 } else {
                     this.toRight = true;
-                    animationComponent.stop("pigRun");
-                    animationComponent.play("pigRunR");
+                    this.animationComponent.stop("pigRun");
+                    this.animationComponent.play("pigRunR");
                 }
             }
             return;
@@ -57,42 +57,43 @@ cc.Class({
 
     // onLoad () {},
     onLoad: function onLoad() {
-        //var animationComponent = this.getComponent(cc.Animation);
-        //animationComponent.play("diamondPigRunR");
+        this.animationComponent = this.getComponent(cc.Animation);
     },
     start: function start() {
-        var animationComponent = this.getComponent(cc.Animation);
         var num = Math.random();
         console.log(num);
         if (num > 0.5) {
             this.toRight = true;
-            animationComponent.play("pigRunR");
+            this.animationComponent.play("pigRunR");
         } else {
             this.toRight = false;
-            animationComponent.play("pigRun");
+            this.animationComponent.play("pigRun");
         }
     },
     update: function update(dt) {
-        var animationComponent = this.getComponent(cc.Animation);
         if (!this.hooked) {
             if (this.toRight) {
                 this.node.x += this.moveSpeed;
                 if (this.node.x > 440) {
                     this.toRight = false;
-                    animationComponent.stop("pigRunR");
-                    animationComponent.play("pigRun");
+                    this.animationComponent.stop("pigRunR");
+                    this.animationComponent.play("pigRun");
                 }
             } else {
                 this.node.x -= this.moveSpeed;
                 if (this.node.x < -440) {
                     this.toRight = true;
-                    animationComponent.stop("pigRun");
-                    animationComponent.play("pigRunR");
+                    this.animationComponent.stop("pigRun");
+                    this.animationComponent.play("pigRunR");
                 }
             }
         } else {
-            this.node.x += this.speed * Math.sin(this.theta);
-            this.node.y += this.speed * Math.cos(this.theta);
+            if (this.hook.occupied) {
+                this.node.x += this.speed * Math.sin(this.theta);
+                this.node.y += this.speed * Math.cos(this.theta);
+            } else {
+                this.node.destroy();
+            }
         }
     }
 }

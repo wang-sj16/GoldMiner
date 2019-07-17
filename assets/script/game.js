@@ -38,7 +38,6 @@ cc.Class({
     onLoad () {
         cc.director.getCollisionManager().enabledDebugDraw = false;
         cc.director.getCollisionManager().enabled=true;
-     //   cc.director.getCollisionManager().enabledDrawBoundingBox = true;
     },
 
     start () { 
@@ -48,7 +47,6 @@ cc.Class({
     update (dt) {
         this.draw.clear();
         let worldPos = this.hook.convertToWorldSpaceAR(cc.v2(-0.1, -25.3));
-        //let worldPos = this.hook.convertToWorldSpaceAR(cc.v2(0, 0));
         this.draw.lineWidth = 4.5;
         // 路径起点为0,0
         this.draw.moveTo(this.node.x+this.base.x,this.node.y + 2 +this.base.y);

@@ -12,19 +12,23 @@
       "rotation": [
         {
           "frame": 0,
-          "value": 0
+          "value": 0,
+          "curve": "linear"
         },
         {
           "frame": 0.6666666666666666,
-          "value": 80
+          "value": 80,
+          "curve": "linear"
         },
         {
           "frame": 1.3333333333333333,
-          "value": 0
+          "value": 0,
+          "curve": "linear"
         },
         {
           "frame": 2,
-          "value": -80
+          "value": -80,
+          "curve": "linear"
         },
         {
           "frame": 2.6666666666666665,

@@ -44,13 +44,11 @@ cc.Class({
     onLoad: function onLoad() {
         cc.director.getCollisionManager().enabledDebugDraw = false;
         cc.director.getCollisionManager().enabled = true;
-        //   cc.director.getCollisionManager().enabledDrawBoundingBox = true;
     },
     start: function start() {},
     update: function update(dt) {
         this.draw.clear();
         var worldPos = this.hook.convertToWorldSpaceAR(cc.v2(-0.1, -25.3));
-        //let worldPos = this.hook.convertToWorldSpaceAR(cc.v2(0, 0));
         this.draw.lineWidth = 4.5;
         // 路径起点为0,0
         this.draw.moveTo(this.node.x + this.base.x, this.node.y + 2 + this.base.y);

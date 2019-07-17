@@ -395,8 +395,8 @@
     "relativePath": "img/diamond2.png"
   },
   "50d36494-0917-48d3-af67-af520f4a6c59": {
-    "asset": 1563302280271,
-    "meta": 1563302280287,
+    "asset": 1563371694084,
+    "meta": 1563371694098,
     "relativePath": "anim/hookRotation.anim"
   },
   "b15addfe-606f-4cb2-ab24-d1f79cbc7227": {
@@ -579,16 +579,6 @@
     "meta": 1563347271405,
     "relativePath": "Prefab/pig.prefab"
   },
-  "4e15859f-5cd0-4fc2-9cfd-f9fb8489672b": {
-    "asset": 1563295938704,
-    "meta": 1563295949076,
-    "relativePath": "script/line.js"
-  },
-  "4f185ed2-281a-44e8-a88f-e6f7d10aed3d": {
-    "asset": 1563297757072,
-    "meta": 1563297758009,
-    "relativePath": "script/background.js"
-  },
   "b1fee966-f016-4453-878a-537ff415b763": {
     "asset": 1563302355819,
     "meta": 1563302355823,
@@ -599,34 +589,39 @@
     "meta": 1563302412227,
     "relativePath": "anim/hookRotation3.anim"
   },
-  "c885e183-dcd3-451c-96c1-abbb3a473122": {
-    "asset": 1563303380034,
-    "meta": 1563303380429,
-    "relativePath": "script/game.js"
-  },
   "1f086e9a-44a0-4969-9f4d-5a97061892c2": {
-    "asset": 1563349836525,
-    "meta": 1563349836529,
+    "asset": 1563373368716,
+    "meta": 1563373368737,
     "relativePath": "scene/game.fire"
   },
+  "c885e183-dcd3-451c-96c1-abbb3a473122": {
+    "asset": 1563370752778,
+    "meta": 1563370761660,
+    "relativePath": "script/game.js"
+  },
+  "4f185ed2-281a-44e8-a88f-e6f7d10aed3d": {
+    "asset": 1563370802079,
+    "meta": 1563370804533,
+    "relativePath": "script/background.js"
+  },
+  "345de951-942f-422d-9e98-466d51f4662b": {
+    "asset": 1563371003521,
+    "meta": 1563371037569,
+    "relativePath": "script/diamondPig.js"
+  },
   "459d0799-f128-423d-9cc8-a140a6065f83": {
-    "asset": 1563308526224,
-    "meta": 1563308527141,
+    "asset": 1563371035768,
+    "meta": 1563371037580,
     "relativePath": "script/hook.js"
   },
   "09721b32-324f-49ab-b17a-26e10ad95cf2": {
-    "asset": 1563346799388,
-    "meta": 1563346804255,
+    "asset": 1563371011703,
+    "meta": 1563371037610,
     "relativePath": "script/items.js"
   },
-  "345de951-942f-422d-9e98-466d51f4662b": {
-    "asset": 1563349779151,
-    "meta": 1563349808921,
-    "relativePath": "script/diamondPig.js"
-  },
   "4815b1f5-0c1a-4ec1-8433-1d842e2d48a3": {
-    "asset": 1563349808161,
-    "meta": 1563349808921,
+    "asset": 1563370988299,
+    "meta": 1563371037610,
     "relativePath": "script/pig.js"
   }
 }
