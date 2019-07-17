@@ -42585,3 +42585,115 @@ STACK:
 2019-07-17T07:50:34.514Z - normal: Simulator: GC begin ..., (js->native map) size: 0, all objects: 0
 2019-07-17T07:50:34.533Z - normal: Simulator: GC end ..., (js->native map) size: 0, all objects: 0
 2019-07-17T07:50:34.544Z - normal: Simulator: ScriptEngine::cleanup end ...
+2019-07-17T07:55:45.172Z - warn: [db-task][sync-changes] Backup unused meta file: db://assets/src/diamond_polish.png.meta
+2019-07-17T07:55:45.218Z - warn: [db-task][sync-changes] Backup unused meta file: db://assets/src/diamond1.png.meta
+2019-07-17T07:55:45.227Z - warn: [db-task][sync-changes] Backup unused meta file: db://assets/src/diamond2.png.meta
+2019-07-17T07:55:45.236Z - warn: [db-task][sync-changes] Backup unused meta file: db://assets/src/explosion1.png.meta
+2019-07-17T07:55:45.245Z - warn: [db-task][sync-changes] Backup unused meta file: db://assets/src/explosion2.png.meta
+2019-07-17T07:55:45.255Z - warn: [db-task][sync-changes] Backup unused meta file: db://assets/src/firecracker1.png.meta
+2019-07-17T07:55:45.263Z - warn: [db-task][sync-changes] Backup unused meta file: db://assets/src/firecracker2.png.meta
+2019-07-17T07:55:45.272Z - warn: [db-task][sync-changes] Backup unused meta file: db://assets/src/four_lear_clover1.png.meta
+2019-07-17T07:55:45.280Z - warn: [db-task][sync-changes] Backup unused meta file: db://assets/src/four_lear_clover2.png.meta
+2019-07-17T07:55:45.290Z - warn: [db-task][sync-changes] Backup unused meta file: db://assets/src/pig_diamond.png.meta
+2019-07-17T07:55:45.298Z - warn: [db-task][sync-changes] Backup unused meta file: db://assets/src/pig2_diamond.png.meta
+2019-07-17T07:55:45.305Z - warn: [db-task][sync-changes] Backup unused meta file: db://assets/src/power_liquid.png.meta
+2019-07-17T07:55:45.311Z - warn: [db-task][sync-changes] Backup unused meta file: db://assets/src/stone_book.png.meta
+2019-07-17T07:55:45.318Z - warn: [db-task][sync-changes] Backup unused meta file: db://assets/src/tnt.png.meta
+2019-07-17T07:55:45.325Z - warn: [db-task][sync-changes] Backup unused meta file: db://assets/src/xbox.png.meta
+2019-07-17T07:56:35.729Z - warn: [db-task][sync-changes] Backup unused meta file: db://assets/src.meta
+2019-07-17T07:57:21.197Z - warn: [db-task][sync-changes] Backup unused meta file: db://assets/artwork.meta
+2019-07-17T07:57:54.734Z - normal: Simulator: WORKAREA WIDTH 1920.00, HEIGHT 966.00
+2019-07-17T07:57:54.735Z - normal: Simulator: FRAME SCALE = 1.00
+2019-07-17T07:57:54.844Z - normal: Simulator: GLFWError #65544 Happen, Cocoa: Failed to retrieve display name
+2019-07-17T07:57:54.844Z - normal: Simulator: GLFWError #65544 Happen, Cocoa: Failed to retrieve display name
+2019-07-17T07:57:54.845Z - normal: Simulator: 
+2019-07-17T07:57:54.845Z - normal: Simulator: {
+2019-07-17T07:57:54.845Z - normal: Simulator: 	build_type: DEBUG
+2019-07-17T07:57:54.846Z - normal: Simulator: 	gl.vendor: Intel Inc.
+2019-07-17T07:57:54.846Z - normal: Simulator: 	gl.supports_PVRTC: false
+2019-07-17T07:57:54.846Z - normal: Simulator: 	gl.renderer: Intel(R) Iris(TM) Plus Graphics 655
+2019-07-17T07:57:54.846Z - normal: Simulator: 	gl.supports_ATITC: false
+2019-07-17T07:57:54.846Z - normal: Simulator: 	gl.supports_discard_framebuffer: false
+2019-07-17T07:57:54.847Z - normal: Simulator: 	gl.supports_NPOT: true
+2019-07-17T07:57:54.847Z - normal: Simulator: 	gl.max_texture_units: 16
+2019-07-17T07:57:54.847Z - normal: Simulator: 	gl.supports_ETC1: false
+2019-07-17T07:57:54.848Z - normal: Simulator: 	gl.max_texture_size: 16384
+2019-07-17T07:57:54.848Z - normal: Simulator: 	gl.supports_BGRA8888: false
+2019-07-17T07:57:54.848Z - normal: Simulator: 	gl.supports_vertex_array_object: true
+2019-07-17T07:57:54.848Z - normal: Simulator: 	gl.supports_OES_map_buffer: false
+2019-07-17T07:57:54.848Z - normal: Simulator: 	compiled_with_gl_state_cache: true
+2019-07-17T07:57:54.849Z - normal: Simulator: 	gl.supports_OES_packed_depth_stencil: false
+2019-07-17T07:57:54.849Z - normal: Simulator: 	gl.version: 2.1 INTEL-12.9.22
+2019-07-17T07:57:54.850Z - normal: Simulator: 	gl.supports_S3TC: true
+2019-07-17T07:57:54.850Z - normal: Simulator: 	compiled_with_profiler: false
+2019-07-17T07:57:54.850Z - normal: Simulator: 	gl.supports_OES_depth24: false
+2019-07-17T07:57:54.850Z - normal: Simulator: }
+2019-07-17T07:57:54.885Z - normal: Simulator: Project Config:
+2019-07-17T07:57:54.885Z - normal: Simulator:     project dir: /Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/
+2019-07-17T07:57:54.885Z - normal: Simulator:     writable path: $(PROJDIR)/
+2019-07-17T07:57:54.886Z - normal: Simulator:     script file: $(PROJDIR)/main.js
+2019-07-17T07:57:54.886Z - normal: Simulator:     frame size: 960 x 640
+2019-07-17T07:57:54.886Z - normal: Simulator:     frame scale: 1.00
+2019-07-17T07:57:54.886Z - normal: Simulator:     show console: NO
+2019-07-17T07:57:54.887Z - normal: Simulator:     write debug log: NO ()
+2019-07-17T07:57:54.887Z - normal: Simulator:     listen: 
+2019-07-17T07:57:54.887Z - normal: Simulator:     debugger: none
+2019-07-17T07:57:54.887Z - normal: Simulator:     add searching path:
+2019-07-17T07:57:54.887Z - normal: Simulator: resetDesignResolution request
+2019-07-17T07:57:54.887Z - normal: Simulator: ------------------------------------------------
+2019-07-17T07:57:54.888Z - normal: Simulator: LOAD Js FILE: jsb-adapter/jsb-builtin.js
+2019-07-17T07:57:54.888Z - normal: Simulator: ------------------------------------------------
+2019-07-17T07:57:54.888Z - normal: Simulator: Initializing V8, version: 6.5.254.43
+2019-07-17T07:57:54.922Z - normal: Simulator: libuv version: 1.23.1-dev
+2019-07-17T07:57:54.922Z - normal: Simulator: Debugger listening..., visit [ chrome-devtools://devtools/bundled/inspector.html?v8only=true&ws=0.0.0.0:5086/00010002-0003-4004-8005-000600070008 ] in chrome browser to debug!
+2019-07-17T07:57:54.922Z - normal: Simulator: For help see https://nodejs.org/en/docs/inspector
+2019-07-17T07:57:54.985Z - normal: Simulator: JS: Enable batch GL commands optimization!
+2019-07-17T07:57:54.986Z - normal: Simulator: resetDesignResolution request
+2019-07-17T07:57:54.987Z - normal: Simulator: ------------------------------------------------
+2019-07-17T07:57:54.987Z - normal: Simulator: LOAD Js FILE: main.js
+2019-07-17T07:57:54.987Z - normal: Simulator: ------------------------------------------------
+2019-07-17T07:57:55.294Z - normal: Simulator: iShow!
+2019-07-17T07:57:55.454Z - normal: Simulator: glGetIntegerv: pname: 0x8b4c
+2019-07-17T07:57:55.464Z - normal: Simulator: JS: Cocos Creator v2.0.10
+2019-07-17T07:57:55.751Z - normal: Simulator: JS: 0.29087401614680175
+2019-07-17T07:57:55.752Z - normal: Simulator: JS: 0.70433691764805184
+2019-07-17T07:57:57.285Z - normal: Simulator: JS: tnt<PolygonCollider>
+2019-07-17T07:57:59.324Z - normal: Simulator: JS: midGold<PolygonCollider>
+2019-07-17T07:58:01.953Z - normal: Simulator: ScriptEngine::cleanup begin ...
+2019-07-17T07:58:01.953Z - normal: Simulator: GC begin ..., (js->native map) size: 42, all objects: 121
+2019-07-17T07:58:01.982Z - normal: Simulator: GC end ..., (js->native map) size: 42, all objects: 121
+2019-07-17T07:58:01.983Z - normal: Simulator: GC begin ..., (js->native map) size: 42, all objects: 121
+2019-07-17T07:58:02.005Z - normal: Simulator: GC end ..., (js->native map) size: 42, all objects: 121
+2019-07-17T07:58:02.006Z - normal: Simulator: Destroy WebGLProgram (3) by GC
+2019-07-17T07:58:02.006Z - normal: Simulator: Destroy WebGLBuffer (5) by GC
+2019-07-17T07:58:02.006Z - normal: Simulator: Destroy WebGLTexture (22) by GC
+2019-07-17T07:58:02.007Z - normal: Simulator: Destroy WebGLTexture (21) by GC
+2019-07-17T07:58:02.007Z - normal: Simulator: Destroy WebGLBuffer (6) by GC
+2019-07-17T07:58:02.007Z - normal: Simulator: Destroy WebGLTexture (19) by GC
+2019-07-17T07:58:02.007Z - normal: Simulator: Destroy WebGLTexture (17) by GC
+2019-07-17T07:58:02.007Z - normal: Simulator: Destroy WebGLTexture (16) by GC
+2019-07-17T07:58:02.007Z - normal: Simulator: Destroy WebGLTexture (18) by GC
+2019-07-17T07:58:02.008Z - normal: Simulator: Destroy WebGLTexture (14) by GC
+2019-07-17T07:58:02.008Z - normal: Simulator: Destroy WebGLTexture (12) by GC
+2019-07-17T07:58:02.008Z - normal: Simulator: Destroy WebGLTexture (13) by GC
+2019-07-17T07:58:02.008Z - normal: Simulator: Destroy WebGLTexture (11) by GC
+2019-07-17T07:58:02.008Z - normal: Simulator: Destroy WebGLTexture (6) by GC
+2019-07-17T07:58:02.009Z - normal: Simulator: Destroy WebGLTexture (9) by GC
+2019-07-17T07:58:02.009Z - normal: Simulator: Destroy WebGLTexture (4) by GC
+2019-07-17T07:58:02.009Z - normal: Simulator: Destroy WebGLTexture (3) by GC
+2019-07-17T07:58:02.009Z - normal: Simulator: Destroy WebGLTexture (8) by GC
+2019-07-17T07:58:02.009Z - normal: Simulator: Destroy WebGLTexture (2) by GC
+2019-07-17T07:58:02.009Z - normal: Simulator: Destroy WebGLBuffer (4) by GC
+2019-07-17T07:58:02.009Z - normal: Simulator: Destroy WebGLTexture (7) by GC
+2019-07-17T07:58:02.010Z - normal: Simulator: Destroy WebGLTexture (20) by GC
+2019-07-17T07:58:02.010Z - normal: Simulator: Destroy WebGLBuffer (3) by GC
+2019-07-17T07:58:02.010Z - normal: Simulator: Destroy WebGLBuffer (1) by GC
+2019-07-17T07:58:02.010Z - normal: Simulator: Destroy WebGLBuffer (2) by GC
+2019-07-17T07:58:02.010Z - normal: Simulator: Destroy WebGLTexture (10) by GC
+2019-07-17T07:58:02.011Z - normal: Simulator: Destroy WebGLTexture (1) by GC
+2019-07-17T07:58:02.011Z - normal: Simulator: Destroy WebGLProgram (6) by GC
+2019-07-17T07:58:02.011Z - normal: Simulator: Destroy WebGLTexture (15) by GC
+2019-07-17T07:58:02.011Z - normal: Simulator: Destroy WebGLTexture (5) by GC
+2019-07-17T07:58:02.011Z - normal: Simulator: GC begin ..., (js->native map) size: 0, all objects: 0
+2019-07-17T07:58:02.034Z - normal: Simulator: GC end ..., (js->native map) size: 0, all objects: 0
+2019-07-17T07:58:02.048Z - normal: Simulator: ScriptEngine::cleanup end ...

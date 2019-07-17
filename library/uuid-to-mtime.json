@@ -302,7 +302,7 @@
   "6c737268-bec7-4614-b821-e367a1b57c8f": {
     "asset": 1563289563123,
     "meta": 1563208224278,
-    "relativePath": "res"
+    "relativePath": "img"
   },
   "086a990d-32f9-4544-85de-ce8ac08238d7": {
     "asset": 1563211307054,
@@ -312,67 +312,67 @@
   "ca4ee58d-950d-4098-85e4-abafe627ba54": {
     "asset": 1529068014000,
     "meta": 1563210723776,
-    "relativePath": "res/arrow.png"
+    "relativePath": "img/arrow.png"
   },
   "b7794c54-5288-4f08-986e-271b86d132f5": {
     "asset": 1563208432535,
     "meta": 1563210723778,
-    "relativePath": "res/background.png"
+    "relativePath": "img/background.png"
   },
   "bbdf8184-dff4-4f6d-b3ba-59ecf5f24b03": {
     "asset": 1529068014000,
     "meta": 1563210723831,
-    "relativePath": "res/base.png"
+    "relativePath": "img/base.png"
   },
   "81e69a2f-d3d7-415c-bf57-34ebf9334423": {
     "asset": 1529068014000,
     "meta": 1563210723893,
-    "relativePath": "res/boy.png"
+    "relativePath": "img/boy.png"
   },
   "4c888242-9384-4a41-a5c9-d9aae1035f84": {
     "asset": 1529068014000,
     "meta": 1563210723946,
-    "relativePath": "res/girl.png"
+    "relativePath": "img/girl.png"
   },
   "24608607-0245-4c2f-8355-69e6de95b364": {
     "asset": 1529068014000,
     "meta": 1563210723947,
-    "relativePath": "res/gold.png"
+    "relativePath": "img/gold.png"
   },
   "a779f3cf-0f83-4b88-8bdb-33d86418217b": {
     "asset": 1563190128847,
     "meta": 1563210723980,
-    "relativePath": "res/gulou.png"
+    "relativePath": "img/gulou.png"
   },
   "c5302e13-6fbd-416e-b919-c4ec0424806b": {
     "asset": 1529068014000,
     "meta": 1563210724000,
-    "relativePath": "res/ground.png"
+    "relativePath": "img/ground.png"
   },
   "a85b7abb-d7b8-4ae2-929d-4ab4625daf1a": {
     "asset": 1529068014000,
     "meta": 1563210724018,
-    "relativePath": "res/hook.png"
+    "relativePath": "img/hook.png"
   },
   "86448533-13c0-47a3-bc4a-c5376ffd1ac7": {
     "asset": 1529068014000,
     "meta": 1563210724037,
-    "relativePath": "res/pig.png"
+    "relativePath": "img/pig.png"
   },
   "e599198f-2ae6-4f59-b7eb-b2491fccc629": {
     "asset": 1563207927190,
     "meta": 1563210724053,
-    "relativePath": "res/pig2.png"
+    "relativePath": "img/pig2.png"
   },
   "edf8634b-88a8-4719-abbb-4387b85995aa": {
     "asset": 1529068014000,
     "meta": 1563210724072,
-    "relativePath": "res/pocket.png"
+    "relativePath": "img/pocket.png"
   },
   "e8297044-8536-4717-b0ef-737d2c6525b9": {
     "asset": 1529068014000,
     "meta": 1563210724076,
-    "relativePath": "res/rock.png"
+    "relativePath": "img/rock.png"
   },
   "4acf02a9-dacf-47ca-926c-789d3eae40d2": {
     "asset": 1563295735974,
@@ -382,17 +382,17 @@
   "3a9168f8-2ef5-4b24-85c2-097a2bc5922a": {
     "asset": 1563210952980,
     "meta": 1563211764269,
-    "relativePath": "res/diamond.png"
+    "relativePath": "img/diamond.png"
   },
   "b2f92d95-8eb4-4599-b7b2-4388e1ec2f9e": {
     "asset": 1563211703869,
     "meta": 1563211764270,
-    "relativePath": "res/tnt.png"
+    "relativePath": "img/tnt.png"
   },
   "e9136e66-82e8-44d8-901e-129409265982": {
     "asset": 1563210959197,
     "meta": 1563211830580,
-    "relativePath": "res/diamond2.png"
+    "relativePath": "img/diamond2.png"
   },
   "50d36494-0917-48d3-af67-af520f4a6c59": {
     "asset": 1563302280271,
@@ -402,77 +402,77 @@
   "b15addfe-606f-4cb2-ab24-d1f79cbc7227": {
     "asset": 1563214646869,
     "meta": 1563214665223,
-    "relativePath": "res/xkcd-script.ttf"
+    "relativePath": "img/xkcd-script.ttf"
   },
   "02c44017-0505-43ce-8818-e20b3d9ca3fe": {
     "asset": 1563213052218,
     "meta": 1563214665284,
-    "relativePath": "res/treature.png"
+    "relativePath": "img/treature.png"
   },
   "723a92a1-afb8-49e5-93f9-892bfda73e21": {
     "asset": 1563288994580,
     "meta": 1563289563225,
-    "relativePath": "res/bomb1.png"
+    "relativePath": "img/bomb1.png"
   },
   "b264a462-b119-44b3-a87b-25f31716a46d": {
     "asset": 1563288996099,
     "meta": 1563289563228,
-    "relativePath": "res/bomb2.png"
+    "relativePath": "img/bomb2.png"
   },
   "394a9a99-4057-4cfe-a930-b1702bc6aeb4": {
     "asset": 1563214877953,
     "meta": 1563214971854,
-    "relativePath": "res/lucky1.png"
+    "relativePath": "img/lucky1.png"
   },
   "38864163-9687-40ba-8cdb-bd386a93e79f": {
     "asset": 1563214879376,
     "meta": 1563214971862,
-    "relativePath": "res/lucky2.png"
+    "relativePath": "img/lucky2.png"
   },
   "4a7ce7c2-cf73-48b6-a7cc-eb8055ca4abb": {
     "asset": 1563215743649,
     "meta": 1563215823194,
-    "relativePath": "res/book.png"
+    "relativePath": "img/book.png"
   },
   "20b9ada5-29eb-42bf-b170-b1d09ff81d12": {
     "asset": 1563217665618,
     "meta": 1563217763898,
-    "relativePath": "res/diamondPig2.png"
+    "relativePath": "img/diamondPig2.png"
   },
   "8c7dba90-7694-4c68-af3b-6b24aa9d26ad": {
     "asset": 1563217675215,
     "meta": 1563217763899,
-    "relativePath": "res/diamondPig.png"
+    "relativePath": "img/diamondPig.png"
   },
   "47d4a203-70bf-44fd-95c7-6687f16d48e2": {
     "asset": 1563218830334,
     "meta": 1563218927217,
-    "relativePath": "res/diamondWater.png"
+    "relativePath": "img/diamondWater.png"
   },
   "d5d857d8-6771-4f5b-a7a1-34e5d5f11e6f": {
     "asset": 1563219490792,
     "meta": 1563219589655,
-    "relativePath": "res/strength.png"
+    "relativePath": "img/strength.png"
   },
   "43a6a6a9-f7ee-4c8e-9682-db68c9fbc4f5": {
     "asset": 1563264463703,
     "meta": 1563264475055,
-    "relativePath": "res/diamondPig4.png"
+    "relativePath": "img/diamondPig4.png"
   },
   "1819d598-b540-4f8f-a539-c0a49ee449cb": {
     "asset": 1563264430249,
     "meta": 1563264475056,
-    "relativePath": "res/diamondPig3.png"
+    "relativePath": "img/diamondPig3.png"
   },
   "df80dba8-7e46-41d7-a22b-2bf0654ffd3e": {
     "asset": 1563264393441,
     "meta": 1563264475098,
-    "relativePath": "res/pig4.png"
+    "relativePath": "img/pig4.png"
   },
   "35e4f9c7-28e3-4d27-b0bc-7a7c9e0473d7": {
     "asset": 1563264365391,
     "meta": 1563264475101,
-    "relativePath": "res/pig3.png"
+    "relativePath": "img/pig3.png"
   },
   "254ca8e1-418e-4162-b106-da08d5085f0f": {
     "asset": 1563265851121,
@@ -512,12 +512,12 @@
   "4676d88c-623b-4b0d-a623-1a83f7890dd7": {
     "asset": 1563214877617,
     "meta": 1563289563252,
-    "relativePath": "res/fire1.png"
+    "relativePath": "img/fire1.png"
   },
   "011244ff-7c14-4291-a272-0f76d5e3e59e": {
     "asset": 1563214877785,
     "meta": 1563289563261,
-    "relativePath": "res/fire2.png"
+    "relativePath": "img/fire2.png"
   },
   "f1ab2f0b-8860-41c3-b824-355f752cbb00": {
     "asset": 1563291670685,
@@ -603,86 +603,6 @@
     "asset": 1563303380034,
     "meta": 1563303380429,
     "relativePath": "script/game.js"
-  },
-  "1b29bf70-0453-4ab1-9720-dc1d1204ab5a": {
-    "asset": 1563306928774,
-    "meta": 1563306928770,
-    "relativePath": "src"
-  },
-  "eb90a67c-1abb-4bb3-81ad-875b16a0299b": {
-    "asset": 1563306910335,
-    "meta": 1563306928829,
-    "relativePath": "src/diamond_polish.png"
-  },
-  "75b0346d-4edb-4248-b336-96a1acefc1ad": {
-    "asset": 1563306910333,
-    "meta": 1563306928830,
-    "relativePath": "src/diamond1.png"
-  },
-  "e2193e79-c372-4241-816d-724231c5f346": {
-    "asset": 1563306910335,
-    "meta": 1563306928860,
-    "relativePath": "src/explosion1.png"
-  },
-  "167a3dd4-74bd-44a1-b88a-2a6923f8ca30": {
-    "asset": 1563306910334,
-    "meta": 1563306928861,
-    "relativePath": "src/diamond2.png"
-  },
-  "172d87f9-01e9-4741-88a7-44a39d338cb8": {
-    "asset": 1563306910336,
-    "meta": 1563306928893,
-    "relativePath": "src/explosion2.png"
-  },
-  "f9a6290a-7aff-43c1-91ae-525be7f361d4": {
-    "asset": 1563306910337,
-    "meta": 1563306928904,
-    "relativePath": "src/firecracker1.png"
-  },
-  "f5848cc3-0695-4eac-930a-8e5aae5486b2": {
-    "asset": 1563306910338,
-    "meta": 1563306928927,
-    "relativePath": "src/firecracker2.png"
-  },
-  "f1b79f3a-165e-43bc-ad9b-a760c008d0e9": {
-    "asset": 1563306910339,
-    "meta": 1563306928939,
-    "relativePath": "src/four_lear_clover1.png"
-  },
-  "02dc3e62-a76f-4b56-a2af-c27a3cc70e7a": {
-    "asset": 1563306910340,
-    "meta": 1563306928964,
-    "relativePath": "src/four_lear_clover2.png"
-  },
-  "7ef10606-f9f1-490c-a5eb-5e992e331fad": {
-    "asset": 1563306910344,
-    "meta": 1563306928981,
-    "relativePath": "src/pig_diamond.png"
-  },
-  "6a9e2cfe-de6b-4ff3-940e-e2b2b041661a": {
-    "asset": 1563306910342,
-    "meta": 1563306929002,
-    "relativePath": "src/pig2_diamond.png"
-  },
-  "98744242-cfd0-4099-9c0f-53089f4fe3fe": {
-    "asset": 1563306910345,
-    "meta": 1563306929019,
-    "relativePath": "src/power_liquid.png"
-  },
-  "431b426b-a7d9-4279-95be-5cdfbb168039": {
-    "asset": 1563306910346,
-    "meta": 1563306929032,
-    "relativePath": "src/stone_book.png"
-  },
-  "1d027bab-9918-4c84-a1a2-3fe45908eea7": {
-    "asset": 1563306910347,
-    "meta": 1563306929053,
-    "relativePath": "src/tnt.png"
-  },
-  "7ef3d5cf-b834-40e3-babd-c6d003bce126": {
-    "asset": 1563306910349,
-    "meta": 1563306929074,
-    "relativePath": "src/xbox.png"
   },
   "1f086e9a-44a0-4969-9f4d-5a97061892c2": {
     "asset": 1563349836525,
