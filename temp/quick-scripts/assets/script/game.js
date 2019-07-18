@@ -56,14 +56,18 @@ cc.Class({
                 if (this.money1 >= this.target) {
                     console.log("You win! Next Level!");
                     var fire1 = cc.find("Canvas/fire1").getComponent("fire1");
-                    Global.currentLevel++;
                     Global.currentMoney = this.money1;
                     Global.fires = fire1.num;
                     Global.betterDiamonds = 0;
                     Global.powers = 0;
                     Global.luckys = 0;
                     Global.stoneBooks = 0;
-                    cc.director.loadScene("next");
+                    if (Global.currentLevel == 5) {
+                        cc.director.loadScene("pass");
+                    } else {
+                        Global.currentLevel++;
+                        cc.director.loadScene("next");
+                    }
                 } else {
                     var _fire = cc.find("Canvas/fire1").getComponent("fire1");
                     Global.currentLevel++;

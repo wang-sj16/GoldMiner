@@ -106,11 +106,11 @@ cc.Class({
             }
 
             if (num2 < 0.3) {
-                this.value = 300;
+                this.value = 200;
             } else if (num2 < 0.6) {
                 this.value = 80;
             } else if (num2 < 0.8) {
-                this.value = 700;
+                this.value = 500;
             } else {
                 this.value = -1;
             }
@@ -127,15 +127,25 @@ cc.Class({
             }
 
             if (_num2 < 0.2) {
-                this.value = 400;
+                this.value = 300;
             } else if (_num2 < 0.4) {
-                this.value = 200;
+                this.value = 150;
             } else if (_num2 < 0.6) {
-                this.value = 900;
+                this.value = 600;
             } else if (_num2 < 0.8) {
                 this.value = -1;
             } else {
                 this.value = -2;
+            }
+        }
+        if (this.node._name == "diamond" || this.node._name == "diamondPig") {
+            if (Global.betterDiamonds > 0) {
+                this.value += 200;
+            }
+        }
+        if (this.node._name == "smallRock" || this.node._name == "midRock" || this.node._name == "bigRock") {
+            if (Global.stoneBooks > 0) {
+                this.value = 2 * this.value;
             }
         }
 

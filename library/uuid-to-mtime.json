@@ -585,8 +585,8 @@
     "relativePath": "anim/hookRotation3.anim"
   },
   "1f086e9a-44a0-4969-9f4d-5a97061892c2": {
-    "asset": 1563461054698,
-    "meta": 1563461054702,
+    "asset": 1563461557513,
+    "meta": 1563461557536,
     "relativePath": "scene/level1.fire"
   },
   "e50392c5-d226-4e67-b6c6-3cd622192ae1": {
@@ -789,24 +789,39 @@
     "meta": 1563459765749,
     "relativePath": "script/global.js"
   },
-  "c885e183-dcd3-451c-96c1-abbb3a473122": {
-    "asset": 1563460601920,
-    "meta": 1563460602895,
-    "relativePath": "script/game.js"
-  },
   "09721b32-324f-49ab-b17a-26e10ad95cf2": {
-    "asset": 1563460568081,
-    "meta": 1563460602895,
+    "asset": 1563461556607,
+    "meta": 1563461557305,
     "relativePath": "script/items.js"
   },
-  "cc1e4287-5499-48ab-9b49-c558821c5d65": {
-    "asset": 1563460781918,
-    "meta": 1563460792178,
+  "480fb771-36d8-47f6-b7c9-9fe124144a2c": {
+    "asset": 1563462344335,
+    "meta": 1563462344339,
     "relativePath": "scene/level3.fire"
   },
-  "8c061dd9-7bca-4e44-b5d6-af30edbb43ca": {
-    "asset": 1563460782450,
-    "meta": 1563460796785,
+  "5b2cf356-4a35-4524-95e4-b8ac9bebd1ce": {
+    "asset": 1563461797195,
+    "meta": 1563461812303,
     "relativePath": "scene/level4.fire"
+  },
+  "df275fa1-e02e-4e9c-930e-8b602b31da5e": {
+    "asset": 1563461813373,
+    "meta": 1563461818408,
+    "relativePath": "scene/level5.fire"
+  },
+  "dfc016d6-1287-4c20-a7aa-38512e4ed1c1": {
+    "asset": 1563462002686,
+    "meta": 1563462002692,
+    "relativePath": "scene/pass.fire"
+  },
+  "7781633f-ad72-4529-a8b5-ec4b7ee207fe": {
+    "asset": 1563462062232,
+    "meta": 1563462070484,
+    "relativePath": "script/pass.js"
+  },
+  "c885e183-dcd3-451c-96c1-abbb3a473122": {
+    "asset": 1563462212254,
+    "meta": 1563462213638,
+    "relativePath": "script/game.js"
   }
 }
