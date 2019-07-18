@@ -55,8 +55,8 @@
     },
     "_position": {
       "__type__": "cc.Vec3",
-      "x": -51,
-      "y": -114,
+      "x": -147,
+      "y": -145,
       "z": 0
     },
     "_scale": {
@@ -122,6 +122,12 @@
       },
       {
         "__uuid__": "1256d46f-bebe-42ca-ae3f-4b65b5f7263a"
+      },
+      {
+        "__uuid__": "be15cfa7-bf40-491e-af1e-304e970d126b"
+      },
+      {
+        "__uuid__": "158262bf-328b-4c9a-a971-de638f98f2aa"
       }
     ],
     "playOnLoad": false,
@@ -346,7 +352,7 @@
     "_id": ""
   },
   {
-    "__type__": "345delRlC9CLZ6YRm1R9GYr",
+    "__type__": "09721syMk9Jq7F6JuEK2Vzy",
     "_name": "",
     "_objFlags": 0,
     "node": {

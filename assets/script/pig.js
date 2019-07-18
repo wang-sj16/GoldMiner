@@ -17,7 +17,7 @@ cc.Class({
         hooked: false,
         theta: 0,
         moveSpeed: 3,
-        toRight: true,   //1 means go right; -1 means go left
+        toRight: true,
     },
     onCollisionEnter:function(other,self){              //碰撞则播放爆炸动画
 
@@ -51,11 +51,11 @@ cc.Class({
     // LIFE-CYCLE CALLBACKS:
 
     // onLoad () {},
-    onLoad: function(){
-        this.animationComponent = this.getComponent(cc.Animation);
-    },
+
     start () {
         this.canvas = cc.find("Canvas").getComponent("game");
+        this.animationComponent = this.getComponent(cc.Animation);
+
         var num = Math.random();
         if(num>0.5){
             this.toRight = true;

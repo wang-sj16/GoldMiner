@@ -27,10 +27,13 @@
       },
       {
         "__id__": 4
+      },
+      {
+        "__id__": 5
       }
     ],
     "_prefab": {
-      "__id__": 5
+      "__id__": 6
     },
     "_opacity": 255,
     "_color": {
@@ -52,8 +55,8 @@
     },
     "_position": {
       "__type__": "cc.Vec3",
-      "x": -369,
-      "y": -107,
+      "x": -177,
+      "y": -4,
       "z": 0
     },
     "_scale": {
@@ -222,6 +225,27 @@
     "_enabled": true,
     "speed": 2.5,
     "value": 200,
+    "hooked": false,
+    "theta": 0,
+    "moveSpeed": 3,
+    "toRight": true,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.Animation",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 1
+    },
+    "_enabled": true,
+    "_defaultClip": null,
+    "_clips": [
+      {
+        "__uuid__": "e8d9696c-c946-434a-a830-4b2b15f20fef"
+      }
+    ],
+    "playOnLoad": false,
     "_id": ""
   },
   {

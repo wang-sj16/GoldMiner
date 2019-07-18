@@ -1,7 +1,7 @@
 [
   {
     "__type__": "cc.Prefab",
-    "_name": "diamond2",
+    "_name": "diamond",
     "_objFlags": 0,
     "_native": "",
     "data": {
@@ -27,10 +27,13 @@
       },
       {
         "__id__": 4
+      },
+      {
+        "__id__": 5
       }
     ],
     "_prefab": {
-      "__id__": 5
+      "__id__": 6
     },
     "_opacity": 255,
     "_color": {
@@ -52,7 +55,7 @@
     },
     "_position": {
       "__type__": "cc.Vec3",
-      "x": -45,
+      "x": -2,
       "y": -121,
       "z": 0
     },
@@ -157,8 +160,29 @@
     "_enabled": true,
     "speed": 3.5,
     "value": 800,
-    "move": false,
+    "hooked": false,
     "theta": 0,
+    "moveSpeed": 3,
+    "toRight": true,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.Animation",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 1
+    },
+    "_enabled": true,
+    "_defaultClip": {
+      "__uuid__": "61be9b1a-0dd5-45fc-a346-f2c37b69a691"
+    },
+    "_clips": [
+      {
+        "__uuid__": "61be9b1a-0dd5-45fc-a346-f2c37b69a691"
+      }
+    ],
+    "playOnLoad": false,
     "_id": ""
   },
   {
