@@ -590,8 +590,8 @@
     "relativePath": "anim/hookRotation3.anim"
   },
   "1f086e9a-44a0-4969-9f4d-5a97061892c2": {
-    "asset": 1563418113063,
-    "meta": 1563418113066,
+    "asset": 1563421762817,
+    "meta": 1563421762834,
     "relativePath": "scene/level1.fire"
   },
   "e50392c5-d226-4e67-b6c6-3cd622192ae1": {
@@ -662,7 +662,7 @@
   "411547b5-4c47-435e-bf7f-ca02854b9f59": {
     "asset": 1563416416538,
     "meta": 1563416416549,
-    "relativePath": "rockbomb.anim"
+    "relativePath": "anim/rockbomb.anim"
   },
   "4815b1f5-0c1a-4ec1-8433-1d842e2d48a3": {
     "asset": 1563415255314,
@@ -672,46 +672,56 @@
   "e8d9696c-c946-434a-a830-4b2b15f20fef": {
     "asset": 1563416942033,
     "meta": 1563416942038,
-    "relativePath": "goldbomb.anim"
+    "relativePath": "anim/goldbomb.anim"
   },
   "331bcde7-50e2-4f9a-bd7a-13d861145f98": {
     "asset": 1563417712021,
     "meta": 1563417712036,
-    "relativePath": "pigbombR.anim"
+    "relativePath": "anim/pigbombR.anim"
   },
   "09956aa2-c523-4e60-a688-93566ee4aeca": {
     "asset": 1563417597968,
     "meta": 1563417597983,
-    "relativePath": "pigbomb.anim"
+    "relativePath": "anim/pigbomb.anim"
   },
   "158262bf-328b-4c9a-a971-de638f98f2aa": {
     "asset": 1563418101877,
     "meta": 1563418101882,
-    "relativePath": "diamondPigbombR.anim"
+    "relativePath": "anim/diamondPigbombR.anim"
   },
   "be15cfa7-bf40-491e-af1e-304e970d126b": {
     "asset": 1563418079006,
     "meta": 1563418079012,
-    "relativePath": "diamondPigbomb.anim"
+    "relativePath": "anim/diamondPigbomb.anim"
   },
   "61be9b1a-0dd5-45fc-a346-f2c37b69a691": {
     "asset": 1563418227879,
     "meta": 1563418227885,
-    "relativePath": "diamondbomb.anim"
+    "relativePath": "anim/diamondbomb.anim"
   },
   "149bc5b1-b57e-48da-9929-3566554c8ac7": {
     "asset": 1563418301296,
     "meta": 1563418527094,
-    "relativePath": "pocketbomb.anim"
+    "relativePath": "anim/pocketbomb.anim"
   },
-  "c3d897b8-a78f-4205-b4e8-cc209108b788": {
-    "asset": 1563418892078,
-    "meta": 1563418948634,
-    "relativePath": "script/fire1.js"
+  "d803b863-4962-4633-aa68-5111bbf19b48": {
+    "asset": 1563421028312,
+    "meta": 1563421028315,
+    "relativePath": "anim/fireworksbomb.anim"
   },
   "09721b32-324f-49ab-b17a-26e10ad95cf2": {
-    "asset": 1563420086942,
-    "meta": 1563420090172,
+    "asset": 1563421071843,
+    "meta": 1563421072854,
     "relativePath": "script/items.js"
+  },
+  "da631fcb-3677-4409-98fe-2b260766c358": {
+    "asset": 1563421278909,
+    "meta": 1563421278926,
+    "relativePath": "Prefab/fireworks.prefab"
+  },
+  "c3d897b8-a78f-4205-b4e8-cc209108b788": {
+    "asset": 1563421307201,
+    "meta": 1563421307722,
+    "relativePath": "script/fire1.js"
   }
 }

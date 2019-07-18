@@ -45,6 +45,8 @@ cc.Class({
                     item.getComponent("items").animationComponent.play("pocketbomb");
                 } else if (item._name == "diamond") {
                     item.getComponent("items").animationComponent.play("diamondbomb");
+                } else if (item._name == "fireworks") {
+                    item.getComponent("items").animationComponent.play("fireworksbomb");
                 } else if (item._name == "pig") {
                     if (item.getComponent("items").toRight) {
                         item.getComponent("items").animationComponent.play("pigbombR");

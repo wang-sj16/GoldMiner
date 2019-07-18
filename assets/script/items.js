@@ -70,7 +70,6 @@ cc.Class({
     start () {
         this.canvas = cc.find("Canvas").getComponent("game");
         this.hook = cc.find("Canvas/hook").getComponent("hook");
-        console.log("hook speed "+this.hook);
         this.animationComponent = this.getComponent(cc.Animation);
         if(this.node._name == "pig"){
             var num = Math.random();
@@ -140,10 +139,16 @@ cc.Class({
                 this.node.x += this.speed*Math.sin(this.theta);
                 this.node.y += this.speed*Math.cos(this.theta);
             }else{
-                this.canvas.add1.string = "+" + this.value;
-                this.canvas.add1.getComponent("label").play = true;
-                this.canvas.money1 += this.value;
-                this.node.destroy();
+                if(this.node._name == "fireworks"){
+                    var fire1 = cc.find("Canvas/fire1").getComponent("fire1");
+                    fire1.num++;
+                    this.node.destroy();
+                }else{
+                    this.canvas.add1.string = "+" + this.value;
+                    this.canvas.add1.getComponent("label").play = true;
+                    this.canvas.money1 += this.value;
+                    this.node.destroy();
+                }
             }
         }
     },
