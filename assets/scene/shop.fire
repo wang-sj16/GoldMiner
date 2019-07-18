@@ -41,8 +41,8 @@
     },
     "_scale": {
       "__type__": "cc.Vec3",
-      "x": 0.969775390625,
-      "y": 0.969775390625,
+      "x": 0.9458333333333333,
+      "y": 0.9458333333333333,
       "z": 1
     },
     "_quat": {
@@ -530,7 +530,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 180.8,
+      "width": 174.05,
       "height": 50
     },
     "_anchorPoint": {
@@ -573,8 +573,8 @@
     },
     "_enabled": true,
     "_useOriginalSize": false,
-    "_string": "Print To Buy",
-    "_N$string": "Print To Buy",
+    "_string": "Click To Buy",
+    "_N$string": "Click To Buy",
     "_fontSize": 34,
     "_lineHeight": 50,
     "_enableWrapText": true,

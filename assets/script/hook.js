@@ -78,8 +78,18 @@ cc.Class({
                 this.flag = 2;
                 this.playing = false;
                 let theta = this.node.getRotation()*(Math.PI / 180);
-                this.node.x += this.moveSpeed*Math.sin(theta);
-                this.node.y += this.moveSpeed*Math.cos(theta);
+                if(Global.powers>0){
+                    if(this.moveSpeed==6){
+                        this.node.x += this.moveSpeed*Math.sin(theta);
+                        this.node.y += this.moveSpeed*Math.cos(theta);
+                    }else{
+                        this.node.x += 5*Math.sin(theta);
+                        this.node.y += 5*Math.cos(theta);
+                    }
+                }else{
+                    this.node.x += this.moveSpeed*Math.sin(theta);
+                    this.node.y += this.moveSpeed*Math.cos(theta);
+                }
                 this.down = false;
             }else{
                 this.flag = 3;

@@ -90,7 +90,51 @@ cc.Class({
                 this.toRight = false;
                 this.animationComponent.play("diamondPigRun");
             }
+        }else if(this.node._name == "pocket"){
+            let num1 = Math.random();
+            let num2 = Math.random();
+            if(num1<0.4){
+                this.speed = 3.5;
+            }else if(num1<0.7){
+                this.speed = 2;
+            }else{
+                this.speed = 1;
+            }
+
+            if(num2<0.3){
+                this.value = 300;
+            }else if(num2<0.6){
+                this.value = 80;
+            }else if(num2<0.8){
+                this.value = 700;
+            }else{
+                this.value = -1;
+            }
+        }else if(this.node._name == "treasure"){
+            let num1 = Math.random();
+            let num2 = Math.random();
+
+            if(num1<0.4){
+                this.speed = 3.5;
+            }else if(num1<0.7){
+                this.speed = 2;
+            }else{
+                this.speed = 1;
+            }
+
+            if(num2<0.2){
+                this.value = 400;
+            }else if(num2<0.4){
+                this.value = 200;
+            }else if(num2<0.6){
+                this.value = 900;
+            }else if(num2<0.8){
+                this.value = -1;
+            }else{
+                this.value = -2;
+            }
         }
+
         this.animationComponent.bombOver = function(){
             console.log("bomb!!!");
             var hook = cc.find("Canvas/hook").getComponent("hook");
@@ -137,14 +181,41 @@ cc.Class({
             
         }else{
             if(this.hook.occupied){
-                this.node.x += this.speed*Math.sin(this.theta);
-                this.node.y += this.speed*Math.cos(this.theta);
+
+                if(Global.powers>0){
+                    if(this.moveSpeed==6){
+                        this.node.x += this.speed*Math.sin(this.theta);
+                        this.node.y += this.speed*Math.cos(this.theta);
+                    }else{
+                        this.node.x += 5*Math.sin(this.theta);
+                        this.node.y += 5*Math.cos(this.theta);
+                    }
+                }else{
+                    this.node.x += this.speed*Math.sin(this.theta);
+                    this.node.y += this.speed*Math.cos(this.theta);
+                }
             }else{
                 if(this.node._name == "fireworks"){
-                    var fire1 = cc.find("Canvas/fire1").getComponent("fire1");
+                    let fire1 = cc.find("Canvas/fire1").getComponent("fire1");
                     fire1.num++;
                     this.node.destroy();
-                }else{
+                } else if(this.node._name == "pocket" && this.value == -1){
+                    let fire1 = cc.find("Canvas/fire1").getComponent("fire1");
+                    fire1.num++;
+                    this.node.destroy();
+                } else if(this.node._name == "treasure" && this.value == -2){
+                    let fire1 = cc.find("Canvas/fire1").getComponent("fire1");
+                    fire1.num += 2;
+                    this.node.destroy();
+                } else if(this.node._name == "treasure" && this.value == -1){
+                    if(Global.powers>0){
+                        let fire1 = cc.find("Canvas/fire1").getComponent("fire1");
+                        fire1.num += 2;
+                    }else{
+                        Global.powers = 1;
+                    }
+                    this.node.destroy();
+                } else{
                     this.canvas.add1.string = "+" + this.value;
                     this.canvas.add1.getComponent("label").play = true;
                     this.canvas.money1 += this.value;

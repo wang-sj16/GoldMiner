@@ -24,10 +24,11 @@ cc.Class({
         hook: cc.Node,
         moneyLabel1: cc.Label,
         add1: cc.Label,
+        levelLabel: cc.Label,
         money1: 0,
         target: 0,
         countDown: cc.Label,
-        broadcostTimes: 10
+        powerLogo: cc.Node
     },
 
     // LIFE-CYCLE CALLBACKS:
@@ -38,9 +39,11 @@ cc.Class({
         //this.schedule(this.doCountdownTime,1);
     },
     start: function start() {
-        this.money1 = Global.currentMoney;
+        this.broadcostTimes = 30;
         this.schedule(this.doCountdownTime, 1);
-        console.log(Global.levelTarget);
+        this.money1 = Global.currentMoney;
+        this.target = Global.targets[Global.currentLevel - 1];
+        this.levelLabel.string = "Level " + Global.currentLevel + "\nTarget: $" + this.target;
     },
 
 
@@ -52,8 +55,25 @@ cc.Class({
             if (this.broadcostTimes == 0) {
                 if (this.money1 >= this.target) {
                     console.log("You win! Next Level!");
+                    var fire1 = cc.find("Canvas/fire1").getComponent("fire1");
+                    Global.currentLevel++;
+                    Global.currentMoney = this.money1;
+                    Global.fires = fire1.num;
+                    Global.betterDiamonds = 0;
+                    Global.powers = 0;
+                    Global.luckys = 0;
+                    Global.stoneBooks = 0;
+                    cc.director.loadScene("next");
                 } else {
-                    console.log("You lose! Game Over!");
+                    var _fire = cc.find("Canvas/fire1").getComponent("fire1");
+                    Global.currentLevel++;
+                    Global.currentMoney = this.money1;
+                    Global.fires = _fire.num;
+                    Global.betterDiamonds = 0;
+                    Global.powers = 0;
+                    Global.luckys = 0;
+                    Global.stoneBooks = 0;
+                    cc.director.loadScene("lose");
                 }
             }
         }
@@ -68,6 +88,11 @@ cc.Class({
         this.draw.stroke();
 
         this.moneyLabel1.string = "$ " + this.money1;
+        if (Global.powers > 0) {
+            this.powerLogo.opacity = 255;
+        } else {
+            this.powerLogo.opacity = 0;
+        }
     }
 });
 

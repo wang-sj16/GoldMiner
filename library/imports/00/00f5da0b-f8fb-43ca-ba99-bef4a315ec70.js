@@ -109,17 +109,11 @@ cc.Class({
         }
     },
     onTouchStart6: function onTouchStart6(event) {
-        Global.currentLevel++;
         cc.director.loadScene("loadlevel");
     },
     start: function start() {
-        this.stonebookNum = Global.stoneBooks;
-        this.powerNum = Global.powers;
-        this.fireNum = Global.fires;
-        this.luckyNum = Global.luckys;
-        this.betterDiamondNum = Global.betterDiamonds;
-
-        if (this.stonebookNum > 0) {
+        var num = Math.random();
+        if (num > 0.6) {
             this.price1 = -1;
             this.stonebookLabel.string = "SOLD OUT";
         } else {
@@ -127,7 +121,8 @@ cc.Class({
             this.stonebookLabel.string = "$" + this.price1;
         }
 
-        if (this.powerNum > 0) {
+        num = Math.random();
+        if (num > 0.6) {
             this.price2 = -1;
             this.powerLabel.string = "SOLD OUT";
         } else {
@@ -135,7 +130,17 @@ cc.Class({
             this.powerLabel.string = "$" + this.price2;
         }
 
-        if (this.luckyNum > 0) {
+        num = Math.random();
+        if (num > 0.6) {
+            this.price3 = -1;
+            this.fireLabel.string = "SOLD OUT";
+        } else {
+            this.price3 = parseInt(Math.random() * (400 - 30 + 1) + 30);
+            this.fireLabel.string = "$" + this.price3;
+        }
+
+        num = Math.random();
+        if (num > 0.6) {
             this.price4 = -1;
             this.luckyLabel.string = "SOLD OUT";
         } else {
@@ -143,15 +148,14 @@ cc.Class({
             this.luckyLabel.string = "$" + this.price4;
         }
 
-        if (this.betterDiamondNum > 0) {
+        num = Math.random();
+        if (num > 0.6) {
             this.price5 = -1;
             this.betterDiamondLabel.string = "SOLD OUT";
         } else {
             this.price5 = parseInt(Math.random() * (400 - 30 + 1) + 30);
             this.betterDiamondLabel.string = "$" + this.price5;
         }
-        this.price3 = parseInt(Math.random() * (400 - 30 + 1) + 30);
-        this.fireLabel.string = "$" + this.price3;
 
         this.stonebook.on(cc.Node.EventType.TOUCH_START, this.onTouchStart1, this);
         this.power.on(cc.Node.EventType.TOUCH_START, this.onTouchStart2, this);

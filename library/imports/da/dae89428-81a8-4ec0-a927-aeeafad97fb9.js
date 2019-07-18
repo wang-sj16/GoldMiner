@@ -29,6 +29,14 @@ cc.Class({
     onLoad: function onLoad() {
         cc.director.getCollisionManager().enabledDebugDraw = false;
         cc.director.getCollisionManager().enabled = true;
+        Global.currentLevel = 1;
+        Global.currentMoney = 0;
+        Global.targets = [900, 1500, 2600, 3300, 5000];
+        Global.fires = 0;
+        Global.betterDiamonds = 0;
+        Global.powers = 0;
+        Global.luckys = 0;
+        Global.stoneBooks = 0;
     },
     update: function update(dt) {
         this.draw.clear();

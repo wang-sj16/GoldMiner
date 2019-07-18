@@ -81,8 +81,18 @@ cc.Class({
                 this.flag = 2;
                 this.playing = false;
                 var _theta = this.node.getRotation() * (Math.PI / 180);
-                this.node.x += this.moveSpeed * Math.sin(_theta);
-                this.node.y += this.moveSpeed * Math.cos(_theta);
+                if (Global.powers > 0) {
+                    if (this.moveSpeed == 6) {
+                        this.node.x += this.moveSpeed * Math.sin(_theta);
+                        this.node.y += this.moveSpeed * Math.cos(_theta);
+                    } else {
+                        this.node.x += 5 * Math.sin(_theta);
+                        this.node.y += 5 * Math.cos(_theta);
+                    }
+                } else {
+                    this.node.x += this.moveSpeed * Math.sin(_theta);
+                    this.node.y += this.moveSpeed * Math.cos(_theta);
+                }
                 this.down = false;
             } else {
                 this.flag = 3;
