@@ -36,7 +36,6 @@ cc.Class({
             //this.hook.getComponent("hook").moveSpeed=6;
             var item = this.hook.getComponent("hook").item;
             if (item) {
-
                 if (item._name == "bigRock" || item._name == "midRock" || item._name == "smallRock") {
                     item.getComponent("items").animationComponent.play("rockbomb");
                 } else if (item._name == "bigGold" || item._name == "midGold" || item._name == "smallGold") {
@@ -47,6 +46,9 @@ cc.Class({
                     item.getComponent("items").animationComponent.play("diamondbomb");
                 } else if (item._name == "fireworks") {
                     item.getComponent("items").animationComponent.play("fireworksbomb");
+                } else if (item._name == "treasure") {
+                    console.log(1234);
+                    item.getComponent("items").animationComponent.play("treasurebomb");
                 } else if (item._name == "pig") {
                     if (item.getComponent("items").toRight) {
                         item.getComponent("items").animationComponent.play("pigbombR");

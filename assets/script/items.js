@@ -18,6 +18,7 @@ cc.Class({
         theta: 0,
         moveSpeed: 3,
         toRight: true,
+        
     },
 
     // LIFE-CYCLE CALLBACKS:

@@ -1,7 +1,7 @@
 {
   "__type__": "cc.SpriteFrame",
   "content": {
-    "name": "strength",
+    "name": "power",
     "texture": "d5d857d8-6771-4f5b-a7a1-34e5d5f11e6f",
     "atlas": "",
     "rect": [

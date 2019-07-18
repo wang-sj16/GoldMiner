@@ -1,22 +1,22 @@
 {
   "__type__": "cc.SpriteFrame",
   "content": {
-    "name": "treasure",
-    "texture": "02c44017-0505-43ce-8818-e20b3d9ca3fe",
+    "name": "stoneBook",
+    "texture": "3b9f9dd2-a436-4c53-96a0-97e3447dd792",
     "atlas": "",
     "rect": [
       0,
       0,
-      1167,
-      711
+      638,
+      608
     ],
     "offset": [
       0,
       0
     ],
     "originalSize": [
-      1167,
-      711
+      638,
+      608
     ],
     "capInsets": [
       0,

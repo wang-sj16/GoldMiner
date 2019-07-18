@@ -39,6 +39,7 @@ cc.Class({
     },
     start: function start() {
         this.schedule(this.doCountdownTime, 1);
+        console.log(Global.levelTarget);
     },
 
 

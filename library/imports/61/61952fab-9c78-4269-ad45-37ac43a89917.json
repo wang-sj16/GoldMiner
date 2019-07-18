@@ -1,7 +1,7 @@
 {
   "__type__": "cc.SpriteFrame",
   "content": {
-    "name": "diamondWater",
+    "name": "betterDiamond",
     "texture": "47d4a203-70bf-44fd-95c7-6687f16d48e2",
     "atlas": "",
     "rect": [

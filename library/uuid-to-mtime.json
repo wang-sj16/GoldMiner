@@ -300,7 +300,7 @@
     "relativePath": "music/Select.mp3"
   },
   "6c737268-bec7-4614-b821-e367a1b57c8f": {
-    "asset": 1563289563123,
+    "asset": 1563423636644,
     "meta": 1563208224278,
     "relativePath": "img"
   },
@@ -375,7 +375,7 @@
     "relativePath": "img/rock.png"
   },
   "4acf02a9-dacf-47ca-926c-789d3eae40d2": {
-    "asset": 1563386896830,
+    "asset": 1563423591513,
     "meta": 1563211334363,
     "relativePath": "script"
   },
@@ -406,8 +406,8 @@
   },
   "02c44017-0505-43ce-8818-e20b3d9ca3fe": {
     "asset": 1563213052218,
-    "meta": 1563214665284,
-    "relativePath": "img/treature.png"
+    "meta": 1563424686857,
+    "relativePath": "img/treasure.png"
   },
   "723a92a1-afb8-49e5-93f9-892bfda73e21": {
     "asset": 1563288994580,
@@ -446,13 +446,13 @@
   },
   "47d4a203-70bf-44fd-95c7-6687f16d48e2": {
     "asset": 1563218830334,
-    "meta": 1563218927217,
-    "relativePath": "img/diamondWater.png"
+    "meta": 1563423365318,
+    "relativePath": "img/betterDiamond.png"
   },
   "d5d857d8-6771-4f5b-a7a1-34e5d5f11e6f": {
     "asset": 1563219490792,
-    "meta": 1563219589655,
-    "relativePath": "img/strength.png"
+    "meta": 1563423392436,
+    "relativePath": "img/power.png"
   },
   "43a6a6a9-f7ee-4c8e-9682-db68c9fbc4f5": {
     "asset": 1563264463703,
@@ -505,7 +505,7 @@
     "relativePath": "scene"
   },
   "66b9b7f1-42ee-433d-8f5a-9cf18891d14b": {
-    "asset": 1563384469097,
+    "asset": 1563424046557,
     "meta": 1563266263370,
     "relativePath": "anim"
   },
@@ -520,7 +520,7 @@
     "relativePath": "img/fire2.png"
   },
   "f1ab2f0b-8860-41c3-b824-355f752cbb00": {
-    "asset": 1563291670685,
+    "asset": 1563421273618,
     "meta": 1563291581142,
     "relativePath": "Prefab"
   },
@@ -590,8 +590,8 @@
     "relativePath": "anim/hookRotation3.anim"
   },
   "1f086e9a-44a0-4969-9f4d-5a97061892c2": {
-    "asset": 1563421762817,
-    "meta": 1563421762834,
+    "asset": 1563424875307,
+    "meta": 1563424875322,
     "relativePath": "scene/level1.fire"
   },
   "e50392c5-d226-4e67-b6c6-3cd622192ae1": {
@@ -618,11 +618,6 @@
     "asset": 1563379447745,
     "meta": 1563379449740,
     "relativePath": "scene/shop.fire"
-  },
-  "c885e183-dcd3-451c-96c1-abbb3a473122": {
-    "asset": 1563382101710,
-    "meta": 1563382102954,
-    "relativePath": "script/game.js"
   },
   "dde701db-fdb6-4ad3-8856-3aaba29ef0c6": {
     "asset": 1563382778219,
@@ -709,19 +704,39 @@
     "meta": 1563421028315,
     "relativePath": "anim/fireworksbomb.anim"
   },
-  "09721b32-324f-49ab-b17a-26e10ad95cf2": {
-    "asset": 1563421071843,
-    "meta": 1563421072854,
-    "relativePath": "script/items.js"
-  },
   "da631fcb-3677-4409-98fe-2b260766c358": {
     "asset": 1563421278909,
     "meta": 1563421278926,
     "relativePath": "Prefab/fireworks.prefab"
   },
+  "c885e183-dcd3-451c-96c1-abbb3a473122": {
+    "asset": 1563422592551,
+    "meta": 1563422593045,
+    "relativePath": "script/game.js"
+  },
+  "3b9f9dd2-a436-4c53-96a0-97e3447dd792": {
+    "asset": 1563215743649,
+    "meta": 1563423636688,
+    "relativePath": "img/stoneBook.png"
+  },
+  "84c8f3f0-f37f-45c9-bfb2-bd274b4affc1": {
+    "asset": 1563423718225,
+    "meta": 1563423718856,
+    "relativePath": "script/global.js"
+  },
+  "87675031-0d9f-4ab4-a3cb-240a66be9f7b": {
+    "asset": 1563424475503,
+    "meta": 1563424668937,
+    "relativePath": "anim/treasurebomb.anim"
+  },
+  "09721b32-324f-49ab-b17a-26e10ad95cf2": {
+    "asset": 1563424628944,
+    "meta": 1563424643181,
+    "relativePath": "script/items.js"
+  },
   "c3d897b8-a78f-4205-b4e8-cc209108b788": {
-    "asset": 1563421307201,
-    "meta": 1563421307722,
+    "asset": 1563424790150,
+    "meta": 1563424794139,
     "relativePath": "script/fire1.js"
   }
 }

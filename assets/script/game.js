@@ -35,6 +35,7 @@ cc.Class({
 
     start () { 
         this.schedule(this.doCountdownTime,1);
+        console.log(Global.levelTarget);
     },
 
     //倒计时
