@@ -1,6 +1,6 @@
-(function() {"use strict";var __module = CC_EDITOR ? module : {exports:{}};var __filename = 'preview-scripts/assets/script/startbuttons.js';var __require = CC_EDITOR ? function (request) {return cc.require(request, require);} : function (request) {return cc.require(request, __filename);};function __define (exports, require, module) {"use strict";
-cc._RF.push(module, '814batwKhpFCZv2U5FQe2OS', 'startbuttons', __filename);
-// script/startbuttons.js
+(function() {"use strict";var __module = CC_EDITOR ? module : {exports:{}};var __filename = 'preview-scripts/assets/script/startbtn.js';var __require = CC_EDITOR ? function (request) {return cc.require(request, require);} : function (request) {return cc.require(request, __filename);};function __define (exports, require, module) {"use strict";
+cc._RF.push(module, '814batwKhpFCZv2U5FQe2OS', 'startbtn', __filename);
+// script/startbtn.js
 
 "use strict";
 
@@ -53,7 +53,9 @@ cc.Class({
                 this.node.y += this.speed * Math.cos(this.theta);
             } else {
                 if (this.node._name == "single") {
-                    cc.director.loadScene("level1");
+                    cc.director.loadScene("loadlevel");
+                } else if (this.node._name == "exit") {
+                    cc.game.end();
                 }
                 this.node.destroy();
             }
@@ -72,5 +74,5 @@ cc._RF.pop();
             });
         }
         })();
-        //# sourceMappingURL=startbuttons.js.map
+        //# sourceMappingURL=startbtn.js.map
         

@@ -13,7 +13,7 @@ cc.Class({
 
     properties: {
         hook: cc.Node,
-        num: 3,
+        num: null,
         audio: {
             default: null,
             type: cc.AudioClip
@@ -75,6 +75,7 @@ cc.Class({
     start () {
         this.node.on(cc.Node.EventType.TOUCH_START, this.onTouchStart, this);
         this.node.on(cc.Node.EventType.MOUSE_DOWN, this.onMouseDown, this);
+        this.num = Global.fires;
     },
 
     update (dt) {

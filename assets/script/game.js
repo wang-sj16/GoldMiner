@@ -33,7 +33,8 @@ cc.Class({
 
     },
 
-    start () { 
+    start () {
+        this.money1 = Global.currentMoney; 
         this.schedule(this.doCountdownTime,1);
         console.log(Global.levelTarget);
     },

@@ -1,6 +1,6 @@
 "use strict";
-cc._RF.push(module, '814batwKhpFCZv2U5FQe2OS', 'startbuttons');
-// script/startbuttons.js
+cc._RF.push(module, '814batwKhpFCZv2U5FQe2OS', 'startbtn');
+// script/startbtn.js
 
 "use strict";
 
@@ -53,7 +53,9 @@ cc.Class({
                 this.node.y += this.speed * Math.cos(this.theta);
             } else {
                 if (this.node._name == "single") {
-                    cc.director.loadScene("level1");
+                    cc.director.loadScene("loadlevel");
+                } else if (this.node._name == "exit") {
+                    cc.game.end();
                 }
                 this.node.destroy();
             }

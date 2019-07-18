@@ -1,9 +1,10 @@
 window.Global = {
     currentLevel: 1,
-    currentMoney: 0,
-    levelTarget: [800,1500,2600,3300],
-    betterDiamond: [false,false,false,false,false],
-    havePower: [false,false,false,false,false],
-    haveLuck: [false,false,false,false,false],
-    stoneBook: [false,false,false,false,false],
+    currentMoney: 88,
+    targets: [800,1500,2600,3300,5000],
+    fires: 82,
+    betterDiamonds: 0,
+    powers: 0,
+    luckys: 0,
+    stoneBooks: 0,
 };

@@ -48,7 +48,9 @@ cc.Class({
                 this.node.y += this.speed*Math.cos(this.theta);
             }else{
                 if(this.node._name == "single"){
-                    cc.director.loadScene("level1");
+                    cc.director.loadScene("loadlevel");
+                }else if(this.node._name == "exit"){
+                    cc.game.end();
                 }
                 this.node.destroy();
             }
