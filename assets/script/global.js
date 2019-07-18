@@ -1,4 +1,5 @@
 window.Global = {
+    currentLevel: 1,
     currentMoney: 0,
     levelTarget: [800,1500,2600,3300],
     betterDiamond: [false,false,false,false,false],

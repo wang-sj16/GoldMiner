@@ -590,8 +590,8 @@
     "relativePath": "anim/hookRotation3.anim"
   },
   "1f086e9a-44a0-4969-9f4d-5a97061892c2": {
-    "asset": 1563424875307,
-    "meta": 1563424875322,
+    "asset": 1563429088073,
+    "meta": 1563429088081,
     "relativePath": "scene/level1.fire"
   },
   "e50392c5-d226-4e67-b6c6-3cd622192ae1": {
@@ -608,11 +608,6 @@
     "asset": 1563377056726,
     "meta": 1563377057594,
     "relativePath": "script/label.js"
-  },
-  "c5e9f632-8383-4d0e-a2c2-22011ace7daa": {
-    "asset": 1563379281166,
-    "meta": 1563379292937,
-    "relativePath": "scene/StartGame.fire"
   },
   "91b3faab-752a-422e-bec7-7c54165fcdc9": {
     "asset": 1563379447745,
@@ -709,20 +704,10 @@
     "meta": 1563421278926,
     "relativePath": "Prefab/fireworks.prefab"
   },
-  "c885e183-dcd3-451c-96c1-abbb3a473122": {
-    "asset": 1563422592551,
-    "meta": 1563422593045,
-    "relativePath": "script/game.js"
-  },
   "3b9f9dd2-a436-4c53-96a0-97e3447dd792": {
     "asset": 1563215743649,
     "meta": 1563423636688,
     "relativePath": "img/stoneBook.png"
-  },
-  "84c8f3f0-f37f-45c9-bfb2-bd274b4affc1": {
-    "asset": 1563423718225,
-    "meta": 1563423718856,
-    "relativePath": "script/global.js"
   },
   "87675031-0d9f-4ab4-a3cb-240a66be9f7b": {
     "asset": 1563424475503,
@@ -738,5 +723,45 @@
     "asset": 1563424790150,
     "meta": 1563424794139,
     "relativePath": "script/fire1.js"
+  },
+  "a74e161c-f1b5-414b-a5e2-2c0e3b85477f": {
+    "asset": 1563424955929,
+    "meta": 1563424955932,
+    "relativePath": "Prefab/treasure.prefab"
+  },
+  "25bc6422-73f7-4699-8f3d-9446a2372add": {
+    "asset": 1563426807813,
+    "meta": 1563426807825,
+    "relativePath": "Prefab/hook.prefab"
+  },
+  "c885e183-dcd3-451c-96c1-abbb3a473122": {
+    "asset": 1563428553187,
+    "meta": 1563428553992,
+    "relativePath": "script/game.js"
+  },
+  "59334db5-9391-4ff9-bf48-0abe670d58ca": {
+    "asset": 1563430708167,
+    "meta": 1563430708170,
+    "relativePath": "scene/start.fire"
+  },
+  "dae89428-81a8-4ec0-a927-aeeafad97fb9": {
+    "asset": 1563430418739,
+    "meta": 1563430458608,
+    "relativePath": "script/start.js"
+  },
+  "814bab70-2a1a-4509-9bf6-5391507b6392": {
+    "asset": 1563430568804,
+    "meta": 1563430569523,
+    "relativePath": "script/startbuttons.js"
+  },
+  "84c8f3f0-f37f-45c9-bfb2-bd274b4affc1": {
+    "asset": 1563430680803,
+    "meta": 1563430686712,
+    "relativePath": "script/global.js"
+  },
+  "0b1fc7dc-c7fe-4f4e-a867-fc7bff28c295": {
+    "asset": 1563430691236,
+    "meta": 1563430697489,
+    "relativePath": "scene/loadlevel.fire"
   }
 }

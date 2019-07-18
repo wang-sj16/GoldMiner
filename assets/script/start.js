@@ -16,12 +16,6 @@ cc.Class({
         player1: cc.Node,
         base: cc.Node,
         hook: cc.Node,
-        moneyLabel1: cc.Label,
-        add1: cc.Label,
-        money1: 0,
-        target: 0,
-        countDown: cc.Label,
-        broadcostTimes: 10,
     },
 
     // LIFE-CYCLE CALLBACKS:
@@ -29,29 +23,8 @@ cc.Class({
     onLoad () {
         cc.director.getCollisionManager().enabledDebugDraw = false;
         cc.director.getCollisionManager().enabled=true;
-        //this.schedule(this.doCountdownTime,1);
-
     },
 
-    start () { 
-        this.schedule(this.doCountdownTime,1);
-        console.log(Global.levelTarget);
-    },
-
-    //倒计时
-    doCountdownTime(){
-    if (this.broadcostTimes >= 0 ) {
-        this.countDown.string = "-"+this.broadcostTimes+"s";
-        this.broadcostTimes -= 1;
-        if(this.broadcostTimes == 0){
-            if(this.money1>=this.target){
-                console.log("You win! Next Level!");
-            }else{
-                console.log("You lose! Game Over!");
-            }
-        }
-    }
-},
 
     update (dt) {
         this.draw.clear();
@@ -62,6 +35,5 @@ cc.Class({
         this.draw.lineTo(endPos.x, endPos.y);
         this.draw.stroke();
         
-        this.moneyLabel1.string = "$ " + this.money1;
     },
 });

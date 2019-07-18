@@ -5,6 +5,7 @@ cc._RF.push(module, '84c8fPw839Fyb+yvSdLSv/B', 'global');
 "use strict";
 
 window.Global = {
+    currentLevel: 1,
     currentMoney: 0,
     levelTarget: [800, 1500, 2600, 3300],
     betterDiamond: [false, false, false, false, false],

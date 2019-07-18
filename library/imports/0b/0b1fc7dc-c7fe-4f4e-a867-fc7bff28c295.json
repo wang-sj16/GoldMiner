@@ -5,7 +5,7 @@
       "__id__": 1
     },
     "asyncLoadAssets": false,
-    "_name": "StartGame"
+    "_name": "loadlevel"
   },
   {
     "__type__": "cc.Scene",

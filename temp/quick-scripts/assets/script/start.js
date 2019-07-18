@@ -1,6 +1,6 @@
-(function() {"use strict";var __module = CC_EDITOR ? module : {exports:{}};var __filename = 'preview-scripts/assets/script/game.js';var __require = CC_EDITOR ? function (request) {return cc.require(request, require);} : function (request) {return cc.require(request, __filename);};function __define (exports, require, module) {"use strict";
-cc._RF.push(module, 'c885eGD3NNFHJbBq7s6RzEi', 'game', __filename);
-// script/game.js
+(function() {"use strict";var __module = CC_EDITOR ? module : {exports:{}};var __filename = 'preview-scripts/assets/script/start.js';var __require = CC_EDITOR ? function (request) {return cc.require(request, require);} : function (request) {return cc.require(request, __filename);};function __define (exports, require, module) {"use strict";
+cc._RF.push(module, 'dae89QogahOwKknrur62X+5', 'start', __filename);
+// script/start.js
 
 "use strict";
 
@@ -21,13 +21,7 @@ cc.Class({
         draw: cc.Graphics,
         player1: cc.Node,
         base: cc.Node,
-        hook: cc.Node,
-        moneyLabel1: cc.Label,
-        add1: cc.Label,
-        money1: 0,
-        target: 0,
-        countDown: cc.Label,
-        broadcostTimes: 10
+        hook: cc.Node
     },
 
     // LIFE-CYCLE CALLBACKS:
@@ -35,27 +29,6 @@ cc.Class({
     onLoad: function onLoad() {
         cc.director.getCollisionManager().enabledDebugDraw = false;
         cc.director.getCollisionManager().enabled = true;
-        //this.schedule(this.doCountdownTime,1);
-    },
-    start: function start() {
-        this.schedule(this.doCountdownTime, 1);
-        console.log(Global.levelTarget);
-    },
-
-
-    //倒计时
-    doCountdownTime: function doCountdownTime() {
-        if (this.broadcostTimes >= 0) {
-            this.countDown.string = "-" + this.broadcostTimes + "s";
-            this.broadcostTimes -= 1;
-            if (this.broadcostTimes == 0) {
-                if (this.money1 >= this.target) {
-                    console.log("You win! Next Level!");
-                } else {
-                    console.log("You lose! Game Over!");
-                }
-            }
-        }
     },
     update: function update(dt) {
         this.draw.clear();
@@ -65,8 +38,6 @@ cc.Class({
         this.draw.moveTo(startPos.x, startPos.y);
         this.draw.lineTo(endPos.x, endPos.y);
         this.draw.stroke();
-
-        this.moneyLabel1.string = "$ " + this.money1;
     }
 });
 
@@ -81,5 +52,5 @@ cc._RF.pop();
             });
         }
         })();
-        //# sourceMappingURL=game.js.map
+        //# sourceMappingURL=start.js.map
         
