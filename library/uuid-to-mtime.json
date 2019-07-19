@@ -245,7 +245,7 @@
     "relativePath": "prefab/webview.prefab"
   },
   "421f9a67-969a-406e-99b9-31cc43be8671": {
-    "asset": 1563266154332,
+    "asset": 1563513421861,
     "meta": 1563191848800,
     "relativePath": "music"
   },
@@ -290,8 +290,8 @@
     "relativePath": "music/Select.mp3"
   },
   "6c737268-bec7-4614-b821-e367a1b57c8f": {
-    "asset": 1563511404882,
-    "meta": 1563512372471,
+    "asset": 1563513419566,
+    "meta": 1563515315793,
     "relativePath": "img"
   },
   "086a990d-32f9-4544-85de-ce8ac08238d7": {
@@ -360,7 +360,7 @@
     "relativePath": "img/rock.png"
   },
   "4acf02a9-dacf-47ca-926c-789d3eae40d2": {
-    "asset": 1563462044950,
+    "asset": 1563479932468,
     "meta": 1563211334363,
     "relativePath": "script"
   },
@@ -413,11 +413,6 @@
     "asset": 1563214879376,
     "meta": 1563214971862,
     "relativePath": "img/lucky2.png"
-  },
-  "4a7ce7c2-cf73-48b6-a7cc-eb8055ca4abb": {
-    "asset": 1563215743649,
-    "meta": 1563215823194,
-    "relativePath": "img/book.png"
   },
   "20b9ada5-29eb-42bf-b170-b1d09ff81d12": {
     "asset": 1563217665618,
@@ -474,13 +469,8 @@
     "meta": 1563266154345,
     "relativePath": "music/freesound-xylophone-a3-by-juancamiloorjuela.wav"
   },
-  "9b44be72-0940-437a-bcb5-1947354aefb8": {
-    "asset": 1529068014000,
-    "meta": 1563266154357,
-    "relativePath": "music/bgm.wav"
-  },
   "2a4eab31-a98d-4f27-84fe-a476183797ee": {
-    "asset": 1563461948520,
+    "asset": 1563511565518,
     "meta": 1563266235011,
     "relativePath": "scene"
   },
@@ -570,8 +560,8 @@
     "relativePath": "anim/hookRotation3.anim"
   },
   "1f086e9a-44a0-4969-9f4d-5a97061892c2": {
-    "asset": 1563512772853,
-    "meta": 1563512772864,
+    "asset": 1563525238034,
+    "meta": 1563525238053,
     "relativePath": "scene/level1.fire"
   },
   "e50392c5-d226-4e67-b6c6-3cd622192ae1": {
@@ -680,13 +670,13 @@
     "relativePath": "Prefab/hook.prefab"
   },
   "59334db5-9391-4ff9-bf48-0abe670d58ca": {
-    "asset": 1563512845512,
-    "meta": 1563512845517,
+    "asset": 1563525529036,
+    "meta": 1563525529052,
     "relativePath": "scene/start.fire"
   },
   "aa95d830-ad14-4a48-86c8-dc4263001be3": {
-    "asset": 1563434117200,
-    "meta": 1563434117203,
+    "asset": 1563523390010,
+    "meta": 1563523390015,
     "relativePath": "scene/loadlevel.fire"
   },
   "0c5e30f4-50ce-4a03-a0e5-2789adbfeeb4": {
@@ -695,18 +685,18 @@
     "relativePath": "script/loadlevel.js"
   },
   "5b096439-58c4-4cf8-b8a9-8625e1d3101d": {
-    "asset": 1563436507126,
-    "meta": 1563436507129,
+    "asset": 1563523405583,
+    "meta": 1563523405588,
     "relativePath": "scene/next.fire"
   },
   "991f5506-c7db-4853-b991-6dc1e6e2a091": {
-    "asset": 1563459594446,
-    "meta": 1563459594454,
+    "asset": 1563523420373,
+    "meta": 1563523420377,
     "relativePath": "scene/shop.fire"
   },
   "009de718-30fe-4deb-a729-a05aab6525f9": {
-    "asset": 1563436437759,
-    "meta": 1563436437775,
+    "asset": 1563523397683,
+    "meta": 1563523397686,
     "relativePath": "scene/lose.fire"
   },
   "18ce1998-0ab7-44ae-8853-40cfbbe720a0": {
@@ -735,8 +725,8 @@
     "relativePath": "script/start.js"
   },
   "873b99e6-309d-4d86-af57-c10a1f967080": {
-    "asset": 1563512795643,
-    "meta": 1563512795648,
+    "asset": 1563525562218,
+    "meta": 1563525562223,
     "relativePath": "scene/level2.fire"
   },
   "d5d857d8-6771-4f5b-a7a1-34e5d5f11e6f": {
@@ -775,8 +765,8 @@
     "relativePath": "script/pass.js"
   },
   "dfc016d6-1287-4c20-a7aa-38512e4ed1c1": {
-    "asset": 1563479973044,
-    "meta": 1563479973048,
+    "asset": 1563523415325,
+    "meta": 1563523415329,
     "relativePath": "scene/pass.fire"
   },
   "4f185ed2-281a-44e8-a88f-e6f7d10aed3d": {
@@ -794,24 +784,29 @@
     "meta": 1563509563105,
     "relativePath": "script/fire1.js"
   },
-  "8f18ea1e-3c16-46b9-b1a9-9846d4a5c728": {
-    "asset": 1563512814969,
-    "meta": 1563512814974,
-    "relativePath": "scene/level4.fire"
-  },
   "ac9b365e-7c9b-4125-b454-4e3c34d82230": {
-    "asset": 1563512804447,
-    "meta": 1563512804452,
+    "asset": 1563525328838,
+    "meta": 1563525328844,
     "relativePath": "scene/level3.fire"
   },
-  "cc5d547e-7d85-416a-a5c6-d4f8da2f8c45": {
-    "asset": 1563512833621,
-    "meta": 1563512833624,
-    "relativePath": "scene/level5.fire"
-  },
   "c5302e13-6fbd-416e-b919-c4ec0424806b": {
-    "asset": 1563512701585,
-    "meta": 1563512730829,
+    "asset": 1563524623260,
+    "meta": 1563524763054,
     "relativePath": "img/ground.png"
+  },
+  "f9b27dde-1357-41fe-9424-af4b14a805ee": {
+    "asset": 1563512701585,
+    "meta": 1563524763065,
+    "relativePath": "img/cliff.png"
+  },
+  "38395cc4-f37f-4557-a7e7-f930be0f9da2": {
+    "asset": 1563525351568,
+    "meta": 1563525358088,
+    "relativePath": "scene/level4.fire"
+  },
+  "576fe181-68fa-46b9-9397-9e9f21c548ab": {
+    "asset": 1563525352758,
+    "meta": 1563525362663,
+    "relativePath": "scene/level5.fire"
   }
 }
