@@ -21,6 +21,7 @@ cc.Class({
     // LIFE-CYCLE CALLBACKS:
 
     // onLoad () {},
+    
     onCollisionEnter:function(other,self){
         if (other.node.group == 'hook' && !other.node.getComponent("hook").occupied){
             this.hook.moveSpeed = this.speed;

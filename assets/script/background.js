@@ -30,7 +30,6 @@ cc.Class({
 */
     start () {
         this.node.on(cc.Node.EventType.TOUCH_START, this.onTouchStart, this);
-        this.node.on(cc.Node.EventType.MOUSE_DOWN, this.onMouseDown, this);
     },
 
     // update (dt) {},
