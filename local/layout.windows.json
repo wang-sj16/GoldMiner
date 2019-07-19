@@ -45,7 +45,7 @@
                     "children": [
                       "scene"
                     ],
-                    "height": 599.40625,
+                    "height": 637.984375,
                     "type": "panel",
                     "width": 1037
                   },
@@ -54,12 +54,12 @@
                     "children": [
                       "node-library"
                     ],
-                    "height": 599.40625,
+                    "height": 637.984375,
                     "type": "panel",
                     "width": 296
                   }
                 ],
-                "height": 599.40625,
+                "height": 637.984375,
                 "type": "dock-h",
                 "width": 1335
               },
@@ -69,7 +69,7 @@
                   "console",
                   "timeline"
                 ],
-                "height": 304.59375,
+                "height": 266,
                 "type": "panel",
                 "width": 1335
               }
@@ -118,13 +118,13 @@
     },
     "project-settings": {
       "x": 0,
-      "y": 0,
+      "y": 23,
       "width": 1920,
-      "height": 1080
+      "height": 988
     },
     "builder": {
-      "x": 791,
-      "y": 119,
+      "x": 978,
+      "y": 77,
       "width": 654,
       "height": 722
     }

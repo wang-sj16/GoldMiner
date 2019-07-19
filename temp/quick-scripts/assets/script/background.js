@@ -28,13 +28,6 @@ cc.Class({
         // set a flag when key pressed
         this.hook.getComponent("hook").down = true;
     },
-
-    /*
-        onMouseDown (event) {
-            let mouseType = event.getButton();
-            this.hook.getComponent("hook").down = true;
-        },
-    */
     start: function start() {
         this.node.on(cc.Node.EventType.TOUCH_START, this.onTouchStart, this);
     }
