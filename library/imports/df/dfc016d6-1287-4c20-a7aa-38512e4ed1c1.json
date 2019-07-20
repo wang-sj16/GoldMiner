@@ -42,8 +42,8 @@
     },
     "_scale": {
       "__type__": "cc.Vec3",
-      "x": 1,
-      "y": 1,
+      "x": 0.4875,
+      "y": 0.4875,
       "z": 1
     },
     "_quat": {
@@ -599,7 +599,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "exit",
+    "_name": "restart",
     "_objFlags": 0,
     "_parent": {
       "__id__": 2

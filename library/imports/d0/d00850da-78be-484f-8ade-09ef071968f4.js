@@ -26,8 +26,7 @@ cc.Class({
         if (this.node._name == "menu") {
             cc.director.loadScene("start");
         } else if (this.node._name == "restart") {
-            var scene = "level" + Global.currentLevel;
-            cc.director.loadScene(scene);
+            cc.director.loadScene("level1");
         }
     },
     start: function start() {
