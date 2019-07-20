@@ -18,7 +18,11 @@ cc.Class({
     extends: cc.Component,
 
     properties: {
-        label: cc.Label
+        label: cc.Label,
+        audio: {
+            default: null,
+            type: cc.AudioClip
+        }
     },
 
     // LIFE-CYCLE CALLBACKS:
@@ -26,6 +30,7 @@ cc.Class({
     // onLoad () {},
 
     start: function start() {
+        cc.audioEngine.play(this.audio, false, 1);
         this.label.string = "STAGE CLEAR!\n\nSCORE: " + Global.currentMoney;
     }
 }

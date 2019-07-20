@@ -55,8 +55,8 @@
     },
     "_position": {
       "__type__": "cc.Vec3",
-      "x": 314,
-      "y": -11,
+      "x": 312,
+      "y": -19,
       "z": 0
     },
     "_scale": {
@@ -214,6 +214,9 @@
     "theta": 0,
     "moveSpeed": 3,
     "toRight": true,
+    "bigGold": null,
+    "getDown": null,
+    "getUp": null,
     "_id": ""
   },
   {

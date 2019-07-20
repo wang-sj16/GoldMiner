@@ -18,8 +18,11 @@ cc.Class({
         fire: cc.Label,
         lucky: cc.Label,
         betterDiamond: cc.Label,
-        countDown: cc.Label,
-        broadcostTimes: 3,
+        broadcostTimes: 2,
+        audio: {
+            default: null,
+            type: cc.AudioClip
+        },
     },
 
     // LIFE-CYCLE CALLBACKS:
@@ -27,6 +30,7 @@ cc.Class({
     // onLoad () {},
 
     start () {
+        cc.audioEngine.play(this.audio, false, 1);
         this.schedule(this.doCountdownTime,1);
         var level = Global.currentLevel;
         this.level.string = "Level " + level + "\nTarget: " + Global.targets[level-1];
@@ -40,7 +44,6 @@ cc.Class({
         //倒计时
         doCountdownTime(){
             if (this.broadcostTimes >= -1 ) {
-                this.countDown.string = this.broadcostTimes+"s";
                 this.broadcostTimes -= 1;
                 if(this.broadcostTimes == -1){
                     let scene = "level" + Global.currentLevel;

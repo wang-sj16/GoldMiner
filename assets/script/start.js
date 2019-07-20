@@ -16,16 +16,18 @@ cc.Class({
         player1: cc.Node,
         base: cc.Node,
         hook: cc.Node,
+
     },
 
     // LIFE-CYCLE CALLBACKS:
 
     onLoad () {
+        cc.audioEngine.play(this.bgm, true, 1);
         cc.director.getCollisionManager().enabledDebugDraw = false;
         cc.director.getCollisionManager().enabled=true;
         Global.currentLevel = 1;
         Global.currentMoney = 0;
-        Global.targets = [900,1500,2600,3300,5000];
+        Global.targets = [600,1500,2600,4000,5500,6900,9000];
         Global.fires = 0;
         Global.betterDiamonds = 0;
         Global.powers = 0;

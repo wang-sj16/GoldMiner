@@ -42,8 +42,8 @@
     },
     "_scale": {
       "__type__": "cc.Vec3",
-      "x": 0.9489004629629629,
-      "y": 0.9489004629629629,
+      "x": 0.9012504626108303,
+      "y": 0.9012504626108303,
       "z": 1
     },
     "_quat": {
@@ -438,7 +438,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 208.78,
+      "width": 215.61,
       "height": 100
     },
     "_anchorPoint": {
@@ -481,8 +481,8 @@
     },
     "_enabled": true,
     "_useOriginalSize": false,
-    "_string": "Level 1\nTarget: 800",
-    "_N$string": "Level 1\nTarget: 800",
+    "_string": "Level 1\nTarget: xxx",
+    "_N$string": "Level 1\nTarget: xxx",
     "_fontSize": 40,
     "_lineHeight": 50,
     "_enableWrapText": true,
@@ -1611,10 +1611,10 @@
     "betterDiamond": {
       "__id__": 27
     },
-    "countDown": {
-      "__id__": 34
+    "broadcostTimes": 2,
+    "audio": {
+      "__uuid__": "46446fbb-1da1-4553-b9f1-b51ea8fa7d0d"
     },
-    "broadcostTimes": 3,
     "_id": "0dm1afsuRNtImzo6/Q6TL4"
   }
 ]

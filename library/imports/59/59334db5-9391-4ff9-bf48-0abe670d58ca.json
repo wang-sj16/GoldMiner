@@ -42,8 +42,8 @@
     },
     "_scale": {
       "__type__": "cc.Vec3",
-      "x": 0.9489004629629629,
-      "y": 0.9489004629629629,
+      "x": 1,
+      "y": 1,
       "z": 1
     },
     "_quat": {
@@ -862,7 +862,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 91.39,
+      "width": 104.38,
       "height": 50
     },
     "_anchorPoint": {
@@ -872,7 +872,7 @@
     },
     "_position": {
       "__type__": "cc.Vec3",
-      "x": -103,
+      "x": -116,
       "y": -80,
       "z": 0
     },
@@ -905,8 +905,8 @@
     },
     "_enabled": true,
     "_useOriginalSize": false,
-    "_string": "Single",
-    "_N$string": "Single",
+    "_string": "SINGLE",
+    "_N$string": "SINGLE",
     "_fontSize": 36,
     "_lineHeight": 50,
     "_enableWrapText": true,
@@ -990,7 +990,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 66.57,
+      "width": 66.66,
       "height": 50
     },
     "_anchorPoint": {
@@ -1000,7 +1000,7 @@
     },
     "_position": {
       "__type__": "cc.Vec3",
-      "x": 306,
+      "x": 344,
       "y": -80,
       "z": 0
     },
@@ -1033,8 +1033,8 @@
     },
     "_enabled": true,
     "_useOriginalSize": false,
-    "_string": "Exit",
-    "_N$string": "Exit",
+    "_string": "EXIT",
+    "_N$string": "EXIT",
     "_fontSize": 36,
     "_lineHeight": 50,
     "_enableWrapText": true,
@@ -1118,7 +1118,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 84.66,
+      "width": 97.19,
       "height": 50
     },
     "_anchorPoint": {
@@ -1128,7 +1128,7 @@
     },
     "_position": {
       "__type__": "cc.Vec3",
-      "x": -335,
+      "x": -351,
       "y": -80,
       "z": 0
     },
@@ -1161,8 +1161,8 @@
     },
     "_enabled": true,
     "_useOriginalSize": false,
-    "_string": "About",
-    "_N$string": "About",
+    "_string": "ABOUT",
+    "_N$string": "ABOUT",
     "_fontSize": 36,
     "_lineHeight": 50,
     "_enableWrapText": true,
@@ -1246,7 +1246,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 96.43,
+      "width": 117.63,
       "height": 50
     },
     "_anchorPoint": {
@@ -1256,7 +1256,7 @@
     },
     "_position": {
       "__type__": "cc.Vec3",
-      "x": 104,
+      "x": 125,
       "y": -80,
       "z": 0
     },
@@ -1289,8 +1289,8 @@
     },
     "_enabled": true,
     "_useOriginalSize": false,
-    "_string": "Double",
-    "_N$string": "Double",
+    "_string": "DOUBLE",
+    "_N$string": "DOUBLE",
     "_fontSize": 36,
     "_lineHeight": 50,
     "_enableWrapText": true,

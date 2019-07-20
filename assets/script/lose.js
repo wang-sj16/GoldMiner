@@ -13,6 +13,10 @@ cc.Class({
 
     properties: {
         label: cc.Label,
+        audio: {
+            default: null,
+            type: cc.AudioClip
+        },
     },
 
     // LIFE-CYCLE CALLBACKS:
@@ -20,7 +24,8 @@ cc.Class({
     // onLoad () {},
 
     start () {
-        this.label.string = "YOU LOSE!\n\nSCORE: " + Global.currentMoney;
+        cc.audioEngine.play(this.audio, false, 1);
+        this.label.string = "YOU LOSE!\n\nSCORE: " + Global.loseMoney;
     },
 
     // update (dt) {},

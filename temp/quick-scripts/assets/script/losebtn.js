@@ -25,8 +25,9 @@ cc.Class({
     onTouchStart: function onTouchStart(event) {
         if (this.node._name == "menu") {
             cc.director.loadScene("start");
-        } else if (this.node._name == "exit") {
-            cc.game.end();
+        } else if (this.node._name == "restart") {
+            var scene = "level" + Global.currentLevel;
+            cc.director.loadScene(scene);
         }
     },
     start: function start() {

@@ -65,14 +65,7 @@ cc.Class({
                 }
 
             }else{
-                let fire1 = cc.find("Canvas/fire1").getComponent("fire1");
-                Global.currentLevel++;
-                Global.currentMoney = this.money1;
-                Global.fires = fire1.num;
-                Global.betterDiamonds = 0;
-                Global.powers = 0;
-                Global.luckys = 0;
-                Global.stoneBooks = 0;
+                Global.loseMoney = this.money1;
                 cc.director.loadScene("lose");
             }
         }

@@ -41,8 +41,8 @@
     },
     "_scale": {
       "__type__": "cc.Vec3",
-      "x": 0.9489004629629629,
-      "y": 0.9489004629629629,
+      "x": 1,
+      "y": 1,
       "z": 1
     },
     "_quat": {
@@ -550,8 +550,8 @@
     },
     "_enabled": true,
     "_useOriginalSize": false,
-    "_string": "Congratulations !\n\nNext level",
-    "_N$string": "Congratulations !\n\nNext level",
+    "_string": "Congratulations !\n\nNext Level",
+    "_N$string": "Congratulations !\n\nNext Level",
     "_fontSize": 40,
     "_lineHeight": 50,
     "_enableWrapText": true,
@@ -593,7 +593,10 @@
       "__id__": 2
     },
     "_enabled": true,
-    "broadcostTimes": 2,
+    "broadcostTimes": 3,
+    "audio": {
+      "__uuid__": "cb151fee-80e0-4b29-97d4-a8d619e923fb"
+    },
     "_id": "19CBxIn79GIKKA8gxkxrB7"
   }
 ]

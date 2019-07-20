@@ -12,7 +12,11 @@ cc.Class({
     extends: cc.Component,
 
     properties: {
-        broadcostTimes: 2,
+        broadcostTimes: 3,
+        audio: {
+            default: null,
+            type: cc.AudioClip
+        },
     },
 
     // LIFE-CYCLE CALLBACKS:
@@ -20,6 +24,7 @@ cc.Class({
     // onLoad () {},
 
     start () {
+        cc.audioEngine.play(this.audio, false, 1);
         this.schedule(this.doCountdownTime,1);
     },
 

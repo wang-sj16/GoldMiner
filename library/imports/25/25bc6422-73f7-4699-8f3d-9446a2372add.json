@@ -260,7 +260,17 @@
     "down": false,
     "flag": 0,
     "occupied": false,
+    "downPlaying": false,
     "item": null,
+    "bigGold": {
+      "__uuid__": "1fc702f3-556d-4d3e-9d13-321fad109a15"
+    },
+    "getDown": {
+      "__uuid__": "22b3ea41-f414-4ba7-9d6d-1649c1f8dea7"
+    },
+    "goods": {
+      "__uuid__": "bc7a8b6f-5208-495c-b756-caca2ecad334"
+    },
     "_id": ""
   },
   {

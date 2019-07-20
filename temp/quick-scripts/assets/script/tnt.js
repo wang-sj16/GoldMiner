@@ -26,7 +26,6 @@ cc.Class({
             default: null,
             type: cc.AudioClip
         }
-
     },
 
     // LIFE-CYCLE CALLBACKS:

@@ -22,7 +22,20 @@ cc.Class({
         down: false,
         flag: 0,
         occupied: false,
-        item: cc.Node
+        downPlaying: false,
+        item: cc.Node,
+        bigGold: {
+            default: null,
+            type: cc.AudioClip
+        },
+        getDown: {
+            default: null,
+            type: cc.AudioClip
+        },
+        goods: {
+            default: null,
+            type: cc.AudioClip
+        }
     },
 
     onKeyDown: function onKeyDown(event) {
@@ -35,19 +48,14 @@ cc.Class({
     },
 
 
-    /*
-        onKeyUp (event) {
-            // unset a flag when key released
-            switch(event.keyCode) {
-                case cc.macro.KEY.a:
-                    this.accLeft = false;
-                    break;
-                case cc.macro.KEY.d:
-                    this.accRight = false;
-                    break;
-            }
-        },
-    */
+    onCollisionEnter: function onCollisionEnter(other, self) {
+        if (other.node._name == "bigGold" || other.node._name == "treasure") {
+            cc.audioEngine.play(this.bigGold, false, 1);
+        } else if (other.node._name == "midGold" || other.node._name == "pocket") {
+            cc.audioEngine.play(this.goods, false, 1);
+            console.log(1234);
+        }
+    },
 
     // LIFE-CYCLE CALLBACKS:
 
@@ -63,6 +71,11 @@ cc.Class({
     start: function start() {},
     update: function update(dt) {
         if (this.down && this.flag != 2) {
+            if (!this.downPlaying) {
+                this.downPlaying = true;
+                cc.audioEngine.play(this.getDown, false, 1);
+            }
+
             this.flag = 1;
             this.playing = false;
             this.animationComponent.stop("hookRotation");
@@ -95,6 +108,7 @@ cc.Class({
                 }
                 this.down = false;
             } else {
+                this.downPlaying = false;
                 this.flag = 3;
                 this.node.x = this.initX;
                 this.node.y = this.initY;

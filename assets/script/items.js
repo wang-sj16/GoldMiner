@@ -17,8 +17,7 @@ cc.Class({
         hooked: false,
         theta: 0,
         moveSpeed: 3,
-        toRight: true,
-        
+        toRight: true,        
     },
 
     // LIFE-CYCLE CALLBACKS:
@@ -220,7 +219,7 @@ cc.Class({
                 } else if(this.node._name == "treasure" && this.value == -1){
                     if(Global.powers>0){
                         let fire1 = cc.find("Canvas/fire1").getComponent("fire1");
-                        fire1.num += 2;
+                        fire1.num += 1;
                     }else{
                         Global.powers = 1;
                     }
