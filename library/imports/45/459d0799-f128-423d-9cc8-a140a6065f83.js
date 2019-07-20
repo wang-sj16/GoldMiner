@@ -49,11 +49,12 @@ cc.Class({
 
 
     onCollisionEnter: function onCollisionEnter(other, self) {
-        if (other.node._name == "bigGold" || other.node._name == "treasure") {
-            cc.audioEngine.play(this.bigGold, false, 1);
-        } else if (other.node._name == "midGold" || other.node._name == "pocket") {
-            cc.audioEngine.play(this.goods, false, 1);
-            console.log(1234);
+        if (!this.occupied) {
+            if (other.node._name == "bigGold" || other.node._name == "treasure") {
+                cc.audioEngine.play(this.bigGold, false, 1);
+            } else if (other.node._name == "midGold" || other.node._name == "pocket" || other.node._name == "diamond" || other.node._name == "diamondPig") {
+                cc.audioEngine.play(this.goods, false, 1);
+            }
         }
     },
 

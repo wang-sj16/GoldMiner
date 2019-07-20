@@ -145,7 +145,6 @@ cc.Class({
         }
 
         this.animationComponent.bombOver = function(){
-            console.log("bomb!!!");
             var hook = cc.find("Canvas/hook").getComponent("hook");
             hook.moveSpeed = 6;
             this.node.destroy();

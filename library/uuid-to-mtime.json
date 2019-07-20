@@ -759,11 +759,6 @@
     "meta": 1563640996695,
     "relativePath": "script/passbtn.js"
   },
-  "459d0799-f128-423d-9cc8-a140a6065f83": {
-    "asset": 1563644342658,
-    "meta": 1563644343401,
-    "relativePath": "script/hook.js"
-  },
   "0c5e30f4-50ce-4a03-a0e5-2789adbfeeb4": {
     "asset": 1563644895540,
     "meta": 1563644897411,
@@ -794,11 +789,6 @@
     "meta": 1563646040980,
     "relativePath": "script/pass.js"
   },
-  "09721b32-324f-49ab-b17a-26e10ad95cf2": {
-    "asset": 1563646655648,
-    "meta": 1563646671696,
-    "relativePath": "script/items.js"
-  },
   "00f5da0b-f8fb-43ca-ba99-bef4a315ec70": {
     "asset": 1563646750651,
     "meta": 1563646753482,
@@ -813,5 +803,15 @@
     "asset": 1563647196672,
     "meta": 1563647197827,
     "relativePath": "script/start.js"
+  },
+  "09721b32-324f-49ab-b17a-26e10ad95cf2": {
+    "asset": 1563647651278,
+    "meta": 1563647676377,
+    "relativePath": "script/items.js"
+  },
+  "459d0799-f128-423d-9cc8-a140a6065f83": {
+    "asset": 1563647919965,
+    "meta": 1563647921005,
+    "relativePath": "script/hook.js"
   }
 }
