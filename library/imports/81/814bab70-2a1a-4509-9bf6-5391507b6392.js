@@ -55,7 +55,11 @@ cc.Class({
             } else {
                 if (this.node._name == "single") {
                     cc.director.loadScene("loadlevel");
-                } else if (this.node._name == "exit") {
+                } else if (this.node._name == "double") {
+                    cc.game.end();
+                } else if (this.node._name == "tutorial") {
+                    cc.game.end();
+                } else if (this.node._name == "setting") {
                     cc.game.end();
                 }
                 this.node.destroy();

@@ -13,7 +13,8 @@ window.Global = {
     betterDiamonds: 0,
     powers: 0,
     luckys: 0,
-    stoneBooks: 0
+    stoneBooks: 0,
+    silent: 0
 };
 
 cc._RF.pop();

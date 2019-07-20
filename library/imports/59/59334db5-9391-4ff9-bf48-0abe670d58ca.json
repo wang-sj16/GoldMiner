@@ -42,8 +42,8 @@
     },
     "_scale": {
       "__type__": "cc.Vec3",
-      "x": 1,
-      "y": 1,
+      "x": 0.576025390625,
+      "y": 0.576025390625,
       "z": 1
     },
     "_quat": {
@@ -960,7 +960,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "exit",
+    "_name": "setting",
     "_objFlags": 0,
     "_parent": {
       "__id__": 2
@@ -990,7 +990,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 66.66,
+      "width": 126.29,
       "height": 50
     },
     "_anchorPoint": {
@@ -1033,8 +1033,8 @@
     },
     "_enabled": true,
     "_useOriginalSize": false,
-    "_string": "EXIT",
-    "_N$string": "EXIT",
+    "_string": "SETTING",
+    "_N$string": "SETTING",
     "_fontSize": 36,
     "_lineHeight": 50,
     "_enableWrapText": true,
@@ -1088,7 +1088,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "about",
+    "_name": "tutorial",
     "_objFlags": 0,
     "_parent": {
       "__id__": 2
@@ -1118,7 +1118,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 97.19,
+      "width": 143.66,
       "height": 50
     },
     "_anchorPoint": {
@@ -1161,8 +1161,8 @@
     },
     "_enabled": true,
     "_useOriginalSize": false,
-    "_string": "ABOUT",
-    "_N$string": "ABOUT",
+    "_string": "TUTORIAL",
+    "_N$string": "TUTORIAL",
     "_fontSize": 36,
     "_lineHeight": 50,
     "_enableWrapText": true,
