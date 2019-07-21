@@ -42,8 +42,8 @@
     },
     "_scale": {
       "__type__": "cc.Vec3",
-      "x": 0.4875,
-      "y": 0.4875,
+      "x": 0.7489420572916666,
+      "y": 0.7489420572916666,
       "z": 1
     },
     "_quat": {
@@ -81,17 +81,17 @@
         "__id__": 11
       },
       {
-        "__id__": 15
+        "__id__": 14
       }
     ],
     "_active": true,
     "_level": 1,
     "_components": [
       {
-        "__id__": 18
+        "__id__": 17
       },
       {
-        "__id__": 19
+        "__id__": 18
       }
     ],
     "_prefab": null,
@@ -500,9 +500,6 @@
       },
       {
         "__id__": 13
-      },
-      {
-        "__id__": 14
       }
     ],
     "_prefab": null,
@@ -578,24 +575,14 @@
     "_id": "4cjimk3ipLCoaKrVR96iSa"
   },
   {
-    "__type__": "745ebYtre9C7ZBLLUhdTf3P",
+    "__type__": "d0085DaeL5IT4reCe8HGWj0",
     "_name": "",
     "_objFlags": 0,
     "node": {
       "__id__": 11
     },
     "_enabled": true,
-    "_id": "7efjKIcS5Doq9YM/RPoFaV"
-  },
-  {
-    "__type__": "745ebYtre9C7ZBLLUhdTf3P",
-    "_name": "",
-    "_objFlags": 0,
-    "node": {
-      "__id__": 11
-    },
-    "_enabled": true,
-    "_id": "a0lO/0IAFMX7Uj+aaWfisW"
+    "_id": "d3WxRrUq1C6qCaHsNSecCu"
   },
   {
     "__type__": "cc.Node",
@@ -609,10 +596,10 @@
     "_level": 2,
     "_components": [
       {
-        "__id__": 16
+        "__id__": 15
       },
       {
-        "__id__": 17
+        "__id__": 16
       }
     ],
     "_prefab": null,
@@ -665,7 +652,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 15
+      "__id__": 14
     },
     "_enabled": true,
     "_useOriginalSize": false,
@@ -688,14 +675,14 @@
     "_id": "1b59EVpjZH9Ltfek5NpT/u"
   },
   {
-    "__type__": "745ebYtre9C7ZBLLUhdTf3P",
+    "__type__": "d0085DaeL5IT4reCe8HGWj0",
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 15
+      "__id__": 14
     },
     "_enabled": true,
-    "_id": "19ufVb6IVO7p3xeB760VVS"
+    "_id": "89ovw3g4tJJL9gXC5MyViP"
   },
   {
     "__type__": "cc.Canvas",
