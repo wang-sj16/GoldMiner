@@ -21,10 +21,9 @@ cc.Class({
     //倒计时
     doCountdownTime(){
         this.broadcostTimes -= 1;
-
-        if(this.broadcostTimes == 0 && this.loadOver){
-            console.log(1234);
-            cc.director.loadScene("start");
+        console.log(this.broadcostTimes);
+        if(this.broadcostTimes <= 0 && this.loadOver){
+            cc.director.loadScene("start"); 
         }
     },
 

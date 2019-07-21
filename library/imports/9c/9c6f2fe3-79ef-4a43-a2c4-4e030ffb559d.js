@@ -27,9 +27,8 @@ cc.Class({
     //倒计时
     doCountdownTime: function doCountdownTime() {
         this.broadcostTimes -= 1;
-
-        if (this.broadcostTimes == 0 && this.loadOver) {
-            console.log(1234);
+        console.log(this.broadcostTimes);
+        if (this.broadcostTimes <= 0 && this.loadOver) {
             cc.director.loadScene("start");
         }
     },
