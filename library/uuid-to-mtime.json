@@ -660,8 +660,8 @@
     "relativePath": "Prefab/hook.prefab"
   },
   "59334db5-9391-4ff9-bf48-0abe670d58ca": {
-    "asset": 1563651976327,
-    "meta": 1563651976334,
+    "asset": 1563698618250,
+    "meta": 1563698618256,
     "relativePath": "scene/start.fire"
   },
   "aa95d830-ad14-4a48-86c8-dc4263001be3": {
@@ -813,5 +813,10 @@
     "asset": 1563651971341,
     "meta": 1563651972565,
     "relativePath": "script/startbtn.js"
+  },
+  "af121596-a878-414f-b5ae-40824f348e81": {
+    "asset": 1563698526327,
+    "meta": 1563698541240,
+    "relativePath": "scene/tutorial.fire"
   }
 }
