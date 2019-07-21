@@ -246,7 +246,7 @@
   },
   "421f9a67-969a-406e-99b9-31cc43be8671": {
     "asset": 1563651262906,
-    "meta": 1563651262902,
+    "meta": 1563703423459,
     "relativePath": "music"
   },
   "dab344c2-73b0-4e63-aaed-f2fba417270d": {
@@ -290,8 +290,8 @@
     "relativePath": "music/Select.mp3"
   },
   "6c737268-bec7-4614-b821-e367a1b57c8f": {
-    "asset": 1563651262901,
-    "meta": 1563651262876,
+    "asset": 1563701156053,
+    "meta": 1563701371510,
     "relativePath": "img"
   },
   "086a990d-32f9-4544-85de-ce8ac08238d7": {
@@ -387,7 +387,7 @@
   "b15addfe-606f-4cb2-ab24-d1f79cbc7227": {
     "asset": 1563651262901,
     "meta": 1563651358823,
-    "relativePath": "img/xkcd-script.ttf"
+    "relativePath": "Prefab/xkcd-script.ttf"
   },
   "02c44017-0505-43ce-8818-e20b3d9ca3fe": {
     "asset": 1563651262900,
@@ -465,7 +465,7 @@
     "relativePath": "anim/diamondPigRun.anim"
   },
   "2a4eab31-a98d-4f27-84fe-a476183797ee": {
-    "asset": 1563651262910,
+    "asset": 1563698541237,
     "meta": 1563651262907,
     "relativePath": "scene"
   },
@@ -818,5 +818,20 @@
     "asset": 1563698526327,
     "meta": 1563698541240,
     "relativePath": "scene/tutorial.fire"
+  },
+  "c86bc7a5-ef98-4481-94b5-f1123d78749f": {
+    "asset": 1563704686960,
+    "meta": 1563704686963,
+    "relativePath": "scene/loading.fire"
+  },
+  "2f8e5035-6069-4c0f-8d98-aac27d625bd8": {
+    "asset": 1563703386144,
+    "meta": 1563703386148,
+    "relativePath": "anim/loading.anim"
+  },
+  "9c6f2fe3-79ef-4a43-a2c4-4e030ffb559d": {
+    "asset": 1563704710726,
+    "meta": 1563704711843,
+    "relativePath": "script/loading.js"
   }
 }
