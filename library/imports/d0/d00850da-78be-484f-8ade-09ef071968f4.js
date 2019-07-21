@@ -2,7 +2,7 @@
 cc._RF.push(module, 'd0085DaeL5IT4reCe8HGWj0', 'passbtn');
 // script/passbtn.js
 
-"use strict";
+'use strict';
 
 // Learn cc.Class:
 //  - [Chinese] https://docs.cocos.com/creator/manual/zh/scripting/class.html
@@ -15,26 +15,26 @@ cc._RF.push(module, 'd0085DaeL5IT4reCe8HGWj0', 'passbtn');
 //  - [English] https://www.cocos2d-x.org/docs/creator/manual/en/scripting/life-cycle-callbacks.html
 
 cc.Class({
-    extends: cc.Component,
+  extends: cc.Component,
 
-    properties: {},
+  properties: {},
 
-    // LIFE-CYCLE CALLBACKS:
+  // LIFE-CYCLE CALLBACKS:
 
-    // onLoad () {},
-    onTouchStart: function onTouchStart(event) {
-        if (this.node._name == "menu") {
-            cc.director.loadScene("start");
-        } else if (this.node._name == "restart") {
-            cc.director.loadScene("level1");
-        }
-    },
-    start: function start() {
-        this.node.on(cc.Node.EventType.TOUCH_START, this.onTouchStart, this);
+  // onLoad () {},
+  onTouchStart: function onTouchStart(event) {
+    if (this.node._name === 'menu') {
+      cc.director.loadScene('start');
+    } else if (this.node._name === 'restart') {
+      cc.director.loadScene('level1');
     }
-}
+  },
+  start: function start() {
+    this.node.on(cc.Node.EventType.TOUCH_START, this.onTouchStart, this);
+  }
 
-// update (dt) {},
-);
+  // update (dt) {},
+
+});
 
 cc._RF.pop();

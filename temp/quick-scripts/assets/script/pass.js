@@ -2,7 +2,7 @@
 cc._RF.push(module, '77816M/rXJFKai17Et+4gf+', 'pass', __filename);
 // script/pass.js
 
-"use strict";
+'use strict';
 
 // Learn cc.Class:
 //  - [Chinese] https://docs.cocos.com/creator/manual/zh/scripting/class.html
@@ -15,28 +15,28 @@ cc._RF.push(module, '77816M/rXJFKai17Et+4gf+', 'pass', __filename);
 //  - [English] https://www.cocos2d-x.org/docs/creator/manual/en/scripting/life-cycle-callbacks.html
 
 cc.Class({
-    extends: cc.Component,
+  extends: cc.Component,
 
-    properties: {
-        label: cc.Label,
-        audio: {
-            default: null,
-            type: cc.AudioClip
-        }
-    },
-
-    // LIFE-CYCLE CALLBACKS:
-
-    // onLoad () {},
-
-    start: function start() {
-        cc.audioEngine.play(this.audio, false, 1);
-        this.label.string = "STAGE CLEAR!\n\nSCORE: " + Global.currentMoney;
+  properties: {
+    label: cc.Label,
+    audio: {
+      default: null,
+      type: cc.AudioClip
     }
-}
+  },
 
-// update (dt) {},
-);
+  // LIFE-CYCLE CALLBACKS:
+
+  // onLoad () {},
+
+  start: function start() {
+    cc.audioEngine.play(this.audio, false, 1);
+    this.label.string = 'STAGE CLEAR!\n\nSCORE: ' + Global.currentMoney;
+  }
+
+  // update (dt) {},
+
+});
 
 cc._RF.pop();
         }

@@ -2,7 +2,7 @@
 cc._RF.push(module, 'f8f10Se2R5MkI+03RCpX6T5', 'label');
 // script/label.js
 
-"use strict";
+'use strict';
 
 // Learn cc.Class:
 //  - [Chinese] https://docs.cocos.com/creator/manual/zh/scripting/class.html
@@ -15,25 +15,25 @@ cc._RF.push(module, 'f8f10Se2R5MkI+03RCpX6T5', 'label');
 //  - [English] https://www.cocos2d-x.org/docs/creator/manual/en/scripting/life-cycle-callbacks.html
 
 cc.Class({
-    extends: cc.Component,
+  extends: cc.Component,
 
-    properties: {
-        play: false
-    },
+  properties: {
+    play: false
+  },
 
-    // LIFE-CYCLE CALLBACKS:
+  // LIFE-CYCLE CALLBACKS:
 
-    // onLoad () {},
+  // onLoad () {},
 
-    start: function start() {
-        this.animationComponent = this.getComponent(cc.Animation);
-    },
-    update: function update(dt) {
-        if (this.play) {
-            this.animationComponent.play("labelVanish");
-            this.play = false;
-        }
+  start: function start() {
+    this.animationComponent = this.getComponent(cc.Animation);
+  },
+  update: function update(dt) {
+    if (this.play) {
+      this.animationComponent.play('labelVanish');
+      this.play = false;
     }
+  }
 });
 
 cc._RF.pop();

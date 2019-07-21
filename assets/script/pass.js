@@ -9,24 +9,24 @@
 //  - [English] https://www.cocos2d-x.org/docs/creator/manual/en/scripting/life-cycle-callbacks.html
 
 cc.Class({
-    extends: cc.Component,
+  extends: cc.Component,
 
-    properties: {
-        label: cc.Label,
-        audio: {
-            default: null,
-            type: cc.AudioClip
-        },
-    },
+  properties: {
+    label: cc.Label,
+    audio: {
+      default: null,
+      type: cc.AudioClip
+    }
+  },
 
-    // LIFE-CYCLE CALLBACKS:
+  // LIFE-CYCLE CALLBACKS:
 
-    // onLoad () {},
+  // onLoad () {},
 
-    start () {
-        cc.audioEngine.play(this.audio, false, 1);
-        this.label.string = "STAGE CLEAR!\n\nSCORE: " + Global.currentMoney;
-    },
+  start () {
+    cc.audioEngine.play(this.audio, false, 1)
+    this.label.string = 'STAGE CLEAR!\n\nSCORE: ' + Global.currentMoney
+  }
 
-    // update (dt) {},
-});
+  // update (dt) {},
+})

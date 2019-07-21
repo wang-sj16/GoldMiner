@@ -9,26 +9,26 @@
 //  - [English] https://www.cocos2d-x.org/docs/creator/manual/en/scripting/life-cycle-callbacks.html
 
 cc.Class({
-    extends: cc.Component,
+  extends: cc.Component,
 
-    properties: {
-    },
+  properties: {
+  },
 
-    // LIFE-CYCLE CALLBACKS:
+  // LIFE-CYCLE CALLBACKS:
 
-    // onLoad () {},
-    onTouchStart (event) {
-        if(this.node._name == "menu"){
-            cc.director.loadScene("start");
-        }else if(this.node._name == "restart"){
-            let scene = "level" + Global.currentLevel;
-            cc.director.loadScene(scene);
-        }
-    },
+  // onLoad () {},
+  onTouchStart (event) {
+    if (this.node._name === 'menu') {
+      cc.director.loadScene('start')
+    } else if (this.node._name === 'restart') {
+      const scene = 'level' + Global.currentLevel
+      cc.director.loadScene(scene)
+    }
+  },
 
-    start () {
-        this.node.on(cc.Node.EventType.TOUCH_START, this.onTouchStart, this);
-    },
+  start () {
+    this.node.on(cc.Node.EventType.TOUCH_START, this.onTouchStart, this)
+  }
 
-    // update (dt) {},
-});
+  // update (dt) {},
+})

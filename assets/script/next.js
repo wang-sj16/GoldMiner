@@ -9,33 +9,33 @@
 //  - [English] https://www.cocos2d-x.org/docs/creator/manual/en/scripting/life-cycle-callbacks.html
 
 cc.Class({
-    extends: cc.Component,
+  extends: cc.Component,
 
-    properties: {
-        broadcostTimes: 3,
-        audio: {
-            default: null,
-            type: cc.AudioClip
-        },
-    },
+  properties: {
+    broadcostTimes: 3,
+    audio: {
+      default: null,
+      type: cc.AudioClip
+    }
+  },
 
-    // LIFE-CYCLE CALLBACKS:
+  // LIFE-CYCLE CALLBACKS:
 
-    // onLoad () {},
+  // onLoad () {},
 
-    start () {
-        cc.audioEngine.play(this.audio, false, 1);
-        this.schedule(this.doCountdownTime,1);
-    },
+  start () {
+    cc.audioEngine.play(this.audio, false, 1)
+    this.schedule(this.doCountdownTime, 1)
+  },
 
-        //倒计时
-        doCountdownTime(){
-            if (this.broadcostTimes >= 0 ) {
-                this.broadcostTimes -= 1;
-                if(this.broadcostTimes == 0){
-                    cc.director.loadScene("shop");
-                }
-            }
-        },
+  // 倒计时
+  doCountdownTime () {
+    if (this.broadcostTimes >= 0) {
+      this.broadcostTimes -= 1
+      if (this.broadcostTimes === 0) {
+        cc.director.loadScene('shop')
+      }
+    }
+  }
 
-});
+})

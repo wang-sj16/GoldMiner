@@ -2,7 +2,7 @@
 cc._RF.push(module, '4f1857SKBpE6KiP5vfRCu09', 'background', __filename);
 // script/background.js
 
-"use strict";
+'use strict';
 
 // Learn cc.Class:
 //  - [Chinese] https://docs.cocos.com/creator/manual/zh/scripting/class.html
@@ -15,26 +15,26 @@ cc._RF.push(module, '4f1857SKBpE6KiP5vfRCu09', 'background', __filename);
 //  - [English] https://www.cocos2d-x.org/docs/creator/manual/en/scripting/life-cycle-callbacks.html
 
 cc.Class({
-    extends: cc.Component,
+  extends: cc.Component,
 
-    properties: {
-        hook: cc.Node
-    },
+  properties: {
+    hook: cc.Node
+  },
 
-    // LIFE-CYCLE CALLBACKS:
+  // LIFE-CYCLE CALLBACKS:
 
-    // onLoad () {},
-    onTouchStart: function onTouchStart(event) {
-        // set a flag when key pressed
-        this.hook.getComponent("hook").down = true;
-    },
-    start: function start() {
-        this.node.on(cc.Node.EventType.TOUCH_START, this.onTouchStart, this);
-    }
-}
+  // onLoad () {},
+  onTouchStart: function onTouchStart(event) {
+    // set a flag when key pressed
+    this.hook.getComponent('hook').down = true;
+  },
+  start: function start() {
+    this.node.on(cc.Node.EventType.TOUCH_START, this.onTouchStart, this);
+  }
 
-// update (dt) {},
-);
+  // update (dt) {},
+
+});
 
 cc._RF.pop();
         }

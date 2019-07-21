@@ -2,7 +2,7 @@
 cc._RF.push(module, '18ce1mYCrdErohTQM+75yCg', 'lose');
 // script/lose.js
 
-"use strict";
+'use strict';
 
 // Learn cc.Class:
 //  - [Chinese] https://docs.cocos.com/creator/manual/zh/scripting/class.html
@@ -15,27 +15,27 @@ cc._RF.push(module, '18ce1mYCrdErohTQM+75yCg', 'lose');
 //  - [English] https://www.cocos2d-x.org/docs/creator/manual/en/scripting/life-cycle-callbacks.html
 
 cc.Class({
-    extends: cc.Component,
+  extends: cc.Component,
 
-    properties: {
-        label: cc.Label,
-        audio: {
-            default: null,
-            type: cc.AudioClip
-        }
-    },
-
-    // LIFE-CYCLE CALLBACKS:
-
-    // onLoad () {},
-
-    start: function start() {
-        cc.audioEngine.play(this.audio, false, 1);
-        this.label.string = "YOU LOSE!\n\nSCORE: " + Global.loseMoney;
+  properties: {
+    label: cc.Label,
+    audio: {
+      default: null,
+      type: cc.AudioClip
     }
-}
+  },
 
-// update (dt) {},
-);
+  // LIFE-CYCLE CALLBACKS:
+
+  // onLoad () {},
+
+  start: function start() {
+    cc.audioEngine.play(this.audio, false, 1);
+    this.label.string = 'YOU LOSE!\n\nSCORE: ' + Global.loseMoney;
+  }
+
+  // update (dt) {},
+
+});
 
 cc._RF.pop();

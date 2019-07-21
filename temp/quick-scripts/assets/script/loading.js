@@ -2,7 +2,7 @@
 cc._RF.push(module, '9c6f2/jee9KQ6LETgMP+1Wd', 'loading', __filename);
 // script/loading.js
 
-"use strict";
+'use strict';
 
 // Learn cc.Class:
 //  - [Chinese] https://docs.cocos.com/creator/manual/zh/scripting/class.html
@@ -15,44 +15,44 @@ cc._RF.push(module, '9c6f2/jee9KQ6LETgMP+1Wd', 'loading', __filename);
 //  - [English] https://www.cocos2d-x.org/docs/creator/manual/en/scripting/life-cycle-callbacks.html
 
 cc.Class({
-    extends: cc.Component,
+  extends: cc.Component,
 
-    properties: {
-        load: cc.Node,
-        broadcostTimes: 2
-    },
+  properties: {
+    load: cc.Node,
+    broadcostTimes: 2
+  },
 
-    // LIFE-CYCLE CALLBACKS:
+  // LIFE-CYCLE CALLBACKS:
 
-    //倒计时
-    doCountdownTime: function doCountdownTime() {
-        this.broadcostTimes -= 1;
-        console.log(this.broadcostTimes);
-        if (this.broadcostTimes <= 0 && this.loadOver) {
-            cc.director.loadScene("start");
-        }
-    },
-    start: function start() {
-        this.schedule(this.doCountdownTime, 1);
-        var animationComponent = this.load.getComponent(cc.Animation);
-        animationComponent.play("loading");
-
-        cc.loader.downloader.loadSubpackage('img', function (err) {
-            if (err) {
-                console.log('load subpackage failed.');
-                return console.error(err);
-            }
-            console.log('load img successfully.');
-            cc.loader.downloader.loadSubpackage('music', function (err) {
-                if (err) {
-                    console.log('load subpackage failed.');
-                    return console.error(err);
-                }
-                cc.find("Canvas").getComponent("loading").loadOver = true;
-                console.log('load music successfully.');
-            });
-        });
+  // 倒计时
+  doCountdownTime: function doCountdownTime() {
+    this.broadcostTimes -= 1;
+    console.log(this.broadcostTimes);
+    if (this.broadcostTimes <= 0 && this.loadOver) {
+      cc.director.loadScene('start');
     }
+  },
+  start: function start() {
+    this.schedule(this.doCountdownTime, 1);
+    var animationComponent = this.load.getComponent(cc.Animation);
+    animationComponent.play('loading');
+
+    cc.loader.downloader.loadSubpackage('img', function (err) {
+      if (err) {
+        console.log('load subpackage failed.');
+        return console.error(err);
+      }
+      console.log('load img successfully.');
+      cc.loader.downloader.loadSubpackage('music', function (err) {
+        if (err) {
+          console.log('load subpackage failed.');
+          return console.error(err);
+        }
+        cc.find('Canvas').getComponent('loading').loadOver = true;
+        console.log('load music successfully.');
+      });
+    });
+  }
 });
 
 cc._RF.pop();

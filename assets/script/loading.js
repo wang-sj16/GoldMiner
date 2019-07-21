@@ -9,45 +9,44 @@
 //  - [English] https://www.cocos2d-x.org/docs/creator/manual/en/scripting/life-cycle-callbacks.html
 
 cc.Class({
-    extends: cc.Component,
+  extends: cc.Component,
 
-    properties: {
-        load: cc.Node,
-        broadcostTimes: 2,
-    },
+  properties: {
+    load: cc.Node,
+    broadcostTimes: 2
+  },
 
-    // LIFE-CYCLE CALLBACKS:
+  // LIFE-CYCLE CALLBACKS:
 
-    //倒计时
-    doCountdownTime(){
-        this.broadcostTimes -= 1;
-        console.log(this.broadcostTimes);
-        if(this.broadcostTimes <= 0 && this.loadOver){
-            cc.director.loadScene("start"); 
+  // 倒计时
+  doCountdownTime () {
+    this.broadcostTimes -= 1
+    console.log(this.broadcostTimes)
+    if (this.broadcostTimes <= 0 && this.loadOver) {
+      cc.director.loadScene('start')
+    }
+  },
+
+  start () {
+    this.schedule(this.doCountdownTime, 1)
+    const animationComponent = this.load.getComponent(cc.Animation)
+    animationComponent.play('loading')
+
+    cc.loader.downloader.loadSubpackage('img', function (err) {
+      if (err) {
+        console.log('load subpackage failed.')
+        return console.error(err)
+      }
+      console.log('load img successfully.')
+      cc.loader.downloader.loadSubpackage('music', function (err) {
+        if (err) {
+          console.log('load subpackage failed.')
+          return console.error(err)
         }
-    },
+        cc.find('Canvas').getComponent('loading').loadOver = true
+        console.log('load music successfully.')
+      })
+    })
+  }
 
-    start () {
-        this.schedule(this.doCountdownTime,1);
-        let animationComponent = this.load.getComponent(cc.Animation);
-        animationComponent.play("loading");
-
-        cc.loader.downloader.loadSubpackage('img', function (err) {
-            if (err) {
-                console.log('load subpackage failed.');
-                return console.error(err);
-              }
-              console.log('load img successfully.');
-              cc.loader.downloader.loadSubpackage('music', function (err) {
-                if (err) {
-                    console.log('load subpackage failed.');
-                    return console.error(err);
-                  }
-                  cc.find("Canvas").getComponent("loading").loadOver = true;
-                  console.log('load music successfully.');
-                });
-            });
-
-    },
-
-});
+})
