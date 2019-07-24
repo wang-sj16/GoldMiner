@@ -52,7 +52,7 @@ cc.Class({
         } else if (this.node._name === 'double') {
           cc.game.end()
         } else if (this.node._name === 'tutorial') {
-          cc.game.end()
+          cc.director.loadScene('tutorial')
         } else if (this.node._name === 'setting') {
           cc.game.end()
         }
