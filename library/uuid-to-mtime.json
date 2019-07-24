@@ -635,8 +635,8 @@
     "relativePath": "Prefab\\hook.prefab"
   },
   "59334db5-9391-4ff9-bf48-0abe670d58ca": {
-    "asset": 1563947482861,
-    "meta": 1563947633186,
+    "asset": 1563991388804,
+    "meta": 1563991388827,
     "relativePath": "scene\\start.fire"
   },
   "aa95d830-ad14-4a48-86c8-dc4263001be3": {
@@ -710,8 +710,8 @@
     "relativePath": "music\\ding.mp3"
   },
   "af121596-a878-414f-b5ae-40824f348e81": {
-    "asset": 1563958840149,
-    "meta": 1563958840241,
+    "asset": 1563991344429,
+    "meta": 1563991344488,
     "relativePath": "scene\\tutorial.fire"
   },
   "c86bc7a5-ef98-4481-94b5-f1123d78749f": {
@@ -825,8 +825,8 @@
     "relativePath": "script\\shop.js"
   },
   "9fb7634a-cd81-4507-af25-f030afbc4269": {
-    "asset": 1563954916488,
-    "meta": 1563954916529,
+    "asset": 1563991330636,
+    "meta": 1563991330739,
     "relativePath": "scene\\tutorial_next.fire"
   },
   "814bab70-2a1a-4509-9bf6-5391507b6392": {
@@ -835,8 +835,13 @@
     "relativePath": "script\\startbtn.js"
   },
   "c3306602-4f22-4c68-9cf8-35bedc41bed5": {
-    "asset": 1563956068331,
-    "meta": 1563956079956,
+    "asset": 1563989641205,
+    "meta": 1563989654465,
     "relativePath": "script\\tutorial.js"
+  },
+  "76f2d1d7-8ae8-464b-a48d-b230304b564a": {
+    "asset": 1563989766536,
+    "meta": 1563989776990,
+    "relativePath": "script\\tutorial_next.js"
   }
 }

@@ -40,11 +40,11 @@ cc.Class({
 
     // onLoad () {},
 
-    onTouchStart: function onTouchStart(event) {
-        cc.director.loadScene('start');
+    onTouchStartNext: function onTouchStartNext(event) {
+        cc.director.loadScene('tutorial_next');
     },
     start: function start() {
-        this.next.on(cc.Node.EventType.TOUCH_START, this.onTouchStart, this);
+        this.next.on(cc.Node.EventType.TOUCH_START, this.onTouchStartNext, this);
     }
 }
 

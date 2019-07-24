@@ -821,7 +821,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "return",
+    "_name": "next",
     "_objFlags": 0,
     "_parent": {
       "__id__": 2
@@ -848,7 +848,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 116.03,
+      "width": 83.59,
       "height": 50
     },
     "_anchorPoint": {
@@ -858,7 +858,7 @@
     },
     "_position": {
       "__type__": "cc.Vec3",
-      "x": 418,
+      "x": 436,
       "y": -242,
       "z": 0
     },
@@ -891,9 +891,9 @@
     },
     "_enabled": true,
     "_useOriginalSize": false,
-    "_string": "RETURN",
-    "_N$string": "RETURN",
-    "_fontSize": 36,
+    "_string": "NEXT",
+    "_N$string": "NEXT",
+    "_fontSize": 38,
     "_lineHeight": 50,
     "_enableWrapText": true,
     "_N$file": {

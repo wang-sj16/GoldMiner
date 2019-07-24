@@ -34,12 +34,12 @@ cc.Class({
 
     // onLoad () {},
 
-    onTouchStart(event) {
-        cc.director.loadScene('start')
+    onTouchStartNext(event) {
+        cc.director.loadScene('tutorial_next')
     },
 
     start () {
-        this.next.on(cc.Node.EventType.TOUCH_START, this.onTouchStart, this)
+        this.next.on(cc.Node.EventType.TOUCH_START, this.onTouchStartNext, this)
     },
 
     // update (dt) {},
