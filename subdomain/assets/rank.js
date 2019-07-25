@@ -112,8 +112,6 @@ cc.Class({
                             console.log(num)
                             if(num>5){
                                 for (let i=0; i<5; i++){
-                                    this.lines[i+1].opacity = 255;
-                                    //console.log(this.data[i].KVDataList)
                                     cc.loader.load({url: this.data[i].avatarUrl, type: 'png'}, (err, texture) => {
                                         if (err) {
                                             console.error(err);
@@ -123,11 +121,10 @@ cc.Class({
                                       });
                                     this.lines[i+1].children[2].getComponent(cc.Label).string = this.strClamp(this.data[i].nickname,8,"…")
                                     this.lines[i+1].children[3].getComponent(cc.Label).string = this.data[i].KVDataList[0].value
+                                    this.lines[i+1].opacity = 255;
                                 }
                             }else{
                                 for (let i=0; i<num; i++){
-                                    this.lines[i+1].opacity = 255;
-                                    //console.log(this.data[i].KVDataList)
                                     cc.loader.load({url: this.data[i].avatarUrl, type: 'png'}, (err, texture) => {
                                         if (err) {
                                             console.error(err);
@@ -137,6 +134,7 @@ cc.Class({
                                       });
                                     this.lines[i+1].children[2].getComponent(cc.Label).string = this.strClamp(this.data[i].nickname,8,"…")
                                     this.lines[i+1].children[3].getComponent(cc.Label).string = this.data[i].KVDataList[0].value
+                                    this.lines[i+1].opacity = 255;
                                 }
                             }
                         }
