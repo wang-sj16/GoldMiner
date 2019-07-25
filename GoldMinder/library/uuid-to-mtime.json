@@ -839,11 +839,6 @@
     "meta": 1564041912406,
     "relativePath": "script/shop.js"
   },
-  "dae89428-81a8-4ec0-a927-aeeafad97fb9": {
-    "asset": 1564041924455,
-    "meta": 1564041926123,
-    "relativePath": "script/start.js"
-  },
   "ecae1b93-bc10-4a03-80b4-f0b58c442ffd": {
     "asset": 1564041950282,
     "meta": 1564041950957,
@@ -865,8 +860,8 @@
     "relativePath": "scene/levels/level6.fire"
   },
   "8f6bfe32-03b7-42f0-b4e9-faf464082c94": {
-    "asset": 1564048987411,
-    "meta": 1564048987422,
+    "asset": 1564050952968,
+    "meta": 1564050952988,
     "relativePath": "scene/levels/level7.fire"
   },
   "3d8ef952-35eb-4c28-bdac-9d66860d3942": {
@@ -898,5 +893,10 @@
     "asset": 1564049394264,
     "meta": 1564049395799,
     "relativePath": "script/game.js"
+  },
+  "dae89428-81a8-4ec0-a927-aeeafad97fb9": {
+    "asset": 1564050295247,
+    "meta": 1564050298041,
+    "relativePath": "script/start.js"
   }
 }

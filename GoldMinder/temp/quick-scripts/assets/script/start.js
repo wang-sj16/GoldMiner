@@ -99,13 +99,6 @@ cc.Class({
     cc.director.getCollisionManager().enabledDebugDraw = false;
     cc.director.getCollisionManager().enabled = true;
     Global.currentLevel = 1;
-    Global.currentMoney = 0;
-    Global.targets = [600, 1500, 2600, 4000, 5500, 6900, 9000];
-    Global.fires = 0;
-    Global.betterDiamonds = 0;
-    Global.powers = 0;
-    Global.luckys = 0;
-    Global.stoneBooks = 0;
   },
   update: function update(dt) {
     this.draw.clear();

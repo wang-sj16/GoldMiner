@@ -4,7 +4,7 @@ window.DOMParser = Parser.DOMParser;
 require('libs/wx-downloader.js');
 require('src/settings.10b71');
 var settings = window._CCSettings;
-require('main.1d430');
+require('main.3eec4');
 
 // Will be replaced with cocos2d-js path in editor
 require('cocos/cocos2d-js-min.js');
