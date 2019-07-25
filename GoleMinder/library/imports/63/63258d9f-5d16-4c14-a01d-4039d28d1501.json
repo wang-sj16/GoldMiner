@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "diamondPig3",
+    "texture": "1819d598-b540-4f8f-a539-c0a49ee449cb",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      1418,
+      679
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      1418,
+      679
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
