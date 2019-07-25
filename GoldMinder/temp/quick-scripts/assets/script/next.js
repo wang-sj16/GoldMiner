@@ -30,7 +30,9 @@ cc.Class({
   // onLoad () {},
 
   start: function start() {
-    cc.audioEngine.play(this.audio, false, 1);
+    if (Global.sound === 1) {
+      cc.audioEngine.play(this.audio, false, 1);
+    }
     this.schedule(this.doCountdownTime, 1);
   },
 

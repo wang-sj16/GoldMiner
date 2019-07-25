@@ -59,7 +59,9 @@ cc.Class({
           cc.director.loadScene('rank');
         } else if (this.node._name === 'tutorial') {
           cc.director.loadScene('tutorial');
-        } else if (this.node._name === 'setting') {}
+        } else if (this.node._name === 'setting') {
+          cc.director.loadScene("setting");
+        }
         this.node.destroy();
       }
     }

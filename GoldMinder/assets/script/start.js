@@ -88,7 +88,9 @@ cc.Class({
       }
     })
 
-    cc.audioEngine.play(this.bgm, true, 1)
+    if(Global.sound === 1){
+      cc.audioEngine.play(this.bgm, true, 1)
+    }
     cc.director.getCollisionManager().enabledDebugDraw = false
     cc.director.getCollisionManager().enabled = true
     Global.currentLevel = 1

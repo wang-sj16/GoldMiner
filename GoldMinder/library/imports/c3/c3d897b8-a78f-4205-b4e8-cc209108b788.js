@@ -61,23 +61,13 @@ cc.Class({
             item.getComponent('items').animationComponent.play('diamondPigbomb');
           }
         }
-        cc.audioEngine.play(this.audio, false, 1);
+        if (Global.sound === 1) {
+          cc.audioEngine.play(this.audio, false, 1);
+        }
         this.num -= 1;
       }
     }
   },
-
-  /*
-    onMouseDown (event) {
-        //this.hook.getComponent("hook").down = true;
-        if(this.hook.getComponent("hook").flag == 2 && this.num>0){
-            this.hook.getComponent("hook").moveSpeed=6,
-            this.hook.getComponent("hook").item.destroy();
-            cc.audioEngine.play(this.audio, false, 1);
-            this.num -= 1;
-        }
-    },
-  */
   start: function start() {
     this.node.on(cc.Node.EventType.TOUCH_START, this.onTouchStart, this);
     this.num = Global.fires;

@@ -757,3 +757,808 @@
 2019-07-25T07:32:51.595Z - normal: Start building plugin scripts
 2019-07-25T07:32:51.635Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
 2019-07-25T07:32:52.529Z - normal: Built to "/Users/vincent/code/GoldMiner/GoldMinder/build/wechatgame" successfully
+2019-07-25T07:34:36.098Z - normal: Start building with options : {
+  "actualPlatform": "wechatgame",
+  "android-instant": {
+    "REMOTE_SERVER_ROOT": "",
+    "host": "",
+    "pathPattern": "",
+    "recordPath": "",
+    "scheme": "https",
+    "skipRecord": false
+  },
+  "apiLevel": "",
+  "appABIs": [],
+  "appBundle": false,
+  "baidugame": {
+    "REMOTE_SERVER_ROOT": "",
+    "appid": "testappid",
+    "orientation": "portrait",
+    "subContext": ""
+  },
+  "buildPath": "/Users/vincent/code/GoldMiner/GoldMinder/build",
+  "debug": false,
+  "dest": "/Users/vincent/code/GoldMiner/GoldMinder/build/wechatgame",
+  "embedWebDebugger": false,
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [],
+  "fb-instant-games": {},
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "md5Cache": true,
+  "mergeStartScene": false,
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.GoldMiner",
+  "platform": "wechatgame",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "qqplay": {
+    "REMOTE_SERVER_ROOT": "",
+    "orientation": "portrait",
+    "zip": false
+  },
+  "scenes": [
+    "c86bc7a5-ef98-4481-94b5-f1123d78749f",
+    "873b99e6-309d-4d86-af57-c10a1f967080",
+    "8a90e415-b26e-47d2-a4c0-a6021c0c1d84",
+    "ffb70ef1-991b-4c55-bf0a-12763b657c47",
+    "dd826901-d60f-437a-81d8-aba3756d45c8",
+    "1f086e9a-44a0-4969-9f4d-5a97061892c2",
+    "aa95d830-ad14-4a48-86c8-dc4263001be3",
+    "009de718-30fe-4deb-a729-a05aab6525f9",
+    "5b096439-58c4-4cf8-b8a9-8625e1d3101d",
+    "dfc016d6-1287-4c20-a7aa-38512e4ed1c1",
+    "001a278f-e556-471e-b288-70833c05c3bc",
+    "186ded98-7bc2-4102-a47b-fa9c863a9489",
+    "991f5506-c7db-4853-b991-6dc1e6e2a091",
+    "59334db5-9391-4ff9-bf48-0abe670d58ca",
+    "c4c357e2-3461-4c07-aa5c-f3fe4914a4d1",
+    "5e3b6d1f-adda-49ad-9718-67ddda578fb8"
+  ],
+  "sourceMaps": false,
+  "startScene": "c86bc7a5-ef98-4481-94b5-f1123d78749f",
+  "template": "link",
+  "title": "GoldMiner",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "",
+    "appid": "wx3839d1aa1c54d567",
+    "orientation": "landscapeRight",
+    "separate_engine": false,
+    "subContext": "subdomain"
+  },
+  "xxteaKey": "b4afd356-9b81-48",
+  "zipCompressJs": true,
+  "project": "/Users/vincent/code/GoldMiner/GoldMinder",
+  "projectName": "GoldMiner",
+  "debugBuildWorker": false
+}
+2019-07-25T07:34:36.100Z - normal: Building /Users/vincent/code/GoldMiner/GoldMinder
+2019-07-25T07:34:36.100Z - normal: Destination /Users/vincent/code/GoldMiner/GoldMinder/build/wechatgame
+2019-07-25T07:34:36.101Z - normal: Delete /Users/vincent/code/GoldMiner/GoldMinder/build/wechatgame/subpackages/**/*,/Users/vincent/code/GoldMiner/GoldMinder/build/wechatgame/**/*,!/Users/vincent/code/GoldMiner/GoldMinder/build/wechatgame/subdomain,!/Users/vincent/code/GoldMiner/GoldMinder/build/wechatgame/subdomain/**/*
+2019-07-25T07:34:38.004Z - normal: Start building assets
+2019-07-25T07:34:38.004Z - normal: Start spawn build-worker
+2019-07-25T07:34:38.521Z - normal: Finish spawn build-worker
+2019-07-25T07:34:38.521Z - normal: Start init build-worker
+2019-07-25T07:34:40.844Z - normal: Finish init build-worker
+2019-07-25T07:34:40.844Z - normal: Start build-assets in worker
+2019-07-25T07:34:41.289Z - normal: Finish build-assets in worker
+2019-07-25T07:34:41.291Z - normal: Finish building assets
+2019-07-25T07:34:41.301Z - normal: Start building plugin scripts
+2019-07-25T07:34:41.336Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2019-07-25T07:34:42.331Z - normal: Built to "/Users/vincent/code/GoldMiner/GoldMinder/build/wechatgame" successfully
+2019-07-25T07:35:05.996Z - normal: Initializing...
+
+2019-07-25T07:35:06.005Z - normal: idePortFile: /Users/vincent/Library/Application Support/微信开发者工具/Default/.ide
+
+2019-07-25T07:35:06.021Z - normal: IDE server has started, listening on http://127.0.0.1:61726
+
+2019-07-25T07:35:06.022Z - normal: initialization finished
+
+2019-07-25T07:35:06.545Z - normal: open IDE success
+
+2019-07-25T07:47:57.773Z - normal: Simulator: WORKAREA WIDTH 1920.00, HEIGHT 966.00
+2019-07-25T07:47:57.774Z - normal: Simulator: FRAME SCALE = 0.75
+2019-07-25T07:47:57.890Z - normal: Simulator: GLFWError #65544 Happen, Cocoa: Failed to retrieve display name
+2019-07-25T07:47:57.891Z - normal: Simulator: GLFWError #65544 Happen, Cocoa: Failed to retrieve display name
+2019-07-25T07:47:57.891Z - normal: Simulator: 
+2019-07-25T07:47:57.891Z - normal: Simulator: {
+2019-07-25T07:47:57.891Z - normal: Simulator: 	build_type: DEBUG
+2019-07-25T07:47:57.892Z - normal: Simulator: 	gl.vendor: Intel Inc.
+2019-07-25T07:47:57.892Z - normal: Simulator: 	gl.supports_PVRTC: false
+2019-07-25T07:47:57.892Z - normal: Simulator: 	gl.renderer: Intel(R) Iris(TM) Plus Graphics 655
+2019-07-25T07:47:57.892Z - normal: Simulator: 	gl.supports_ATITC: false
+2019-07-25T07:47:57.893Z - normal: Simulator: 	gl.supports_discard_framebuffer: false
+2019-07-25T07:47:57.893Z - normal: Simulator: 	gl.supports_NPOT: true
+2019-07-25T07:47:57.893Z - normal: Simulator: 	gl.max_texture_units: 16
+2019-07-25T07:47:57.893Z - normal: Simulator: 	gl.supports_ETC1: false
+2019-07-25T07:47:57.894Z - normal: Simulator: 	gl.max_texture_size: 16384
+2019-07-25T07:47:57.894Z - normal: Simulator: 	gl.supports_BGRA8888: false
+2019-07-25T07:47:57.894Z - normal: Simulator: 	gl.supports_vertex_array_object: true
+2019-07-25T07:47:57.894Z - normal: Simulator: 	gl.supports_OES_map_buffer: false
+2019-07-25T07:47:57.894Z - normal: Simulator: 	compiled_with_gl_state_cache: true
+2019-07-25T07:47:57.894Z - normal: Simulator: 	gl.supports_OES_packed_depth_stencil: false
+2019-07-25T07:47:57.895Z - normal: Simulator: 	gl.version: 2.1 INTEL-12.9.22
+2019-07-25T07:47:57.895Z - normal: Simulator: 	gl.supports_S3TC: true
+2019-07-25T07:47:57.895Z - normal: Simulator: 	compiled_with_profiler: false
+2019-07-25T07:47:57.895Z - normal: Simulator: 	gl.supports_OES_depth24: false
+2019-07-25T07:47:57.895Z - normal: Simulator: }
+2019-07-25T07:47:57.942Z - normal: Simulator: Project Config:
+2019-07-25T07:47:57.942Z - normal: Simulator:     project dir: /Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/
+2019-07-25T07:47:57.943Z - normal: Simulator:     writable path: $(PROJDIR)/
+2019-07-25T07:47:57.943Z - normal: Simulator:     script file: $(PROJDIR)/main.js
+2019-07-25T07:47:57.943Z - normal: Simulator:     frame size: 1920 x 1080
+2019-07-25T07:47:57.943Z - normal: Simulator:     frame scale: 0.75
+2019-07-25T07:47:57.944Z - normal: Simulator:     show console: NO
+2019-07-25T07:47:57.944Z - normal: Simulator:     write debug log: NO ()
+2019-07-25T07:47:57.944Z - normal: Simulator:     listen: 
+2019-07-25T07:47:57.944Z - normal: Simulator:     debugger: none
+2019-07-25T07:47:57.944Z - normal: Simulator:     add searching path:
+2019-07-25T07:47:57.944Z - normal: Simulator: resetDesignResolution request
+2019-07-25T07:47:57.945Z - normal: Simulator: ------------------------------------------------
+2019-07-25T07:47:57.945Z - normal: Simulator: LOAD Js FILE: jsb-adapter/jsb-builtin.js
+2019-07-25T07:47:57.945Z - normal: Simulator: ------------------------------------------------
+2019-07-25T07:47:57.945Z - normal: Simulator: Initializing V8, version: 6.5.254.43
+2019-07-25T07:47:57.983Z - normal: Simulator: libuv version: 1.23.1-dev
+2019-07-25T07:47:57.984Z - normal: Simulator: Debugger listening..., visit [ chrome-devtools://devtools/bundled/inspector.html?v8only=true&ws=0.0.0.0:5086/00010002-0003-4004-8005-000600070008 ] in chrome browser to debug!
+2019-07-25T07:47:57.984Z - normal: Simulator: For help see https://nodejs.org/en/docs/inspector
+2019-07-25T07:47:58.027Z - normal: Simulator: JS: Enable batch GL commands optimization!
+2019-07-25T07:47:58.028Z - normal: Simulator: resetDesignResolution request
+2019-07-25T07:47:58.029Z - normal: Simulator: ------------------------------------------------
+2019-07-25T07:47:58.029Z - normal: Simulator: LOAD Js FILE: main.js
+2019-07-25T07:47:58.029Z - normal: Simulator: ------------------------------------------------
+2019-07-25T07:47:58.327Z - normal: Simulator: iShow!
+2019-07-25T07:47:58.490Z - normal: Simulator: glGetIntegerv: pname: 0x8b4c
+2019-07-25T07:47:58.506Z - normal: Simulator: JS: Cocos Creator v2.0.10
+2019-07-25T07:47:58.710Z - normal: Simulator: JS: [ERROR]: Callback of event must be non-nil
+2019-07-25T07:48:04.739Z - normal: Simulator: ScriptEngine::cleanup begin ...
+2019-07-25T07:48:04.740Z - normal: Simulator: GC begin ..., (js->native map) size: 20, all objects: 99
+2019-07-25T07:48:04.766Z - normal: Simulator: GC end ..., (js->native map) size: 20, all objects: 99
+2019-07-25T07:48:04.766Z - normal: Simulator: GC begin ..., (js->native map) size: 20, all objects: 99
+2019-07-25T07:48:04.787Z - normal: Simulator: GC end ..., (js->native map) size: 20, all objects: 99
+2019-07-25T07:48:04.788Z - normal: Simulator: Destroy WebGLProgram (3) by GC
+2019-07-25T07:48:04.789Z - normal: Simulator: Destroy WebGLTexture (4) by GC
+2019-07-25T07:48:04.789Z - normal: Simulator: Destroy WebGLTexture (3) by GC
+2019-07-25T07:48:04.789Z - normal: Simulator: Destroy WebGLTexture (2) by GC
+2019-07-25T07:48:04.789Z - normal: Simulator: Destroy WebGLTexture (1) by GC
+2019-07-25T07:48:04.789Z - normal: Simulator: Destroy WebGLBuffer (3) by GC
+2019-07-25T07:48:04.790Z - normal: Simulator: Destroy WebGLBuffer (1) by GC
+2019-07-25T07:48:04.791Z - normal: Simulator: Destroy WebGLBuffer (4) by GC
+2019-07-25T07:48:04.791Z - normal: Simulator: Destroy WebGLTexture (5) by GC
+2019-07-25T07:48:04.791Z - normal: Simulator: Destroy WebGLBuffer (2) by GC
+2019-07-25T07:48:04.791Z - normal: Simulator: GC begin ..., (js->native map) size: 0, all objects: 0
+2019-07-25T07:48:04.813Z - normal: Simulator: GC end ..., (js->native map) size: 0, all objects: 0
+2019-07-25T07:48:04.813Z - normal: Simulator: ScriptEngine::cleanup end ...
+2019-07-25T07:48:12.045Z - normal: Simulator: WORKAREA WIDTH 1920.00, HEIGHT 966.00
+2019-07-25T07:48:12.046Z - normal: Simulator: FRAME SCALE = 0.75
+2019-07-25T07:48:12.130Z - normal: Simulator: GLFWError #65544 Happen, Cocoa: Failed to retrieve display name
+2019-07-25T07:48:12.134Z - normal: Simulator: GLFWError #65544 Happen, Cocoa: Failed to retrieve display name
+2019-07-25T07:48:12.161Z - normal: Simulator: 
+2019-07-25T07:48:12.161Z - normal: Simulator: {
+2019-07-25T07:48:12.161Z - normal: Simulator: 	build_type: DEBUG
+2019-07-25T07:48:12.162Z - normal: Simulator: 	gl.vendor: Intel Inc.
+2019-07-25T07:48:12.162Z - normal: Simulator: 	gl.supports_PVRTC: false
+2019-07-25T07:48:12.162Z - normal: Simulator: 	gl.renderer: Intel(R) Iris(TM) Plus Graphics 655
+2019-07-25T07:48:12.162Z - normal: Simulator: 	gl.supports_ATITC: false
+2019-07-25T07:48:12.162Z - normal: Simulator: 	gl.supports_discard_framebuffer: false
+2019-07-25T07:48:12.162Z - normal: Simulator: 	gl.supports_NPOT: true
+2019-07-25T07:48:12.162Z - normal: Simulator: 	gl.max_texture_units: 16
+2019-07-25T07:48:12.163Z - normal: Simulator: 	gl.supports_ETC1: false
+2019-07-25T07:48:12.163Z - normal: Simulator: 	gl.max_texture_size: 16384
+2019-07-25T07:48:12.163Z - normal: Simulator: 	gl.supports_BGRA8888: false
+2019-07-25T07:48:12.163Z - normal: Simulator: 	gl.supports_vertex_array_object: true
+2019-07-25T07:48:12.163Z - normal: Simulator: 	gl.supports_OES_map_buffer: false
+2019-07-25T07:48:12.163Z - normal: Simulator: 	compiled_with_gl_state_cache: true
+2019-07-25T07:48:12.163Z - normal: Simulator: 	gl.supports_OES_packed_depth_stencil: false
+2019-07-25T07:48:12.163Z - normal: Simulator: 	gl.version: 2.1 INTEL-12.9.22
+2019-07-25T07:48:12.164Z - normal: Simulator: 	gl.supports_S3TC: true
+2019-07-25T07:48:12.164Z - normal: Simulator: 	compiled_with_profiler: false
+2019-07-25T07:48:12.164Z - normal: Simulator: 	gl.supports_OES_depth24: false
+2019-07-25T07:48:12.164Z - normal: Simulator: }
+2019-07-25T07:48:12.167Z - normal: Simulator: Project Config:
+2019-07-25T07:48:12.167Z - normal: Simulator:     project dir: /Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/
+2019-07-25T07:48:12.167Z - normal: Simulator:     writable path: $(PROJDIR)/
+2019-07-25T07:48:12.168Z - normal: Simulator:     script file: $(PROJDIR)/main.js
+2019-07-25T07:48:12.168Z - normal: Simulator:     frame size: 1920 x 1080
+2019-07-25T07:48:12.168Z - normal: Simulator:     frame scale: 0.75
+2019-07-25T07:48:12.168Z - normal: Simulator:     show console: NO
+2019-07-25T07:48:12.168Z - normal: Simulator:     write debug log: NO ()
+2019-07-25T07:48:12.168Z - normal: Simulator:     listen: 
+2019-07-25T07:48:12.169Z - normal: Simulator:     debugger: none
+2019-07-25T07:48:12.169Z - normal: Simulator:     add searching path:
+2019-07-25T07:48:12.169Z - normal: Simulator: resetDesignResolution request
+2019-07-25T07:48:12.169Z - normal: Simulator: ------------------------------------------------
+2019-07-25T07:48:12.169Z - normal: Simulator: LOAD Js FILE: jsb-adapter/jsb-builtin.js
+2019-07-25T07:48:12.169Z - normal: Simulator: ------------------------------------------------
+2019-07-25T07:48:12.169Z - normal: Simulator: Initializing V8, version: 6.5.254.43
+2019-07-25T07:48:12.209Z - normal: Simulator: libuv version: 1.23.1-dev
+2019-07-25T07:48:12.209Z - normal: Simulator: Debugger listening..., visit [ chrome-devtools://devtools/bundled/inspector.html?v8only=true&ws=0.0.0.0:5086/00010002-0003-4004-8005-000600070008 ] in chrome browser to debug!
+2019-07-25T07:48:12.209Z - normal: Simulator: For help see https://nodejs.org/en/docs/inspector
+2019-07-25T07:48:12.211Z - normal: Simulator: JS: Enable batch GL commands optimization!
+2019-07-25T07:48:12.212Z - normal: Simulator: resetDesignResolution request
+2019-07-25T07:48:12.212Z - normal: Simulator: ------------------------------------------------
+2019-07-25T07:48:12.212Z - normal: Simulator: LOAD Js FILE: main.js
+2019-07-25T07:48:12.213Z - normal: Simulator: ------------------------------------------------
+2019-07-25T07:48:12.486Z - normal: Simulator: iShow!
+2019-07-25T07:48:12.652Z - normal: Simulator: glGetIntegerv: pname: 0x8b4c
+2019-07-25T07:48:12.663Z - normal: Simulator: JS: Cocos Creator v2.0.10
+2019-07-25T07:48:19.925Z - normal: Simulator: ScriptEngine::cleanup begin ...
+2019-07-25T07:48:19.926Z - normal: Simulator: GC begin ..., (js->native map) size: 20, all objects: 99
+2019-07-25T07:48:19.951Z - normal: Simulator: GC end ..., (js->native map) size: 20, all objects: 99
+2019-07-25T07:48:19.952Z - normal: Simulator: GC begin ..., (js->native map) size: 20, all objects: 99
+2019-07-25T07:48:19.970Z - normal: Simulator: GC end ..., (js->native map) size: 20, all objects: 99
+2019-07-25T07:48:19.970Z - normal: Simulator: Destroy WebGLProgram (3) by GC
+2019-07-25T07:48:19.971Z - normal: Simulator: Destroy WebGLTexture (5) by GC
+2019-07-25T07:48:19.972Z - normal: Simulator: Destroy WebGLTexture (4) by GC
+2019-07-25T07:48:19.972Z - normal: Simulator: Destroy WebGLTexture (3) by GC
+2019-07-25T07:48:19.972Z - normal: Simulator: Destroy WebGLBuffer (4) by GC
+2019-07-25T07:48:19.972Z - normal: Simulator: Destroy WebGLBuffer (3) by GC
+2019-07-25T07:48:19.973Z - normal: Simulator: Destroy WebGLBuffer (2) by GC
+2019-07-25T07:48:19.973Z - normal: Simulator: Destroy WebGLTexture (2) by GC
+2019-07-25T07:48:19.974Z - normal: Simulator: Destroy WebGLBuffer (1) by GC
+2019-07-25T07:48:19.975Z - normal: Simulator: Destroy WebGLTexture (1) by GC
+2019-07-25T07:48:19.975Z - normal: Simulator: GC begin ..., (js->native map) size: 0, all objects: 0
+2019-07-25T07:48:19.992Z - normal: Simulator: GC end ..., (js->native map) size: 0, all objects: 0
+2019-07-25T07:48:19.997Z - normal: Simulator: ScriptEngine::cleanup end ...
+2019-07-25T07:48:36.359Z - normal: Simulator: WORKAREA WIDTH 1920.00, HEIGHT 966.00
+2019-07-25T07:48:36.359Z - normal: Simulator: FRAME SCALE = 0.75
+2019-07-25T07:48:36.446Z - normal: Simulator: GLFWError #65544 Happen, Cocoa: Failed to retrieve display name
+2019-07-25T07:48:36.469Z - normal: Simulator: GLFWError #65544 Happen, Cocoa: Failed to retrieve display name
+2019-07-25T07:48:36.470Z - normal: Simulator: 
+2019-07-25T07:48:36.470Z - normal: Simulator: {
+2019-07-25T07:48:36.470Z - normal: Simulator: 	build_type: DEBUG
+2019-07-25T07:48:36.470Z - normal: Simulator: 	gl.vendor: Intel Inc.
+2019-07-25T07:48:36.470Z - normal: Simulator: 	gl.supports_PVRTC: false
+2019-07-25T07:48:36.470Z - normal: Simulator: 	gl.renderer: Intel(R) Iris(TM) Plus Graphics 655
+2019-07-25T07:48:36.471Z - normal: Simulator: 	gl.supports_ATITC: false
+2019-07-25T07:48:36.471Z - normal: Simulator: 	gl.supports_discard_framebuffer: false
+2019-07-25T07:48:36.471Z - normal: Simulator: 	gl.supports_NPOT: true
+2019-07-25T07:48:36.472Z - normal: Simulator: 	gl.max_texture_units: 16
+2019-07-25T07:48:36.472Z - normal: Simulator: 	gl.supports_ETC1: false
+2019-07-25T07:48:36.472Z - normal: Simulator: 	gl.max_texture_size: 16384
+2019-07-25T07:48:36.472Z - normal: Simulator: 	gl.supports_BGRA8888: false
+2019-07-25T07:48:36.472Z - normal: Simulator: 	gl.supports_vertex_array_object: true
+2019-07-25T07:48:36.472Z - normal: Simulator: 	gl.supports_OES_map_buffer: false
+2019-07-25T07:48:36.473Z - normal: Simulator: 	compiled_with_gl_state_cache: true
+2019-07-25T07:48:36.473Z - normal: Simulator: 	gl.supports_OES_packed_depth_stencil: false
+2019-07-25T07:48:36.473Z - normal: Simulator: 	gl.version: 2.1 INTEL-12.9.22
+2019-07-25T07:48:36.473Z - normal: Simulator: 	gl.supports_S3TC: true
+2019-07-25T07:48:36.473Z - normal: Simulator: 	compiled_with_profiler: false
+2019-07-25T07:48:36.473Z - normal: Simulator: 	gl.supports_OES_depth24: false
+2019-07-25T07:48:36.473Z - normal: Simulator: }
+2019-07-25T07:48:36.512Z - normal: Simulator: Project Config:
+2019-07-25T07:48:36.512Z - normal: Simulator:     project dir: /Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/
+2019-07-25T07:48:36.513Z - normal: Simulator:     writable path: $(PROJDIR)/
+2019-07-25T07:48:36.513Z - normal: Simulator:     script file: $(PROJDIR)/main.js
+2019-07-25T07:48:36.513Z - normal: Simulator:     frame size: 1920 x 1080
+2019-07-25T07:48:36.513Z - normal: Simulator:     frame scale: 0.75
+2019-07-25T07:48:36.513Z - normal: Simulator:     show console: NO
+2019-07-25T07:48:36.514Z - normal: Simulator:     write debug log: NO ()
+2019-07-25T07:48:36.514Z - normal: Simulator:     listen: 
+2019-07-25T07:48:36.514Z - normal: Simulator:     debugger: none
+2019-07-25T07:48:36.514Z - normal: Simulator:     add searching path:
+2019-07-25T07:48:36.515Z - normal: Simulator: resetDesignResolution request
+2019-07-25T07:48:36.515Z - normal: Simulator: ------------------------------------------------
+2019-07-25T07:48:36.515Z - normal: Simulator: LOAD Js FILE: jsb-adapter/jsb-builtin.js
+2019-07-25T07:48:36.515Z - normal: Simulator: ------------------------------------------------
+2019-07-25T07:48:36.515Z - normal: Simulator: Initializing V8, version: 6.5.254.43
+2019-07-25T07:48:36.515Z - normal: Simulator: libuv version: 1.23.1-dev
+2019-07-25T07:48:36.516Z - normal: Simulator: Debugger listening..., visit [ chrome-devtools://devtools/bundled/inspector.html?v8only=true&ws=0.0.0.0:5086/00010002-0003-4004-8005-000600070008 ] in chrome browser to debug!
+2019-07-25T07:48:36.516Z - normal: Simulator: For help see https://nodejs.org/en/docs/inspector
+2019-07-25T07:48:36.560Z - normal: Simulator: JS: Enable batch GL commands optimization!
+2019-07-25T07:48:36.560Z - normal: Simulator: resetDesignResolution request
+2019-07-25T07:48:36.560Z - normal: Simulator: ------------------------------------------------
+2019-07-25T07:48:36.561Z - normal: Simulator: LOAD Js FILE: main.js
+2019-07-25T07:48:36.561Z - normal: Simulator: ------------------------------------------------
+2019-07-25T07:48:36.823Z - normal: Simulator: iShow!
+2019-07-25T07:48:36.978Z - normal: Simulator: glGetIntegerv: pname: 0x8b4c
+2019-07-25T07:48:36.985Z - normal: Simulator: JS: Cocos Creator v2.0.10
+2019-07-25T07:48:38.879Z - normal: Simulator: ScriptEngine::cleanup begin ...
+2019-07-25T07:48:38.880Z - normal: Simulator: GC begin ..., (js->native map) size: 20, all objects: 99
+2019-07-25T07:48:38.903Z - normal: Simulator: GC end ..., (js->native map) size: 20, all objects: 99
+2019-07-25T07:48:38.903Z - normal: Simulator: GC begin ..., (js->native map) size: 20, all objects: 99
+2019-07-25T07:48:38.925Z - normal: Simulator: GC end ..., (js->native map) size: 20, all objects: 99
+2019-07-25T07:48:38.925Z - normal: Simulator: Destroy WebGLTexture (4) by GC
+2019-07-25T07:48:38.925Z - normal: Simulator: Destroy WebGLTexture (3) by GC
+2019-07-25T07:48:38.925Z - normal: Simulator: Destroy WebGLTexture (2) by GC
+2019-07-25T07:48:38.925Z - normal: Simulator: Destroy WebGLBuffer (4) by GC
+2019-07-25T07:48:38.926Z - normal: Simulator: Destroy WebGLBuffer (1) by GC
+2019-07-25T07:48:38.926Z - normal: Simulator: Destroy WebGLProgram (3) by GC
+2019-07-25T07:48:38.926Z - normal: Simulator: Destroy WebGLBuffer (3) by GC
+2019-07-25T07:48:38.926Z - normal: Simulator: Destroy WebGLTexture (5) by GC
+2019-07-25T07:48:38.926Z - normal: Simulator: Destroy WebGLTexture (1) by GC
+2019-07-25T07:48:38.927Z - normal: Simulator: Destroy WebGLBuffer (2) by GC
+2019-07-25T07:48:38.927Z - normal: Simulator: GC begin ..., (js->native map) size: 0, all objects: 0
+2019-07-25T07:48:38.960Z - normal: Simulator: GC end ..., (js->native map) size: 0, all objects: 0
+2019-07-25T07:48:38.960Z - normal: Simulator: ScriptEngine::cleanup end ...
+2019-07-25T07:49:17.619Z - normal: Simulator: WORKAREA WIDTH 1920.00, HEIGHT 966.00
+2019-07-25T07:49:17.620Z - normal: Simulator: FRAME SCALE = 0.75
+2019-07-25T07:49:17.703Z - normal: Simulator: GLFWError #65544 Happen, Cocoa: Failed to retrieve display name
+2019-07-25T07:49:17.703Z - normal: Simulator: GLFWError #65544 Happen, Cocoa: Failed to retrieve display name
+2019-07-25T07:49:17.703Z - normal: Simulator: 
+2019-07-25T07:49:17.703Z - normal: Simulator: {
+2019-07-25T07:49:17.728Z - normal: Simulator: 	build_type: DEBUG
+2019-07-25T07:49:17.728Z - normal: Simulator: 	gl.vendor: Intel Inc.
+2019-07-25T07:49:17.728Z - normal: Simulator: 	gl.supports_PVRTC: false
+2019-07-25T07:49:17.728Z - normal: Simulator: 	gl.renderer: Intel(R) Iris(TM) Plus Graphics 655
+2019-07-25T07:49:17.729Z - normal: Simulator: 	gl.supports_ATITC: false
+2019-07-25T07:49:17.729Z - normal: Simulator: 	gl.supports_discard_framebuffer: false
+2019-07-25T07:49:17.729Z - normal: Simulator: 	gl.supports_NPOT: true
+2019-07-25T07:49:17.729Z - normal: Simulator: 	gl.max_texture_units: 16
+2019-07-25T07:49:17.729Z - normal: Simulator: 	gl.supports_ETC1: false
+2019-07-25T07:49:17.729Z - normal: Simulator: 	gl.max_texture_size: 16384
+2019-07-25T07:49:17.729Z - normal: Simulator: 	gl.supports_BGRA8888: false
+2019-07-25T07:49:17.729Z - normal: Simulator: 	gl.supports_vertex_array_object: true
+2019-07-25T07:49:17.730Z - normal: Simulator: 	gl.supports_OES_map_buffer: false
+2019-07-25T07:49:17.730Z - normal: Simulator: 	compiled_with_gl_state_cache: true
+2019-07-25T07:49:17.730Z - normal: Simulator: 	gl.supports_OES_packed_depth_stencil: false
+2019-07-25T07:49:17.730Z - normal: Simulator: 	gl.version: 2.1 INTEL-12.9.22
+2019-07-25T07:49:17.730Z - normal: Simulator: 	gl.supports_S3TC: true
+2019-07-25T07:49:17.730Z - normal: Simulator: 	compiled_with_profiler: false
+2019-07-25T07:49:17.730Z - normal: Simulator: 	gl.supports_OES_depth24: false
+2019-07-25T07:49:17.730Z - normal: Simulator: }
+2019-07-25T07:49:17.772Z - normal: Simulator: Project Config:
+2019-07-25T07:49:17.772Z - normal: Simulator:     project dir: /Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/
+2019-07-25T07:49:17.772Z - normal: Simulator:     writable path: $(PROJDIR)/
+2019-07-25T07:49:17.772Z - normal: Simulator:     script file: $(PROJDIR)/main.js
+2019-07-25T07:49:17.773Z - normal: Simulator:     frame size: 1920 x 1080
+2019-07-25T07:49:17.773Z - normal: Simulator:     frame scale: 0.75
+2019-07-25T07:49:17.773Z - normal: Simulator:     show console: NO
+2019-07-25T07:49:17.773Z - normal: Simulator:     write debug log: NO ()
+2019-07-25T07:49:17.773Z - normal: Simulator:     listen: 
+2019-07-25T07:49:17.774Z - normal: Simulator:     debugger: none
+2019-07-25T07:49:17.774Z - normal: Simulator:     add searching path:
+2019-07-25T07:49:17.774Z - normal: Simulator: resetDesignResolution request
+2019-07-25T07:49:17.774Z - normal: Simulator: ------------------------------------------------
+2019-07-25T07:49:17.774Z - normal: Simulator: LOAD Js FILE: jsb-adapter/jsb-builtin.js
+2019-07-25T07:49:17.774Z - normal: Simulator: ------------------------------------------------
+2019-07-25T07:49:17.775Z - normal: Simulator: Initializing V8, version: 6.5.254.43
+2019-07-25T07:49:17.775Z - normal: Simulator: libuv version: 1.23.1-dev
+2019-07-25T07:49:17.775Z - normal: Simulator: Debugger listening..., visit [ chrome-devtools://devtools/bundled/inspector.html?v8only=true&ws=0.0.0.0:5086/00010002-0003-4004-8005-000600070008 ] in chrome browser to debug!
+2019-07-25T07:49:17.775Z - normal: Simulator: For help see https://nodejs.org/en/docs/inspector
+2019-07-25T07:49:17.810Z - normal: Simulator: JS: Enable batch GL commands optimization!
+2019-07-25T07:49:17.810Z - normal: Simulator: resetDesignResolution request
+2019-07-25T07:49:17.811Z - normal: Simulator: ------------------------------------------------
+2019-07-25T07:49:17.811Z - normal: Simulator: LOAD Js FILE: main.js
+2019-07-25T07:49:17.811Z - normal: Simulator: ------------------------------------------------
+2019-07-25T07:49:18.060Z - normal: Simulator: iShow!
+2019-07-25T07:49:18.221Z - normal: Simulator: glGetIntegerv: pname: 0x8b4c
+2019-07-25T07:49:18.229Z - normal: Simulator: JS: Cocos Creator v2.0.10
+2019-07-25T07:49:27.826Z - normal: Simulator: ScriptEngine::cleanup begin ...
+2019-07-25T07:49:27.828Z - normal: Simulator: GC begin ..., (js->native map) size: 20, all objects: 99
+2019-07-25T07:49:27.851Z - normal: Simulator: GC end ..., (js->native map) size: 20, all objects: 99
+2019-07-25T07:49:27.852Z - normal: Simulator: GC begin ..., (js->native map) size: 20, all objects: 99
+2019-07-25T07:49:27.873Z - normal: Simulator: GC end ..., (js->native map) size: 20, all objects: 99
+2019-07-25T07:49:27.873Z - normal: Simulator: Destroy WebGLTexture (5) by GC
+2019-07-25T07:49:27.883Z - normal: Simulator: Destroy WebGLProgram (3) by GC
+2019-07-25T07:49:27.884Z - normal: Simulator: Destroy WebGLBuffer (4) by GC
+2019-07-25T07:49:27.884Z - normal: Simulator: Destroy WebGLTexture (3) by GC
+2019-07-25T07:49:27.884Z - normal: Simulator: Destroy WebGLTexture (1) by GC
+2019-07-25T07:49:27.884Z - normal: Simulator: Destroy WebGLBuffer (3) by GC
+2019-07-25T07:49:27.884Z - normal: Simulator: Destroy WebGLBuffer (2) by GC
+2019-07-25T07:49:27.885Z - normal: Simulator: Destroy WebGLBuffer (1) by GC
+2019-07-25T07:49:27.885Z - normal: Simulator: Destroy WebGLTexture (2) by GC
+2019-07-25T07:49:27.886Z - normal: Simulator: Destroy WebGLTexture (4) by GC
+2019-07-25T07:49:27.886Z - normal: Simulator: GC begin ..., (js->native map) size: 0, all objects: 0
+2019-07-25T07:49:27.903Z - normal: Simulator: GC end ..., (js->native map) size: 0, all objects: 0
+2019-07-25T07:49:27.904Z - normal: Simulator: ScriptEngine::cleanup end ...
+2019-07-25T07:50:33.511Z - normal: Simulator: WORKAREA WIDTH 1920.00, HEIGHT 966.00
+2019-07-25T07:50:33.511Z - normal: Simulator: FRAME SCALE = 0.75
+2019-07-25T07:50:33.591Z - normal: Simulator: GLFWError #65544 Happen, Cocoa: Failed to retrieve display name
+2019-07-25T07:50:33.591Z - normal: Simulator: GLFWError #65544 Happen, Cocoa: Failed to retrieve display name
+2019-07-25T07:50:33.620Z - normal: Simulator: 
+2019-07-25T07:50:33.620Z - normal: Simulator: {
+2019-07-25T07:50:33.621Z - normal: Simulator: 	build_type: DEBUG
+2019-07-25T07:50:33.621Z - normal: Simulator: 	gl.vendor: Intel Inc.
+2019-07-25T07:50:33.621Z - normal: Simulator: 	gl.supports_PVRTC: false
+2019-07-25T07:50:33.621Z - normal: Simulator: 	gl.renderer: Intel(R) Iris(TM) Plus Graphics 655
+2019-07-25T07:50:33.621Z - normal: Simulator: 	gl.supports_ATITC: false
+2019-07-25T07:50:33.621Z - normal: Simulator: 	gl.supports_discard_framebuffer: false
+2019-07-25T07:50:33.621Z - normal: Simulator: 	gl.supports_NPOT: true
+2019-07-25T07:50:33.622Z - normal: Simulator: 	gl.max_texture_units: 16
+2019-07-25T07:50:33.622Z - normal: Simulator: 	gl.supports_ETC1: false
+2019-07-25T07:50:33.622Z - normal: Simulator: 	gl.max_texture_size: 16384
+2019-07-25T07:50:33.622Z - normal: Simulator: 	gl.supports_BGRA8888: false
+2019-07-25T07:50:33.622Z - normal: Simulator: 	gl.supports_vertex_array_object: true
+2019-07-25T07:50:33.622Z - normal: Simulator: 	gl.supports_OES_map_buffer: false
+2019-07-25T07:50:33.623Z - normal: Simulator: 	compiled_with_gl_state_cache: true
+2019-07-25T07:50:33.623Z - normal: Simulator: 	gl.supports_OES_packed_depth_stencil: false
+2019-07-25T07:50:33.623Z - normal: Simulator: 	gl.version: 2.1 INTEL-12.9.22
+2019-07-25T07:50:33.623Z - normal: Simulator: 	gl.supports_S3TC: true
+2019-07-25T07:50:33.623Z - normal: Simulator: 	compiled_with_profiler: false
+2019-07-25T07:50:33.624Z - normal: Simulator: 	gl.supports_OES_depth24: false
+2019-07-25T07:50:33.624Z - normal: Simulator: }
+2019-07-25T07:50:33.651Z - normal: Simulator: Project Config:
+2019-07-25T07:50:33.651Z - normal: Simulator:     project dir: /Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/
+2019-07-25T07:50:33.651Z - normal: Simulator:     writable path: $(PROJDIR)/
+2019-07-25T07:50:33.652Z - normal: Simulator:     script file: $(PROJDIR)/main.js
+2019-07-25T07:50:33.652Z - normal: Simulator:     frame size: 1920 x 1080
+2019-07-25T07:50:33.653Z - normal: Simulator:     frame scale: 0.75
+2019-07-25T07:50:33.653Z - normal: Simulator:     show console: NO
+2019-07-25T07:50:33.653Z - normal: Simulator:     write debug log: NO ()
+2019-07-25T07:50:33.653Z - normal: Simulator:     listen: 
+2019-07-25T07:50:33.653Z - normal: Simulator:     debugger: none
+2019-07-25T07:50:33.653Z - normal: Simulator:     add searching path:
+2019-07-25T07:50:33.654Z - normal: Simulator: resetDesignResolution request
+2019-07-25T07:50:33.654Z - normal: Simulator: ------------------------------------------------
+2019-07-25T07:50:33.654Z - normal: Simulator: LOAD Js FILE: jsb-adapter/jsb-builtin.js
+2019-07-25T07:50:33.654Z - normal: Simulator: ------------------------------------------------
+2019-07-25T07:50:33.654Z - normal: Simulator: Initializing V8, version: 6.5.254.43
+2019-07-25T07:50:33.655Z - normal: Simulator: libuv version: 1.23.1-dev
+2019-07-25T07:50:33.655Z - normal: Simulator: Debugger listening..., visit [ chrome-devtools://devtools/bundled/inspector.html?v8only=true&ws=0.0.0.0:5086/00010002-0003-4004-8005-000600070008 ] in chrome browser to debug!
+2019-07-25T07:50:33.655Z - normal: Simulator: For help see https://nodejs.org/en/docs/inspector
+2019-07-25T07:50:33.688Z - normal: Simulator: JS: Enable batch GL commands optimization!
+2019-07-25T07:50:33.688Z - normal: Simulator: resetDesignResolution request
+2019-07-25T07:50:33.688Z - normal: Simulator: ------------------------------------------------
+2019-07-25T07:50:33.689Z - normal: Simulator: LOAD Js FILE: main.js
+2019-07-25T07:50:33.689Z - normal: Simulator: ------------------------------------------------
+2019-07-25T07:50:33.954Z - normal: Simulator: iShow!
+2019-07-25T07:50:34.108Z - normal: Simulator: glGetIntegerv: pname: 0x8b4c
+2019-07-25T07:50:34.115Z - normal: Simulator: JS: Cocos Creator v2.0.10
+2019-07-25T07:50:35.147Z - normal: Simulator: JS: 1234
+2019-07-25T07:50:35.949Z - normal: Simulator: JS: 1234
+2019-07-25T07:50:36.553Z - normal: Simulator: JS: 1234
+2019-07-25T07:50:37.021Z - normal: Simulator: JS: 1234
+2019-07-25T07:50:37.340Z - normal: Simulator: JS: 1234
+2019-07-25T07:50:37.696Z - normal: Simulator: JS: 1234
+2019-07-25T07:50:37.977Z - normal: Simulator: JS: 1234
+2019-07-25T07:50:39.011Z - normal: Simulator: JS: 1234
+2019-07-25T07:50:39.445Z - normal: Simulator: JS: 1234
+2019-07-25T07:50:43.500Z - normal: Simulator: ScriptEngine::cleanup begin ...
+2019-07-25T07:50:43.501Z - normal: Simulator: GC begin ..., (js->native map) size: 20, all objects: 99
+2019-07-25T07:50:43.526Z - normal: Simulator: GC end ..., (js->native map) size: 20, all objects: 99
+2019-07-25T07:50:43.527Z - normal: Simulator: GC begin ..., (js->native map) size: 20, all objects: 99
+2019-07-25T07:50:43.548Z - normal: Simulator: GC end ..., (js->native map) size: 20, all objects: 99
+2019-07-25T07:50:43.549Z - normal: Simulator: Destroy WebGLProgram (3) by GC
+2019-07-25T07:50:43.549Z - normal: Simulator: Destroy WebGLTexture (4) by GC
+2019-07-25T07:50:43.549Z - normal: Simulator: Destroy WebGLTexture (2) by GC
+2019-07-25T07:50:43.552Z - normal: Simulator: Destroy WebGLTexture (1) by GC
+2019-07-25T07:50:43.552Z - normal: Simulator: Destroy WebGLBuffer (3) by GC
+2019-07-25T07:50:43.552Z - normal: Simulator: Destroy WebGLBuffer (4) by GC
+2019-07-25T07:50:43.553Z - normal: Simulator: Destroy WebGLTexture (3) by GC
+2019-07-25T07:50:43.553Z - normal: Simulator: Destroy WebGLBuffer (2) by GC
+2019-07-25T07:50:43.553Z - normal: Simulator: Destroy WebGLTexture (5) by GC
+2019-07-25T07:50:43.553Z - normal: Simulator: Destroy WebGLBuffer (1) by GC
+2019-07-25T07:50:43.553Z - normal: Simulator: GC begin ..., (js->native map) size: 0, all objects: 0
+2019-07-25T07:50:43.576Z - normal: Simulator: GC end ..., (js->native map) size: 0, all objects: 0
+2019-07-25T07:50:43.576Z - normal: Simulator: ScriptEngine::cleanup end ...
+2019-07-25T07:53:31.262Z - normal: Start building with options : {
+  "actualPlatform": "wechatgame",
+  "android-instant": {
+    "REMOTE_SERVER_ROOT": "",
+    "host": "",
+    "pathPattern": "",
+    "recordPath": "",
+    "scheme": "https",
+    "skipRecord": false
+  },
+  "apiLevel": "",
+  "appABIs": [],
+  "appBundle": false,
+  "baidugame": {
+    "REMOTE_SERVER_ROOT": "",
+    "appid": "testappid",
+    "orientation": "portrait",
+    "subContext": ""
+  },
+  "buildPath": "/Users/vincent/code/GoldMiner/GoldMinder/build",
+  "debug": false,
+  "dest": "/Users/vincent/code/GoldMiner/GoldMinder/build/wechatgame",
+  "embedWebDebugger": false,
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [],
+  "fb-instant-games": {},
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "md5Cache": true,
+  "mergeStartScene": false,
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.GoldMiner",
+  "platform": "wechatgame",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "qqplay": {
+    "REMOTE_SERVER_ROOT": "",
+    "orientation": "portrait",
+    "zip": false
+  },
+  "scenes": [
+    "c86bc7a5-ef98-4481-94b5-f1123d78749f",
+    "873b99e6-309d-4d86-af57-c10a1f967080",
+    "8a90e415-b26e-47d2-a4c0-a6021c0c1d84",
+    "ffb70ef1-991b-4c55-bf0a-12763b657c47",
+    "dd826901-d60f-437a-81d8-aba3756d45c8",
+    "1f086e9a-44a0-4969-9f4d-5a97061892c2",
+    "aa95d830-ad14-4a48-86c8-dc4263001be3",
+    "009de718-30fe-4deb-a729-a05aab6525f9",
+    "5b096439-58c4-4cf8-b8a9-8625e1d3101d",
+    "dfc016d6-1287-4c20-a7aa-38512e4ed1c1",
+    "001a278f-e556-471e-b288-70833c05c3bc",
+    "186ded98-7bc2-4102-a47b-fa9c863a9489",
+    "991f5506-c7db-4853-b991-6dc1e6e2a091",
+    "59334db5-9391-4ff9-bf48-0abe670d58ca",
+    "c4c357e2-3461-4c07-aa5c-f3fe4914a4d1",
+    "5e3b6d1f-adda-49ad-9718-67ddda578fb8"
+  ],
+  "sourceMaps": false,
+  "startScene": "c86bc7a5-ef98-4481-94b5-f1123d78749f",
+  "template": "link",
+  "title": "GoldMiner",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "",
+    "appid": "wx3839d1aa1c54d567",
+    "orientation": "landscapeRight",
+    "separate_engine": false,
+    "subContext": "subdomain"
+  },
+  "xxteaKey": "b4afd356-9b81-48",
+  "zipCompressJs": true,
+  "project": "/Users/vincent/code/GoldMiner/GoldMinder",
+  "projectName": "GoldMiner",
+  "debugBuildWorker": false
+}
+2019-07-25T07:53:31.265Z - normal: Building /Users/vincent/code/GoldMiner/GoldMinder
+2019-07-25T07:53:31.265Z - normal: Destination /Users/vincent/code/GoldMiner/GoldMinder/build/wechatgame
+2019-07-25T07:53:31.267Z - normal: Delete /Users/vincent/code/GoldMiner/GoldMinder/build/wechatgame/subpackages/**/*,/Users/vincent/code/GoldMiner/GoldMinder/build/wechatgame/**/*,!/Users/vincent/code/GoldMiner/GoldMinder/build/wechatgame/subdomain,!/Users/vincent/code/GoldMiner/GoldMinder/build/wechatgame/subdomain/**/*
+2019-07-25T07:53:33.196Z - normal: Start building assets
+2019-07-25T07:53:33.196Z - normal: Start spawn build-worker
+2019-07-25T07:53:33.712Z - normal: Finish spawn build-worker
+2019-07-25T07:53:33.712Z - normal: Start init build-worker
+2019-07-25T07:53:36.190Z - normal: Finish init build-worker
+2019-07-25T07:53:36.190Z - normal: Start build-assets in worker
+2019-07-25T07:53:36.712Z - normal: Finish build-assets in worker
+2019-07-25T07:53:36.714Z - normal: Finish building assets
+2019-07-25T07:53:36.728Z - normal: Start building plugin scripts
+2019-07-25T07:53:36.763Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2019-07-25T07:53:37.670Z - normal: Built to "/Users/vincent/code/GoldMiner/GoldMinder/build/wechatgame" successfully
+2019-07-25T07:53:59.619Z - normal: Initializing...
+
+2019-07-25T07:53:59.632Z - normal: idePortFile: /Users/vincent/Library/Application Support/微信开发者工具/Default/.ide
+
+2019-07-25T07:53:59.650Z - normal: IDE server has started, listening on http://127.0.0.1:61726
+
+2019-07-25T07:53:59.651Z - normal: initialization finished
+
+2019-07-25T07:54:00.239Z - normal: open IDE success
+
+2019-07-25T07:55:37.834Z - normal: Start building with options : {
+  "actualPlatform": "wechatgame",
+  "android-instant": {
+    "REMOTE_SERVER_ROOT": "",
+    "host": "",
+    "pathPattern": "",
+    "recordPath": "",
+    "scheme": "https",
+    "skipRecord": false
+  },
+  "apiLevel": "",
+  "appABIs": [],
+  "appBundle": false,
+  "baidugame": {
+    "REMOTE_SERVER_ROOT": "",
+    "appid": "testappid",
+    "orientation": "portrait",
+    "subContext": ""
+  },
+  "buildPath": "/Users/vincent/code/GoldMiner/GoldMinder/build",
+  "debug": false,
+  "dest": "/Users/vincent/code/GoldMiner/GoldMinder/build/wechatgame",
+  "embedWebDebugger": false,
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [],
+  "fb-instant-games": {},
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "md5Cache": true,
+  "mergeStartScene": false,
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.GoldMiner",
+  "platform": "wechatgame",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "qqplay": {
+    "REMOTE_SERVER_ROOT": "",
+    "orientation": "portrait",
+    "zip": false
+  },
+  "scenes": [
+    "c86bc7a5-ef98-4481-94b5-f1123d78749f",
+    "873b99e6-309d-4d86-af57-c10a1f967080",
+    "8a90e415-b26e-47d2-a4c0-a6021c0c1d84",
+    "ffb70ef1-991b-4c55-bf0a-12763b657c47",
+    "dd826901-d60f-437a-81d8-aba3756d45c8",
+    "1f086e9a-44a0-4969-9f4d-5a97061892c2",
+    "aa95d830-ad14-4a48-86c8-dc4263001be3",
+    "009de718-30fe-4deb-a729-a05aab6525f9",
+    "5b096439-58c4-4cf8-b8a9-8625e1d3101d",
+    "dfc016d6-1287-4c20-a7aa-38512e4ed1c1",
+    "001a278f-e556-471e-b288-70833c05c3bc",
+    "186ded98-7bc2-4102-a47b-fa9c863a9489",
+    "991f5506-c7db-4853-b991-6dc1e6e2a091",
+    "59334db5-9391-4ff9-bf48-0abe670d58ca",
+    "c4c357e2-3461-4c07-aa5c-f3fe4914a4d1",
+    "5e3b6d1f-adda-49ad-9718-67ddda578fb8"
+  ],
+  "sourceMaps": false,
+  "startScene": "c86bc7a5-ef98-4481-94b5-f1123d78749f",
+  "template": "link",
+  "title": "GoldMiner",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "",
+    "appid": "wx3839d1aa1c54d567",
+    "orientation": "landscapeRight",
+    "separate_engine": false,
+    "subContext": "subdomain"
+  },
+  "xxteaKey": "b4afd356-9b81-48",
+  "zipCompressJs": true,
+  "project": "/Users/vincent/code/GoldMiner/GoldMinder",
+  "projectName": "GoldMiner",
+  "debugBuildWorker": false
+}
+2019-07-25T07:55:37.838Z - normal: Building /Users/vincent/code/GoldMiner/GoldMinder
+2019-07-25T07:55:37.838Z - normal: Destination /Users/vincent/code/GoldMiner/GoldMinder/build/wechatgame
+2019-07-25T07:55:37.839Z - normal: Delete /Users/vincent/code/GoldMiner/GoldMinder/build/wechatgame/subpackages/**/*,/Users/vincent/code/GoldMiner/GoldMinder/build/wechatgame/**/*,!/Users/vincent/code/GoldMiner/GoldMinder/build/wechatgame/subdomain,!/Users/vincent/code/GoldMiner/GoldMinder/build/wechatgame/subdomain/**/*
+2019-07-25T07:55:39.689Z - normal: Start building assets
+2019-07-25T07:55:39.690Z - normal: Start spawn build-worker
+2019-07-25T07:55:40.198Z - normal: Finish spawn build-worker
+2019-07-25T07:55:40.198Z - normal: Start init build-worker
+2019-07-25T07:55:42.411Z - normal: Finish init build-worker
+2019-07-25T07:55:42.411Z - normal: Start build-assets in worker
+2019-07-25T07:55:42.875Z - normal: Finish build-assets in worker
+2019-07-25T07:55:42.877Z - normal: Finish building assets
+2019-07-25T07:55:42.889Z - normal: Start building plugin scripts
+2019-07-25T07:55:42.925Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2019-07-25T07:55:43.871Z - normal: Built to "/Users/vincent/code/GoldMiner/GoldMinder/build/wechatgame" successfully
+2019-07-25T07:55:45.179Z - normal: Initializing...
+
+2019-07-25T07:55:45.189Z - normal: idePortFile: /Users/vincent/Library/Application Support/微信开发者工具/Default/.ide
+
+2019-07-25T07:55:45.205Z - normal: IDE server has started, listening on http://127.0.0.1:61726
+
+2019-07-25T07:55:45.205Z - normal: initialization finished
+
+2019-07-25T07:55:45.767Z - normal: open IDE success
+
+2019-07-25T08:05:58.462Z - normal: Start building with options : {
+  "actualPlatform": "wechatgame",
+  "android-instant": {
+    "REMOTE_SERVER_ROOT": "",
+    "host": "",
+    "pathPattern": "",
+    "recordPath": "",
+    "scheme": "https",
+    "skipRecord": false
+  },
+  "apiLevel": "",
+  "appABIs": [],
+  "appBundle": false,
+  "baidugame": {
+    "REMOTE_SERVER_ROOT": "",
+    "appid": "testappid",
+    "orientation": "portrait",
+    "subContext": ""
+  },
+  "buildPath": "/Users/vincent/code/GoldMiner/GoldMinder/build",
+  "debug": false,
+  "dest": "/Users/vincent/code/GoldMiner/GoldMinder/build/wechatgame",
+  "embedWebDebugger": false,
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [],
+  "fb-instant-games": {},
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "md5Cache": true,
+  "mergeStartScene": false,
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.GoldMiner",
+  "platform": "wechatgame",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "qqplay": {
+    "REMOTE_SERVER_ROOT": "",
+    "orientation": "portrait",
+    "zip": false
+  },
+  "scenes": [
+    "c86bc7a5-ef98-4481-94b5-f1123d78749f",
+    "873b99e6-309d-4d86-af57-c10a1f967080",
+    "8a90e415-b26e-47d2-a4c0-a6021c0c1d84",
+    "ffb70ef1-991b-4c55-bf0a-12763b657c47",
+    "dd826901-d60f-437a-81d8-aba3756d45c8",
+    "1f086e9a-44a0-4969-9f4d-5a97061892c2",
+    "aa95d830-ad14-4a48-86c8-dc4263001be3",
+    "009de718-30fe-4deb-a729-a05aab6525f9",
+    "5b096439-58c4-4cf8-b8a9-8625e1d3101d",
+    "dfc016d6-1287-4c20-a7aa-38512e4ed1c1",
+    "001a278f-e556-471e-b288-70833c05c3bc",
+    "186ded98-7bc2-4102-a47b-fa9c863a9489",
+    "991f5506-c7db-4853-b991-6dc1e6e2a091",
+    "59334db5-9391-4ff9-bf48-0abe670d58ca",
+    "c4c357e2-3461-4c07-aa5c-f3fe4914a4d1",
+    "5e3b6d1f-adda-49ad-9718-67ddda578fb8"
+  ],
+  "sourceMaps": false,
+  "startScene": "c86bc7a5-ef98-4481-94b5-f1123d78749f",
+  "template": "link",
+  "title": "GoldMiner",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "",
+    "appid": "wx3839d1aa1c54d567",
+    "orientation": "landscapeRight",
+    "separate_engine": false,
+    "subContext": "subdomain"
+  },
+  "xxteaKey": "b4afd356-9b81-48",
+  "zipCompressJs": true,
+  "project": "/Users/vincent/code/GoldMiner/GoldMinder",
+  "projectName": "GoldMiner",
+  "debugBuildWorker": false
+}
+2019-07-25T08:05:58.465Z - normal: Building /Users/vincent/code/GoldMiner/GoldMinder
+2019-07-25T08:05:58.465Z - normal: Destination /Users/vincent/code/GoldMiner/GoldMinder/build/wechatgame
+2019-07-25T08:05:58.466Z - normal: Delete /Users/vincent/code/GoldMiner/GoldMinder/build/wechatgame/subpackages/**/*,/Users/vincent/code/GoldMiner/GoldMinder/build/wechatgame/**/*,!/Users/vincent/code/GoldMiner/GoldMinder/build/wechatgame/subdomain,!/Users/vincent/code/GoldMiner/GoldMinder/build/wechatgame/subdomain/**/*
+2019-07-25T08:06:00.337Z - normal: Start building assets
+2019-07-25T08:06:00.338Z - normal: Start spawn build-worker
+2019-07-25T08:06:00.853Z - normal: Finish spawn build-worker
+2019-07-25T08:06:00.853Z - normal: Start init build-worker
+2019-07-25T08:06:03.295Z - normal: Finish init build-worker
+2019-07-25T08:06:03.295Z - normal: Start build-assets in worker
+2019-07-25T08:06:03.789Z - normal: Finish build-assets in worker
+2019-07-25T08:06:03.792Z - normal: Finish building assets
+2019-07-25T08:06:03.807Z - normal: Start building plugin scripts
+2019-07-25T08:06:03.845Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2019-07-25T08:06:04.796Z - normal: Built to "/Users/vincent/code/GoldMiner/GoldMinder/build/wechatgame" successfully
+2019-07-25T08:06:07.840Z - normal: Initializing...
+
+2019-07-25T08:06:07.850Z - normal: idePortFile: /Users/vincent/Library/Application Support/微信开发者工具/Default/.ide
+
+2019-07-25T08:06:07.867Z - normal: IDE server has started, listening on http://127.0.0.1:61726
+
+2019-07-25T08:06:07.867Z - normal: initialization finished
+
+2019-07-25T08:06:08.499Z - normal: open IDE success
+

@@ -14,7 +14,7 @@ window.Global = {
   powers: 0,
   luckys: 0,
   stoneBooks: 0,
-  silent: 0
+  sound: 1
 };
 
 cc._RF.pop();
