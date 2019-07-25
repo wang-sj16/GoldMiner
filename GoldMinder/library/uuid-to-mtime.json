@@ -270,8 +270,8 @@
     "relativePath": "Prefab/diamondPig.prefab"
   },
   "710d0a60-d3b3-4268-bd81-2bc4126df136": {
-    "asset": 1563861321000,
-    "meta": 1563980967885,
+    "asset": 1564042470955,
+    "meta": 1564042470973,
     "relativePath": "Prefab/bigRock.prefab"
   },
   "6d36b8d3-ddc7-47bc-86d1-bc58f8acf4f9": {
@@ -280,8 +280,8 @@
     "relativePath": "Prefab/midRock.prefab"
   },
   "bb27adea-169f-4dd6-bc69-b2b60bab9283": {
-    "asset": 1563861321000,
-    "meta": 1563980967901,
+    "asset": 1564043582464,
+    "meta": 1564043582478,
     "relativePath": "Prefab/smallRock.prefab"
   },
   "c09d0846-6f9b-40c1-9367-5cf9414d43d7": {
@@ -290,8 +290,8 @@
     "relativePath": "Prefab/pocket.prefab"
   },
   "f38bcdc6-01f1-4f90-b082-fbd880549b48": {
-    "asset": 1563861321000,
-    "meta": 1563980967893,
+    "asset": 1564043445267,
+    "meta": 1564043445280,
     "relativePath": "Prefab/midGold.prefab"
   },
   "ed30357a-c3c7-40e8-a437-6002b2d85c67": {
@@ -330,9 +330,9 @@
     "relativePath": "anim/hookRotation3.anim"
   },
   "1f086e9a-44a0-4969-9f4d-5a97061892c2": {
-    "asset": 1563861321000,
-    "meta": 1563980967909,
-    "relativePath": "scene/level1.fire"
+    "asset": 1564043678684,
+    "meta": 1564043678688,
+    "relativePath": "scene/levels/level1.fire"
   },
   "c626c2f9-ac56-4bfa-8b28-0f8fb1687169": {
     "asset": 1563861321000,
@@ -440,9 +440,9 @@
     "relativePath": "scene/lose.fire"
   },
   "873b99e6-309d-4d86-af57-c10a1f967080": {
-    "asset": 1563861321000,
-    "meta": 1563980967912,
-    "relativePath": "scene/level2.fire"
+    "asset": 1564044075494,
+    "meta": 1564044075507,
+    "relativePath": "scene/levels/level2.fire"
   },
   "d5d857d8-6771-4f5b-a7a1-34e5d5f11e6f": {
     "asset": 1563861321000,
@@ -470,19 +470,19 @@
     "relativePath": "img/cliff.png"
   },
   "8a90e415-b26e-47d2-a4c0-a6021c0c1d84": {
-    "asset": 1563861321000,
-    "meta": 1563980967915,
-    "relativePath": "scene/level3.fire"
+    "asset": 1564044596003,
+    "meta": 1564044596017,
+    "relativePath": "scene/levels/level3.fire"
   },
   "ffb70ef1-991b-4c55-bf0a-12763b657c47": {
-    "asset": 1563861321000,
-    "meta": 1563980967917,
-    "relativePath": "scene/level4.fire"
+    "asset": 1564045147747,
+    "meta": 1564045147763,
+    "relativePath": "scene/levels/level4.fire"
   },
   "dd826901-d60f-437a-81d8-aba3756d45c8": {
-    "asset": 1563861321000,
-    "meta": 1563980967920,
-    "relativePath": "scene/level5.fire"
+    "asset": 1564047123502,
+    "meta": 1564047123517,
+    "relativePath": "scene/levels/level5.fire"
   },
   "dfb0d470-2d0e-430f-b364-c92cf8b7dfa3": {
     "asset": 1563861321000,
@@ -509,16 +509,6 @@
     "meta": 1563980968220,
     "relativePath": "script/background.js"
   },
-  "345de951-942f-422d-9e98-466d51f4662b": {
-    "asset": 1563861321000,
-    "meta": 1563980968250,
-    "relativePath": "script/diamondPig.js"
-  },
-  "c885e183-dcd3-451c-96c1-abbb3a473122": {
-    "asset": 1563861321000,
-    "meta": 1563980968311,
-    "relativePath": "script/game.js"
-  },
   "f8f1049e-d91e-4c90-8fb4-dd10a95fa4f9": {
     "asset": 1563861321000,
     "meta": 1563980968432,
@@ -538,11 +528,6 @@
     "asset": 1563861321000,
     "meta": 1563980968514,
     "relativePath": "script/passbtn.js"
-  },
-  "4815b1f5-0c1a-4ec1-8433-1d842e2d48a3": {
-    "asset": 1563861321000,
-    "meta": 1563980968540,
-    "relativePath": "script/pig.js"
   },
   "09721b32-324f-49ab-b17a-26e10ad95cf2": {
     "asset": 1563861321000,
@@ -814,11 +799,6 @@
     "meta": 1564039724088,
     "relativePath": "img/arrow2.png"
   },
-  "84c8f3f0-f37f-45c9-bfb2-bd274b4affc1": {
-    "asset": 1564040698894,
-    "meta": 1564040719256,
-    "relativePath": "script/global.js"
-  },
   "1df99cd4-30f4-4d4e-ad90-cbc5ac780726": {
     "asset": 1564041201011,
     "meta": 1564041203418,
@@ -833,11 +813,6 @@
     "asset": 1564041524407,
     "meta": 1564041527536,
     "relativePath": "script/fire1.js"
-  },
-  "459d0799-f128-423d-9cc8-a140a6065f83": {
-    "asset": 1564041594873,
-    "meta": 1564041598461,
-    "relativePath": "script/hook.js"
   },
   "0c5e30f4-50ce-4a03-a0e5-2789adbfeeb4": {
     "asset": 1564041621265,
@@ -873,5 +848,55 @@
     "asset": 1564041950282,
     "meta": 1564041950957,
     "relativePath": "script/tnt.js"
+  },
+  "e460feb7-572a-40ae-9a0d-8fcffd38f6c8": {
+    "asset": 1564042708195,
+    "meta": 1564042721202,
+    "relativePath": "Prefab/map1.prefab"
+  },
+  "6e9baecd-8a34-4451-bbcf-50ac89f85473": {
+    "asset": 1564042771638,
+    "meta": 1564042771639,
+    "relativePath": "scene/levels"
+  },
+  "4cfe262e-b92a-4df4-b07b-8096f7668d3c": {
+    "asset": 1564048473765,
+    "meta": 1564048473775,
+    "relativePath": "scene/levels/level6.fire"
+  },
+  "8f6bfe32-03b7-42f0-b4e9-faf464082c94": {
+    "asset": 1564048987411,
+    "meta": 1564048987422,
+    "relativePath": "scene/levels/level7.fire"
+  },
+  "3d8ef952-35eb-4c28-bdac-9d66860d3942": {
+    "asset": 1564049376720,
+    "meta": 1564049376727,
+    "relativePath": "scene/levels/level8.fire"
+  },
+  "6048fc9b-ad9a-4c5f-8da2-85aaaa433c64": {
+    "asset": 1564042969275,
+    "meta": 1564042992197,
+    "relativePath": "scene/levels/level9.fire"
+  },
+  "95128d5c-fd2a-466a-aa92-13804f482f9c": {
+    "asset": 1564042969858,
+    "meta": 1564042998174,
+    "relativePath": "scene/levels/level10.fire"
+  },
+  "459d0799-f128-423d-9cc8-a140a6065f83": {
+    "asset": 1564049191151,
+    "meta": 1564049192123,
+    "relativePath": "script/hook.js"
+  },
+  "84c8f3f0-f37f-45c9-bfb2-bd274b4affc1": {
+    "asset": 1564049372631,
+    "meta": 1564049375587,
+    "relativePath": "script/global.js"
+  },
+  "c885e183-dcd3-451c-96c1-abbb3a473122": {
+    "asset": 1564049394264,
+    "meta": 1564049395799,
+    "relativePath": "script/game.js"
   }
 }

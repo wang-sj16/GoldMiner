@@ -2,7 +2,7 @@ window.Global = {
   currentLevel: 1,
   currentMoney: 0,
   loseMoney: 0,
-  targets: [600, 1500, 2600, 4000, 5500, 6900, 9000],
+  targets: [700, 1600, 2600, 4000, 5500, 7200, 8800, 10300],
   fires: 0,
   betterDiamonds: 0,
   powers: 0,
