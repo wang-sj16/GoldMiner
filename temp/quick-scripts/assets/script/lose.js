@@ -32,6 +32,10 @@ cc.Class({
   start: function start() {
     cc.audioEngine.play(this.audio, false, 1);
     this.label.string = 'YOU LOSE!\n\nSCORE: ' + Global.loseMoney;
+    wx.postMessage({
+      message: 'UpdateScore',
+      score: Global.loseMoney.toString()
+    });
   }
 
   // update (dt) {},

@@ -43,7 +43,7 @@
     "appid": "wx3839d1aa1c54d567",
     "orientation": "landscapeRight",
     "separate_engine": false,
-    "subContext": ""
+    "subContext": "subdomain"
   },
   "xxteaKey": "b4afd356-9b81-48",
   "zipCompressJs": true

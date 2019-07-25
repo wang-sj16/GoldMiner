@@ -2,17 +2,7 @@
 cc._RF.push(module, 'dae89QogahOwKknrur62X+5', 'start', __filename);
 // script/start.js
 
-"use strict";
-
-// Learn cc.Class:
-//  - [Chinese] https://docs.cocos.com/creator/manual/zh/scripting/class.html
-//  - [English] http://docs.cocos2d-x.org/creator/manual/en/scripting/class.html
-// Learn Attribute:
-//  - [Chinese] https://docs.cocos.com/creator/manual/zh/scripting/reference/attributes.html
-//  - [English] http://docs.cocos2d-x.org/creator/manual/en/scripting/reference/attributes.html
-// Learn life-cycle callbacks:
-//  - [Chinese] https://docs.cocos.com/creator/manual/zh/scripting/life-cycle-callbacks.html
-//  - [English] https://www.cocos2d-x.org/docs/creator/manual/en/scripting/life-cycle-callbacks.html
+'use strict';
 
 cc.Class({
   extends: cc.Component,
@@ -21,13 +11,88 @@ cc.Class({
     draw: cc.Graphics,
     player1: cc.Node,
     base: cc.Node,
-    hook: cc.Node
-
+    hook: cc.Node,
+    avatar: cc.Node
   },
 
   // LIFE-CYCLE CALLBACKS:
 
   onLoad: function onLoad() {
+    if (typeof wx === 'undefined') {
+      return;
+    }
+
+    //this.initUserInfoButton ()
+    wx.login({
+      success: function success(res) {
+        var code = res.code;
+        wx.getSetting({
+          success: function success(res) {
+            if (res.authSetting['scope.userInfo']) {
+              console.log("已经授权");
+              wx.getUserInfo({
+                success: function success(res) {
+                  console.log(res.userInfo.nickName);
+                  cc.loader.load({ url: res.userInfo.avatarUrl, type: 'png' }, function (err, texture) {
+                    if (err) {
+                      console.error(err);
+                      return;
+                    }
+                    cc.find('Canvas/avatar').getComponent(cc.Sprite).spriteFrame = new cc.SpriteFrame(texture);
+                  });
+                }
+              });
+            } else {
+              var systemInfo = wx.getSystemInfoSync();
+              var width = systemInfo.windowWidth;
+              var height = systemInfo.windowHeight;
+              var button = wx.createUserInfoButton({
+                type: 'text',
+                text: 'Press to login',
+                style: {
+                  left: 0,
+                  top: 0.4 * height,
+                  width: width,
+                  height: height,
+                  lineHeight: 40,
+                  backgroundColor: 'white',
+                  color: 'black',
+                  textAlign: 'center',
+                  fontSize: 30,
+                  borderRadius: 4
+                }
+              });
+
+              button.onTap(function (res) {
+                var userInfo = res.userInfo;
+                if (!userInfo) {
+                  return;
+                }
+                console.log(userInfo.nickName);
+                cc.loader.load({ url: userInfo.avatarUrl, type: 'png' }, function (err, texture) {
+                  if (err) {
+                    console.error(err);
+                    return;
+                  }
+                  cc.find('Canvas/avatar').getComponent(cc.Sprite).spriteFrame = new cc.SpriteFrame(texture);
+                });
+
+                wx.getOpenDataContext().postMessage({
+                  message: "User info get success."
+                });
+                wx.postMessage({
+                  message: 'UpdateScore',
+                  score: "0"
+                });
+                button.hide();
+                button.destroy();
+              });
+            }
+          }
+        });
+      }
+    });
+
     cc.audioEngine.play(this.bgm, true, 1);
     cc.director.getCollisionManager().enabledDebugDraw = false;
     cc.director.getCollisionManager().enabled = true;

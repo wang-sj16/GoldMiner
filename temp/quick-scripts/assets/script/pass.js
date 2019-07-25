@@ -32,6 +32,10 @@ cc.Class({
   start: function start() {
     cc.audioEngine.play(this.audio, false, 1);
     this.label.string = 'STAGE CLEAR!\n\nSCORE: ' + Global.currentMoney;
+    wx.postMessage({
+      message: 'UpdateScore',
+      score: Global.currentMoney.toString()
+    });
   }
 
   // update (dt) {},

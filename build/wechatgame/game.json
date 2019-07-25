@@ -1,5 +1,6 @@
 {
   "deviceOrientation": "landscapeRight",
+  "openDataContext": "subdomain",
   "networkTimeout": {
     "request": 5000,
     "connectSocket": 5000,

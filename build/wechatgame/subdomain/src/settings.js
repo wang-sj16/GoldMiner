@@ -1,0 +1,1 @@
+window._CCSettings={platform:"wechatgame-subcontext",groupList:["default"],collisionMatrix:[[true]],rawAssets:{assets:{}},assetTypes:[],launchScene:"db://assets/rank.fire",scenes:[{url:"db://assets/rank.fire",uuid:0}],packedAssets:{WECHAT_SUBDOMAIN:["2bLy9PVO5Oyp5MOqErL8mN",0]},md5AssetsMap:{},orientation:"",subpackages:{},uuids:["b2sugH/UJO+4Uz2oZxHbUD"]};

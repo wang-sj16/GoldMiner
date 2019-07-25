@@ -2,9 +2,9 @@ require('libs/weapp-adapter/index');
 var Parser = require('libs/xmldom/dom-parser');
 window.DOMParser = Parser.DOMParser;
 require('libs/wx-downloader.js');
-require('src/settings.4bb8e');
+require('src/settings.49286');
 var settings = window._CCSettings;
-require('main.6e14b');
+require('main.58c99');
 
 // Will be replaced with cocos2d-js path in editor
 require('cocos/cocos2d-js-min.js');

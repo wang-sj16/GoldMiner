@@ -1,5 +1,5 @@
 (function() {"use strict";var __module = CC_EDITOR ? module : {exports:{}};var __filename = 'preview-scripts/assets/script/tutorial_next.js';var __require = CC_EDITOR ? function (request) {return cc.require(request, require);} : function (request) {return cc.require(request, __filename);};function __define (exports, require, module) {"use strict";
-cc._RF.push(module, '76f2dHXiuhGS6SNsjAwS1ZK', 'tutorial_next', __filename);
+cc._RF.push(module, '1a91dvAwBJKCZY702kAU0b+', 'tutorial_next', __filename);
 // script/tutorial_next.js
 
 'use strict';
