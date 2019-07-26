@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "stoneBook",
+    "texture": "3b9f9dd2-a436-4c53-96a0-97e3447dd792",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      638,
+      608
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      638,
+      608
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
