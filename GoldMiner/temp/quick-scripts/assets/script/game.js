@@ -29,6 +29,7 @@ cc.Class({
     money1: 0,
     target: 0,
     countDown: cc.Label,
+    exit: cc.Node,
     powerLogo: cc.Node
   },
 
@@ -39,12 +40,16 @@ cc.Class({
     cc.director.getCollisionManager().enabled = true;
     // this.schedule(this.doCountdownTime,1);
   },
+  onTouchExit: function onTouchExit(event) {
+    cc.director.loadScene('start');
+  },
   start: function start() {
     this.broadcostTimes = 30;
     this.schedule(this.doCountdownTime, 1);
     this.money1 = Global.currentMoney;
     this.target = Global.targets[Global.currentLevel - 1];
     this.levelLabel.string = 'Level ' + Global.currentLevel + '\nTarget: $' + this.target;
+    this.exit.on(cc.Node.EventType.TOUCH_START, this.onTouchExit, this);
   },
 
 

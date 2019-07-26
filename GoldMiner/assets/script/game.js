@@ -23,7 +23,8 @@ cc.Class({
     money1: 0,
     target: 0,
     countDown: cc.Label,
-    powerLogo: cc.Node
+    exit: cc.Node,
+    powerLogo: cc.Node,
   },
 
   // LIFE-CYCLE CALLBACKS:
@@ -33,6 +34,9 @@ cc.Class({
     cc.director.getCollisionManager().enabled = true
     // this.schedule(this.doCountdownTime,1);
   },
+  onTouchExit(event){
+    cc.director.loadScene('start')
+  },
 
   start () {
     this.broadcostTimes = 30
@@ -40,6 +44,7 @@ cc.Class({
     this.money1 = Global.currentMoney
     this.target = Global.targets[Global.currentLevel - 1]
     this.levelLabel.string = 'Level ' + Global.currentLevel + '\nTarget: $' + this.target
+    this.exit.on(cc.Node.EventType.TOUCH_START, this.onTouchExit, this)
   },
 
   // 倒计时
