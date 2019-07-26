@@ -44,9 +44,13 @@ cc.Class({
   onCollisionEnter: function (other, self) {
     if (!this.occupied) {
       if (other.node._name === 'bigGold' || other.node._name === 'treasure') {
-        cc.audioEngine.play(this.bigGold, false, 1)
+        if(Global.sound === 1){
+          cc.audioEngine.play(this.bigGold, false, 1)
+        }
       } else if (other.node._name === 'midGold' || other.node._name === 'pocket' || other.node._name === 'diamond' || other.node._name === 'diamondPig') {
-        cc.audioEngine.play(this.goods, false, 1)
+        if(Global.sound === 1){
+          cc.audioEngine.play(this.goods, false, 1)
+        }
       }
     }
   },
@@ -70,7 +74,9 @@ cc.Class({
     if (this.down && this.flag !== 2) {
       if (!this.downPlaying) {
         this.downPlaying = true
-        cc.audioEngine.play(this.getDown, false, 1)
+        if(Global.sound === 1){
+          cc.audioEngine.play(this.getDown, false, 1)
+        }
       }
 
       this.flag = 1

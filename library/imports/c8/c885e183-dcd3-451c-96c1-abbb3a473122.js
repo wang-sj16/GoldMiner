@@ -62,7 +62,7 @@ cc.Class({
           Global.powers = 0;
           Global.luckys = 0;
           Global.stoneBooks = 0;
-          if (Global.currentLevel === 5) {
+          if (Global.currentLevel === 8) {
             cc.director.loadScene('pass');
           } else {
             Global.currentLevel++;

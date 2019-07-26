@@ -2,9 +2,9 @@ require('libs/weapp-adapter/index');
 var Parser = require('libs/xmldom/dom-parser');
 window.DOMParser = Parser.DOMParser;
 require('libs/wx-downloader.js');
-require('src/settings');
+require('src/settings.8b2af');
 var settings = window._CCSettings;
-require('main');
+require('main.ab29e');
 
 // Will be replaced with cocos2d-js path in editor
 require('cocos/cocos2d-js-min.js');
@@ -20,7 +20,7 @@ var pipeBeforeDownloader = cc.loader.subPackPipe || cc.loader.md5Pipe || cc.load
 cc.loader.insertPipeAfter(pipeBeforeDownloader, wxDownloader);
 
 if (cc.sys.browserType === cc.sys.BROWSER_TYPE_WECHAT_GAME_SUB) {
-    var _WECHAT_SUBDOMAIN_DATA = require('src/subdomain.json.js');
+    var _WECHAT_SUBDOMAIN_DATA = require('src/subdomain.json.cdba5.js');
     cc.game.once(cc.game.EVENT_ENGINE_INITED, function () {
         cc.Pipeline.Downloader.PackDownloader._doPreload("WECHAT_SUBDOMAIN", _WECHAT_SUBDOMAIN_DATA);
     });

@@ -30,7 +30,9 @@ cc.Class({
   // onLoad () {},
 
   start: function start() {
-    cc.audioEngine.play(this.audio, false, 1);
+    if (Global.sound === 1) {
+      cc.audioEngine.play(this.audio, false, 1);
+    }
     this.label.string = 'STAGE CLEAR!\n\nSCORE: ' + Global.currentMoney;
     wx.postMessage({
       message: 'UpdateScore',

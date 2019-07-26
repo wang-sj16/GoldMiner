@@ -222,10 +222,10 @@ cc.Class({
           }
           this.node.destroy();
         } else {
+          this.node.destroy();
           this.canvas.add1.string = '+' + this.value;
           this.canvas.add1.getComponent('label').play = true;
           this.canvas.money1 += this.value;
-          this.node.destroy();
         }
       }
     }

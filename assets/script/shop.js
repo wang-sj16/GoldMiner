@@ -42,85 +42,115 @@ cc.Class({
   onTouchStart1 (event) {
     if (this.price1 !== -1) {
       if (Global.currentMoney > this.price1) {
-        cc.audioEngine.play(this.choose, false, 1)
+        if(Global.sound === 1){
+          cc.audioEngine.play(this.choose, false, 1)
+        }
         Global.stoneBooks = 1
         Global.currentMoney -= this.price1
         this.stonebook.destroy()
         this.notice.string = 'GET A STONEBOOK!!'
       } else {
-        cc.audioEngine.play(this.ding, false, 1)
+        if(Global.sound === 1){
+          cc.audioEngine.play(this.ding, false, 1)
+        }
         this.notice.string = 'NEED MORE MONEY!!'
       }
     } else {
-      cc.audioEngine.play(this.ding, false, 1)
+      if(Global.sound === 1){
+        cc.audioEngine.play(this.ding, false, 1)
+      }
       this.notice.string = 'SOLD OUT!!'
     }
   },
   onTouchStart2 (event) {
     if (this.price2 !== -1) {
       if (Global.currentMoney > this.price2) {
-        cc.audioEngine.play(this.choose, false, 1)
+        if(Global.sound === 1){
+          cc.audioEngine.play(this.choose, false, 1)
+        }
         Global.powers = 1
         Global.currentMoney -= this.price2
         this.power.destroy()
         this.notice.string = 'GET POWER!!'
       } else {
-        cc.audioEngine.play(this.ding, false, 1)
+        if(Global.sound === 1){
+          cc.audioEngine.play(this.ding, false, 1)
+        }
         this.notice.string = 'NEED MORE MONEY!!'
       }
     } else {
-      cc.audioEngine.play(this.ding, false, 1)
+      if(Global.sound === 1){
+        cc.audioEngine.play(this.ding, false, 1)
+      }
       this.notice.string = 'SOLD OUT!!'
     }
   },
   onTouchStart3 (event) {
     if (this.price3 !== -1) {
       if (Global.currentMoney > this.price3) {
-        cc.audioEngine.play(this.choose, false, 1)
+        if(Global.sound === 1){
+          cc.audioEngine.play(this.choose, false, 1)
+        }
         Global.fires++
         Global.currentMoney -= this.price3
         this.fire.destroy()
         this.notice.string = 'GET A BOBM!!'
       } else {
-        cc.audioEngine.play(this.ding, false, 1)
+        if(Global.sound === 1){
+          cc.audioEngine.play(this.ding, false, 1)
+        }
         this.notice.string = 'NEED MORE MONEY!!'
       }
     } else {
-      cc.audioEngine.play(this.ding, false, 1)
+      if(Global.sound === 1){
+        cc.audioEngine.play(this.ding, false, 1)
+      }
       this.notice.string = 'SOLD OUT!!'
     }
   },
   onTouchStart4 (event) {
     if (this.price4 !== -1) {
       if (Global.currentMoney > this.price4) {
-        cc.audioEngine.play(this.choose, false, 1)
+        if(Global.sound === 1){
+          cc.audioEngine.play(this.choose, false, 1)
+        }
         Global.luckys = 1
         Global.currentMoney -= this.price4
         this.lucky.destroy()
         this.notice.string = 'GET LUCK!!'
       } else {
-        cc.audioEngine.play(this.ding, false, 1)
+        if(Global.sound === 1){
+          cc.audioEngine.play(this.ding, false, 1)
+        }
         this.notice.string = 'NEED MORE MONEY!!'
       }
     } else {
-      cc.audioEngine.play(this.ding, false, 1)
+      if(Global.sound === 1){
+        cc.audioEngine.play(this.ding, false, 1)
+      }
       this.notice.string = 'SOLD OUT!!'
     }
   },
   onTouchStart5 (event) {
     if (this.price5 !== -1) {
-      cc.audioEngine.play(this.choose, false, 1)
+      if(Global.sound === 1){
+        cc.audioEngine.play(this.choose, false, 1)
+      }
       if (Global.currentMoney > this.price5) {
         Global.betterDiamonds = 1
         Global.currentMoney -= this.price5
         this.betterDiamond.destroy()
         this.notice.string = 'GET BETTER DIAMOND!!'
       } else {
-        cc.audioEngine.play(this.ding, false, 1)
+        if(Global.sound === 1){
+          cc.audioEngine.play(this.ding, false, 1)
+        }
         this.notice.string = 'NEED MORE MONEY!!'
       }
     } else {
-      cc.audioEngine.play(this.ding, false, 1)
+      if(Global.sound === 1){
+        cc.audioEngine.play(this.ding, false, 1)
+      }
       this.notice.string = 'SOLD OUT!!'
     }
   },

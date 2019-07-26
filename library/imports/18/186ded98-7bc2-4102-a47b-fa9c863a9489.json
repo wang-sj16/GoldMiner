@@ -42,8 +42,8 @@
     },
     "_scale": {
       "__type__": "cc.Vec3",
-      "x": 0.7489420572916666,
-      "y": 0.7489420572916666,
+      "x": 0.6867966027256314,
+      "y": 0.6867966027256314,
       "z": 1
     },
     "_quat": {
@@ -55,7 +55,7 @@
     },
     "groupIndex": 0,
     "autoReleaseAssets": false,
-    "_id": "5b096439-58c4-4cf8-b8a9-8625e1d3101d"
+    "_id": "186ded98-7bc2-4102-a47b-fa9c863a9489"
   },
   {
     "__type__": "cc.Node",
@@ -76,16 +76,19 @@
       },
       {
         "__id__": 11
+      },
+      {
+        "__id__": 13
       }
     ],
     "_active": true,
     "_level": 1,
     "_components": [
       {
-        "__id__": 13
+        "__id__": 15
       },
       {
-        "__id__": 14
+        "__id__": 16
       }
     ],
     "_prefab": null,
@@ -484,7 +487,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "label",
+    "_name": "sound",
     "_objFlags": 0,
     "_parent": {
       "__id__": 2
@@ -508,18 +511,18 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 288.88,
-      "height": 150
+      "width": 174.58,
+      "height": 50
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
-      "x": 0.5,
+      "x": 0,
       "y": 0.5
     },
     "_position": {
       "__type__": "cc.Vec3",
-      "x": -18,
-      "y": 28,
+      "x": -97,
+      "y": 52,
       "z": 0
     },
     "_scale": {
@@ -551,8 +554,8 @@
     },
     "_enabled": true,
     "_useOriginalSize": false,
-    "_string": "Congratulations !\n\nNext Level",
-    "_N$string": "Congratulations !\n\nNext Level",
+    "_string": "SOUND: ON",
+    "_N$string": "SOUND: ON",
     "_fontSize": 40,
     "_lineHeight": 50,
     "_enableWrapText": true,
@@ -568,6 +571,93 @@
     "_N$overflow": 0,
     "_N$cacheMode": 0,
     "_id": "9fE5AaDQdDTrKFi1pXOm+j"
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "return",
+    "_objFlags": 0,
+    "_parent": {
+      "__id__": 2
+    },
+    "_children": [],
+    "_active": true,
+    "_level": 2,
+    "_components": [
+      {
+        "__id__": 14
+      }
+    ],
+    "_prefab": null,
+    "_opacity": 255,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 255
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 166.12,
+      "height": 50
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0,
+      "y": 0.5
+    },
+    "_position": {
+      "__type__": "cc.Vec3",
+      "x": 303,
+      "y": -239,
+      "z": 0
+    },
+    "_scale": {
+      "__type__": "cc.Vec3",
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "_rotationX": 0,
+    "_rotationY": 0,
+    "_quat": {
+      "__type__": "cc.Quat",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "w": 1
+    },
+    "_skewX": 0,
+    "_skewY": 0,
+    "groupIndex": 0,
+    "_id": "9flgP996RAXLlgq11VEvx9"
+  },
+  {
+    "__type__": "cc.Label",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 13
+    },
+    "_enabled": true,
+    "_useOriginalSize": false,
+    "_string": ">>RETURN",
+    "_N$string": ">>RETURN",
+    "_fontSize": 40,
+    "_lineHeight": 50,
+    "_enableWrapText": true,
+    "_N$file": {
+      "__uuid__": "b15addfe-606f-4cb2-ab24-d1f79cbc7227"
+    },
+    "_isSystemFontUsed": false,
+    "_spacingX": 0,
+    "_batchAsBitmap": false,
+    "_N$horizontalAlign": 1,
+    "_N$verticalAlign": 1,
+    "_N$fontFamily": "Arial",
+    "_N$overflow": 0,
+    "_N$cacheMode": 0,
+    "_id": "83MPsUTK5H56vLVcVyZXiy"
   },
   {
     "__type__": "cc.Canvas",
@@ -587,17 +677,22 @@
     "_id": "04v12IGwZEFrxt+DkqI76t"
   },
   {
-    "__type__": "3e6f8hw54hPdJs+WFXF3bmq",
+    "__type__": "1df99zUMPRNTq2Qy8WseAcm",
     "_name": "",
     "_objFlags": 0,
     "node": {
       "__id__": 2
     },
     "_enabled": true,
-    "broadcostTimes": 3,
-    "audio": {
-      "__uuid__": "cb151fee-80e0-4b29-97d4-a8d619e923fb"
+    "sound": {
+      "__id__": 12
     },
-    "_id": "19CBxIn79GIKKA8gxkxrB7"
+    "soundNode": {
+      "__id__": 11
+    },
+    "return": {
+      "__id__": 13
+    },
+    "_id": "c4L6inQjpCPrMQXCMa8LNX"
   }
 ]
