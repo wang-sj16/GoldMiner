@@ -42,7 +42,7 @@ cc.Class({
   onTouchStart1 (event) {
     if (this.price1 !== -1) {
       if (Global.currentMoney > this.price1) {
-        if(Global.sound === 1){
+        if (Global.sound === 1) {
           cc.audioEngine.play(this.choose, false, 1)
         }
         Global.stoneBooks = 1
@@ -50,13 +50,13 @@ cc.Class({
         this.stonebook.destroy()
         this.notice.string = 'GET A STONEBOOK!!'
       } else {
-        if(Global.sound === 1){
+        if (Global.sound === 1) {
           cc.audioEngine.play(this.ding, false, 1)
         }
         this.notice.string = 'NEED MORE MONEY!!'
       }
     } else {
-      if(Global.sound === 1){
+      if (Global.sound === 1) {
         cc.audioEngine.play(this.ding, false, 1)
       }
       this.notice.string = 'SOLD OUT!!'
@@ -65,7 +65,7 @@ cc.Class({
   onTouchStart2 (event) {
     if (this.price2 !== -1) {
       if (Global.currentMoney > this.price2) {
-        if(Global.sound === 1){
+        if (Global.sound === 1) {
           cc.audioEngine.play(this.choose, false, 1)
         }
         Global.powers = 1
@@ -73,13 +73,13 @@ cc.Class({
         this.power.destroy()
         this.notice.string = 'GET POWER!!'
       } else {
-        if(Global.sound === 1){
+        if (Global.sound === 1) {
           cc.audioEngine.play(this.ding, false, 1)
         }
         this.notice.string = 'NEED MORE MONEY!!'
       }
     } else {
-      if(Global.sound === 1){
+      if (Global.sound === 1) {
         cc.audioEngine.play(this.ding, false, 1)
       }
       this.notice.string = 'SOLD OUT!!'
@@ -88,7 +88,7 @@ cc.Class({
   onTouchStart3 (event) {
     if (this.price3 !== -1) {
       if (Global.currentMoney > this.price3) {
-        if(Global.sound === 1){
+        if (Global.sound === 1) {
           cc.audioEngine.play(this.choose, false, 1)
         }
         Global.fires++
@@ -96,13 +96,13 @@ cc.Class({
         this.fire.destroy()
         this.notice.string = 'GET A BOBM!!'
       } else {
-        if(Global.sound === 1){
+        if (Global.sound === 1) {
           cc.audioEngine.play(this.ding, false, 1)
         }
         this.notice.string = 'NEED MORE MONEY!!'
       }
     } else {
-      if(Global.sound === 1){
+      if (Global.sound === 1) {
         cc.audioEngine.play(this.ding, false, 1)
       }
       this.notice.string = 'SOLD OUT!!'
@@ -111,7 +111,7 @@ cc.Class({
   onTouchStart4 (event) {
     if (this.price4 !== -1) {
       if (Global.currentMoney > this.price4) {
-        if(Global.sound === 1){
+        if (Global.sound === 1) {
           cc.audioEngine.play(this.choose, false, 1)
         }
         Global.luckys = 1
@@ -119,13 +119,13 @@ cc.Class({
         this.lucky.destroy()
         this.notice.string = 'GET LUCK!!'
       } else {
-        if(Global.sound === 1){
+        if (Global.sound === 1) {
           cc.audioEngine.play(this.ding, false, 1)
         }
         this.notice.string = 'NEED MORE MONEY!!'
       }
     } else {
-      if(Global.sound === 1){
+      if (Global.sound === 1) {
         cc.audioEngine.play(this.ding, false, 1)
       }
       this.notice.string = 'SOLD OUT!!'
@@ -133,7 +133,7 @@ cc.Class({
   },
   onTouchStart5 (event) {
     if (this.price5 !== -1) {
-      if(Global.sound === 1){
+      if (Global.sound === 1) {
         cc.audioEngine.play(this.choose, false, 1)
       }
       if (Global.currentMoney > this.price5) {
@@ -142,13 +142,13 @@ cc.Class({
         this.betterDiamond.destroy()
         this.notice.string = 'GET BETTER DIAMOND!!'
       } else {
-        if(Global.sound === 1){
+        if (Global.sound === 1) {
           cc.audioEngine.play(this.ding, false, 1)
         }
         this.notice.string = 'NEED MORE MONEY!!'
       }
     } else {
-      if(Global.sound === 1){
+      if (Global.sound === 1) {
         cc.audioEngine.play(this.ding, false, 1)
       }
       this.notice.string = 'SOLD OUT!!'

@@ -25,7 +25,7 @@ cc.Class({
     target: 0,
     countDown: cc.Label,
     exit: cc.Node,
-    powerLogo: cc.Node,
+    powerLogo: cc.Node
   },
 
   // LIFE-CYCLE CALLBACKS:
@@ -35,7 +35,7 @@ cc.Class({
     cc.director.getCollisionManager().enabled = true
     // this.schedule(this.doCountdownTime,1);
   },
-  onTouchExit(event){
+  onTouchExit (event) {
     cc.director.loadScene('start')
   },
 

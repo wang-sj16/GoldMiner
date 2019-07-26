@@ -26,12 +26,11 @@ cc.Class({
   // onLoad () {},
 
   onTouchStart (event) {
-
     if (this.hook.getComponent('hook').flag === 2 && this.num > 0) {
       // this.hook.getComponent("hook").moveSpeed=6;
-      let item = this.hook.getComponent('hook').item
+      const item = this.hook.getComponent('hook').item
       if (item && !item.getComponent('items').bombing) {
-        if(Global.sound === 1){
+        if (Global.sound === 1) {
           cc.audioEngine.play(this.audio, false, 1)
         }
         if (item._name === 'bigRock' || item._name === 'midRock' || item._name === 'smallRock') {

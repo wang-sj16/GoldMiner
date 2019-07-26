@@ -25,14 +25,14 @@ cc.Class({
 
   start () {
     if (typeof wx === 'undefined') {
-      return;
+      return
     }
-    if(Global.sound === 1){
+    if (Global.sound === 1) {
       cc.audioEngine.play(this.audio, false, 1)
     }
     this.label.string = 'YOU LOSE!\n\nSCORE: ' + Global.loseMoney
     wx.postMessage({
-      message:'UpdateScore',
+      message: 'UpdateScore',
       score: Global.loseMoney.toString()
     })
   }

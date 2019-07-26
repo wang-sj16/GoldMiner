@@ -50,12 +50,12 @@ cc.Class({
         if (this.node._name === 'single') {
           cc.director.loadScene('loadlevel')
         } else if (this.node._name === 'rank') {
-          wx.postMessage({message: 'Show'})
+          wx.postMessage({ message: 'Show' })
           cc.director.loadScene('rank')
         } else if (this.node._name === 'tutorial') {
           cc.director.loadScene('tutorial')
         } else if (this.node._name === 'setting') {
-          cc.director.loadScene("setting")
+          cc.director.loadScene('setting')
         }
         this.node.destroy()
       }

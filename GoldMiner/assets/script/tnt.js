@@ -35,7 +35,7 @@ cc.Class({
       this.hooked = true
       this.hook.occupied = true
       this.animationComponent.play('tntbomb')
-      if(Global.sound === 1){
+      if (Global.sound === 1) {
         cc.audioEngine.play(this.audio, false, 1)
       }
     }

@@ -9,40 +9,40 @@
 //  - [English] https://www.cocos2d-x.org/docs/creator/manual/en/scripting/life-cycle-callbacks.html
 
 cc.Class({
-    extends: cc.Component,
+  extends: cc.Component,
 
-    properties: {
-        sound: cc.Label,
-        soundNode: cc.Node,
-        return: cc.Node,
-    },
+  properties: {
+    sound: cc.Label,
+    soundNode: cc.Node,
+    return: cc.Node
+  },
 
-    // LIFE-CYCLE CALLBACKS:
+  // LIFE-CYCLE CALLBACKS:
 
-    // onLoad () {},
-    onTouchStart (event) {
-        if (Global.sound === 0){
-            Global.sound = 1
-            this.sound.string = "SOUND: ON"
-        }else{
-            Global.sound = 0
-            this.sound.string = "SOUND: OFF"
-        }
-    },
+  // onLoad () {},
+  onTouchStart (event) {
+    if (Global.sound === 0) {
+      Global.sound = 1
+      this.sound.string = 'SOUND: ON'
+    } else {
+      Global.sound = 0
+      this.sound.string = 'SOUND: OFF'
+    }
+  },
 
-    onTouchStart1 (event) {
-        cc.director.loadScene('start')
-    },
-    start () {
-        this.soundNode.on(cc.Node.EventType.TOUCH_START, this.onTouchStart, this)
-        this.return.on(cc.Node.EventType.TOUCH_START, this.onTouchStart1, this)
+  onTouchStart1 (event) {
+    cc.director.loadScene('start')
+  },
+  start () {
+    this.soundNode.on(cc.Node.EventType.TOUCH_START, this.onTouchStart, this)
+    this.return.on(cc.Node.EventType.TOUCH_START, this.onTouchStart1, this)
 
-        if(Global.sound === 0){
-            this.sound.string = "SOUND: OFF"
-        }else{
-            this.sound.string = "SOUND: ON"
-        }
-    },
+    if (Global.sound === 0) {
+      this.sound.string = 'SOUND: OFF'
+    } else {
+      this.sound.string = 'SOUND: ON'
+    }
+  }
 
-    // update (dt) {},
-});
+  // update (dt) {},
+})

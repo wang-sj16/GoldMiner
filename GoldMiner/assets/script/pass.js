@@ -24,12 +24,12 @@ cc.Class({
   // onLoad () {},
 
   start () {
-    if(Global.sound === 1){
+    if (Global.sound === 1) {
       cc.audioEngine.play(this.audio, false, 1)
     }
     this.label.string = 'STAGE CLEAR!\n\nSCORE: ' + Global.currentMoney
     wx.postMessage({
-      message:'UpdateScore',
+      message: 'UpdateScore',
       score: Global.currentMoney.toString()
     })
   }
