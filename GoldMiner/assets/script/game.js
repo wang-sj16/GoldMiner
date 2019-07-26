@@ -43,29 +43,27 @@ cc.Class({
 
   // 倒计时
   doCountdownTime () {
-    if (this.broadcostTimes >= 0) {
-      this.countDown.string = '-' + this.broadcostTimes + 's'
-      this.broadcostTimes -= 1
-      if (this.broadcostTimes === 0) {
-        if (this.money1 >= this.target) {
-          console.log('You win! Next Level!')
-          const fire1 = cc.find('Canvas/fire1').getComponent('fire1')
-          Global.currentMoney = this.money1
-          Global.fires = fire1.num
-          Global.betterDiamonds = 0
-          Global.powers = 0
-          Global.luckys = 0
-          Global.stoneBooks = 0
-          if (Global.currentLevel === 8) {
-            cc.director.loadScene('pass')
-          } else {
-            Global.currentLevel++
-            cc.director.loadScene('next')
-          }
+    this.countDown.string = '-' + this.broadcostTimes + 's'
+    this.broadcostTimes -= 1
+    if (this.broadcostTimes === -1) {
+      if (this.money1 >= this.target) {
+        console.log('You win! Next Level!')
+        const fire1 = cc.find('Canvas/fire1').getComponent('fire1')
+        Global.currentMoney = this.money1
+        Global.fires = fire1.num
+        Global.betterDiamonds = 0
+        Global.powers = 0
+        Global.luckys = 0
+        Global.stoneBooks = 0
+        if (Global.currentLevel === 8) {
+          cc.director.loadScene('pass')
         } else {
-          Global.loseMoney = this.money1
-          cc.director.loadScene('lose')
+          Global.currentLevel++
+          cc.director.loadScene('next')
         }
+      } else {
+        Global.loseMoney = this.money1
+        cc.director.loadScene('lose')
       }
     }
   },

@@ -88,9 +88,16 @@ cc.Class({
       }
     })
 
-    if(Global.sound === 1){
-      cc.audioEngine.play(this.bgm, true, 1)
-    }
+    //if(Global.sound === 1){
+    //  cc.audioEngine.play(this.bgm, true, 1)
+    //}
+    Global.currentLevel = 1
+    Global.currentMoney = 0
+    Global.fires = 0
+    Global.betterDiamonds = 0
+    Global.powers = 0
+    Global.luckys = 0
+    Global.stoneBooks = 0
     cc.director.getCollisionManager().enabledDebugDraw = false
     cc.director.getCollisionManager().enabled = true
     Global.currentLevel = 1

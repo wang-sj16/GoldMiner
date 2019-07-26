@@ -1,71 +1,166 @@
-2019-07-25T12:13:40.277Z - normal: Load ~/.CocosCreator/settings.json
-2019-07-25T12:13:40.318Z - normal: Initializing Asset Database
-2019-07-25T12:13:40.321Z - normal: checking language setting...
-2019-07-25T12:13:40.321Z - normal: Language: zh
-2019-07-25T12:13:40.783Z - success: preview server running at http://localhost:7456
-2019-07-25T12:13:40.847Z - success: protocol editor-framework registered
-2019-07-25T12:13:40.848Z - success: protocol app registered
-2019-07-25T12:13:40.848Z - success: protocol theme registered
-2019-07-25T12:13:40.848Z - success: protocol packages registered
-2019-07-25T12:13:40.848Z - success: protocol uuid registerred
-2019-07-25T12:13:40.848Z - success: protocol db registerred
-2019-07-25T12:13:40.851Z - success: protocol thumbnail registerred
-2019-07-25T12:13:40.852Z - success: protocol unpack registerred
-2019-07-25T12:13:40.852Z - success: protocol disable-commonjs registerred
-2019-07-25T12:13:41.103Z - normal: connected!
-2019-07-25T12:13:41.104Z - normal: Check project /Users/vincent/code/GoldMiner/GoldMinder
-2019-07-25T12:13:41.106Z - normal: Initializing project /Users/vincent/code/GoldMiner/GoldMinder
-2019-07-25T12:13:41.353Z - normal: Initializing Cocos2d
-2019-07-25T12:13:41.883Z - normal: Initializing engine extends
-2019-07-25T12:13:41.915Z - success: asset-db-debugger loaded
-2019-07-25T12:13:41.915Z - success: baidu-adapter loaded
-2019-07-25T12:13:41.916Z - success: color-picker loaded
-2019-07-25T12:13:41.977Z - success: fb-audience-network loaded
-2019-07-25T12:13:42.009Z - success: fb-live-stream loaded
-2019-07-25T12:13:42.012Z - success: google-play-instant loaded
-2019-07-25T12:13:42.015Z - success: huawei-runtime loaded
-2019-07-25T12:13:42.174Z - success: cpk-publish loaded
-2019-07-25T12:13:42.175Z - success: jsb-adapter loaded
-2019-07-25T12:13:42.178Z - success: oppo-runtime loaded
-2019-07-25T12:13:42.195Z - success: package-manager loaded
-2019-07-25T12:13:42.274Z - success: qqplay-adapter loaded
-2019-07-25T12:13:42.275Z - success: runtime-dev-tools loaded
-2019-07-25T12:13:42.290Z - success: sdkbox loaded
-2019-07-25T12:13:42.318Z - success: tester loaded
-2019-07-25T12:13:42.336Z - success: ui-grid loaded
-2019-07-25T12:13:42.351Z - success: ui-kit-preview-extra loaded
-2019-07-25T12:13:42.368Z - success: ui-kit-preview loaded
-2019-07-25T12:13:42.383Z - success: ui-kit loaded
-2019-07-25T12:13:42.404Z - success: ui-tree loaded
-2019-07-25T12:13:42.408Z - success: vivo-runtime loaded
-2019-07-25T12:13:42.409Z - success: weapp-adapter loaded
-2019-07-25T12:13:42.409Z - success: xiaomi-adapter loaded
-2019-07-25T12:13:42.456Z - success: assets loaded
-2019-07-25T12:13:42.475Z - success: builder loaded
-2019-07-25T12:13:42.663Z - success: cocos-services loaded
-2019-07-25T12:13:42.681Z - success: console loaded
-2019-07-25T12:13:42.706Z - success: fb-instant-games loaded
-2019-07-25T12:13:42.713Z - success: google-instant-games loaded
-2019-07-25T12:13:42.733Z - success: hierarchy loaded
-2019-07-25T12:13:42.749Z - success: inspector loaded
-2019-07-25T12:13:42.750Z - success: keystore loaded
-2019-07-25T12:13:42.767Z - success: node-library loaded
-2019-07-25T12:13:42.768Z - success: package-asset loaded
-2019-07-25T12:13:42.769Z - success: preferences loaded
-2019-07-25T12:13:42.784Z - success: project-exporter loaded
-2019-07-25T12:13:42.800Z - success: project-importer loaded
-2019-07-25T12:13:42.816Z - success: project-settings loaded
-2019-07-25T12:13:42.861Z - success: scene loaded
-2019-07-25T12:13:42.862Z - success: simulator-debugger loaded
-2019-07-25T12:13:42.863Z - success: sprite-editor loaded
-2019-07-25T12:13:42.878Z - success: store loaded
-2019-07-25T12:13:42.894Z - success: timeline loaded
-2019-07-25T12:13:42.898Z - success: xiaomi-runtime loaded
-2019-07-25T12:13:43.739Z - info: Cocos Services load base data!
-2019-07-25T12:13:44.032Z - normal: Loading packages
-2019-07-25T12:13:44.042Z - normal: Watching packages
-2019-07-25T12:13:44.147Z - normal: Run Application
-2019-07-25T12:14:23.048Z - normal: Start building with options : {
+2019-07-26T03:23:29.055Z - normal: Load ~/.CocosCreator/settings.json
+2019-07-26T03:23:29.117Z - normal: Initializing Asset Database
+2019-07-26T03:23:29.120Z - normal: checking language setting...
+2019-07-26T03:23:29.120Z - normal: Language: zh
+2019-07-26T03:23:29.795Z - success: preview server running at http://localhost:7456
+2019-07-26T03:23:29.821Z - success: protocol editor-framework registered
+2019-07-26T03:23:29.821Z - success: protocol app registered
+2019-07-26T03:23:29.822Z - success: protocol theme registered
+2019-07-26T03:23:29.823Z - success: protocol packages registered
+2019-07-26T03:23:29.823Z - success: protocol uuid registerred
+2019-07-26T03:23:29.827Z - success: protocol db registerred
+2019-07-26T03:23:29.827Z - success: protocol thumbnail registerred
+2019-07-26T03:23:29.827Z - success: protocol unpack registerred
+2019-07-26T03:23:29.827Z - success: protocol disable-commonjs registerred
+2019-07-26T03:23:29.924Z - normal: connected!
+2019-07-26T03:23:29.925Z - normal: Check project /Users/vincent/Desktop/GoldMiner/GoldMiner
+2019-07-26T03:23:29.927Z - normal: Initializing project /Users/vincent/Desktop/GoldMiner/GoldMiner
+2019-07-26T03:23:30.285Z - normal: Initializing Cocos2d
+2019-07-26T03:23:31.066Z - normal: Initializing engine extends
+2019-07-26T03:23:31.088Z - success: asset-db-debugger loaded
+2019-07-26T03:23:31.089Z - success: baidu-adapter loaded
+2019-07-26T03:23:31.090Z - success: color-picker loaded
+2019-07-26T03:23:31.178Z - success: fb-audience-network loaded
+2019-07-26T03:23:31.227Z - success: fb-live-stream loaded
+2019-07-26T03:23:31.230Z - success: google-play-instant loaded
+2019-07-26T03:23:31.235Z - success: huawei-runtime loaded
+2019-07-26T03:23:31.477Z - success: cpk-publish loaded
+2019-07-26T03:23:31.479Z - success: jsb-adapter loaded
+2019-07-26T03:23:31.483Z - success: oppo-runtime loaded
+2019-07-26T03:23:31.488Z - success: package-manager loaded
+2019-07-26T03:23:31.594Z - success: qqplay-adapter loaded
+2019-07-26T03:23:31.596Z - success: runtime-dev-tools loaded
+2019-07-26T03:23:31.601Z - success: sdkbox loaded
+2019-07-26T03:23:31.606Z - success: tester loaded
+2019-07-26T03:23:31.610Z - success: ui-grid loaded
+2019-07-26T03:23:31.613Z - success: ui-kit-preview-extra loaded
+2019-07-26T03:23:31.617Z - success: ui-kit-preview loaded
+2019-07-26T03:23:31.620Z - success: ui-kit loaded
+2019-07-26T03:23:31.623Z - success: ui-tree loaded
+2019-07-26T03:23:31.636Z - success: vivo-runtime loaded
+2019-07-26T03:23:31.637Z - success: weapp-adapter loaded
+2019-07-26T03:23:31.638Z - success: xiaomi-adapter loaded
+2019-07-26T03:23:31.682Z - success: assets loaded
+2019-07-26T03:23:31.686Z - success: builder loaded
+2019-07-26T03:23:31.928Z - success: cocos-services loaded
+2019-07-26T03:23:31.934Z - success: console loaded
+2019-07-26T03:23:31.966Z - success: fb-instant-games loaded
+2019-07-26T03:23:31.967Z - success: google-instant-games loaded
+2019-07-26T03:23:31.972Z - success: hierarchy loaded
+2019-07-26T03:23:31.976Z - success: inspector loaded
+2019-07-26T03:23:31.978Z - success: keystore loaded
+2019-07-26T03:23:31.983Z - success: node-library loaded
+2019-07-26T03:23:31.985Z - success: package-asset loaded
+2019-07-26T03:23:31.986Z - success: preferences loaded
+2019-07-26T03:23:31.990Z - success: project-exporter loaded
+2019-07-26T03:23:31.994Z - success: project-importer loaded
+2019-07-26T03:23:31.997Z - success: project-settings loaded
+2019-07-26T03:23:32.002Z - success: scene loaded
+2019-07-26T03:23:32.003Z - success: simulator-debugger loaded
+2019-07-26T03:23:32.005Z - success: sprite-editor loaded
+2019-07-26T03:23:32.011Z - success: store loaded
+2019-07-26T03:23:32.017Z - success: timeline loaded
+2019-07-26T03:23:32.023Z - success: xiaomi-runtime loaded
+2019-07-26T03:23:33.005Z - warn: [db-task][init] Backup unused meta file: db://assets/img/arrow2.png~.meta
+2019-07-26T03:23:41.175Z - info: Cocos Services load base data!
+2019-07-26T03:23:43.377Z - normal: Loading packages
+2019-07-26T03:23:43.384Z - normal: Watching packages
+2019-07-26T03:23:43.498Z - normal: Run Application
+2019-07-26T03:25:00.016Z - normal: Simulator: WORKAREA WIDTH 1920.00, HEIGHT 961.00
+2019-07-26T03:25:00.018Z - normal: Simulator: FRAME SCALE = 0.75
+2019-07-26T03:25:00.156Z - normal: Simulator: GLFWError #65544 Happen, Cocoa: Failed to retrieve display name
+2019-07-26T03:25:00.156Z - normal: Simulator: GLFWError #65544 Happen, Cocoa: Failed to retrieve display name
+2019-07-26T03:25:00.156Z - normal: Simulator: 
+2019-07-26T03:25:00.156Z - normal: Simulator: {
+2019-07-26T03:25:00.211Z - normal: Simulator: 	build_type: DEBUG
+2019-07-26T03:25:00.212Z - normal: Simulator: 	gl.vendor: Intel Inc.
+2019-07-26T03:25:00.212Z - normal: Simulator: 	gl.supports_PVRTC: false
+2019-07-26T03:25:00.212Z - normal: Simulator: 	gl.renderer: Intel Iris Pro OpenGL Engine
+2019-07-26T03:25:00.212Z - normal: Simulator: 	gl.supports_ATITC: false
+2019-07-26T03:25:00.212Z - normal: Simulator: 	gl.supports_discard_framebuffer: false
+2019-07-26T03:25:00.212Z - normal: Simulator: 	gl.supports_NPOT: true
+2019-07-26T03:25:00.213Z - normal: Simulator: 	gl.max_texture_units: 16
+2019-07-26T03:25:00.213Z - normal: Simulator: 	gl.supports_ETC1: false
+2019-07-26T03:25:00.213Z - normal: Simulator: 	gl.max_texture_size: 16384
+2019-07-26T03:25:00.213Z - normal: Simulator: 	gl.supports_BGRA8888: false
+2019-07-26T03:25:00.213Z - normal: Simulator: 	gl.supports_vertex_array_object: true
+2019-07-26T03:25:00.214Z - normal: Simulator: 	gl.supports_OES_map_buffer: false
+2019-07-26T03:25:00.214Z - normal: Simulator: 	compiled_with_gl_state_cache: true
+2019-07-26T03:25:00.214Z - normal: Simulator: 	gl.supports_OES_packed_depth_stencil: false
+2019-07-26T03:25:00.214Z - normal: Simulator: 	gl.version: 2.1 INTEL-12.10.12
+2019-07-26T03:25:00.214Z - normal: Simulator: 	gl.supports_S3TC: true
+2019-07-26T03:25:00.215Z - normal: Simulator: 	compiled_with_profiler: false
+2019-07-26T03:25:00.215Z - normal: Simulator: 	gl.supports_OES_depth24: false
+2019-07-26T03:25:00.215Z - normal: Simulator: }
+2019-07-26T03:25:00.232Z - normal: Simulator: Project Config:
+2019-07-26T03:25:00.232Z - normal: Simulator:     project dir: /Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/
+2019-07-26T03:25:00.233Z - normal: Simulator:     writable path: $(PROJDIR)/
+2019-07-26T03:25:00.233Z - normal: Simulator:     script file: $(PROJDIR)/main.js
+2019-07-26T03:25:00.234Z - normal: Simulator:     frame size: 1920 x 1080
+2019-07-26T03:25:00.234Z - normal: Simulator:     frame scale: 0.75
+2019-07-26T03:25:00.234Z - normal: Simulator:     show console: NO
+2019-07-26T03:25:00.235Z - normal: Simulator:     write debug log: NO ()
+2019-07-26T03:25:00.235Z - normal: Simulator:     listen: 
+2019-07-26T03:25:00.235Z - normal: Simulator:     debugger: none
+2019-07-26T03:25:00.235Z - normal: Simulator:     add searching path:
+2019-07-26T03:25:00.236Z - normal: Simulator: 
+2019-07-26T03:25:00.236Z - normal: Simulator: 
+2019-07-26T03:25:00.236Z - normal: Simulator: 
+2019-07-26T03:25:00.236Z - normal: Simulator: resetDesignResolution request
+2019-07-26T03:25:00.237Z - normal: Simulator: ------------------------------------------------
+2019-07-26T03:25:00.237Z - normal: Simulator: LOAD Js FILE: jsb-adapter/jsb-builtin.js
+2019-07-26T03:25:00.237Z - normal: Simulator: ------------------------------------------------
+2019-07-26T03:25:00.237Z - normal: Simulator: Initializing V8, version: 6.5.254.43
+2019-07-26T03:25:00.274Z - normal: Simulator: libuv version: 1.23.1-dev
+2019-07-26T03:25:00.276Z - normal: Simulator: Debugger listening..., visit [ chrome-devtools://devtools/bundled/inspector.html?v8only=true&ws=0.0.0.0:5086/00010002-0003-4004-8005-000600070008 ] in chrome browser to debug!
+2019-07-26T03:25:00.276Z - normal: Simulator: For help see https://nodejs.org/en/docs/inspector
+2019-07-26T03:25:00.317Z - normal: Simulator: JS: Enable batch GL commands optimization!
+2019-07-26T03:25:00.317Z - normal: Simulator: resetDesignResolution request
+2019-07-26T03:25:00.318Z - normal: Simulator: ------------------------------------------------
+2019-07-26T03:25:00.319Z - normal: Simulator: LOAD Js FILE: main.js
+2019-07-26T03:25:00.319Z - normal: Simulator: ------------------------------------------------
+2019-07-26T03:25:00.726Z - normal: Simulator: iShow!
+2019-07-26T03:25:00.917Z - normal: Simulator: glGetIntegerv: pname: 0x8b4c
+2019-07-26T03:25:00.933Z - normal: Simulator: JS: Cocos Creator v2.0.10
+2019-07-26T03:25:08.813Z - normal: Simulator: I/AudioEngine-inl.mm (358): OpenAL was initialized successfully!
+2019-07-26T03:25:08.813Z - normal: Simulator: V/AudioCache (227):   id=1 _pcmData alloc: 0x7f888419ba00
+2019-07-26T03:25:08.813Z - normal: Simulator: V/AudioCache (264): pcm buffer was loaded successfully, total frames: 12096, total read frames: 12096, adjust frames: 0, remainingFrames: 0
+2019-07-26T03:25:08.813Z - normal: Simulator: V/AudioCache (273):   id=1 generated alGenBuffers: 2425  for _pcmData: 0x7f888419ba00
+2019-07-26T03:25:08.814Z - normal: Simulator: V/AudioCache (274):   id=1 _pcmData alBufferData: 0x7f888419ba00
+2019-07-26T03:25:08.814Z - normal: Simulator: ScriptEngine::cleanup begin ...
+2019-07-26T03:25:08.814Z - normal: Simulator: GC begin ..., (js->native map) size: 41, all objects: 125
+2019-07-26T03:25:08.843Z - normal: Simulator: GC end ..., (js->native map) size: 41, all objects: 125
+2019-07-26T03:25:08.845Z - normal: Simulator: GC begin ..., (js->native map) size: 41, all objects: 125
+2019-07-26T03:25:08.890Z - normal: Simulator: GC end ..., (js->native map) size: 41, all objects: 125
+2019-07-26T03:25:08.891Z - normal: Simulator: Destroy WebGLProgram (3) by GC
+2019-07-26T03:25:08.892Z - normal: Simulator: Destroy WebGLTexture (15) by GC
+2019-07-26T03:25:08.892Z - normal: Simulator: Destroy WebGLTexture (14) by GC
+2019-07-26T03:25:08.893Z - normal: Simulator: Destroy WebGLTexture (12) by GC
+2019-07-26T03:25:08.893Z - normal: Simulator: Destroy WebGLTexture (10) by GC
+2019-07-26T03:25:08.893Z - normal: Simulator: Destroy WebGLTexture (11) by GC
+2019-07-26T03:25:08.894Z - normal: Simulator: Destroy WebGLBuffer (2) by GC
+2019-07-26T03:25:08.894Z - normal: Simulator: Destroy WebGLTexture (6) by GC
+2019-07-26T03:25:08.894Z - normal: Simulator: Destroy WebGLTexture (3) by GC
+2019-07-26T03:25:08.894Z - normal: Simulator: Destroy WebGLTexture (2) by GC
+2019-07-26T03:25:08.894Z - normal: Simulator: Destroy WebGLTexture (1) by GC
+2019-07-26T03:25:08.895Z - normal: Simulator: Destroy WebGLTexture (5) by GC
+2019-07-26T03:25:08.895Z - normal: Simulator: Destroy WebGLBuffer (6) by GC
+2019-07-26T03:25:08.895Z - normal: Simulator: Destroy WebGLTexture (13) by GC
+2019-07-26T03:25:08.895Z - normal: Simulator: Destroy WebGLBuffer (4) by GC
+2019-07-26T03:25:08.895Z - normal: Simulator: Destroy WebGLTexture (9) by GC
+2019-07-26T03:25:08.895Z - normal: Simulator: Destroy WebGLBuffer (5) by GC
+2019-07-26T03:25:08.896Z - normal: Simulator: Destroy WebGLTexture (8) by GC
+2019-07-26T03:25:08.896Z - normal: Simulator: Destroy WebGLTexture (4) by GC
+2019-07-26T03:25:08.896Z - normal: Simulator: Destroy WebGLBuffer (3) by GC
+2019-07-26T03:25:08.896Z - normal: Simulator: Destroy WebGLTexture (7) by GC
+2019-07-26T03:25:08.896Z - normal: Simulator: Destroy WebGLTexture (16) by GC
+2019-07-26T03:25:08.897Z - normal: Simulator: Destroy WebGLProgram (6) by GC
+2019-07-26T03:25:08.897Z - normal: Simulator: Destroy WebGLBuffer (1) by GC
+2019-07-26T03:25:08.897Z - normal: Simulator: GC begin ..., (js->native map) size: 0, all objects: 0
+2019-07-26T03:25:08.917Z - normal: Simulator: GC end ..., (js->native map) size: 0, all objects: 0
+2019-07-26T03:25:08.926Z - normal: Simulator: ScriptEngine::cleanup end ...
+2019-07-26T03:25:08.995Z - normal: Simulator: V/AudioCache (136): ~AudioCache(id=1), delete buffer: 2425
+2019-07-26T03:25:23.372Z - normal: Start building with options : {
   "actualPlatform": "wechatgame",
   "android-instant": {
     "REMOTE_SERVER_ROOT": "",
@@ -84,9 +179,9 @@
     "orientation": "portrait",
     "subContext": ""
   },
-  "buildPath": "/Users/vincent/code/GoldMiner/GoldMinder/build",
+  "buildPath": "/Users/vincent/Desktop/GoldMiner/GoldMiner/build",
   "debug": false,
-  "dest": "/Users/vincent/code/GoldMiner/GoldMinder/build/wechatgame",
+  "dest": "/Users/vincent/Desktop/GoldMiner/GoldMiner/build/wechatgame",
   "embedWebDebugger": false,
   "encryptJs": true,
   "excludeScenes": [],
@@ -152,35 +247,59 @@
   },
   "xxteaKey": "b4afd356-9b81-48",
   "zipCompressJs": true,
-  "project": "/Users/vincent/code/GoldMiner/GoldMinder",
+  "project": "/Users/vincent/Desktop/GoldMiner/GoldMiner",
   "projectName": "GoldMiner",
   "debugBuildWorker": false
 }
-2019-07-25T12:14:23.051Z - normal: Building /Users/vincent/code/GoldMiner/GoldMinder
-2019-07-25T12:14:23.052Z - normal: Destination /Users/vincent/code/GoldMiner/GoldMinder/build/wechatgame
-2019-07-25T12:14:23.126Z - normal: Delete /Users/vincent/code/GoldMiner/GoldMinder/build/wechatgame/subpackages/**/*,/Users/vincent/code/GoldMiner/GoldMinder/build/wechatgame/**/*,!/Users/vincent/code/GoldMiner/GoldMinder/build/wechatgame/subdomain,!/Users/vincent/code/GoldMiner/GoldMinder/build/wechatgame/subdomain/**/*
-2019-07-25T12:15:05.420Z - normal: Start building assets
-2019-07-25T12:15:05.421Z - normal: Start spawn build-worker
-2019-07-25T12:15:05.928Z - normal: Finish spawn build-worker
-2019-07-25T12:15:05.928Z - normal: Start init build-worker
-2019-07-25T12:15:08.093Z - normal: Finish init build-worker
-2019-07-25T12:15:08.093Z - normal: Start build-assets in worker
-2019-07-25T12:15:08.614Z - normal: Finish build-assets in worker
-2019-07-25T12:15:08.617Z - normal: Finish building assets
-2019-07-25T12:15:08.651Z - normal: Start building plugin scripts
-2019-07-25T12:15:08.696Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
-2019-07-25T12:15:10.307Z - normal: Built to "/Users/vincent/code/GoldMiner/GoldMinder/build/wechatgame" successfully
-2019-07-25T12:15:16.041Z - normal: Initializing...
+2019-07-26T03:25:23.375Z - normal: Building /Users/vincent/Desktop/GoldMiner/GoldMiner
+2019-07-26T03:25:23.375Z - normal: Destination /Users/vincent/Desktop/GoldMiner/GoldMiner/build/wechatgame
+2019-07-26T03:25:23.475Z - normal: Delete /Users/vincent/Desktop/GoldMiner/GoldMiner/build/wechatgame/subpackages/**/*,/Users/vincent/Desktop/GoldMiner/GoldMiner/build/wechatgame/**/*,!/Users/vincent/Desktop/GoldMiner/GoldMiner/build/wechatgame/subdomain,!/Users/vincent/Desktop/GoldMiner/GoldMiner/build/wechatgame/subdomain/**/*
+2019-07-26T03:25:25.700Z - normal: Start building assets
+2019-07-26T03:25:25.700Z - normal: Start spawn build-worker
+2019-07-26T03:25:26.323Z - normal: Finish spawn build-worker
+2019-07-26T03:25:26.323Z - normal: Start init build-worker
+2019-07-26T03:25:29.159Z - normal: Finish init build-worker
+2019-07-26T03:25:29.159Z - normal: Start build-assets in worker
+2019-07-26T03:25:29.857Z - normal: Finish build-assets in worker
+2019-07-26T03:25:29.860Z - normal: Finish building assets
+2019-07-26T03:25:29.879Z - normal: Start building plugin scripts
+2019-07-26T03:25:29.917Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2019-07-26T03:25:31.284Z - normal: Built to "/Users/vincent/Desktop/GoldMiner/GoldMiner/build/wechatgame" successfully
+2019-07-26T03:25:37.656Z - normal: Initializing...
 
-2019-07-25T12:15:16.049Z - normal: idePortFile: /Users/vincent/Library/Application Support/微信开发者工具/Default/.ide
+2019-07-26T03:25:37.669Z - normal: idePortFile: /Users/vincent/Library/Application Support/微信开发者工具/Default/.ide
 
-2019-07-25T12:15:16.065Z - normal: IDE server has started, listening on http://127.0.0.1:61726
+2019-07-26T03:25:37.688Z - normal: starting ide...
 
-2019-07-25T12:15:16.066Z - normal: initialization finished
+2019-07-26T03:25:37.990Z - normal: Initializing...
 
-2019-07-25T12:15:16.586Z - normal: open IDE success
+2019-07-26T03:25:38.006Z - normal: idePortFile: /Users/vincent/Library/Application Support/微信开发者工具/Default/.ide
 
-2019-07-25T12:23:28.112Z - normal: Start building with options : {
+2019-07-26T03:25:38.032Z - normal: starting ide...
+
+2019-07-26T03:25:40.760Z - normal: IDE server has started, listening on http://127.0.0.1:11643
+
+2019-07-26T03:25:40.763Z - normal: initialization finished
+
+2019-07-26T03:25:41.025Z - error: StatusCodeError: 400 - "{\"code\":40000,\"error\":\"错误 需要重新登录\"}"
+
+    at Socket.<anonymous> (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/core/wechat-game.js:1:900)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+    at readableAddChunk (_stream_readable.js:178:18)
+    at Socket.Readable.push (_stream_readable.js:136:10)
+    at Pipe.onread (net.js:560:20)
+2019-07-26T03:25:55.589Z - normal: Initializing...
+
+2019-07-26T03:25:55.601Z - normal: idePortFile: /Users/vincent/Library/Application Support/微信开发者工具/Default/.ide
+
+2019-07-26T03:25:55.621Z - normal: IDE server has started, listening on http://127.0.0.1:11643
+
+2019-07-26T03:25:55.621Z - normal: initialization finished
+
+2019-07-26T03:25:56.580Z - normal: open IDE success
+
+2019-07-26T03:29:06.393Z - normal: Start building with options : {
   "actualPlatform": "wechatgame",
   "android-instant": {
     "REMOTE_SERVER_ROOT": "",
@@ -199,9 +318,9 @@
     "orientation": "portrait",
     "subContext": ""
   },
-  "buildPath": "/Users/vincent/code/GoldMiner/GoldMinder/build",
+  "buildPath": "/Users/vincent/Desktop/GoldMiner/GoldMiner/build",
   "debug": false,
-  "dest": "/Users/vincent/code/GoldMiner/GoldMinder/build/wechatgame",
+  "dest": "/Users/vincent/Desktop/GoldMiner/GoldMiner/build/wechatgame",
   "embedWebDebugger": false,
   "encryptJs": true,
   "excludeScenes": [],
@@ -267,25 +386,120 @@
   },
   "xxteaKey": "b4afd356-9b81-48",
   "zipCompressJs": true,
-  "project": "/Users/vincent/code/GoldMiner/GoldMinder",
+  "project": "/Users/vincent/Desktop/GoldMiner/GoldMiner",
   "projectName": "GoldMiner",
   "debugBuildWorker": false
 }
-2019-07-25T12:23:28.115Z - normal: Building /Users/vincent/code/GoldMiner/GoldMinder
-2019-07-25T12:23:28.115Z - normal: Destination /Users/vincent/code/GoldMiner/GoldMinder/build/wechatgame
-2019-07-25T12:23:28.116Z - normal: Delete /Users/vincent/code/GoldMiner/GoldMinder/build/wechatgame/subpackages/**/*,/Users/vincent/code/GoldMiner/GoldMinder/build/wechatgame/**/*,!/Users/vincent/code/GoldMiner/GoldMinder/build/wechatgame/subdomain,!/Users/vincent/code/GoldMiner/GoldMinder/build/wechatgame/subdomain/**/*
-2019-07-25T12:23:29.949Z - normal: Start building assets
-2019-07-25T12:23:29.949Z - normal: Start spawn build-worker
-2019-07-25T12:23:30.461Z - normal: Finish spawn build-worker
-2019-07-25T12:23:30.461Z - normal: Start init build-worker
-2019-07-25T12:23:32.632Z - normal: Finish init build-worker
-2019-07-25T12:23:32.632Z - normal: Start build-assets in worker
-2019-07-25T12:23:33.239Z - normal: Finish build-assets in worker
-2019-07-25T12:23:33.242Z - normal: Finish building assets
-2019-07-25T12:23:33.258Z - normal: Start building plugin scripts
-2019-07-25T12:23:33.292Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
-2019-07-25T12:23:34.326Z - normal: Built to "/Users/vincent/code/GoldMiner/GoldMinder/build/wechatgame" successfully
-2019-07-25T12:24:25.866Z - normal: Start building with options : {
+2019-07-26T03:29:06.397Z - normal: Building /Users/vincent/Desktop/GoldMiner/GoldMiner
+2019-07-26T03:29:06.397Z - normal: Destination /Users/vincent/Desktop/GoldMiner/GoldMiner/build/wechatgame
+2019-07-26T03:29:06.399Z - normal: Delete /Users/vincent/Desktop/GoldMiner/GoldMiner/build/wechatgame/subpackages/**/*,/Users/vincent/Desktop/GoldMiner/GoldMiner/build/wechatgame/**/*,!/Users/vincent/Desktop/GoldMiner/GoldMiner/build/wechatgame/subdomain,!/Users/vincent/Desktop/GoldMiner/GoldMiner/build/wechatgame/subdomain/**/*
+2019-07-26T03:29:08.698Z - normal: Start building assets
+2019-07-26T03:29:08.699Z - normal: Start spawn build-worker
+2019-07-26T03:29:09.328Z - normal: Finish spawn build-worker
+2019-07-26T03:29:09.328Z - normal: Start init build-worker
+2019-07-26T03:29:12.175Z - normal: Finish init build-worker
+2019-07-26T03:29:12.175Z - normal: Start build-assets in worker
+2019-07-26T03:29:12.878Z - normal: Finish build-assets in worker
+2019-07-26T03:29:12.880Z - normal: Finish building assets
+2019-07-26T03:29:12.897Z - normal: Start building plugin scripts
+2019-07-26T03:29:12.927Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2019-07-26T03:29:13.970Z - normal: Built to "/Users/vincent/Desktop/GoldMiner/GoldMiner/build/wechatgame" successfully
+2019-07-26T03:30:17.601Z - normal: Initializing...
+
+2019-07-26T03:30:17.614Z - normal: idePortFile: /Users/vincent/Library/Application Support/微信开发者工具/Default/.ide
+
+2019-07-26T03:30:17.636Z - normal: IDE server has started, listening on http://127.0.0.1:11643
+
+2019-07-26T03:30:17.636Z - normal: initialization finished
+
+2019-07-26T03:30:18.135Z - normal: open IDE success
+
+2019-07-26T03:36:25.655Z - normal: Simulator: WORKAREA WIDTH 1920.00, HEIGHT 961.00
+2019-07-26T03:36:25.657Z - normal: Simulator: FRAME SCALE = 0.75
+2019-07-26T03:36:25.819Z - normal: Simulator: GLFWError #65544 Happen, Cocoa: Failed to retrieve display name
+2019-07-26T03:36:25.819Z - normal: Simulator: GLFWError #65544 Happen, Cocoa: Failed to retrieve display name
+2019-07-26T03:36:25.820Z - normal: Simulator: 
+2019-07-26T03:36:25.820Z - normal: Simulator: {
+2019-07-26T03:36:25.820Z - normal: Simulator: 	build_type: DEBUG
+2019-07-26T03:36:25.821Z - normal: Simulator: 	gl.vendor: Intel Inc.
+2019-07-26T03:36:25.822Z - normal: Simulator: 	gl.supports_PVRTC: false
+2019-07-26T03:36:25.822Z - normal: Simulator: 	gl.renderer: Intel Iris Pro OpenGL Engine
+2019-07-26T03:36:25.822Z - normal: Simulator: 	gl.supports_ATITC: false
+2019-07-26T03:36:25.822Z - normal: Simulator: 	gl.supports_discard_framebuffer: false
+2019-07-26T03:36:25.822Z - normal: Simulator: 	gl.supports_NPOT: true
+2019-07-26T03:36:25.823Z - normal: Simulator: 	gl.max_texture_units: 16
+2019-07-26T03:36:25.823Z - normal: Simulator: 	gl.supports_ETC1: false
+2019-07-26T03:36:25.824Z - normal: Simulator: 	gl.max_texture_size: 16384
+2019-07-26T03:36:25.824Z - normal: Simulator: 	gl.supports_BGRA8888: false
+2019-07-26T03:36:25.824Z - normal: Simulator: 	gl.supports_vertex_array_object: true
+2019-07-26T03:36:25.824Z - normal: Simulator: 	gl.supports_OES_map_buffer: false
+2019-07-26T03:36:25.825Z - normal: Simulator: 	compiled_with_gl_state_cache: true
+2019-07-26T03:36:25.826Z - normal: Simulator: 	gl.supports_OES_packed_depth_stencil: false
+2019-07-26T03:36:25.826Z - normal: Simulator: 	gl.version: 2.1 INTEL-12.10.12
+2019-07-26T03:36:25.826Z - normal: Simulator: 	gl.supports_S3TC: true
+2019-07-26T03:36:25.826Z - normal: Simulator: 	compiled_with_profiler: false
+2019-07-26T03:36:25.828Z - normal: Simulator: 	gl.supports_OES_depth24: false
+2019-07-26T03:36:25.828Z - normal: Simulator: }
+2019-07-26T03:36:25.832Z - normal: Simulator: Project Config:
+2019-07-26T03:36:25.833Z - normal: Simulator:     project dir: /Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/
+2019-07-26T03:36:25.833Z - normal: Simulator:     writable path: $(PROJDIR)/
+2019-07-26T03:36:25.833Z - normal: Simulator:     script file: $(PROJDIR)/main.js
+2019-07-26T03:36:25.833Z - normal: Simulator:     frame size: 1920 x 1080
+2019-07-26T03:36:25.834Z - normal: Simulator:     frame scale: 0.75
+2019-07-26T03:36:25.834Z - normal: Simulator:     show console: NO
+2019-07-26T03:36:25.834Z - normal: Simulator:     write debug log: NO ()
+2019-07-26T03:36:25.834Z - normal: Simulator:     listen: 
+2019-07-26T03:36:25.834Z - normal: Simulator:     debugger: none
+2019-07-26T03:36:25.834Z - normal: Simulator:     add searching path:
+2019-07-26T03:36:25.874Z - normal: Simulator: resetDesignResolution request
+2019-07-26T03:36:25.875Z - normal: Simulator: ------------------------------------------------
+2019-07-26T03:36:25.875Z - normal: Simulator: LOAD Js FILE: jsb-adapter/jsb-builtin.js
+2019-07-26T03:36:25.876Z - normal: Simulator: ------------------------------------------------
+2019-07-26T03:36:25.877Z - normal: Simulator: Initializing V8, version: 6.5.254.43
+2019-07-26T03:36:25.879Z - normal: Simulator: libuv version: 1.23.1-dev
+2019-07-26T03:36:25.886Z - normal: Simulator: Debugger listening..., visit [ chrome-devtools://devtools/bundled/inspector.html?v8only=true&ws=0.0.0.0:5086/00010002-0003-4004-8005-000600070008 ] in chrome browser to debug!
+2019-07-26T03:36:25.887Z - normal: Simulator: For help see https://nodejs.org/en/docs/inspector
+2019-07-26T03:36:26.008Z - normal: Simulator: JS: Enable batch GL commands optimization!
+2019-07-26T03:36:26.017Z - normal: Simulator: resetDesignResolution request
+2019-07-26T03:36:26.017Z - normal: Simulator: ------------------------------------------------
+2019-07-26T03:36:26.018Z - normal: Simulator: LOAD Js FILE: main.js
+2019-07-26T03:36:26.018Z - normal: Simulator: ------------------------------------------------
+2019-07-26T03:36:26.403Z - normal: Simulator: iShow!
+2019-07-26T03:36:26.595Z - normal: Simulator: glGetIntegerv: pname: 0x8b4c
+2019-07-26T03:36:26.605Z - normal: Simulator: JS: Cocos Creator v2.0.10
+2019-07-26T03:36:27.985Z - normal: Simulator: ScriptEngine::cleanup begin ...
+2019-07-26T03:36:27.985Z - normal: Simulator: GC begin ..., (js->native map) size: 41, all objects: 125
+2019-07-26T03:36:28.028Z - normal: Simulator: GC end ..., (js->native map) size: 41, all objects: 125
+2019-07-26T03:36:28.029Z - normal: Simulator: GC begin ..., (js->native map) size: 41, all objects: 125
+2019-07-26T03:36:28.056Z - normal: Simulator: GC end ..., (js->native map) size: 41, all objects: 125
+2019-07-26T03:36:28.057Z - normal: Simulator: Destroy WebGLBuffer (6) by GC
+2019-07-26T03:36:28.057Z - normal: Simulator: Destroy WebGLTexture (15) by GC
+2019-07-26T03:36:28.057Z - normal: Simulator: Destroy WebGLTexture (14) by GC
+2019-07-26T03:36:28.058Z - normal: Simulator: Destroy WebGLProgram (6) by GC
+2019-07-26T03:36:28.058Z - normal: Simulator: Destroy WebGLTexture (13) by GC
+2019-07-26T03:36:28.058Z - normal: Simulator: Destroy WebGLTexture (12) by GC
+2019-07-26T03:36:28.058Z - normal: Simulator: Destroy WebGLProgram (3) by GC
+2019-07-26T03:36:28.059Z - normal: Simulator: Destroy WebGLTexture (10) by GC
+2019-07-26T03:36:28.060Z - normal: Simulator: Destroy WebGLTexture (6) by GC
+2019-07-26T03:36:28.060Z - normal: Simulator: Destroy WebGLTexture (5) by GC
+2019-07-26T03:36:28.060Z - normal: Simulator: Destroy WebGLTexture (4) by GC
+2019-07-26T03:36:28.061Z - normal: Simulator: Destroy WebGLBuffer (3) by GC
+2019-07-26T03:36:28.061Z - normal: Simulator: Destroy WebGLBuffer (1) by GC
+2019-07-26T03:36:28.061Z - normal: Simulator: Destroy WebGLTexture (1) by GC
+2019-07-26T03:36:28.061Z - normal: Simulator: Destroy WebGLTexture (8) by GC
+2019-07-26T03:36:28.061Z - normal: Simulator: Destroy WebGLBuffer (2) by GC
+2019-07-26T03:36:28.062Z - normal: Simulator: Destroy WebGLBuffer (5) by GC
+2019-07-26T03:36:28.062Z - normal: Simulator: Destroy WebGLTexture (7) by GC
+2019-07-26T03:36:28.062Z - normal: Simulator: Destroy WebGLTexture (11) by GC
+2019-07-26T03:36:28.062Z - normal: Simulator: Destroy WebGLTexture (3) by GC
+2019-07-26T03:36:28.062Z - normal: Simulator: Destroy WebGLBuffer (4) by GC
+2019-07-26T03:36:28.063Z - normal: Simulator: Destroy WebGLTexture (2) by GC
+2019-07-26T03:36:28.063Z - normal: Simulator: Destroy WebGLTexture (16) by GC
+2019-07-26T03:36:28.063Z - normal: Simulator: Destroy WebGLTexture (9) by GC
+2019-07-26T03:36:28.063Z - normal: Simulator: GC begin ..., (js->native map) size: 0, all objects: 0
+2019-07-26T03:36:28.092Z - normal: Simulator: GC end ..., (js->native map) size: 0, all objects: 0
+2019-07-26T03:36:28.104Z - normal: Simulator: ScriptEngine::cleanup end ...
+2019-07-26T03:36:30.947Z - normal: Start building with options : {
   "actualPlatform": "wechatgame",
   "android-instant": {
     "REMOTE_SERVER_ROOT": "",
@@ -304,9 +518,9 @@
     "orientation": "portrait",
     "subContext": ""
   },
-  "buildPath": "/Users/vincent/code/GoldMiner/GoldMinder/build",
+  "buildPath": "/Users/vincent/Desktop/GoldMiner/GoldMiner/build",
   "debug": false,
-  "dest": "/Users/vincent/code/GoldMiner/GoldMinder/build/wechatgame",
+  "dest": "/Users/vincent/Desktop/GoldMiner/GoldMiner/build/wechatgame",
   "embedWebDebugger": false,
   "encryptJs": true,
   "excludeScenes": [],
@@ -372,32 +586,31 @@
   },
   "xxteaKey": "b4afd356-9b81-48",
   "zipCompressJs": true,
-  "project": "/Users/vincent/code/GoldMiner/GoldMinder",
+  "project": "/Users/vincent/Desktop/GoldMiner/GoldMiner",
   "projectName": "GoldMiner",
   "debugBuildWorker": false
 }
-2019-07-25T12:24:25.867Z - normal: Building /Users/vincent/code/GoldMiner/GoldMinder
-2019-07-25T12:24:25.867Z - normal: Destination /Users/vincent/code/GoldMiner/GoldMinder/build/wechatgame
-2019-07-25T12:24:25.868Z - normal: Delete /Users/vincent/code/GoldMiner/GoldMinder/build/wechatgame/subpackages/**/*,/Users/vincent/code/GoldMiner/GoldMinder/build/wechatgame/**/*,!/Users/vincent/code/GoldMiner/GoldMinder/build/wechatgame/subdomain,!/Users/vincent/code/GoldMiner/GoldMinder/build/wechatgame/subdomain/**/*
-2019-07-25T12:24:27.608Z - normal: Start building assets
-2019-07-25T12:24:27.609Z - normal: Start spawn build-worker
-2019-07-25T12:24:28.131Z - normal: Finish spawn build-worker
-2019-07-25T12:24:28.134Z - normal: Start init build-worker
-2019-07-25T12:24:30.286Z - normal: Finish init build-worker
-2019-07-25T12:24:30.293Z - normal: Start build-assets in worker
-2019-07-25T12:24:30.854Z - normal: Finish build-assets in worker
-2019-07-25T12:24:30.857Z - normal: Finish building assets
-2019-07-25T12:24:30.873Z - normal: Start building plugin scripts
-2019-07-25T12:24:30.905Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
-2019-07-25T12:24:31.880Z - normal: Built to "/Users/vincent/code/GoldMiner/GoldMinder/build/wechatgame" successfully
-2019-07-25T12:37:47.539Z - normal: Initializing...
+2019-07-26T03:36:30.950Z - normal: Building /Users/vincent/Desktop/GoldMiner/GoldMiner
+2019-07-26T03:36:30.950Z - normal: Destination /Users/vincent/Desktop/GoldMiner/GoldMiner/build/wechatgame
+2019-07-26T03:36:30.951Z - normal: Delete /Users/vincent/Desktop/GoldMiner/GoldMiner/build/wechatgame/subpackages/**/*,/Users/vincent/Desktop/GoldMiner/GoldMiner/build/wechatgame/**/*,!/Users/vincent/Desktop/GoldMiner/GoldMiner/build/wechatgame/subdomain,!/Users/vincent/Desktop/GoldMiner/GoldMiner/build/wechatgame/subdomain/**/*
+2019-07-26T03:36:33.577Z - normal: Start building assets
+2019-07-26T03:36:33.577Z - normal: Start spawn build-worker
+2019-07-26T03:36:34.218Z - normal: Finish spawn build-worker
+2019-07-26T03:36:34.220Z - normal: Start init build-worker
+2019-07-26T03:36:37.139Z - normal: Finish init build-worker
+2019-07-26T03:36:37.139Z - normal: Start build-assets in worker
+2019-07-26T03:36:37.968Z - normal: Finish build-assets in worker
+2019-07-26T03:36:37.972Z - normal: Finish building assets
+2019-07-26T03:36:37.994Z - normal: Start building plugin scripts
+2019-07-26T03:36:38.029Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2019-07-26T03:36:39.409Z - normal: Built to "/Users/vincent/Desktop/GoldMiner/GoldMiner/build/wechatgame" successfully
+2019-07-26T03:37:07.924Z - normal: Initializing...
 
-2019-07-25T12:37:47.547Z - normal: idePortFile: /Users/vincent/Library/Application Support/微信开发者工具/Default/.ide
+2019-07-26T03:37:07.937Z - normal: idePortFile: /Users/vincent/Library/Application Support/微信开发者工具/Default/.ide
 
-2019-07-25T12:37:47.564Z - normal: IDE server has started, listening on http://127.0.0.1:44019
+2019-07-26T03:37:07.958Z - normal: IDE server has started, listening on http://127.0.0.1:11643
 
-2019-07-25T12:37:47.565Z - normal: initialization finished
+2019-07-26T03:37:07.958Z - normal: initialization finished
 
-2019-07-25T12:37:48.379Z - normal: open IDE success
+2019-07-26T03:37:08.494Z - normal: open IDE success
 
-2019-07-25T14:04:09.231Z - info: shutdown preview server
