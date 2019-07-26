@@ -94,7 +94,7 @@ cc.Class({
         Global.fires++
         Global.currentMoney -= this.price3
         this.fire.destroy()
-        this.notice.string = 'GET A BOBM!!'
+        this.notice.string = 'GET A BOMB!!'
       } else {
         if (Global.sound === 1) {
           cc.audioEngine.play(this.ding, false, 1)

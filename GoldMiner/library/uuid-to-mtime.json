@@ -859,11 +859,6 @@
     "meta": 1564133267595,
     "relativePath": "script/setting.js"
   },
-  "00f5da0b-f8fb-43ca-ba99-bef4a315ec70": {
-    "asset": 1564131049707,
-    "meta": 1564133267647,
-    "relativePath": "script/shop.js"
-  },
   "dae89428-81a8-4ec0-a927-aeeafad97fb9": {
     "asset": 1564131049708,
     "meta": 1564133267681,
@@ -893,5 +888,10 @@
     "asset": 1564131049711,
     "meta": 1564133267754,
     "relativePath": "script/tutorial.js"
+  },
+  "00f5da0b-f8fb-43ca-ba99-bef4a315ec70": {
+    "asset": 1564145020096,
+    "meta": 1564145029174,
+    "relativePath": "script/shop.js"
   }
 }
