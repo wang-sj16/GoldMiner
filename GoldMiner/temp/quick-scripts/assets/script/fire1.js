@@ -32,7 +32,6 @@ cc.Class({
   // onLoad () {},
 
   onTouchStart: function onTouchStart(event) {
-
     if (this.hook.getComponent('hook').flag === 2 && this.num > 0) {
       // this.hook.getComponent("hook").moveSpeed=6;
       var item = this.hook.getComponent('hook').item;

@@ -22,14 +22,14 @@ cc.Class({
       return;
     }
 
-    //this.initUserInfoButton ()
+    // this.initUserInfoButton ()
     wx.login({
       success: function success(res) {
-        var code = res.code;
+        // const code = res.code
         wx.getSetting({
           success: function success(res) {
             if (res.authSetting['scope.userInfo']) {
-              console.log("已经授权");
+              console.log('已经授权');
               wx.getUserInfo({
                 success: function success(res) {
                   console.log(res.userInfo.nickName);
@@ -78,11 +78,11 @@ cc.Class({
                 });
 
                 wx.getOpenDataContext().postMessage({
-                  message: "User info get success."
+                  message: 'User info get success.'
                 });
                 wx.postMessage({
                   message: 'UpdateScore',
-                  score: "0"
+                  score: '0'
                 });
                 button.hide();
                 button.destroy();
@@ -93,9 +93,9 @@ cc.Class({
       }
     });
 
-    //if(Global.sound === 1){
+    // if(Global.sound === 1){
     //  cc.audioEngine.play(this.bgm, true, 1)
-    //}
+    // }
     Global.currentLevel = 1;
     Global.currentMoney = 0;
     Global.fires = 0;

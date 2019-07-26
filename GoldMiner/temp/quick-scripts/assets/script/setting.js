@@ -2,7 +2,7 @@
 cc._RF.push(module, '1df99zUMPRNTq2Qy8WseAcm', 'setting', __filename);
 // script/setting.js
 
-"use strict";
+'use strict';
 
 // Learn cc.Class:
 //  - [Chinese] https://docs.cocos.com/creator/manual/zh/scripting/class.html
@@ -15,43 +15,43 @@ cc._RF.push(module, '1df99zUMPRNTq2Qy8WseAcm', 'setting', __filename);
 //  - [English] https://www.cocos2d-x.org/docs/creator/manual/en/scripting/life-cycle-callbacks.html
 
 cc.Class({
-    extends: cc.Component,
+  extends: cc.Component,
 
-    properties: {
-        sound: cc.Label,
-        soundNode: cc.Node,
-        return: cc.Node
-    },
+  properties: {
+    sound: cc.Label,
+    soundNode: cc.Node,
+    return: cc.Node
+  },
 
-    // LIFE-CYCLE CALLBACKS:
+  // LIFE-CYCLE CALLBACKS:
 
-    // onLoad () {},
-    onTouchStart: function onTouchStart(event) {
-        if (Global.sound === 0) {
-            Global.sound = 1;
-            this.sound.string = "SOUND: ON";
-        } else {
-            Global.sound = 0;
-            this.sound.string = "SOUND: OFF";
-        }
-    },
-    onTouchStart1: function onTouchStart1(event) {
-        cc.director.loadScene('start');
-    },
-    start: function start() {
-        this.soundNode.on(cc.Node.EventType.TOUCH_START, this.onTouchStart, this);
-        this.return.on(cc.Node.EventType.TOUCH_START, this.onTouchStart1, this);
-
-        if (Global.sound === 0) {
-            this.sound.string = "SOUND: OFF";
-        } else {
-            this.sound.string = "SOUND: ON";
-        }
+  // onLoad () {},
+  onTouchStart: function onTouchStart(event) {
+    if (Global.sound === 0) {
+      Global.sound = 1;
+      this.sound.string = 'SOUND: ON';
+    } else {
+      Global.sound = 0;
+      this.sound.string = 'SOUND: OFF';
     }
-}
+  },
+  onTouchStart1: function onTouchStart1(event) {
+    cc.director.loadScene('start');
+  },
+  start: function start() {
+    this.soundNode.on(cc.Node.EventType.TOUCH_START, this.onTouchStart, this);
+    this.return.on(cc.Node.EventType.TOUCH_START, this.onTouchStart1, this);
 
-// update (dt) {},
-);
+    if (Global.sound === 0) {
+      this.sound.string = 'SOUND: OFF';
+    } else {
+      this.sound.string = 'SOUND: ON';
+    }
+  }
+
+  // update (dt) {},
+
+});
 
 cc._RF.pop();
         }
