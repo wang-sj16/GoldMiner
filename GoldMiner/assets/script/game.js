@@ -21,6 +21,7 @@ cc.Class({
     addFire: cc.Label,
     levelLabel: cc.Label,
     money1: 0,
+    power1: 0,
     target: 0,
     countDown: cc.Label,
     exit: cc.Node,
@@ -42,6 +43,7 @@ cc.Class({
     this.broadcostTimes = 30
     this.schedule(this.doCountdownTime, 1)
     this.money1 = Global.currentMoney
+    this.power1 = Global.powers
     this.target = Global.targets[Global.currentLevel - 1]
     this.levelLabel.string = 'Level ' + Global.currentLevel + '\nTarget: $' + this.target
     this.exit.on(cc.Node.EventType.TOUCH_START, this.onTouchExit, this)
@@ -69,6 +71,9 @@ cc.Class({
         }
       } else {
         Global.loseMoney = this.money1
+        console.log(Global.powers)
+        Global.powers = this.power1
+        console.log(Global.powers)
         cc.director.loadScene('lose')
       }
     }

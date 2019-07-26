@@ -6509,3 +6509,653 @@ STACK:
 2019-07-26T06:26:06.293Z - normal: Simulator: GC begin ..., (js->native map) size: 0, all objects: 0
 2019-07-26T06:26:06.324Z - normal: Simulator: GC end ..., (js->native map) size: 0, all objects: 0
 2019-07-26T06:26:06.331Z - normal: Simulator: ScriptEngine::cleanup end ...
+2019-07-26T06:26:57.397Z - normal: Start building with options : {
+  "actualPlatform": "wechatgame",
+  "android-instant": {
+    "REMOTE_SERVER_ROOT": "",
+    "host": "",
+    "pathPattern": "",
+    "recordPath": "",
+    "scheme": "https",
+    "skipRecord": false
+  },
+  "apiLevel": "",
+  "appABIs": [],
+  "appBundle": false,
+  "baidugame": {
+    "REMOTE_SERVER_ROOT": "",
+    "appid": "testappid",
+    "orientation": "portrait",
+    "subContext": ""
+  },
+  "buildPath": "/Users/vincent/Desktop/GoldMiner/GoldMiner/build",
+  "debug": false,
+  "dest": "/Users/vincent/Desktop/GoldMiner/GoldMiner/build/wechatgame",
+  "embedWebDebugger": false,
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [],
+  "fb-instant-games": {},
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "md5Cache": true,
+  "mergeStartScene": false,
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.GoldMiner",
+  "platform": "wechatgame",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "qqplay": {
+    "REMOTE_SERVER_ROOT": "",
+    "orientation": "portrait",
+    "zip": false
+  },
+  "scenes": [
+    "c86bc7a5-ef98-4481-94b5-f1123d78749f",
+    "95128d5c-fd2a-466a-aa92-13804f482f9c",
+    "873b99e6-309d-4d86-af57-c10a1f967080",
+    "8a90e415-b26e-47d2-a4c0-a6021c0c1d84",
+    "ffb70ef1-991b-4c55-bf0a-12763b657c47",
+    "dd826901-d60f-437a-81d8-aba3756d45c8",
+    "4cfe262e-b92a-4df4-b07b-8096f7668d3c",
+    "8f6bfe32-03b7-42f0-b4e9-faf464082c94",
+    "3d8ef952-35eb-4c28-bdac-9d66860d3942",
+    "6048fc9b-ad9a-4c5f-8da2-85aaaa433c64",
+    "1f086e9a-44a0-4969-9f4d-5a97061892c2",
+    "aa95d830-ad14-4a48-86c8-dc4263001be3",
+    "009de718-30fe-4deb-a729-a05aab6525f9",
+    "5b096439-58c4-4cf8-b8a9-8625e1d3101d",
+    "dfc016d6-1287-4c20-a7aa-38512e4ed1c1",
+    "001a278f-e556-471e-b288-70833c05c3bc",
+    "186ded98-7bc2-4102-a47b-fa9c863a9489",
+    "991f5506-c7db-4853-b991-6dc1e6e2a091",
+    "59334db5-9391-4ff9-bf48-0abe670d58ca",
+    "c4c357e2-3461-4c07-aa5c-f3fe4914a4d1",
+    "5e3b6d1f-adda-49ad-9718-67ddda578fb8"
+  ],
+  "sourceMaps": false,
+  "startScene": "c86bc7a5-ef98-4481-94b5-f1123d78749f",
+  "template": "link",
+  "title": "GoldMiner",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "",
+    "appid": "wx3839d1aa1c54d567",
+    "orientation": "landscapeRight",
+    "separate_engine": false,
+    "subContext": "subdomain"
+  },
+  "xxteaKey": "b4afd356-9b81-48",
+  "zipCompressJs": true,
+  "project": "/Users/vincent/Desktop/GoldMiner/GoldMiner",
+  "projectName": "GoldMiner",
+  "debugBuildWorker": false
+}
+2019-07-26T06:26:57.400Z - normal: Building /Users/vincent/Desktop/GoldMiner/GoldMiner
+2019-07-26T06:26:57.401Z - normal: Destination /Users/vincent/Desktop/GoldMiner/GoldMiner/build/wechatgame
+2019-07-26T06:26:57.496Z - normal: Delete /Users/vincent/Desktop/GoldMiner/GoldMiner/build/wechatgame/subpackages/**/*,/Users/vincent/Desktop/GoldMiner/GoldMiner/build/wechatgame/**/*,!/Users/vincent/Desktop/GoldMiner/GoldMiner/build/wechatgame/subdomain,!/Users/vincent/Desktop/GoldMiner/GoldMiner/build/wechatgame/subdomain/**/*
+2019-07-26T06:26:59.724Z - normal: Start building assets
+2019-07-26T06:26:59.724Z - normal: Start spawn build-worker
+2019-07-26T06:27:00.360Z - normal: Finish spawn build-worker
+2019-07-26T06:27:00.360Z - normal: Start init build-worker
+2019-07-26T06:27:03.112Z - normal: Finish init build-worker
+2019-07-26T06:27:03.112Z - normal: Start build-assets in worker
+2019-07-26T06:27:03.894Z - normal: Finish build-assets in worker
+2019-07-26T06:27:03.897Z - normal: Finish building assets
+2019-07-26T06:27:03.914Z - normal: Start building plugin scripts
+2019-07-26T06:27:03.953Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2019-07-26T06:27:05.326Z - normal: Built to "/Users/vincent/Desktop/GoldMiner/GoldMiner/build/wechatgame" successfully
+2019-07-26T06:27:07.158Z - normal: Initializing...
+
+2019-07-26T06:27:07.171Z - normal: idePortFile: /Users/vincent/Library/Application Support/微信开发者工具/Default/.ide
+
+2019-07-26T06:27:07.192Z - normal: IDE server has started, listening on http://127.0.0.1:11643
+
+2019-07-26T06:27:07.192Z - normal: initialization finished
+
+2019-07-26T06:27:07.696Z - normal: open IDE success
+
+2019-07-26T07:39:12.075Z - normal: Start building with options : {
+  "actualPlatform": "wechatgame",
+  "android-instant": {
+    "REMOTE_SERVER_ROOT": "",
+    "host": "",
+    "pathPattern": "",
+    "recordPath": "",
+    "scheme": "https",
+    "skipRecord": false
+  },
+  "apiLevel": "",
+  "appABIs": [],
+  "appBundle": false,
+  "baidugame": {
+    "REMOTE_SERVER_ROOT": "",
+    "appid": "testappid",
+    "orientation": "portrait",
+    "subContext": ""
+  },
+  "buildPath": "/Users/vincent/Desktop/GoldMiner/GoldMiner/build",
+  "debug": false,
+  "dest": "/Users/vincent/Desktop/GoldMiner/GoldMiner/build/wechatgame",
+  "embedWebDebugger": false,
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [],
+  "fb-instant-games": {},
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "md5Cache": true,
+  "mergeStartScene": false,
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.GoldMiner",
+  "platform": "wechatgame",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "qqplay": {
+    "REMOTE_SERVER_ROOT": "",
+    "orientation": "portrait",
+    "zip": false
+  },
+  "scenes": [
+    "c86bc7a5-ef98-4481-94b5-f1123d78749f",
+    "95128d5c-fd2a-466a-aa92-13804f482f9c",
+    "873b99e6-309d-4d86-af57-c10a1f967080",
+    "8a90e415-b26e-47d2-a4c0-a6021c0c1d84",
+    "ffb70ef1-991b-4c55-bf0a-12763b657c47",
+    "dd826901-d60f-437a-81d8-aba3756d45c8",
+    "4cfe262e-b92a-4df4-b07b-8096f7668d3c",
+    "8f6bfe32-03b7-42f0-b4e9-faf464082c94",
+    "3d8ef952-35eb-4c28-bdac-9d66860d3942",
+    "6048fc9b-ad9a-4c5f-8da2-85aaaa433c64",
+    "1f086e9a-44a0-4969-9f4d-5a97061892c2",
+    "aa95d830-ad14-4a48-86c8-dc4263001be3",
+    "009de718-30fe-4deb-a729-a05aab6525f9",
+    "5b096439-58c4-4cf8-b8a9-8625e1d3101d",
+    "dfc016d6-1287-4c20-a7aa-38512e4ed1c1",
+    "001a278f-e556-471e-b288-70833c05c3bc",
+    "186ded98-7bc2-4102-a47b-fa9c863a9489",
+    "991f5506-c7db-4853-b991-6dc1e6e2a091",
+    "59334db5-9391-4ff9-bf48-0abe670d58ca",
+    "c4c357e2-3461-4c07-aa5c-f3fe4914a4d1",
+    "5e3b6d1f-adda-49ad-9718-67ddda578fb8"
+  ],
+  "sourceMaps": false,
+  "startScene": "c86bc7a5-ef98-4481-94b5-f1123d78749f",
+  "template": "link",
+  "title": "GoldMiner",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "",
+    "appid": "wx3839d1aa1c54d567",
+    "orientation": "landscapeRight",
+    "separate_engine": false,
+    "subContext": "subdomain"
+  },
+  "xxteaKey": "b4afd356-9b81-48",
+  "zipCompressJs": true,
+  "project": "/Users/vincent/Desktop/GoldMiner/GoldMiner",
+  "projectName": "GoldMiner",
+  "debugBuildWorker": false
+}
+2019-07-26T07:39:12.078Z - normal: Building /Users/vincent/Desktop/GoldMiner/GoldMiner
+2019-07-26T07:39:12.078Z - normal: Destination /Users/vincent/Desktop/GoldMiner/GoldMiner/build/wechatgame
+2019-07-26T07:39:12.079Z - normal: Delete /Users/vincent/Desktop/GoldMiner/GoldMiner/build/wechatgame/subpackages/**/*,/Users/vincent/Desktop/GoldMiner/GoldMiner/build/wechatgame/**/*,!/Users/vincent/Desktop/GoldMiner/GoldMiner/build/wechatgame/subdomain,!/Users/vincent/Desktop/GoldMiner/GoldMiner/build/wechatgame/subdomain/**/*
+2019-07-26T07:39:14.580Z - normal: Start building assets
+2019-07-26T07:39:14.581Z - normal: Start spawn build-worker
+2019-07-26T07:39:15.218Z - normal: Finish spawn build-worker
+2019-07-26T07:39:15.218Z - normal: Start init build-worker
+2019-07-26T07:39:18.136Z - normal: Finish init build-worker
+2019-07-26T07:39:18.136Z - normal: Start build-assets in worker
+2019-07-26T07:39:19.163Z - normal: Finish build-assets in worker
+2019-07-26T07:39:19.167Z - normal: Finish building assets
+2019-07-26T07:39:19.190Z - normal: Start building plugin scripts
+2019-07-26T07:39:19.236Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2019-07-26T07:39:20.616Z - normal: Built to "/Users/vincent/Desktop/GoldMiner/GoldMiner/build/wechatgame" successfully
+2019-07-26T07:39:31.751Z - normal: Initializing...
+
+2019-07-26T07:39:31.761Z - normal: idePortFile: /Users/vincent/Library/Application Support/微信开发者工具/Default/.ide
+
+2019-07-26T07:39:31.783Z - normal: IDE server has started, listening on http://127.0.0.1:11643
+
+2019-07-26T07:39:31.783Z - normal: initialization finished
+
+2019-07-26T07:39:32.341Z - normal: open IDE success
+
+2019-07-26T07:39:56.095Z - normal: Start building with options : {
+  "actualPlatform": "wechatgame",
+  "android-instant": {
+    "REMOTE_SERVER_ROOT": "",
+    "host": "",
+    "pathPattern": "",
+    "recordPath": "",
+    "scheme": "https",
+    "skipRecord": false
+  },
+  "apiLevel": "",
+  "appABIs": [],
+  "appBundle": false,
+  "baidugame": {
+    "REMOTE_SERVER_ROOT": "",
+    "appid": "testappid",
+    "orientation": "portrait",
+    "subContext": ""
+  },
+  "buildPath": "/Users/vincent/Desktop/GoldMiner/GoldMiner/build",
+  "debug": false,
+  "dest": "/Users/vincent/Desktop/GoldMiner/GoldMiner/build/wechatgame",
+  "embedWebDebugger": false,
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [],
+  "fb-instant-games": {},
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "md5Cache": true,
+  "mergeStartScene": false,
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.GoldMiner",
+  "platform": "wechatgame",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "qqplay": {
+    "REMOTE_SERVER_ROOT": "",
+    "orientation": "portrait",
+    "zip": false
+  },
+  "scenes": [
+    "c86bc7a5-ef98-4481-94b5-f1123d78749f",
+    "95128d5c-fd2a-466a-aa92-13804f482f9c",
+    "873b99e6-309d-4d86-af57-c10a1f967080",
+    "8a90e415-b26e-47d2-a4c0-a6021c0c1d84",
+    "ffb70ef1-991b-4c55-bf0a-12763b657c47",
+    "dd826901-d60f-437a-81d8-aba3756d45c8",
+    "4cfe262e-b92a-4df4-b07b-8096f7668d3c",
+    "8f6bfe32-03b7-42f0-b4e9-faf464082c94",
+    "3d8ef952-35eb-4c28-bdac-9d66860d3942",
+    "6048fc9b-ad9a-4c5f-8da2-85aaaa433c64",
+    "1f086e9a-44a0-4969-9f4d-5a97061892c2",
+    "aa95d830-ad14-4a48-86c8-dc4263001be3",
+    "009de718-30fe-4deb-a729-a05aab6525f9",
+    "5b096439-58c4-4cf8-b8a9-8625e1d3101d",
+    "dfc016d6-1287-4c20-a7aa-38512e4ed1c1",
+    "001a278f-e556-471e-b288-70833c05c3bc",
+    "186ded98-7bc2-4102-a47b-fa9c863a9489",
+    "991f5506-c7db-4853-b991-6dc1e6e2a091",
+    "59334db5-9391-4ff9-bf48-0abe670d58ca",
+    "c4c357e2-3461-4c07-aa5c-f3fe4914a4d1",
+    "5e3b6d1f-adda-49ad-9718-67ddda578fb8"
+  ],
+  "sourceMaps": false,
+  "startScene": "c86bc7a5-ef98-4481-94b5-f1123d78749f",
+  "template": "link",
+  "title": "GoldMiner",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "",
+    "appid": "wx3839d1aa1c54d567",
+    "orientation": "landscapeRight",
+    "separate_engine": false,
+    "subContext": "subdomain"
+  },
+  "xxteaKey": "b4afd356-9b81-48",
+  "zipCompressJs": true,
+  "project": "/Users/vincent/Desktop/GoldMiner/GoldMiner",
+  "projectName": "GoldMiner",
+  "debugBuildWorker": false
+}
+2019-07-26T07:39:56.097Z - normal: Building /Users/vincent/Desktop/GoldMiner/GoldMiner
+2019-07-26T07:39:56.097Z - normal: Destination /Users/vincent/Desktop/GoldMiner/GoldMiner/build/wechatgame
+2019-07-26T07:39:56.098Z - normal: Delete /Users/vincent/Desktop/GoldMiner/GoldMiner/build/wechatgame/subpackages/**/*,/Users/vincent/Desktop/GoldMiner/GoldMiner/build/wechatgame/**/*,!/Users/vincent/Desktop/GoldMiner/GoldMiner/build/wechatgame/subdomain,!/Users/vincent/Desktop/GoldMiner/GoldMiner/build/wechatgame/subdomain/**/*
+2019-07-26T07:39:58.344Z - normal: Start building assets
+2019-07-26T07:39:58.345Z - normal: Start spawn build-worker
+2019-07-26T07:39:58.966Z - normal: Finish spawn build-worker
+2019-07-26T07:39:58.967Z - normal: Start init build-worker
+2019-07-26T07:40:01.814Z - normal: Finish init build-worker
+2019-07-26T07:40:01.814Z - normal: Start build-assets in worker
+2019-07-26T07:40:02.509Z - normal: Finish build-assets in worker
+2019-07-26T07:40:02.513Z - normal: Finish building assets
+2019-07-26T07:40:02.534Z - normal: Start building plugin scripts
+2019-07-26T07:40:02.570Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2019-07-26T07:40:03.809Z - normal: Built to "/Users/vincent/Desktop/GoldMiner/GoldMiner/build/wechatgame" successfully
+2019-07-26T07:44:53.334Z - normal: Initializing...
+
+2019-07-26T07:44:53.346Z - normal: idePortFile: /Users/vincent/Library/Application Support/微信开发者工具/Default/.ide
+
+2019-07-26T07:44:53.367Z - normal: IDE server has started, listening on http://127.0.0.1:11643
+
+2019-07-26T07:44:53.368Z - normal: initialization finished
+
+2019-07-26T07:44:53.886Z - normal: open IDE success
+
+2019-07-26T07:45:48.395Z - normal: Simulator: WORKAREA WIDTH 1920.00, HEIGHT 961.00
+2019-07-26T07:45:48.395Z - normal: Simulator: FRAME SCALE = 0.75
+2019-07-26T07:45:48.531Z - normal: Simulator: GLFWError #65544 Happen, Cocoa: Failed to retrieve display name
+2019-07-26T07:45:48.532Z - normal: Simulator: GLFWError #65544 Happen, Cocoa: Failed to retrieve display name
+2019-07-26T07:45:48.532Z - normal: Simulator: 
+2019-07-26T07:45:48.532Z - normal: Simulator: {
+2019-07-26T07:45:48.533Z - normal: Simulator: 	build_type: DEBUG
+2019-07-26T07:45:48.533Z - normal: Simulator: 	gl.vendor: Intel Inc.
+2019-07-26T07:45:48.533Z - normal: Simulator: 	gl.supports_PVRTC: false
+2019-07-26T07:45:48.533Z - normal: Simulator: 	gl.renderer: Intel Iris Pro OpenGL Engine
+2019-07-26T07:45:48.533Z - normal: Simulator: 	gl.supports_ATITC: false
+2019-07-26T07:45:48.534Z - normal: Simulator: 	gl.supports_discard_framebuffer: false
+2019-07-26T07:45:48.534Z - normal: Simulator: 	gl.supports_NPOT: true
+2019-07-26T07:45:48.534Z - normal: Simulator: 	gl.max_texture_units: 16
+2019-07-26T07:45:48.535Z - normal: Simulator: 	gl.supports_ETC1: false
+2019-07-26T07:45:48.535Z - normal: Simulator: 	gl.max_texture_size: 16384
+2019-07-26T07:45:48.535Z - normal: Simulator: 	gl.supports_BGRA8888: false
+2019-07-26T07:45:48.535Z - normal: Simulator: 	gl.supports_vertex_array_object: true
+2019-07-26T07:45:48.535Z - normal: Simulator: 	gl.supports_OES_map_buffer: false
+2019-07-26T07:45:48.535Z - normal: Simulator: 	compiled_with_gl_state_cache: true
+2019-07-26T07:45:48.536Z - normal: Simulator: 	gl.supports_OES_packed_depth_stencil: false
+2019-07-26T07:45:48.536Z - normal: Simulator: 	gl.version: 2.1 INTEL-12.10.12
+2019-07-26T07:45:48.536Z - normal: Simulator: 	gl.supports_S3TC: true
+2019-07-26T07:45:48.536Z - normal: Simulator: 	compiled_with_profiler: false
+2019-07-26T07:45:48.536Z - normal: Simulator: 	gl.supports_OES_depth24: false
+2019-07-26T07:45:48.537Z - normal: Simulator: }
+2019-07-26T07:45:48.578Z - normal: Simulator: Project Config:
+2019-07-26T07:45:48.578Z - normal: Simulator:     project dir: /Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/
+2019-07-26T07:45:48.578Z - normal: Simulator:     writable path: $(PROJDIR)/
+2019-07-26T07:45:48.579Z - normal: Simulator:     script file: $(PROJDIR)/main.js
+2019-07-26T07:45:48.579Z - normal: Simulator:     frame size: 1920 x 1080
+2019-07-26T07:45:48.579Z - normal: Simulator:     frame scale: 0.75
+2019-07-26T07:45:48.579Z - normal: Simulator:     show console: NO
+2019-07-26T07:45:48.580Z - normal: Simulator:     write debug log: NO ()
+2019-07-26T07:45:48.580Z - normal: Simulator:     listen: 
+2019-07-26T07:45:48.580Z - normal: Simulator:     debugger: none
+2019-07-26T07:45:48.581Z - normal: Simulator:     add searching path:
+2019-07-26T07:45:48.581Z - normal: Simulator: resetDesignResolution request
+2019-07-26T07:45:48.581Z - normal: Simulator: ------------------------------------------------
+2019-07-26T07:45:48.582Z - normal: Simulator: LOAD Js FILE: jsb-adapter/jsb-builtin.js
+2019-07-26T07:45:48.582Z - normal: Simulator: ------------------------------------------------
+2019-07-26T07:45:48.582Z - normal: Simulator: Initializing V8, version: 6.5.254.43
+2019-07-26T07:45:48.583Z - normal: Simulator: libuv version: 1.23.1-dev
+2019-07-26T07:45:48.589Z - normal: Simulator: Debugger listening..., visit [ chrome-devtools://devtools/bundled/inspector.html?v8only=true&ws=0.0.0.0:5086/00010002-0003-4004-8005-000600070008 ] in chrome browser to debug!
+2019-07-26T07:45:48.589Z - normal: Simulator: For help see https://nodejs.org/en/docs/inspector
+2019-07-26T07:45:48.663Z - normal: Simulator: JS: Enable batch GL commands optimization!
+2019-07-26T07:45:48.663Z - normal: Simulator: resetDesignResolution request
+2019-07-26T07:45:48.664Z - normal: Simulator: ------------------------------------------------
+2019-07-26T07:45:48.664Z - normal: Simulator: LOAD Js FILE: main.js
+2019-07-26T07:45:48.664Z - normal: Simulator: ------------------------------------------------
+2019-07-26T07:45:49.059Z - normal: Simulator: iShow!
+2019-07-26T07:45:49.234Z - normal: Simulator: glGetIntegerv: pname: 0x8b4c
+2019-07-26T07:45:49.249Z - normal: Simulator: JS: Cocos Creator v2.0.10
+2019-07-26T07:45:53.043Z - normal: Simulator: ScriptEngine::cleanup begin ...
+2019-07-26T07:45:53.044Z - normal: Simulator: GC begin ..., (js->native map) size: 41, all objects: 125
+2019-07-26T07:45:53.076Z - normal: Simulator: GC end ..., (js->native map) size: 41, all objects: 125
+2019-07-26T07:45:53.076Z - normal: Simulator: GC begin ..., (js->native map) size: 41, all objects: 125
+2019-07-26T07:45:53.117Z - normal: Simulator: GC end ..., (js->native map) size: 41, all objects: 125
+2019-07-26T07:45:53.118Z - normal: Simulator: Destroy WebGLProgram (6) by GC
+2019-07-26T07:45:53.118Z - normal: Simulator: Destroy WebGLProgram (3) by GC
+2019-07-26T07:45:53.119Z - normal: Simulator: Destroy WebGLBuffer (6) by GC
+2019-07-26T07:45:53.120Z - normal: Simulator: Destroy WebGLTexture (16) by GC
+2019-07-26T07:45:53.121Z - normal: Simulator: Destroy WebGLTexture (13) by GC
+2019-07-26T07:45:53.121Z - normal: Simulator: Destroy WebGLTexture (15) by GC
+2019-07-26T07:45:53.121Z - normal: Simulator: Destroy WebGLTexture (12) by GC
+2019-07-26T07:45:53.121Z - normal: Simulator: Destroy WebGLTexture (9) by GC
+2019-07-26T07:45:53.121Z - normal: Simulator: Destroy WebGLTexture (8) by GC
+2019-07-26T07:45:53.122Z - normal: Simulator: Destroy WebGLTexture (7) by GC
+2019-07-26T07:45:53.122Z - normal: Simulator: Destroy WebGLTexture (2) by GC
+2019-07-26T07:45:53.123Z - normal: Simulator: Destroy WebGLTexture (6) by GC
+2019-07-26T07:45:53.123Z - normal: Simulator: Destroy WebGLTexture (11) by GC
+2019-07-26T07:45:53.124Z - normal: Simulator: Destroy WebGLTexture (4) by GC
+2019-07-26T07:45:53.124Z - normal: Simulator: Destroy WebGLTexture (3) by GC
+2019-07-26T07:45:53.125Z - normal: Simulator: Destroy WebGLTexture (14) by GC
+2019-07-26T07:45:53.125Z - normal: Simulator: Destroy WebGLBuffer (5) by GC
+2019-07-26T07:45:53.126Z - normal: Simulator: Destroy WebGLBuffer (2) by GC
+2019-07-26T07:45:53.126Z - normal: Simulator: Destroy WebGLBuffer (4) by GC
+2019-07-26T07:45:53.127Z - normal: Simulator: Destroy WebGLBuffer (1) by GC
+2019-07-26T07:45:53.127Z - normal: Simulator: Destroy WebGLTexture (10) by GC
+2019-07-26T07:45:53.127Z - normal: Simulator: Destroy WebGLTexture (5) by GC
+2019-07-26T07:45:53.130Z - normal: Simulator: Destroy WebGLTexture (1) by GC
+2019-07-26T07:45:53.130Z - normal: Simulator: Destroy WebGLBuffer (3) by GC
+2019-07-26T07:45:53.131Z - normal: Simulator: GC begin ..., (js->native map) size: 0, all objects: 0
+2019-07-26T07:45:53.149Z - normal: Simulator: GC end ..., (js->native map) size: 0, all objects: 0
+2019-07-26T07:45:53.149Z - normal: Simulator: ScriptEngine::cleanup end ...
+2019-07-26T07:45:56.206Z - normal: Start building with options : {
+  "actualPlatform": "wechatgame",
+  "android-instant": {
+    "REMOTE_SERVER_ROOT": "",
+    "host": "",
+    "pathPattern": "",
+    "recordPath": "",
+    "scheme": "https",
+    "skipRecord": false
+  },
+  "apiLevel": "",
+  "appABIs": [],
+  "appBundle": false,
+  "baidugame": {
+    "REMOTE_SERVER_ROOT": "",
+    "appid": "testappid",
+    "orientation": "portrait",
+    "subContext": ""
+  },
+  "buildPath": "/Users/vincent/Desktop/GoldMiner/GoldMiner/build",
+  "debug": false,
+  "dest": "/Users/vincent/Desktop/GoldMiner/GoldMiner/build/wechatgame",
+  "embedWebDebugger": false,
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [],
+  "fb-instant-games": {},
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "md5Cache": true,
+  "mergeStartScene": false,
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.GoldMiner",
+  "platform": "wechatgame",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "qqplay": {
+    "REMOTE_SERVER_ROOT": "",
+    "orientation": "portrait",
+    "zip": false
+  },
+  "scenes": [
+    "c86bc7a5-ef98-4481-94b5-f1123d78749f",
+    "95128d5c-fd2a-466a-aa92-13804f482f9c",
+    "873b99e6-309d-4d86-af57-c10a1f967080",
+    "8a90e415-b26e-47d2-a4c0-a6021c0c1d84",
+    "ffb70ef1-991b-4c55-bf0a-12763b657c47",
+    "dd826901-d60f-437a-81d8-aba3756d45c8",
+    "4cfe262e-b92a-4df4-b07b-8096f7668d3c",
+    "8f6bfe32-03b7-42f0-b4e9-faf464082c94",
+    "3d8ef952-35eb-4c28-bdac-9d66860d3942",
+    "6048fc9b-ad9a-4c5f-8da2-85aaaa433c64",
+    "1f086e9a-44a0-4969-9f4d-5a97061892c2",
+    "aa95d830-ad14-4a48-86c8-dc4263001be3",
+    "009de718-30fe-4deb-a729-a05aab6525f9",
+    "5b096439-58c4-4cf8-b8a9-8625e1d3101d",
+    "dfc016d6-1287-4c20-a7aa-38512e4ed1c1",
+    "001a278f-e556-471e-b288-70833c05c3bc",
+    "186ded98-7bc2-4102-a47b-fa9c863a9489",
+    "991f5506-c7db-4853-b991-6dc1e6e2a091",
+    "59334db5-9391-4ff9-bf48-0abe670d58ca",
+    "c4c357e2-3461-4c07-aa5c-f3fe4914a4d1",
+    "5e3b6d1f-adda-49ad-9718-67ddda578fb8"
+  ],
+  "sourceMaps": false,
+  "startScene": "c86bc7a5-ef98-4481-94b5-f1123d78749f",
+  "template": "link",
+  "title": "GoldMiner",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "",
+    "appid": "wx3839d1aa1c54d567",
+    "orientation": "landscapeRight",
+    "separate_engine": false,
+    "subContext": "subdomain"
+  },
+  "xxteaKey": "b4afd356-9b81-48",
+  "zipCompressJs": true,
+  "project": "/Users/vincent/Desktop/GoldMiner/GoldMiner",
+  "projectName": "GoldMiner",
+  "debugBuildWorker": false
+}
+2019-07-26T07:45:56.208Z - normal: Building /Users/vincent/Desktop/GoldMiner/GoldMiner
+2019-07-26T07:45:56.208Z - normal: Destination /Users/vincent/Desktop/GoldMiner/GoldMiner/build/wechatgame
+2019-07-26T07:45:56.210Z - normal: Delete /Users/vincent/Desktop/GoldMiner/GoldMiner/build/wechatgame/subpackages/**/*,/Users/vincent/Desktop/GoldMiner/GoldMiner/build/wechatgame/**/*,!/Users/vincent/Desktop/GoldMiner/GoldMiner/build/wechatgame/subdomain,!/Users/vincent/Desktop/GoldMiner/GoldMiner/build/wechatgame/subdomain/**/*
+2019-07-26T07:45:58.946Z - normal: Start building assets
+2019-07-26T07:45:58.946Z - normal: Start spawn build-worker
+2019-07-26T07:45:59.569Z - normal: Finish spawn build-worker
+2019-07-26T07:45:59.571Z - normal: Start init build-worker
+2019-07-26T07:46:02.506Z - normal: Finish init build-worker
+2019-07-26T07:46:02.507Z - normal: Start build-assets in worker
+2019-07-26T07:46:03.408Z - normal: Finish build-assets in worker
+2019-07-26T07:46:03.411Z - normal: Finish building assets
+2019-07-26T07:46:03.440Z - normal: Start building plugin scripts
+2019-07-26T07:46:03.474Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2019-07-26T07:46:05.112Z - normal: Built to "/Users/vincent/Desktop/GoldMiner/GoldMiner/build/wechatgame" successfully
+2019-07-26T07:55:11.566Z - normal: Start building with options : {
+  "actualPlatform": "wechatgame",
+  "android-instant": {
+    "REMOTE_SERVER_ROOT": "",
+    "host": "",
+    "pathPattern": "",
+    "recordPath": "",
+    "scheme": "https",
+    "skipRecord": false
+  },
+  "apiLevel": "",
+  "appABIs": [],
+  "appBundle": false,
+  "baidugame": {
+    "REMOTE_SERVER_ROOT": "",
+    "appid": "testappid",
+    "orientation": "portrait",
+    "subContext": ""
+  },
+  "buildPath": "/Users/vincent/Desktop/GoldMiner/GoldMiner/build",
+  "debug": false,
+  "dest": "/Users/vincent/Desktop/GoldMiner/GoldMiner/build/wechatgame",
+  "embedWebDebugger": false,
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [],
+  "fb-instant-games": {},
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "md5Cache": true,
+  "mergeStartScene": false,
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.GoldMiner",
+  "platform": "wechatgame",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "qqplay": {
+    "REMOTE_SERVER_ROOT": "",
+    "orientation": "portrait",
+    "zip": false
+  },
+  "scenes": [
+    "c86bc7a5-ef98-4481-94b5-f1123d78749f",
+    "95128d5c-fd2a-466a-aa92-13804f482f9c",
+    "873b99e6-309d-4d86-af57-c10a1f967080",
+    "8a90e415-b26e-47d2-a4c0-a6021c0c1d84",
+    "ffb70ef1-991b-4c55-bf0a-12763b657c47",
+    "dd826901-d60f-437a-81d8-aba3756d45c8",
+    "4cfe262e-b92a-4df4-b07b-8096f7668d3c",
+    "8f6bfe32-03b7-42f0-b4e9-faf464082c94",
+    "3d8ef952-35eb-4c28-bdac-9d66860d3942",
+    "6048fc9b-ad9a-4c5f-8da2-85aaaa433c64",
+    "1f086e9a-44a0-4969-9f4d-5a97061892c2",
+    "aa95d830-ad14-4a48-86c8-dc4263001be3",
+    "009de718-30fe-4deb-a729-a05aab6525f9",
+    "5b096439-58c4-4cf8-b8a9-8625e1d3101d",
+    "dfc016d6-1287-4c20-a7aa-38512e4ed1c1",
+    "001a278f-e556-471e-b288-70833c05c3bc",
+    "186ded98-7bc2-4102-a47b-fa9c863a9489",
+    "991f5506-c7db-4853-b991-6dc1e6e2a091",
+    "59334db5-9391-4ff9-bf48-0abe670d58ca",
+    "c4c357e2-3461-4c07-aa5c-f3fe4914a4d1",
+    "5e3b6d1f-adda-49ad-9718-67ddda578fb8"
+  ],
+  "sourceMaps": false,
+  "startScene": "c86bc7a5-ef98-4481-94b5-f1123d78749f",
+  "template": "link",
+  "title": "GoldMiner",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "",
+    "appid": "wx3839d1aa1c54d567",
+    "orientation": "landscapeRight",
+    "separate_engine": false,
+    "subContext": "subdomain"
+  },
+  "xxteaKey": "b4afd356-9b81-48",
+  "zipCompressJs": true,
+  "project": "/Users/vincent/Desktop/GoldMiner/GoldMiner",
+  "projectName": "GoldMiner",
+  "debugBuildWorker": false
+}
+2019-07-26T07:55:11.571Z - normal: Building /Users/vincent/Desktop/GoldMiner/GoldMiner
+2019-07-26T07:55:11.571Z - normal: Destination /Users/vincent/Desktop/GoldMiner/GoldMiner/build/wechatgame
+2019-07-26T07:55:11.573Z - normal: Delete /Users/vincent/Desktop/GoldMiner/GoldMiner/build/wechatgame/subpackages/**/*,/Users/vincent/Desktop/GoldMiner/GoldMiner/build/wechatgame/**/*,!/Users/vincent/Desktop/GoldMiner/GoldMiner/build/wechatgame/subdomain,!/Users/vincent/Desktop/GoldMiner/GoldMiner/build/wechatgame/subdomain/**/*
+2019-07-26T07:55:14.221Z - normal: Start building assets
+2019-07-26T07:55:14.221Z - normal: Start spawn build-worker
+2019-07-26T07:55:14.884Z - normal: Finish spawn build-worker
+2019-07-26T07:55:14.885Z - normal: Start init build-worker
+2019-07-26T07:55:17.828Z - normal: Finish init build-worker
+2019-07-26T07:55:17.828Z - normal: Start build-assets in worker
+2019-07-26T07:55:18.711Z - normal: Finish build-assets in worker
+2019-07-26T07:55:18.715Z - normal: Finish building assets
+2019-07-26T07:55:18.732Z - normal: Start building plugin scripts
+2019-07-26T07:55:18.771Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2019-07-26T07:55:20.150Z - normal: Built to "/Users/vincent/Desktop/GoldMiner/GoldMiner/build/wechatgame" successfully
+2019-07-26T07:55:30.902Z - normal: Initializing...
+
+2019-07-26T07:55:30.914Z - normal: idePortFile: /Users/vincent/Library/Application Support/微信开发者工具/Default/.ide
+
+2019-07-26T07:55:30.933Z - normal: IDE server has started, listening on http://127.0.0.1:11643
+
+2019-07-26T07:55:30.933Z - normal: initialization finished
+
+2019-07-26T07:55:31.765Z - normal: open IDE success
+
