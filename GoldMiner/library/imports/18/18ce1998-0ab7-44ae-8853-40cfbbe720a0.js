@@ -30,6 +30,9 @@ cc.Class({
   // onLoad () {},
 
   start: function start() {
+    if (typeof wx === 'undefined') {
+      return;
+    }
     if (Global.sound === 1) {
       cc.audioEngine.play(this.audio, false, 1);
     }

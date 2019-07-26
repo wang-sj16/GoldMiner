@@ -24,6 +24,7 @@ cc.Class({
     hook: cc.Node,
     moneyLabel1: cc.Label,
     add1: cc.Label,
+    addFire: cc.Label,
     levelLabel: cc.Label,
     money1: 0,
     target: 0,

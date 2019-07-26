@@ -207,18 +207,26 @@ cc.Class({
           var fire1 = cc.find('Canvas/fire1').getComponent('fire1');
           fire1.num++;
           this.node.destroy();
+          this.canvas.addFire.string = '+1';
+          this.canvas.addFire.getComponent('label').play = true;
         } else if (this.node._name === 'pocket' && this.value === -1) {
           var _fire = cc.find('Canvas/fire1').getComponent('fire1');
           _fire.num++;
           this.node.destroy();
+          this.canvas.addFire.string = '+1';
+          this.canvas.addFire.getComponent('label').play = true;
         } else if (this.node._name === 'treasure' && this.value === -2) {
           var _fire2 = cc.find('Canvas/fire1').getComponent('fire1');
           _fire2.num += 2;
           this.node.destroy();
+          this.canvas.addFire.string = '+2';
+          this.canvas.addFire.getComponent('label').play = true;
         } else if (this.node._name === 'treasure' && this.value === -1) {
           if (Global.powers > 0) {
             var _fire3 = cc.find('Canvas/fire1').getComponent('fire1');
             _fire3.num += 1;
+            this.canvas.addFire.string = '+1';
+            this.canvas.addFire.getComponent('label').play = true;
           } else {
             Global.powers = 1;
           }
