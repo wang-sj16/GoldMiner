@@ -105,7 +105,6 @@ cc.Class({
     Global.stoneBooks = 0;
     cc.director.getCollisionManager().enabledDebugDraw = false;
     cc.director.getCollisionManager().enabled = true;
-    Global.currentLevel = 1;
   },
   update: function update(dt) {
     this.draw.clear();
