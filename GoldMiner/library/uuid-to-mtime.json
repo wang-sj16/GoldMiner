@@ -799,11 +799,6 @@
     "meta": 1564111422659,
     "relativePath": "script/startbtn.js"
   },
-  "c3d897b8-a78f-4205-b4e8-cc209108b788": {
-    "asset": 1564111368252,
-    "meta": 1564111422291,
-    "relativePath": "script/fire1.js"
-  },
   "0c5e30f4-50ce-4a03-a0e5-2789adbfeeb4": {
     "asset": 1564111368254,
     "meta": 1564111422483,
@@ -869,21 +864,6 @@
     "meta": 1564111421895,
     "relativePath": "scene/levels/level10.fire"
   },
-  "459d0799-f128-423d-9cc8-a140a6065f83": {
-    "asset": 1564111368253,
-    "meta": 1564111422434,
-    "relativePath": "script/hook.js"
-  },
-  "84c8f3f0-f37f-45c9-bfb2-bd274b4affc1": {
-    "asset": 1564111368252,
-    "meta": 1564111422348,
-    "relativePath": "script/global.js"
-  },
-  "09721b32-324f-49ab-b17a-26e10ad95cf2": {
-    "asset": 1564111368253,
-    "meta": 1564111422444,
-    "relativePath": "script/items.js"
-  },
   "dae89428-81a8-4ec0-a927-aeeafad97fb9": {
     "asset": 1564111734130,
     "meta": 1564111741294,
@@ -893,5 +873,25 @@
     "asset": 1564112182631,
     "meta": 1564112183397,
     "relativePath": "script/game.js"
+  },
+  "459d0799-f128-423d-9cc8-a140a6065f83": {
+    "asset": 1564112947285,
+    "meta": 1564112948885,
+    "relativePath": "script/hook.js"
+  },
+  "09721b32-324f-49ab-b17a-26e10ad95cf2": {
+    "asset": 1564118601235,
+    "meta": 1564118602287,
+    "relativePath": "script/items.js"
+  },
+  "c3d897b8-a78f-4205-b4e8-cc209108b788": {
+    "asset": 1564118741018,
+    "meta": 1564118742080,
+    "relativePath": "script/fire1.js"
+  },
+  "84c8f3f0-f37f-45c9-bfb2-bd274b4affc1": {
+    "asset": 1564118804844,
+    "meta": 1564118806127,
+    "relativePath": "script/global.js"
   }
 }

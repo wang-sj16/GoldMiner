@@ -17,7 +17,8 @@ cc.Class({
     hooked: false,
     theta: 0,
     moveSpeed: 3,
-    toRight: true
+    toRight: true,
+    bombing: false,
   },
 
   // LIFE-CYCLE CALLBACKS:
@@ -142,6 +143,7 @@ cc.Class({
     this.animationComponent.bombOver = function () {
       var hook = cc.find('Canvas/hook').getComponent('hook')
       hook.moveSpeed = 6
+      hook.item = null
       this.node.destroy()
     }
   },

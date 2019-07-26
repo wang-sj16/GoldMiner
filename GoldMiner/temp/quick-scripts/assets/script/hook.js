@@ -121,8 +121,8 @@ cc.Class({
         this.node.y = this.initY;
         this.moveSpeed = 6;
         this.item = null;
+        this.occupied = false;
         if (!this.playing) {
-          this.occupied = false;
           if (this.node.getRotation() > 30) {
             this.animationComponent.play('hookRotation2');
           } else if (this.node.getRotation() < -30) {

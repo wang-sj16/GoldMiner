@@ -102,32 +102,8 @@
         "scene"
       ]
     },
-    "window-1564112477404": {
-      "main": false,
-      "url": "unpack://static/window.html",
-      "windowType": "dockable",
-      "x": 9,
-      "y": 30,
-      "width": 1920,
-      "height": 983,
-      "layout": {
-        "children": [
-          {
-            "active": 0,
-            "children": [
-              "project-settings"
-            ],
-            "height": 961,
-            "type": "panel",
-            "width": 1920
-          }
-        ],
-        "type": "dock-v"
-      },
-      "panels": [
-        "project-settings"
-      ]
-    }
+    "window-1564112951855": {},
+    "worker": {}
   },
   "panels": {
     "preferences": {
